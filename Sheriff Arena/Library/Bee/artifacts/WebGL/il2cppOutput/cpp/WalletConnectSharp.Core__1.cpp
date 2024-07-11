@@ -1,0 +1,8595 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <limits>
+
+
+struct VirtualActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename T1, typename T2>
+struct VirtualActionInvoker2
+{
+	typedef void (*Action)(void*, T1, T2, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
+	}
+};
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R, typename T1>
+struct VirtualFuncInvoker1
+{
+	typedef R (*Func)(void*, T1, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2>
+struct VirtualFuncInvoker2
+{
+	typedef R (*Func)(void*, T1, T2, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2, typename T3>
+struct VirtualFuncInvoker3
+{
+	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
+struct InterfaceActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename T1>
+struct InterfaceActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R>
+struct InterfaceFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R, typename T1>
+struct InterfaceFuncInvoker1
+{
+	typedef R (*Func)(void*, T1, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R, typename T1>
+struct GenericInterfaceFuncInvoker1
+{
+	typedef R (*Func)(void*, T1, const RuntimeMethod*);
+
+	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1)
+	{
+		VirtualInvokeData invokeData;
+		il2cpp_codegen_get_generic_interface_invoke_data(method, obj, &invokeData);
+		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2>
+struct GenericInterfaceFuncInvoker2
+{
+	typedef R (*Func)(void*, T1, T2, const RuntimeMethod*);
+
+	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1, T2 p2)
+	{
+		VirtualInvokeData invokeData;
+		il2cpp_codegen_get_generic_interface_invoke_data(method, obj, &invokeData);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2, typename T3>
+struct GenericInterfaceFuncInvoker3
+{
+	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		VirtualInvokeData invokeData;
+		il2cpp_codegen_get_generic_interface_invoke_data(method, obj, &invokeData);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
+
+// System.Action`1<System.Object>
+struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
+// System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task>
+struct Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55;
+// System.Collections.Generic.Dictionary`2<System.Object,System.Object>
+struct Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA;
+// System.Collections.Generic.Dictionary`2<System.String,System.EventHandler`1<WalletConnectSharp.Core.Models.Relay.MessageEvent>>
+struct Dictionary_2_tAE00A789ACF5CBF3B88CE519B7F70632B9549771;
+// System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>>
+struct Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638;
+// System.Collections.Generic.Dictionary`2<System.String,WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>
+struct Dictionary_2_tFB5D659C596777D2FD69A11A203A5AC1A7E3AF13;
+// System.Collections.Generic.Dictionary`2<System.String,WalletConnectSharp.Crypto.Models.DecodeOptions>
+struct Dictionary_2_t255F5E1A0A9A9D2C31BBC3916442756F4C338515;
+// System.Collections.Generic.Dictionary`2<System.String,System.Object>
+struct Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710;
+// System.Collections.Generic.Dictionary`2<System.String,WalletConnectSharp.Core.Models.Subscriber.PendingSubscription>
+struct Dictionary_2_tE6A6CE64E2358C03896D2342C78C7944D99FD5C5;
+// System.Collections.Generic.Dictionary`2<System.String,WalletConnectSharp.Common.Model.Relay.RelayProtocols>
+struct Dictionary_2_t2B3F40E5F837536A65591FCC7EAE839CD88E2089;
+// WalletConnectSharp.Common.Events.EventHandlerMap`1<WalletConnectSharp.Core.Models.Relay.MessageEvent>
+struct EventHandlerMap_1_tA990682DC4CF746FCA3E3E7E056BA863084CC4EA;
+// WalletConnectSharp.Common.Events.EventHandlerMap`1<System.Object>
+struct EventHandlerMap_1_tFC7E099D7EF8022E7CBA294D9D7EAD879D74E0AE;
+// System.EventHandler`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>
+struct EventHandler_1_t54E7B9D6E36FC4821DCF3F230CE867FEDBEC0CC4;
+// System.EventHandler`1<WalletConnectSharp.Core.Models.Relay.DecodedMessageEvent>
+struct EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12;
+// System.EventHandler`1<WalletConnectSharp.Core.Models.Subscriber.DeletedSubscription>
+struct EventHandler_1_t5A75ED96294006131039E7A55633FC8BFF1E77CE;
+// System.EventHandler`1<WalletConnectSharp.Core.Models.Relay.MessageEvent>
+struct EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032;
+// System.EventHandler`1<System.Object>
+struct EventHandler_1_tD8C4A5BE1F7C91B1A7E99AE87AFD2F5432C38746;
+// System.Func`1<System.Threading.Tasks.Task/ContingentProperties>
+struct Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1;
+// System.Func`2<System.Object,System.Object>
+struct Func_2_tACBF5A1656250800CE861707354491F0611F6624;
+// System.Func`2<WalletConnectSharp.Core.Models.Subscriber.PendingSubscription,System.String>
+struct Func_2_t7914F5A12BE568B6275EC665A81F6D6310DF8C53;
+// System.Func`3<System.Object,System.Int32,System.Object>
+struct Func_3_tA23F5D62E264071C33C09639DD065B0B691A804D;
+// System.Func`3<System.String,System.Int32,WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>
+struct Func_3_tACFA26A227759437FA38AD7C18F4D089F2207248;
+// System.Collections.Generic.HashSet`1<System.Object>
+struct HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885;
+// System.Collections.Generic.HashSet`1<System.String>
+struct HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178;
+// System.Collections.Generic.IDictionary`2<System.String,Newtonsoft.Json.Linq.JToken>
+struct IDictionary_2_t641BD83F3C4FF5FE1C7429862C1E2B6E3DB7527B;
+// System.Collections.Generic.IEnumerable`1<System.Collections.Generic.IEnumerable`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>>
+struct IEnumerable_1_t4E6A17D3141DEE7367FCC912D6C2B810F30E5ED4;
+// System.Collections.Generic.IEnumerable`1<System.Collections.Generic.IEnumerable`1<System.Object>>
+struct IEnumerable_1_t0398225B3E7062E0EE1C2E68DE56DC0CE9C0F5D7;
+// System.Collections.Generic.IEnumerable`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>
+struct IEnumerable_1_tA48A34BD15035742AA9271B5C4FBA31286F48224;
+// System.Collections.Generic.IEnumerable`1<System.Object>
+struct IEnumerable_1_tF95C9E01A913DD50575531C8305932628663D9E9;
+// System.Collections.Generic.IEnumerable`1<WalletConnectSharp.Core.Models.Subscriber.PendingSubscription>
+struct IEnumerable_1_tD5A50CAF574DB2FAF8273356E101A53066014580;
+// System.Collections.Generic.IEnumerable`1<System.String>
+struct IEnumerable_1_t349E66EC5F09B881A8E52EE40A1AB9EC60E08E44;
+// System.Collections.Generic.IEnumerator`1<System.Collections.Generic.IEnumerable`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>>
+struct IEnumerator_1_tA7D776A97F87B1DCD8B106D27D0EA9883A7F642C;
+// System.Collections.Generic.IEqualityComparer`1<WalletConnectSharp.Network.Models.Error>
+struct IEqualityComparer_1_t796885C933B9962BA9DBD71D5C7167FFB2CF04DB;
+// System.Collections.Generic.IEqualityComparer`1<System.String>
+struct IEqualityComparer_1_tAE94C8F24AD5B94D4EE85CA9FC59E3409D41CAF7;
+// System.Collections.Generic.IReadOnlyDictionary`2<System.String,WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>
+struct IReadOnlyDictionary_2_t1731889226FEEFBF65C53443DFC62615AA94AABD;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Object>
+struct KeyCollection_tB45A861D090B15129521119AE48ED3813820A974;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Collections.Generic.List`1<System.String>>
+struct KeyCollection_tAF09DE3ACAF1ABD7544A92CFC2787E520703246E;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>
+struct KeyCollection_t0E7E847B8EF6BD77FF0DAEFF4BB35CAE80E6FF78;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,WalletConnectSharp.Crypto.Models.DecodeOptions>
+struct KeyCollection_t38A8F5B777009C1825295C05DA7671913C2AE98A;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Object>
+struct KeyCollection_tE66790F09E854C19C7F612BEAD203AE626E90A36;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,WalletConnectSharp.Core.Models.Subscriber.PendingSubscription>
+struct KeyCollection_tBFE2B7F63EBA3BD3D2EAEFA40DCD0681128A6ED2;
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+// System.Collections.Generic.List`1<System.String>
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
+// System.Predicate`1<System.Object>
+struct Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12;
+// System.Predicate`1<System.Threading.Tasks.Task>
+struct Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED;
+// WalletConnectSharp.Network.Models.RequestArguments`1<WalletConnectSharp.Core.Models.Subscriber.BatchSubscribeParams>
+struct RequestArguments_1_tC47354EFEF732550FA9F86A5AA0A96FA38944C6A;
+// WalletConnectSharp.Network.Models.RequestArguments`1<WalletConnectSharp.Core.Models.Subscriber.JsonRpcSubscriberParams>
+struct RequestArguments_1_t397A5667DB6EABF6D7B3A01B5CC8FE6EF00FF2E6;
+// WalletConnectSharp.Network.Models.RequestArguments`1<System.Object>
+struct RequestArguments_1_tB7BA13BD181AD5AD363660713ABF89F709B27F5E;
+// System.Threading.Tasks.TaskCompletionSource`1<System.Boolean>
+struct TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14;
+// System.Threading.Tasks.TaskFactory`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]>
+struct TaskFactory_1_t662667D99FF5F168C546EF908BA8A40B546D8D86;
+// System.Threading.Tasks.TaskFactory`1<System.String[]>
+struct TaskFactory_1_t238CEB4BCB70F06A874C8D5DDCE901DC42021651;
+// System.Threading.Tasks.TaskFactory`1<System.Boolean>
+struct TaskFactory_1_tFAEAC22A1E986463E6956C344A78A7C7197288E0;
+// System.Threading.Tasks.TaskFactory`1<WalletConnectSharp.Network.Models.JsonRpcPayload>
+struct TaskFactory_1_tC74480A3F559096A5E1B29624CC4CC00B9D43351;
+// System.Threading.Tasks.TaskFactory`1<System.String>
+struct TaskFactory_1_t7ABCD7F9503486A075E0B072E6EB95956CFE3106;
+// System.Threading.Tasks.Task`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]>
+struct Task_1_t1B30037AAD7EEFD36B915BDB500FEE3A04C869B7;
+// System.Threading.Tasks.Task`1<System.String[]>
+struct Task_1_tE31926224A424AEAE794D9D841B463DE8C3889D4;
+// System.Threading.Tasks.Task`1<System.Boolean>
+struct Task_1_t824317F4B958F7512E8F7300511752937A6C6043;
+// System.Threading.Tasks.Task`1<WalletConnectSharp.Network.Models.JsonRpcPayload>
+struct Task_1_t8AC29B790ADB6B71C3DE75E2B85471397F7DDCA5;
+// System.Threading.Tasks.Task`1<System.Object>
+struct Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2;
+// System.Threading.Tasks.Task`1<System.String>
+struct Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0;
+// System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>
+struct Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Object>
+struct ValueCollection_t038245E04B5D2A80048D9F8021A23E69A0C9DBAA;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.List`1<System.String>>
+struct ValueCollection_tBA7D94F600201BDFFC90880B77DA2D76ED7EBB59;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>
+struct ValueCollection_t55A4E5720CC21F7863D41A836BF67BC28736BCC1;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,WalletConnectSharp.Crypto.Models.DecodeOptions>
+struct ValueCollection_t51AD7F66297936911D9B0C19F447FC061B73B699;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Object>
+struct ValueCollection_tC9D91E8A3198E40EA339059703AB10DFC9F5CC2E;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,WalletConnectSharp.Core.Models.Subscriber.PendingSubscription>
+struct ValueCollection_t5C5A15132BFA89F88C412D0DCEEA495392C7AEC3;
+// System.Collections.Generic.Dictionary`2/Entry<System.String,System.Collections.Generic.List`1<System.String>>[]
+struct EntryU5BU5D_t7D363C4258705E5C759DC3C7A84AD08784EEBE95;
+// System.Collections.Generic.Dictionary`2/Entry<System.String,WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>[]
+struct EntryU5BU5D_tB463E147EABA3C8A043E9EC9365949667505D6F9;
+// System.Collections.Generic.Dictionary`2/Entry<System.String,WalletConnectSharp.Crypto.Models.DecodeOptions>[]
+struct EntryU5BU5D_tC4F383079F7105D427E27FE438C795AB8565DD8E;
+// System.Collections.Generic.Dictionary`2/Entry<System.String,System.Object>[]
+struct EntryU5BU5D_t233BB24ED01E2D8D65B0651D54B8E3AD125CAF96;
+// System.Collections.Generic.Dictionary`2/Entry<System.String,WalletConnectSharp.Core.Models.Subscriber.PendingSubscription>[]
+struct EntryU5BU5D_t451E4D10C85D4D79E9FD463A6F058633624CEC48;
+// System.Collections.Generic.HashSet`1/Slot<System.String>[]
+struct SlotU5BU5D_t8B8EE191EEC1575F1F0CAC91A208DBFDF2821D01;
+// WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]
+struct ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2;
+// System.Char[]
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+// System.Delegate[]
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+// System.Int32[]
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+// System.IntPtr[]
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+// System.Object[]
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+// WalletConnectSharp.Core.Models.Subscriber.PendingSubscription[]
+struct PendingSubscriptionU5BU5D_t9C7B303D6139B37FD9237F5903F468C6A4FC460D;
+// System.Diagnostics.StackTrace[]
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+// System.String[]
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+// System.Action
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
+// WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription
+struct ActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7;
+// WalletConnectSharp.Core.Models.Subscriber.BatchSubscribeParams
+struct BatchSubscribeParams_t52D31D0058449AADDD3E551BA4B74B288098DBAA;
+// System.Threading.ContextCallback
+struct ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007;
+// WalletConnectSharp.Crypto.Models.DecodeOptions
+struct DecodeOptions_t00A5DC7FFE24EF00D03BBB102B7B0802EA13B902;
+// WalletConnectSharp.Core.Models.Relay.DecodedMessageEvent
+struct DecodedMessageEvent_t79A6F8CFF17A53CF1D858358FB210080BCFAE126;
+// System.Delegate
+struct Delegate_t;
+// System.DelegateData
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+// WalletConnectSharp.Network.Models.Error
+struct Error_tAFB4B4DDC563B97EAA142E1D487E3ED7ACAD6CB2;
+// System.EventArgs
+struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377;
+// System.EventHandler
+struct EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82;
+// System.Exception
+struct Exception_t;
+// System.Runtime.CompilerServices.IAsyncStateMachine
+struct IAsyncStateMachine_t0680C7F905C553076B552D5A1A6E39E2F0F36AA2;
+// WalletConnectSharp.Core.Interfaces.ICore
+struct ICore_t486AB9797C8EA37B31C47E5ACD8D2A65C63C3BDF;
+// System.Collections.IDictionary
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+// WalletConnectSharp.Common.Logging.ILogger
+struct ILogger_t18EFBC64113D42A45E5FE1513D40D5E9E8382DB1;
+// WalletConnectSharp.Core.Interfaces.IRelayer
+struct IRelayer_tE54D756EB9603AF398D155653194DCAF6BD6FA24;
+// WalletConnectSharp.Network.Models.JsonRpcPayload
+struct JsonRpcPayload_t1D60CBA3C374F07770CA2AEBECB5FED2A5AC854F;
+// WalletConnectSharp.Core.Models.Subscriber.JsonRpcSubscriberParams
+struct JsonRpcSubscriberParams_t64388A511D8028184019E94496334AB2C06D9403;
+// WalletConnectSharp.Core.Models.Relay.MessageEvent
+struct MessageEvent_t66B44AC2D6F52E6FC5B18010F929A908223903DE;
+// System.Reflection.MethodInfo
+struct MethodInfo_t;
+// WalletConnectSharp.Core.Models.Subscriber.PendingSubscription
+struct PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE;
+// WalletConnectSharp.Core.Models.Relay.ProtocolOptions
+struct ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668;
+// WalletConnectSharp.Common.Model.Relay.RelayProtocols
+struct RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24;
+// System.Runtime.Serialization.SafeSerializationManager
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+// System.Runtime.Serialization.SerializationInfo
+struct SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37;
+// System.Threading.Tasks.StackGuard
+struct StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352;
+// System.String
+struct String_t;
+// WalletConnectSharp.Core.Models.Relay.SubscribeOptions
+struct SubscribeOptions_t783BBD8CC69D46DFC75E8A16A60CD077ADE0ED78;
+// WalletConnectSharp.Core.Controllers.Subscriber
+struct Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C;
+// System.Threading.SynchronizationContext
+struct SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0;
+// System.Threading.Tasks.Task
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572;
+// System.Threading.Tasks.TaskFactory
+struct TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0;
+// System.Threading.Tasks.TaskScheduler
+struct TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E;
+// WalletConnectSharp.Core.Controllers.TopicMap
+struct TopicMap_t13940483C78913935B097CDAE306826382656B0A;
+// WalletConnectSharp.Core.Controllers.TypedMessageHandler
+struct TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D;
+// WalletConnectSharp.Core.Models.Relay.UnsubscribeOptions
+struct UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C;
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+// WalletConnectSharp.Common.Model.Errors.WalletConnectException
+struct WalletConnectException_t9CBCE981FDAC7DC8072A3D9E9F941CC2B56A5BA8;
+// WalletConnectSharp.Core.Controllers.Subscriber/<>c
+struct U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621;
+// WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass70_0
+struct U3CU3Ec__DisplayClass70_0_t063F47258B22BD167E6F38BF1F6CAB1C9B471794;
+// WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0
+struct U3CU3Ec__DisplayClass78_0_t8E495A4B2776EB5DEB7799487EB10579C916DF30;
+// WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass80_0
+struct U3CU3Ec__DisplayClass80_0_t5AE227440B3757FE475DC7E89007BA1FBBEC3E0D;
+// System.Threading.Tasks.Task/ContingentProperties
+struct ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540;
+
+IL2CPP_EXTERN_C RuntimeClass* ActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* BatchSubscribeParams_t52D31D0058449AADDD3E551BA4B74B288098DBAA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DecodedMessageEvent_t79A6F8CFF17A53CF1D858358FB210080BCFAE126_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t255F5E1A0A9A9D2C31BBC3916442756F4C338515_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* EventHandlerMap_1_tA990682DC4CF746FCA3E3E7E056BA863084CC4EA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t7914F5A12BE568B6275EC665A81F6D6310DF8C53_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_3_tACFA26A227759437FA38AD7C18F4D089F2207248_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ICore_t486AB9797C8EA37B31C47E5ACD8D2A65C63C3BDF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ICrypto_t2BDE2CC1165370E3D0B58E5D7192866DA3016A38_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IEnumerable_1_t4E6A17D3141DEE7367FCC912D6C2B810F30E5ED4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IEnumerator_1_tA7D776A97F87B1DCD8B106D27D0EA9883A7F642C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IKeyValueStorage_t32495C81C0D854E5375AAE500F8A102DF003DDF2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ILogger_t18EFBC64113D42A45E5FE1513D40D5E9E8382DB1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IMessageTracker_t98138D26B89D92774DD6AE1AB79123139D8C6CDC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IModule_t5E13B7170A3930FB4B604A03CA174BC171B7172A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IReadOnlyCollection_1_t73516851E97956CB5822FF419C7451A2C436E266_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IRelayer_tE54D756EB9603AF398D155653194DCAF6BD6FA24_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* JsonRpcSubscriberParams_t64388A511D8028184019E94496334AB2C06D9403_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RequestArguments_1_t397A5667DB6EABF6D7B3A01B5CC8FE6EF00FF2E6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RequestArguments_1_tC47354EFEF732550FA9F86A5AA0A96FA38944C6A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SubscribeOptions_t783BBD8CC69D46DFC75E8A16A60CD077ADE0ED78_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass80_0_t5AE227440B3757FE475DC7E89007BA1FBBEC3E0D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral1009859F19F804BCBD1D907976AB51871E6CA84F;
+IL2CPP_EXTERN_C String_t* _stringLiteral1DD31C26CFD4B130914980F87D5B06DBB4837277;
+IL2CPP_EXTERN_C String_t* _stringLiteral9571A624B77569B29B4DE43F2B448631ABC4BFEC;
+IL2CPP_EXTERN_C String_t* _stringLiteralAE41B688C48935D30A1331766C1AEB7823B4BDED;
+IL2CPP_EXTERN_C String_t* _stringLiteralCB89A4BCEA4B57477122C966F0A3B51C57366284;
+IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_m355E5E36D19F8F8D2A2704B562475903AEDB2D8A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisString_t_m9832B70DF2B936246FE60F75D3D12CB946C39D16_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A_TisU3CRpcBatchSubscribeU3Ed__79_tFC5004C250EA747F7D8C32196267C6663F211C4C_mC5E9E0E87710DAD1D2684F01625987311B7324AE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A_m26A9CE053C55F31F296261B440F16A7BFE8F4CB2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6_TisU3CRpcSubscribeU3Ed__58_t98DBE2C469BDCBF2CC3AAD8D7CBEBD1E7120AD28_mD426AEF551E9628ADBDFB4AD086EB521B67D0AAC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6_TisU3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035_mA0BDD722D0E80D70BEDC53A91B5D5B82C2B24448_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE_TisU3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A_m60122674B8C5BDB32232E7DD024649CBD43AC024_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035_m69CA64FB8E48223FEADF7782B0C0FF66CCF83AC3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7_mE5DB191F952CEEBD63EA03E64EF9F823B3C856F7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_Create_mA86694527610A40A01A943B16F0ECDDD8F00982D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_SetException_m51A27189EAA767CDB2E3650CD2C873F661C140EC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_SetException_m7807889AA2F4CFED513E3E4B8D2892FAC904AA40_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_SetException_m897218C2DB8D7BA446EB263573085805B8F0638C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_SetException_mB8F5D5EF18A12CBFF3C7D54CE6382DBB1640C0FD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_SetResult_m96FEFB5E97B6835B3258E9756669F4433E9A4020_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_SetResult_mB79121C0ACAC704500FAA7350ED0FE6604DDA05E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_SetResult_mE9AD4B057332EAA90C35A6FCD0070E75742400C1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_SetResult_mF21C48FC9CEC24F4E9C5975C54F87BE9CA179046_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_SetStateMachine_m0E14D7EBFE2D9C748B764654069613CB63628A6A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_SetStateMachine_m76594F4F36CBE768DF346B00116C2F1A6C9866FE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_SetStateMachine_m9D382E265E211762EDB525CF74EBB7FA21DDDCE8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_SetStateMachine_mE4D48B78E50CA2A3650A856ACF86A3CFBA249C30_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_Start_TisU3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7_mCA1E65D92474D47B6A605BBFC14DDFD09DB85F6A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_get_Task_m09169C120A259AF1F267F54C09A92B84D9832943_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A_TisU3CBatchSubscribeU3Ed__80_tCA9113DDC56BE3B72CC58DA4FEE7546613DE1E35_m499919F29A560565735522FFE81CE473777B8B44_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CRestartToCompleteU3Ed__64_t350BC5588F2410005FFABAB86FF15A8E9B0D6028_mD55987D54D873A4364E384EAE46A5CFD2B1418E4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6_TisU3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224_m663C312E775D805731A79540DE3AD26B29A5B311_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE_TisU3CRestoreU3Ed__54_t4480601D916EC9273A5916B316625001CA6014C2_mBA8FA644FE6DF9B53DCB9AAA090EF33849CF53F0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224_m2A33C3E6FDC088D5BC44CFE53D14B238351E5E91_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3COnUnsubscribeU3Ed__67_t56A4F46FDB58CEDEF5012CE9071CB52F934CC88A_m3DBF5CB51C355502146C722578F7C2076EFAA288_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CPersistU3Ed__51_t529F46716089ABD24DCB4C4DEB5CD3A95647B6CE_mDECC83BE28D6704FDB18950242404BB1853C530E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CResetU3Ed__56_tB679077C29F63D0F75B7E05BB158A28452D43DD2_m5A8094928F2B17FF58FA5D8CFA4676F20E25F2C6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRestartU3Ed__48_tFA2B5073FB50CA5FA24D9CBD1503648BDEAB6830_m5BE1F147C8FEFE1E26788AE8253285259294D079_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CSetRelayerSubscriptionsU3Ed__53_t6943AC2A2BA44A2156E5785B6938560F01C41935_m0EC523945C2912CC4A90E08EFA41640E861329CD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CUnsubscribeByIdU3Ed__72_t6DFD5C04F5AAB943E42BD66AD756EAC998AD84A5_mE927ECAD275D1642D6AD59F9EEA2A5D175C987F0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7_m66B034EFB53F921574C6B15BE6FC48211B557B9D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t865781AF9434B0AA55F8D08AA4415F9239CB879D_TisU3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A_m0A4DC75A264D020C9DDD7A245C7406D229DE77A7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CAsyncPersistU3Ed__50_t14F322C9F3E5DA5212883D0E4556D7887834CE75_m6D57FD5D1F57A634229921CE493A88E65BBF0CE3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CCheckPendingU3Ed__55_tD6D8AF914CF597A94B2060BD4DAC41ABE5E1C2A4_mBECCB7EB7ED5BADBF7C1589C2D0904789CFA7BF0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3COnConnectU3Ed__63_t683D0B3EA5283B2235D321EE6D040A6A99DF5AA2_m1F1B0078A2D916C59AC356255EC84A80878F7201_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A_mB9A3BED84E31448BE67962CA66B0A439E73A6815_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_mB4F7FEA177DCF67A5320F3660AF32CBB33F3BA8F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_mFC882976F9C1D377FB9B96AC561BF0301DCC75F5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Clear_m579F96CEA464EF87F663F52EE0DC85BD20CD0D13_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_ContainsKey_m31416084F21AA8181D98722A73BC622E0423FB5F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_ContainsKey_m994A6496B0ED7177E6D4535A398A7EFFF9684FE8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Remove_mDB00D5452D57246DFF62C0399CDF9CE27C9CDFB8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_mCCF4A2DE44ED163296FCEF3801FF2ED43E20AF5A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m68DF910EEB75B030809A7CFCDFD7C23F46D33B74_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m79EA54A4C736FED8607D6E97BD54974D340AEA82_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Item_m8B64E2395E0FED66B5313607CFF79A5C8A46358A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Keys_m59A69924F2540E4A7563685D8825BAAC1BE4A487_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Values_mC5FDF54294F6B9B79A25A0298A2F0A9C603F73C8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Contains_TisString_t_m903B1A64070B00925A8E4E7979330AA7D7B0FB33_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Select_TisPendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE_TisString_t_m9E585E4148BC2E9712958D6E104F6279D68D0B98_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Select_TisString_t_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_mBBACA2A3FC757E31994E1FC8A510E495F8A89198_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_ToArray_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_mCD866931D9EEABB6DDD93D81C9B6575A1AC46F8B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_ToArray_TisPendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE_mC875F31C74F56FB8398EECD38C5BC26C7F37695B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_ToArray_TisString_t_m3B23EE2DD15B2996E7D2ECA6E74696DA892AA194_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* EventHandlerMap_1__ctor_m3F785B7C2B92A4DE08AB905DEB5B6BFA22FE018E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* EventHandlerMap_1_get_Item_m57EF3026D7DEE0EFA8B3543F9C17D95E529AC3E0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Extensions_WithTimeout_TisStringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_mDAE388B360792DA3028EE735D8DBD942D7855AEF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Extensions_WithTimeout_TisString_t_mB8F8ECFE5C6D120C887E21EB1FD337E73DBE63E0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ICrypto_Decode_TisJsonRpcPayload_t1D60CBA3C374F07770CA2AEBECB5FED2A5AC854F_m3B61DBF587BC57B06E6918512CC18690418FABF6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* IKeyValueStorage_GetItem_TisActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2_m65416C49164C17CCE100D87EF613B1A737792AD1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* IKeyValueStorage_SetItem_TisActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2_mA119821FB30F1475B7261900D84C6F02DB76CF00_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* IRelayer_Request_TisBatchSubscribeParams_t52D31D0058449AADDD3E551BA4B74B288098DBAA_TisStringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_m96E6886DC1A9F69F772BAC580134447132BCD6D7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* IRelayer_Request_TisJsonRpcSubscriberParams_t64388A511D8028184019E94496334AB2C06D9403_TisString_t_mF007D924F4FB10862AD894D84D6294B9A1B7D7C0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Remove_mD9E8CFB6777A99046B3C0195F7343FE771A2E99D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_ToArray_m2C402D882AA60FC1D5C7C09A129BE7779F833B4A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RequestArguments_1__ctor_m3B0EE5E255E079A97A5FE4AEFA7C7D9DD34E0FC6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RequestArguments_1__ctor_mB5834F104FF8470AA265DD6B51B69D3E591C0AB7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RequestArguments_1_set_Method_m2FDE55C0EF5140D0AD16F7913B688CA96CEA33F5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RequestArguments_1_set_Method_m7CA83BA52C1340F811B8965ADFD4C19618C8310A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RequestArguments_1_set_Params_mB8CECA97517D45F19B418E2EA130E32460E82F05_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RequestArguments_1_set_Params_mD424F8D9069356B22C85121645301C1517366B00_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_GetResult_m82A392802A854576DC9525B87B0053B56201ABB9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_GetResult_m83205D2CAC0257ACFB3799DA5DD484B0D4B9DDED_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_GetResult_mAAD79AECD9D476B67AAF8E6B7A53049D1E99976C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_GetResult_mB0D209154690F6972CF22B23275167F6A404B08B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_GetResult_mFBABCE48CEAAFF6367097A3DF620DF4B9C06E959_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_get_IsCompleted_m3BFBBCF37953C0648B43E39D7814B76FC781A1F5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_get_IsCompleted_mBB1935B8D8B149149221600F42DA9073C73FBD5A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_get_IsCompleted_mCAA0D1EB5A6601DF81D5ED06BB0720D47C520DF9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_get_IsCompleted_mD0D4B783774CF3EDD6F6388F3DDF44A15816305F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_get_IsCompleted_mE207C5509602B0BB59366E53CED6CC9B10A1F8A8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1_SetResult_mA4C94A8605B8E4A2646C0C2B08A3D373E1174448_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1__ctor_mBAB8D6EFEAD1AA6482D19D7CE639528BE66AF646_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1_get_Task_m068E06095F165AE266E15C328CBDA1543429EC66_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Task_1_GetAwaiter_m2245DA7A0F2185DD5617D63F1544165AE6101935_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Task_1_GetAwaiter_m5D50FB4B03308E3648A62D29A21089415DA95108_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Task_1_GetAwaiter_m7727657658441E9D4CE9D3F8B532F9D65CB9CE1F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Task_1_GetAwaiter_mB26BFA07AC14EF917B761C0D201B116283728D55_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Task_1_GetAwaiter_mF09429633D4680AB53E194FBD7343B114AD344F8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TypedMessageHandler_RelayerMessageCallback_mCC32DCAAD2A9AACE986CF354DF47CCD8EDBF9317_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CRestoreU3Ed__54_MoveNext_mF98CF3D82627DC69270CA39E833E172D1FB769E3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CBatchSubscribeU3Eb__80_0_m75F5428C9CFBC5B021395AE0A2B11AAE5EA482D0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass80_0_U3CBatchSubscribeU3Eb__1_mA5E3F03C9D635E94170F020303A9E15125E29D9F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Utils_Batch_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_mD2FD4901F8C637E879CAAB7ECDB959FE17878D4A_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct PendingSubscriptionU5BU5D_t9C7B303D6139B37FD9237F5903F468C6A4FC460D;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>>
+struct Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638  : public RuntimeObject
+{
+	// System.Int32[] System.Collections.Generic.Dictionary`2::_buckets
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_0;
+	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::_entries
+	EntryU5BU5D_t7D363C4258705E5C759DC3C7A84AD08784EEBE95* ____entries_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_count
+	int32_t ____count_2;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeList
+	int32_t ____freeList_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeCount
+	int32_t ____freeCount_4;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_version
+	int32_t ____version_5;
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
+	RuntimeObject* ____comparer_6;
+	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
+	KeyCollection_tAF09DE3ACAF1ABD7544A92CFC2787E520703246E* ____keys_7;
+	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
+	ValueCollection_tBA7D94F600201BDFFC90880B77DA2D76ED7EBB59* ____values_8;
+	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
+	RuntimeObject* ____syncRoot_9;
+};
+
+// System.Collections.Generic.Dictionary`2<System.String,WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>
+struct Dictionary_2_tFB5D659C596777D2FD69A11A203A5AC1A7E3AF13  : public RuntimeObject
+{
+	// System.Int32[] System.Collections.Generic.Dictionary`2::_buckets
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_0;
+	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::_entries
+	EntryU5BU5D_tB463E147EABA3C8A043E9EC9365949667505D6F9* ____entries_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_count
+	int32_t ____count_2;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeList
+	int32_t ____freeList_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeCount
+	int32_t ____freeCount_4;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_version
+	int32_t ____version_5;
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
+	RuntimeObject* ____comparer_6;
+	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
+	KeyCollection_t0E7E847B8EF6BD77FF0DAEFF4BB35CAE80E6FF78* ____keys_7;
+	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
+	ValueCollection_t55A4E5720CC21F7863D41A836BF67BC28736BCC1* ____values_8;
+	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
+	RuntimeObject* ____syncRoot_9;
+};
+
+// System.Collections.Generic.Dictionary`2<System.String,WalletConnectSharp.Crypto.Models.DecodeOptions>
+struct Dictionary_2_t255F5E1A0A9A9D2C31BBC3916442756F4C338515  : public RuntimeObject
+{
+	// System.Int32[] System.Collections.Generic.Dictionary`2::_buckets
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_0;
+	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::_entries
+	EntryU5BU5D_tC4F383079F7105D427E27FE438C795AB8565DD8E* ____entries_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_count
+	int32_t ____count_2;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeList
+	int32_t ____freeList_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeCount
+	int32_t ____freeCount_4;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_version
+	int32_t ____version_5;
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
+	RuntimeObject* ____comparer_6;
+	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
+	KeyCollection_t38A8F5B777009C1825295C05DA7671913C2AE98A* ____keys_7;
+	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
+	ValueCollection_t51AD7F66297936911D9B0C19F447FC061B73B699* ____values_8;
+	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
+	RuntimeObject* ____syncRoot_9;
+};
+
+// System.Collections.Generic.Dictionary`2<System.String,System.Object>
+struct Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710  : public RuntimeObject
+{
+	// System.Int32[] System.Collections.Generic.Dictionary`2::_buckets
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_0;
+	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::_entries
+	EntryU5BU5D_t233BB24ED01E2D8D65B0651D54B8E3AD125CAF96* ____entries_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_count
+	int32_t ____count_2;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeList
+	int32_t ____freeList_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeCount
+	int32_t ____freeCount_4;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_version
+	int32_t ____version_5;
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
+	RuntimeObject* ____comparer_6;
+	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
+	KeyCollection_tE66790F09E854C19C7F612BEAD203AE626E90A36* ____keys_7;
+	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
+	ValueCollection_tC9D91E8A3198E40EA339059703AB10DFC9F5CC2E* ____values_8;
+	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
+	RuntimeObject* ____syncRoot_9;
+};
+
+// System.Collections.Generic.Dictionary`2<System.String,WalletConnectSharp.Core.Models.Subscriber.PendingSubscription>
+struct Dictionary_2_tE6A6CE64E2358C03896D2342C78C7944D99FD5C5  : public RuntimeObject
+{
+	// System.Int32[] System.Collections.Generic.Dictionary`2::_buckets
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_0;
+	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::_entries
+	EntryU5BU5D_t451E4D10C85D4D79E9FD463A6F058633624CEC48* ____entries_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_count
+	int32_t ____count_2;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeList
+	int32_t ____freeList_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeCount
+	int32_t ____freeCount_4;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_version
+	int32_t ____version_5;
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
+	RuntimeObject* ____comparer_6;
+	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
+	KeyCollection_tBFE2B7F63EBA3BD3D2EAEFA40DCD0681128A6ED2* ____keys_7;
+	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
+	ValueCollection_t5C5A15132BFA89F88C412D0DCEEA495392C7AEC3* ____values_8;
+	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
+	RuntimeObject* ____syncRoot_9;
+};
+
+// System.EmptyArray`1<System.Object>
+struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE  : public RuntimeObject
+{
+};
+
+// WalletConnectSharp.Common.Events.EventHandlerMap`1<WalletConnectSharp.Core.Models.Relay.MessageEvent>
+struct EventHandlerMap_1_tA990682DC4CF746FCA3E3E7E056BA863084CC4EA  : public RuntimeObject
+{
+	// System.Collections.Generic.Dictionary`2<System.String,System.EventHandler`1<TEventArgs>> WalletConnectSharp.Common.Events.EventHandlerMap`1::mapping
+	Dictionary_2_tAE00A789ACF5CBF3B88CE519B7F70632B9549771* ___mapping_0;
+	// System.Object WalletConnectSharp.Common.Events.EventHandlerMap`1::_mappingLock
+	RuntimeObject* ____mappingLock_1;
+	// System.EventHandler`1<TEventArgs> WalletConnectSharp.Common.Events.EventHandlerMap`1::BeforeEventExecuted
+	EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032* ___BeforeEventExecuted_2;
+};
+
+// System.Collections.Generic.HashSet`1<System.String>
+struct HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178  : public RuntimeObject
+{
+	// System.Int32[] System.Collections.Generic.HashSet`1::_buckets
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_7;
+	// System.Collections.Generic.HashSet`1/Slot<T>[] System.Collections.Generic.HashSet`1::_slots
+	SlotU5BU5D_t8B8EE191EEC1575F1F0CAC91A208DBFDF2821D01* ____slots_8;
+	// System.Int32 System.Collections.Generic.HashSet`1::_count
+	int32_t ____count_9;
+	// System.Int32 System.Collections.Generic.HashSet`1::_lastIndex
+	int32_t ____lastIndex_10;
+	// System.Int32 System.Collections.Generic.HashSet`1::_freeList
+	int32_t ____freeList_11;
+	// System.Collections.Generic.IEqualityComparer`1<T> System.Collections.Generic.HashSet`1::_comparer
+	RuntimeObject* ____comparer_12;
+	// System.Int32 System.Collections.Generic.HashSet`1::_version
+	int32_t ____version_13;
+	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.HashSet`1::_siInfo
+	SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* ____siInfo_14;
+};
+
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Collections.Generic.List`1<System.String>>
+struct KeyCollection_tAF09DE3ACAF1ABD7544A92CFC2787E520703246E  : public RuntimeObject
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection::_dictionary
+	Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* ____dictionary_0;
+};
+
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.List`1::_items
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject* ____syncRoot_4;
+};
+
+// System.Collections.Generic.List`1<System.String>
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.List`1::_items
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject* ____syncRoot_4;
+};
+
+// WalletConnectSharp.Network.Models.RequestArguments`1<WalletConnectSharp.Core.Models.Subscriber.BatchSubscribeParams>
+struct RequestArguments_1_tC47354EFEF732550FA9F86A5AA0A96FA38944C6A  : public RuntimeObject
+{
+	// System.String WalletConnectSharp.Network.Models.RequestArguments`1::_method
+	String_t* ____method_0;
+	// T WalletConnectSharp.Network.Models.RequestArguments`1::_params
+	BatchSubscribeParams_t52D31D0058449AADDD3E551BA4B74B288098DBAA* ____params_1;
+};
+
+// WalletConnectSharp.Network.Models.RequestArguments`1<WalletConnectSharp.Core.Models.Subscriber.JsonRpcSubscriberParams>
+struct RequestArguments_1_t397A5667DB6EABF6D7B3A01B5CC8FE6EF00FF2E6  : public RuntimeObject
+{
+	// System.String WalletConnectSharp.Network.Models.RequestArguments`1::_method
+	String_t* ____method_0;
+	// T WalletConnectSharp.Network.Models.RequestArguments`1::_params
+	JsonRpcSubscriberParams_t64388A511D8028184019E94496334AB2C06D9403* ____params_1;
+};
+
+// WalletConnectSharp.Network.Models.RequestArguments`1<System.Object>
+struct RequestArguments_1_tB7BA13BD181AD5AD363660713ABF89F709B27F5E  : public RuntimeObject
+{
+	// System.String WalletConnectSharp.Network.Models.RequestArguments`1::_method
+	String_t* ____method_0;
+	// T WalletConnectSharp.Network.Models.RequestArguments`1::_params
+	RuntimeObject* ____params_1;
+};
+
+// System.Threading.Tasks.TaskCompletionSource`1<System.Boolean>
+struct TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14  : public RuntimeObject
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskCompletionSource`1::_task
+	Task_1_t824317F4B958F7512E8F7300511752937A6C6043* ____task_0;
+};
+
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,WalletConnectSharp.Core.Models.Subscriber.PendingSubscription>
+struct ValueCollection_t5C5A15132BFA89F88C412D0DCEEA495392C7AEC3  : public RuntimeObject
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection::_dictionary
+	Dictionary_2_tE6A6CE64E2358C03896D2342C78C7944D99FD5C5* ____dictionary_0;
+};
+
+// WalletConnectSharp.Core.Models.Subscriber.BatchSubscribeParams
+struct BatchSubscribeParams_t52D31D0058449AADDD3E551BA4B74B288098DBAA  : public RuntimeObject
+{
+	// System.String[] WalletConnectSharp.Core.Models.Subscriber.BatchSubscribeParams::Topics
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___Topics_0;
+};
+
+// WalletConnectSharp.Crypto.Models.DecodeOptions
+struct DecodeOptions_t00A5DC7FFE24EF00D03BBB102B7B0802EA13B902  : public RuntimeObject
+{
+	// System.String WalletConnectSharp.Crypto.Models.DecodeOptions::ReceiverPublicKey
+	String_t* ___ReceiverPublicKey_0;
+};
+
+// WalletConnectSharp.Network.Models.Error
+struct Error_tAFB4B4DDC563B97EAA142E1D487E3ED7ACAD6CB2  : public RuntimeObject
+{
+	// System.Int64 WalletConnectSharp.Network.Models.Error::Code
+	int64_t ___Code_0;
+	// System.String WalletConnectSharp.Network.Models.Error::Message
+	String_t* ___Message_1;
+	// System.String WalletConnectSharp.Network.Models.Error::Data
+	String_t* ___Data_2;
+};
+
+// System.EventArgs
+struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377  : public RuntimeObject
+{
+};
+
+// WalletConnectSharp.Network.Models.JsonRpcPayload
+struct JsonRpcPayload_t1D60CBA3C374F07770CA2AEBECB5FED2A5AC854F  : public RuntimeObject
+{
+	// System.Int64 WalletConnectSharp.Network.Models.JsonRpcPayload::_id
+	int64_t ____id_0;
+	// System.Collections.Generic.IDictionary`2<System.String,Newtonsoft.Json.Linq.JToken> WalletConnectSharp.Network.Models.JsonRpcPayload::_extraStuff
+	RuntimeObject* ____extraStuff_1;
+};
+
+// WalletConnectSharp.Core.Models.Subscriber.JsonRpcSubscriberParams
+struct JsonRpcSubscriberParams_t64388A511D8028184019E94496334AB2C06D9403  : public RuntimeObject
+{
+	// System.String WalletConnectSharp.Core.Models.Subscriber.JsonRpcSubscriberParams::Topic
+	String_t* ___Topic_0;
+};
+
+// WalletConnectSharp.Core.Models.Relay.MessageEvent
+struct MessageEvent_t66B44AC2D6F52E6FC5B18010F929A908223903DE  : public RuntimeObject
+{
+	// System.String WalletConnectSharp.Core.Models.Relay.MessageEvent::Topic
+	String_t* ___Topic_0;
+	// System.String WalletConnectSharp.Core.Models.Relay.MessageEvent::Message
+	String_t* ___Message_1;
+};
+
+// WalletConnectSharp.Core.Models.Relay.ProtocolOptionHolder
+struct ProtocolOptionHolder_tCBB3405C491C58313845C00EB83F311E0038E657  : public RuntimeObject
+{
+	// WalletConnectSharp.Core.Models.Relay.ProtocolOptions WalletConnectSharp.Core.Models.Relay.ProtocolOptionHolder::Relay
+	ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668* ___Relay_0;
+};
+
+// WalletConnectSharp.Core.Models.Relay.ProtocolOptions
+struct ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668  : public RuntimeObject
+{
+	// System.String WalletConnectSharp.Core.Models.Relay.ProtocolOptions::Protocol
+	String_t* ___Protocol_0;
+	// System.String WalletConnectSharp.Core.Models.Relay.ProtocolOptions::Data
+	String_t* ___Data_1;
+};
+
+// WalletConnectSharp.Common.Model.Relay.RelayProtocols
+struct RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24  : public RuntimeObject
+{
+};
+
+// System.String
+struct String_t  : public RuntimeObject
+{
+	// System.Int32 System.String::_stringLength
+	int32_t ____stringLength_4;
+	// System.Char System.String::_firstChar
+	Il2CppChar ____firstChar_5;
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber
+struct Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C  : public RuntimeObject
+{
+	// System.EventHandler WalletConnectSharp.Core.Controllers.Subscriber::Sync
+	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* ___Sync_0;
+	// System.EventHandler WalletConnectSharp.Core.Controllers.Subscriber::Resubscribed
+	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* ___Resubscribed_1;
+	// System.EventHandler`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription> WalletConnectSharp.Core.Controllers.Subscriber::Created
+	EventHandler_1_t54E7B9D6E36FC4821DCF3F230CE867FEDBEC0CC4* ___Created_2;
+	// System.EventHandler`1<WalletConnectSharp.Core.Models.Subscriber.DeletedSubscription> WalletConnectSharp.Core.Controllers.Subscriber::Deleted
+	EventHandler_1_t5A75ED96294006131039E7A55633FC8BFF1E77CE* ___Deleted_3;
+	// System.Collections.Generic.Dictionary`2<System.String,WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription> WalletConnectSharp.Core.Controllers.Subscriber::_subscriptions
+	Dictionary_2_tFB5D659C596777D2FD69A11A203A5AC1A7E3AF13* ____subscriptions_4;
+	// System.Collections.Generic.Dictionary`2<System.String,WalletConnectSharp.Core.Models.Subscriber.PendingSubscription> WalletConnectSharp.Core.Controllers.Subscriber::pending
+	Dictionary_2_tE6A6CE64E2358C03896D2342C78C7944D99FD5C5* ___pending_5;
+	// System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> WalletConnectSharp.Core.Controllers.Subscriber::restartTask
+	TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* ___restartTask_6;
+	// System.EventHandler WalletConnectSharp.Core.Controllers.Subscriber::onSubscriberReady
+	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* ___onSubscriberReady_7;
+	// WalletConnectSharp.Core.Controllers.TopicMap WalletConnectSharp.Core.Controllers.Subscriber::_topicMap
+	TopicMap_t13940483C78913935B097CDAE306826382656B0A* ____topicMap_8;
+	// WalletConnectSharp.Core.Interfaces.IRelayer WalletConnectSharp.Core.Controllers.Subscriber::_relayer
+	RuntimeObject* ____relayer_9;
+	// System.Boolean WalletConnectSharp.Core.Controllers.Subscriber::_initialized
+	bool ____initialized_10;
+	// System.String WalletConnectSharp.Core.Controllers.Subscriber::_clientId
+	String_t* ____clientId_11;
+	// WalletConnectSharp.Common.Logging.ILogger WalletConnectSharp.Core.Controllers.Subscriber::_logger
+	RuntimeObject* ____logger_12;
+	// WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[] WalletConnectSharp.Core.Controllers.Subscriber::_cached
+	ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* ____cached_13;
+};
+
+// System.Threading.Tasks.Task
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572  : public RuntimeObject
+{
+	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_taskId
+	int32_t ___m_taskId_1;
+	// System.Delegate System.Threading.Tasks.Task::m_action
+	Delegate_t* ___m_action_2;
+	// System.Object System.Threading.Tasks.Task::m_stateObject
+	RuntimeObject* ___m_stateObject_3;
+	// System.Threading.Tasks.TaskScheduler System.Threading.Tasks.Task::m_taskScheduler
+	TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E* ___m_taskScheduler_4;
+	// System.Threading.Tasks.Task System.Threading.Tasks.Task::m_parent
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_parent_5;
+	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_stateFlags
+	int32_t ___m_stateFlags_6;
+	// System.Object modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_continuationObject
+	RuntimeObject* ___m_continuationObject_23;
+	// System.Threading.Tasks.Task/ContingentProperties modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_contingentProperties
+	ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540* ___m_contingentProperties_26;
+};
+
+// WalletConnectSharp.Core.Controllers.TopicMap
+struct TopicMap_t13940483C78913935B097CDAE306826382656B0A  : public RuntimeObject
+{
+	// System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>> WalletConnectSharp.Core.Controllers.TopicMap::topicMap
+	Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* ___topicMap_0;
+};
+
+// WalletConnectSharp.Core.Controllers.TypedMessageHandler
+struct TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D  : public RuntimeObject
+{
+	// System.Boolean WalletConnectSharp.Core.Controllers.TypedMessageHandler::_initialized
+	bool ____initialized_0;
+	// System.Collections.Generic.Dictionary`2<System.String,WalletConnectSharp.Crypto.Models.DecodeOptions> WalletConnectSharp.Core.Controllers.TypedMessageHandler::_decodeOptionsMap
+	Dictionary_2_t255F5E1A0A9A9D2C31BBC3916442756F4C338515* ____decodeOptionsMap_1;
+	// System.Collections.Generic.HashSet`1<System.String> WalletConnectSharp.Core.Controllers.TypedMessageHandler::_typeSafeCache
+	HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ____typeSafeCache_2;
+	// System.EventHandler`1<WalletConnectSharp.Core.Models.Relay.DecodedMessageEvent> WalletConnectSharp.Core.Controllers.TypedMessageHandler::RawMessage
+	EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* ___RawMessage_3;
+	// WalletConnectSharp.Common.Events.EventHandlerMap`1<WalletConnectSharp.Core.Models.Relay.MessageEvent> WalletConnectSharp.Core.Controllers.TypedMessageHandler::messageEventHandlerMap
+	EventHandlerMap_1_tA990682DC4CF746FCA3E3E7E056BA863084CC4EA* ___messageEventHandlerMap_4;
+	// System.Boolean WalletConnectSharp.Core.Controllers.TypedMessageHandler::Disposed
+	bool ___Disposed_5;
+	// WalletConnectSharp.Core.Interfaces.ICore WalletConnectSharp.Core.Controllers.TypedMessageHandler::<Core>k__BackingField
+	RuntimeObject* ___U3CCoreU3Ek__BackingField_6;
+};
+
+// System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<>c
+struct U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621  : public RuntimeObject
+{
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass70_0
+struct U3CU3Ec__DisplayClass70_0_t063F47258B22BD167E6F38BF1F6CAB1C9B471794  : public RuntimeObject
+{
+	// WalletConnectSharp.Core.Controllers.Subscriber WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass70_0::<>4__this
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* ___U3CU3E4__this_0;
+	// System.String WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass70_0::topic
+	String_t* ___topic_1;
+	// WalletConnectSharp.Core.Models.Relay.UnsubscribeOptions WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass70_0::opts
+	UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C* ___opts_2;
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0
+struct U3CU3Ec__DisplayClass78_0_t8E495A4B2776EB5DEB7799487EB10579C916DF30  : public RuntimeObject
+{
+	// WalletConnectSharp.Core.Controllers.Subscriber WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0::<>4__this
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* ___U3CU3E4__this_0;
+	// System.String WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0::topic
+	String_t* ___topic_1;
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass80_0
+struct U3CU3Ec__DisplayClass80_0_t5AE227440B3757FE475DC7E89007BA1FBBEC3E0D  : public RuntimeObject
+{
+	// WalletConnectSharp.Core.Models.Relay.ProtocolOptions WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass80_0::relay
+	ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668* ___relay_0;
+	// System.String[] WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass80_0::topics
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___topics_1;
+};
+
+// System.Runtime.CompilerServices.TaskAwaiter`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]>
+struct TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE 
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.TaskAwaiter`1::m_task
+	Task_1_t1B30037AAD7EEFD36B915BDB500FEE3A04C869B7* ___m_task_0;
+};
+
+// System.Runtime.CompilerServices.TaskAwaiter`1<System.String[]>
+struct TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A 
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.TaskAwaiter`1::m_task
+	Task_1_tE31926224A424AEAE794D9D841B463DE8C3889D4* ___m_task_0;
+};
+
+// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>
+struct TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35 
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.TaskAwaiter`1::m_task
+	Task_1_t824317F4B958F7512E8F7300511752937A6C6043* ___m_task_0;
+};
+
+// System.Runtime.CompilerServices.TaskAwaiter`1<WalletConnectSharp.Network.Models.JsonRpcPayload>
+struct TaskAwaiter_1_t865781AF9434B0AA55F8D08AA4415F9239CB879D 
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.TaskAwaiter`1::m_task
+	Task_1_t8AC29B790ADB6B71C3DE75E2B85471397F7DDCA5* ___m_task_0;
+};
+
+// System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>
+struct TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA 
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.TaskAwaiter`1::m_task
+	Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* ___m_task_0;
+};
+
+// System.Runtime.CompilerServices.TaskAwaiter`1<System.String>
+struct TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.TaskAwaiter`1::m_task
+	Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* ___m_task_0;
+};
+
+// System.Threading.Tasks.Task`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]>
+struct Task_1_t1B30037AAD7EEFD36B915BDB500FEE3A04C869B7  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
+{
+	// TResult System.Threading.Tasks.Task`1::m_result
+	ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* ___m_result_38;
+};
+
+// System.Threading.Tasks.Task`1<System.String[]>
+struct Task_1_tE31926224A424AEAE794D9D841B463DE8C3889D4  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
+{
+	// TResult System.Threading.Tasks.Task`1::m_result
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___m_result_38;
+};
+
+// System.Threading.Tasks.Task`1<System.Boolean>
+struct Task_1_t824317F4B958F7512E8F7300511752937A6C6043  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
+{
+	// TResult System.Threading.Tasks.Task`1::m_result
+	bool ___m_result_38;
+};
+
+// System.Threading.Tasks.Task`1<WalletConnectSharp.Network.Models.JsonRpcPayload>
+struct Task_1_t8AC29B790ADB6B71C3DE75E2B85471397F7DDCA5  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
+{
+	// TResult System.Threading.Tasks.Task`1::m_result
+	JsonRpcPayload_t1D60CBA3C374F07770CA2AEBECB5FED2A5AC854F* ___m_result_38;
+};
+
+// System.Threading.Tasks.Task`1<System.String>
+struct Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
+{
+	// TResult System.Threading.Tasks.Task`1::m_result
+	String_t* ___m_result_38;
+};
+
+// System.Runtime.CompilerServices.AsyncMethodBuilderCore
+struct AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF 
+{
+	// System.Runtime.CompilerServices.IAsyncStateMachine System.Runtime.CompilerServices.AsyncMethodBuilderCore::m_stateMachine
+	RuntimeObject* ___m_stateMachine_0;
+	// System.Action System.Runtime.CompilerServices.AsyncMethodBuilderCore::m_defaultContextAction
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___m_defaultContextAction_1;
+};
+// Native definition for P/Invoke marshalling of System.Runtime.CompilerServices.AsyncMethodBuilderCore
+struct AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF_marshaled_pinvoke
+{
+	RuntimeObject* ___m_stateMachine_0;
+	Il2CppMethodPointer ___m_defaultContextAction_1;
+};
+// Native definition for COM marshalling of System.Runtime.CompilerServices.AsyncMethodBuilderCore
+struct AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF_marshaled_com
+{
+	RuntimeObject* ___m_stateMachine_0;
+	Il2CppMethodPointer ___m_defaultContextAction_1;
+};
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	// System.Boolean System.Boolean::m_value
+	bool ___m_value_0;
+};
+
+// System.DateTime
+struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D 
+{
+	// System.UInt64 System.DateTime::_dateData
+	uint64_t ____dateData_46;
+};
+
+// WalletConnectSharp.Core.Models.Relay.DecodedMessageEvent
+struct DecodedMessageEvent_t79A6F8CFF17A53CF1D858358FB210080BCFAE126  : public MessageEvent_t66B44AC2D6F52E6FC5B18010F929A908223903DE
+{
+	// WalletConnectSharp.Network.Models.JsonRpcPayload WalletConnectSharp.Core.Models.Relay.DecodedMessageEvent::Payload
+	JsonRpcPayload_t1D60CBA3C374F07770CA2AEBECB5FED2A5AC854F* ___Payload_2;
+};
+
+// System.Double
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	// System.Double System.Double::m_value
+	double ___m_value_0;
+};
+
+// System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+// Native definition for P/Invoke marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+
+// System.Int32
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	// System.Int32 System.Int32::m_value
+	int32_t ___m_value_0;
+};
+
+// System.Int64
+struct Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3 
+{
+	// System.Int64 System.Int64::m_value
+	int64_t ___m_value_0;
+};
+
+// System.IntPtr
+struct IntPtr_t 
+{
+	// System.Void* System.IntPtr::m_value
+	void* ___m_value_0;
+};
+
+// WalletConnectSharp.Core.Models.Relay.SubscribeOptions
+struct SubscribeOptions_t783BBD8CC69D46DFC75E8A16A60CD077ADE0ED78  : public ProtocolOptionHolder_tCBB3405C491C58313845C00EB83F311E0038E657
+{
+};
+
+// System.Runtime.CompilerServices.TaskAwaiter
+struct TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 
+{
+	// System.Threading.Tasks.Task System.Runtime.CompilerServices.TaskAwaiter::m_task
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task_0;
+};
+// Native definition for P/Invoke marshalling of System.Runtime.CompilerServices.TaskAwaiter
+struct TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_marshaled_pinvoke
+{
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task_0;
+};
+// Native definition for COM marshalling of System.Runtime.CompilerServices.TaskAwaiter
+struct TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_marshaled_com
+{
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task_0;
+};
+
+// System.TimeSpan
+struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A 
+{
+	// System.Int64 System.TimeSpan::_ticks
+	int64_t ____ticks_22;
+};
+
+// WalletConnectSharp.Core.Models.Relay.UnsubscribeOptions
+struct UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C  : public ProtocolOptionHolder_tCBB3405C491C58313845C00EB83F311E0038E657
+{
+	// System.String WalletConnectSharp.Core.Models.Relay.UnsubscribeOptions::Id
+	String_t* ___Id_1;
+};
+
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]>
+struct AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646 
+{
+	// System.Runtime.CompilerServices.AsyncMethodBuilderCore System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_coreState
+	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF ___m_coreState_1;
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_task
+	Task_1_t1B30037AAD7EEFD36B915BDB500FEE3A04C869B7* ___m_task_2;
+};
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String[]>
+struct AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1 
+{
+	// System.Runtime.CompilerServices.AsyncMethodBuilderCore System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_coreState
+	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF ___m_coreState_1;
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_task
+	Task_1_tE31926224A424AEAE794D9D841B463DE8C3889D4* ___m_task_2;
+};
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>
+struct AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA 
+{
+	// System.Runtime.CompilerServices.AsyncMethodBuilderCore System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_coreState
+	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF ___m_coreState_1;
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_task
+	Task_1_t824317F4B958F7512E8F7300511752937A6C6043* ___m_task_2;
+};
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Object>
+struct AsyncTaskMethodBuilder_1_tE810F083929D7952F192036D298085BD4B048AD0 
+{
+	// System.Runtime.CompilerServices.AsyncMethodBuilderCore System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_coreState
+	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF ___m_coreState_1;
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_task
+	Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* ___m_task_2;
+};
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String>
+struct AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E 
+{
+	// System.Runtime.CompilerServices.AsyncMethodBuilderCore System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_coreState
+	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF ___m_coreState_1;
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_task
+	Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* ___m_task_2;
+};
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>
+struct AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC 
+{
+	// System.Runtime.CompilerServices.AsyncMethodBuilderCore System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_coreState
+	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF ___m_coreState_1;
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_task
+	Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17* ___m_task_2;
+};
+
+// System.Runtime.CompilerServices.AsyncVoidMethodBuilder
+struct AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D 
+{
+	// System.Threading.SynchronizationContext System.Runtime.CompilerServices.AsyncVoidMethodBuilder::m_synchronizationContext
+	SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0* ___m_synchronizationContext_0;
+	// System.Runtime.CompilerServices.AsyncMethodBuilderCore System.Runtime.CompilerServices.AsyncVoidMethodBuilder::m_coreState
+	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF ___m_coreState_1;
+	// System.Threading.Tasks.Task System.Runtime.CompilerServices.AsyncVoidMethodBuilder::m_task
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task_2;
+};
+// Native definition for P/Invoke marshalling of System.Runtime.CompilerServices.AsyncVoidMethodBuilder
+struct AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D_marshaled_pinvoke
+{
+	SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0* ___m_synchronizationContext_0;
+	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF_marshaled_pinvoke ___m_coreState_1;
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task_2;
+};
+// Native definition for COM marshalling of System.Runtime.CompilerServices.AsyncVoidMethodBuilder
+struct AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D_marshaled_com
+{
+	SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0* ___m_synchronizationContext_0;
+	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF_marshaled_com ___m_coreState_1;
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task_2;
+};
+
+// System.DateTimeOffset
+struct DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 
+{
+	// System.DateTime System.DateTimeOffset::_dateTime
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ____dateTime_3;
+	// System.Int16 System.DateTimeOffset::_offsetMinutes
+	int16_t ____offsetMinutes_4;
+};
+
+// System.Delegate
+struct Delegate_t  : public RuntimeObject
+{
+	// System.IntPtr System.Delegate::method_ptr
+	intptr_t ___method_ptr_0;
+	// System.IntPtr System.Delegate::invoke_impl
+	intptr_t ___invoke_impl_1;
+	// System.Object System.Delegate::m_target
+	RuntimeObject* ___m_target_2;
+	// System.IntPtr System.Delegate::method
+	intptr_t ___method_3;
+	// System.IntPtr System.Delegate::delegate_trampoline
+	intptr_t ___delegate_trampoline_4;
+	// System.IntPtr System.Delegate::extra_arg
+	intptr_t ___extra_arg_5;
+	// System.IntPtr System.Delegate::method_code
+	intptr_t ___method_code_6;
+	// System.IntPtr System.Delegate::interp_method
+	intptr_t ___interp_method_7;
+	// System.IntPtr System.Delegate::interp_invoke_impl
+	intptr_t ___interp_invoke_impl_8;
+	// System.Reflection.MethodInfo System.Delegate::method_info
+	MethodInfo_t* ___method_info_9;
+	// System.Reflection.MethodInfo System.Delegate::original_method_info
+	MethodInfo_t* ___original_method_info_10;
+	// System.DelegateData System.Delegate::data
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	// System.Boolean System.Delegate::method_is_virtual
+	bool ___method_is_virtual_12;
+};
+// Native definition for P/Invoke marshalling of System.Delegate
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr_0;
+	intptr_t ___invoke_impl_1;
+	Il2CppIUnknown* ___m_target_2;
+	intptr_t ___method_3;
+	intptr_t ___delegate_trampoline_4;
+	intptr_t ___extra_arg_5;
+	intptr_t ___method_code_6;
+	intptr_t ___interp_method_7;
+	intptr_t ___interp_invoke_impl_8;
+	MethodInfo_t* ___method_info_9;
+	MethodInfo_t* ___original_method_info_10;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	int32_t ___method_is_virtual_12;
+};
+// Native definition for COM marshalling of System.Delegate
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr_0;
+	intptr_t ___invoke_impl_1;
+	Il2CppIUnknown* ___m_target_2;
+	intptr_t ___method_3;
+	intptr_t ___delegate_trampoline_4;
+	intptr_t ___extra_arg_5;
+	intptr_t ___method_code_6;
+	intptr_t ___interp_method_7;
+	intptr_t ___interp_invoke_impl_8;
+	MethodInfo_t* ___method_info_9;
+	MethodInfo_t* ___original_method_info_10;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	int32_t ___method_is_virtual_12;
+};
+
+// WalletConnectSharp.Common.Model.Errors.ErrorType
+struct ErrorType_t991BACFDF1EDF8071C9D261756D76FC48AD166FC 
+{
+	// System.UInt32 WalletConnectSharp.Common.Model.Errors.ErrorType::value__
+	uint32_t ___value___2;
+};
+
+// System.Exception
+struct Exception_t  : public RuntimeObject
+{
+	// System.String System.Exception::_className
+	String_t* ____className_1;
+	// System.String System.Exception::_message
+	String_t* ____message_2;
+	// System.Collections.IDictionary System.Exception::_data
+	RuntimeObject* ____data_3;
+	// System.Exception System.Exception::_innerException
+	Exception_t* ____innerException_4;
+	// System.String System.Exception::_helpURL
+	String_t* ____helpURL_5;
+	// System.Object System.Exception::_stackTrace
+	RuntimeObject* ____stackTrace_6;
+	// System.String System.Exception::_stackTraceString
+	String_t* ____stackTraceString_7;
+	// System.String System.Exception::_remoteStackTraceString
+	String_t* ____remoteStackTraceString_8;
+	// System.Int32 System.Exception::_remoteStackIndex
+	int32_t ____remoteStackIndex_9;
+	// System.Object System.Exception::_dynamicMethods
+	RuntimeObject* ____dynamicMethods_10;
+	// System.Int32 System.Exception::_HResult
+	int32_t ____HResult_11;
+	// System.String System.Exception::_source
+	String_t* ____source_12;
+	// System.Runtime.Serialization.SafeSerializationManager System.Exception::_safeSerializationManager
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
+	// System.Diagnostics.StackTrace[] System.Exception::captured_traces
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
+	// System.IntPtr[] System.Exception::native_trace_ips
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips_15;
+	// System.Int32 System.Exception::caught_in_unmanaged
+	int32_t ___caught_in_unmanaged_16;
+};
+// Native definition for P/Invoke marshalling of System.Exception
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className_1;
+	char* ____message_2;
+	RuntimeObject* ____data_3;
+	Exception_t_marshaled_pinvoke* ____innerException_4;
+	char* ____helpURL_5;
+	Il2CppIUnknown* ____stackTrace_6;
+	char* ____stackTraceString_7;
+	char* ____remoteStackTraceString_8;
+	int32_t ____remoteStackIndex_9;
+	Il2CppIUnknown* ____dynamicMethods_10;
+	int32_t ____HResult_11;
+	char* ____source_12;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
+	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
+	int32_t ___caught_in_unmanaged_16;
+};
+// Native definition for COM marshalling of System.Exception
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className_1;
+	Il2CppChar* ____message_2;
+	RuntimeObject* ____data_3;
+	Exception_t_marshaled_com* ____innerException_4;
+	Il2CppChar* ____helpURL_5;
+	Il2CppIUnknown* ____stackTrace_6;
+	Il2CppChar* ____stackTraceString_7;
+	Il2CppChar* ____remoteStackTraceString_8;
+	int32_t ____remoteStackIndex_9;
+	Il2CppIUnknown* ____dynamicMethods_10;
+	int32_t ____HResult_11;
+	Il2CppChar* ____source_12;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
+	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
+	int32_t ___caught_in_unmanaged_16;
+};
+
+// WalletConnectSharp.Core.Models.Subscriber.PendingSubscription
+struct PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE  : public SubscribeOptions_t783BBD8CC69D46DFC75E8A16A60CD077ADE0ED78
+{
+	// System.String WalletConnectSharp.Core.Models.Subscriber.PendingSubscription::Topic
+	String_t* ___Topic_1;
+};
+
+// WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription
+struct ActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7  : public PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE
+{
+	// System.String WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription::Id
+	String_t* ___Id_2;
+};
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder
+struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 
+{
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder::m_builder
+	AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC ___m_builder_1;
+};
+// Native definition for P/Invoke marshalling of System.Runtime.CompilerServices.AsyncTaskMethodBuilder
+struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_marshaled_pinvoke
+{
+	AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC ___m_builder_1;
+};
+// Native definition for COM marshalling of System.Runtime.CompilerServices.AsyncTaskMethodBuilder
+struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_marshaled_com
+{
+	AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC ___m_builder_1;
+};
+
+// System.MulticastDelegate
+struct MulticastDelegate_t  : public Delegate_t
+{
+	// System.Delegate[] System.MulticastDelegate::delegates
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates_13;
+};
+// Native definition for P/Invoke marshalling of System.MulticastDelegate
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates_13;
+};
+// Native definition for COM marshalling of System.MulticastDelegate
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates_13;
+};
+
+// WalletConnectSharp.Common.Model.Errors.WalletConnectException
+struct WalletConnectException_t9CBCE981FDAC7DC8072A3D9E9F941CC2B56A5BA8  : public Exception_t
+{
+	// System.UInt32 WalletConnectSharp.Common.Model.Errors.WalletConnectException::<Code>k__BackingField
+	uint32_t ___U3CCodeU3Ek__BackingField_18;
+	// System.String WalletConnectSharp.Common.Model.Errors.WalletConnectException::<Type>k__BackingField
+	String_t* ___U3CTypeU3Ek__BackingField_19;
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<AsyncPersist>d__50
+struct U3CAsyncPersistU3Ed__50_t14F322C9F3E5DA5212883D0E4556D7887834CE75 
+{
+	// System.Int32 WalletConnectSharp.Core.Controllers.Subscriber/<AsyncPersist>d__50::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder WalletConnectSharp.Core.Controllers.Subscriber/<AsyncPersist>d__50::<>t__builder
+	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
+	// WalletConnectSharp.Core.Controllers.Subscriber WalletConnectSharp.Core.Controllers.Subscriber/<AsyncPersist>d__50::<>4__this
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* ___U3CU3E4__this_2;
+	// System.Runtime.CompilerServices.TaskAwaiter WalletConnectSharp.Core.Controllers.Subscriber/<AsyncPersist>d__50::<>u__1
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_3;
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<CheckPending>d__55
+struct U3CCheckPendingU3Ed__55_tD6D8AF914CF597A94B2060BD4DAC41ABE5E1C2A4 
+{
+	// System.Int32 WalletConnectSharp.Core.Controllers.Subscriber/<CheckPending>d__55::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder WalletConnectSharp.Core.Controllers.Subscriber/<CheckPending>d__55::<>t__builder
+	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
+	// WalletConnectSharp.Core.Controllers.Subscriber WalletConnectSharp.Core.Controllers.Subscriber/<CheckPending>d__55::<>4__this
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* ___U3CU3E4__this_2;
+	// System.Runtime.CompilerServices.TaskAwaiter WalletConnectSharp.Core.Controllers.Subscriber/<CheckPending>d__55::<>u__1
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_3;
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<GetRelayerSubscriptions>d__52
+struct U3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A 
+{
+	// System.Int32 WalletConnectSharp.Core.Controllers.Subscriber/<GetRelayerSubscriptions>d__52::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]> WalletConnectSharp.Core.Controllers.Subscriber/<GetRelayerSubscriptions>d__52::<>t__builder
+	AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646 ___U3CU3Et__builder_1;
+	// WalletConnectSharp.Core.Controllers.Subscriber WalletConnectSharp.Core.Controllers.Subscriber/<GetRelayerSubscriptions>d__52::<>4__this
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* ___U3CU3E4__this_2;
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> WalletConnectSharp.Core.Controllers.Subscriber/<GetRelayerSubscriptions>d__52::<>u__1
+	TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35 ___U3CU3Eu__1_3;
+	// System.Runtime.CompilerServices.TaskAwaiter`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]> WalletConnectSharp.Core.Controllers.Subscriber/<GetRelayerSubscriptions>d__52::<>u__2
+	TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE ___U3CU3Eu__2_4;
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<OnConnect>d__63
+struct U3COnConnectU3Ed__63_t683D0B3EA5283B2235D321EE6D040A6A99DF5AA2 
+{
+	// System.Int32 WalletConnectSharp.Core.Controllers.Subscriber/<OnConnect>d__63::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder WalletConnectSharp.Core.Controllers.Subscriber/<OnConnect>d__63::<>t__builder
+	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
+	// WalletConnectSharp.Core.Controllers.Subscriber WalletConnectSharp.Core.Controllers.Subscriber/<OnConnect>d__63::<>4__this
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* ___U3CU3E4__this_2;
+	// System.Runtime.CompilerServices.TaskAwaiter WalletConnectSharp.Core.Controllers.Subscriber/<OnConnect>d__63::<>u__1
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_3;
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<RpcBatchSubscribe>d__79
+struct U3CRpcBatchSubscribeU3Ed__79_tFC5004C250EA747F7D8C32196267C6663F211C4C 
+{
+	// System.Int32 WalletConnectSharp.Core.Controllers.Subscriber/<RpcBatchSubscribe>d__79::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String[]> WalletConnectSharp.Core.Controllers.Subscriber/<RpcBatchSubscribe>d__79::<>t__builder
+	AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1 ___U3CU3Et__builder_1;
+	// System.String[] WalletConnectSharp.Core.Controllers.Subscriber/<RpcBatchSubscribe>d__79::topics
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___topics_2;
+	// WalletConnectSharp.Core.Models.Relay.ProtocolOptions WalletConnectSharp.Core.Controllers.Subscriber/<RpcBatchSubscribe>d__79::relay
+	ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668* ___relay_3;
+	// WalletConnectSharp.Core.Controllers.Subscriber WalletConnectSharp.Core.Controllers.Subscriber/<RpcBatchSubscribe>d__79::<>4__this
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* ___U3CU3E4__this_4;
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.String[]> WalletConnectSharp.Core.Controllers.Subscriber/<RpcBatchSubscribe>d__79::<>u__1
+	TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A ___U3CU3Eu__1_5;
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<RpcSubscribe>d__58
+struct U3CRpcSubscribeU3Ed__58_t98DBE2C469BDCBF2CC3AAD8D7CBEBD1E7120AD28 
+{
+	// System.Int32 WalletConnectSharp.Core.Controllers.Subscriber/<RpcSubscribe>d__58::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> WalletConnectSharp.Core.Controllers.Subscriber/<RpcSubscribe>d__58::<>t__builder
+	AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E ___U3CU3Et__builder_1;
+	// WalletConnectSharp.Core.Models.Relay.ProtocolOptions WalletConnectSharp.Core.Controllers.Subscriber/<RpcSubscribe>d__58::relay
+	ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668* ___relay_2;
+	// System.String WalletConnectSharp.Core.Controllers.Subscriber/<RpcSubscribe>d__58::topic
+	String_t* ___topic_3;
+	// WalletConnectSharp.Core.Controllers.Subscriber WalletConnectSharp.Core.Controllers.Subscriber/<RpcSubscribe>d__58::<>4__this
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* ___U3CU3E4__this_4;
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.String> WalletConnectSharp.Core.Controllers.Subscriber/<RpcSubscribe>d__58::<>u__1
+	TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 ___U3CU3Eu__1_5;
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<Subscribe>d__76
+struct U3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035 
+{
+	// System.Int32 WalletConnectSharp.Core.Controllers.Subscriber/<Subscribe>d__76::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> WalletConnectSharp.Core.Controllers.Subscriber/<Subscribe>d__76::<>t__builder
+	AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E ___U3CU3Et__builder_1;
+	// WalletConnectSharp.Core.Controllers.Subscriber WalletConnectSharp.Core.Controllers.Subscriber/<Subscribe>d__76::<>4__this
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* ___U3CU3E4__this_2;
+	// WalletConnectSharp.Core.Models.Relay.SubscribeOptions WalletConnectSharp.Core.Controllers.Subscriber/<Subscribe>d__76::opts
+	SubscribeOptions_t783BBD8CC69D46DFC75E8A16A60CD077ADE0ED78* ___opts_3;
+	// System.String WalletConnectSharp.Core.Controllers.Subscriber/<Subscribe>d__76::topic
+	String_t* ___topic_4;
+	// WalletConnectSharp.Core.Models.Subscriber.PendingSubscription WalletConnectSharp.Core.Controllers.Subscriber/<Subscribe>d__76::<params>5__2
+	PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE* ___U3CparamsU3E5__2_5;
+	// System.Runtime.CompilerServices.TaskAwaiter WalletConnectSharp.Core.Controllers.Subscriber/<Subscribe>d__76::<>u__1
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_6;
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.String> WalletConnectSharp.Core.Controllers.Subscriber/<Subscribe>d__76::<>u__2
+	TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 ___U3CU3Eu__2_7;
+};
+
+// WalletConnectSharp.Core.Controllers.TypedMessageHandler/<RelayerMessageCallback>d__17
+struct U3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A 
+{
+	// System.Int32 WalletConnectSharp.Core.Controllers.TypedMessageHandler/<RelayerMessageCallback>d__17::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder WalletConnectSharp.Core.Controllers.TypedMessageHandler/<RelayerMessageCallback>d__17::<>t__builder
+	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
+	// WalletConnectSharp.Core.Models.Relay.MessageEvent WalletConnectSharp.Core.Controllers.TypedMessageHandler/<RelayerMessageCallback>d__17::e
+	MessageEvent_t66B44AC2D6F52E6FC5B18010F929A908223903DE* ___e_2;
+	// WalletConnectSharp.Core.Controllers.TypedMessageHandler WalletConnectSharp.Core.Controllers.TypedMessageHandler/<RelayerMessageCallback>d__17::<>4__this
+	TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* ___U3CU3E4__this_3;
+	// System.String WalletConnectSharp.Core.Controllers.TypedMessageHandler/<RelayerMessageCallback>d__17::<topic>5__2
+	String_t* ___U3CtopicU3E5__2_4;
+	// System.String WalletConnectSharp.Core.Controllers.TypedMessageHandler/<RelayerMessageCallback>d__17::<message>5__3
+	String_t* ___U3CmessageU3E5__3_5;
+	// System.Runtime.CompilerServices.TaskAwaiter`1<WalletConnectSharp.Network.Models.JsonRpcPayload> WalletConnectSharp.Core.Controllers.TypedMessageHandler/<RelayerMessageCallback>d__17::<>u__1
+	TaskAwaiter_1_t865781AF9434B0AA55F8D08AA4415F9239CB879D ___U3CU3Eu__1_6;
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0/<<IsSubscribed>b__0>d
+struct U3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7 
+{
+	// System.Int32 WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0/<<IsSubscribed>b__0>d::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean> WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0/<<IsSubscribed>b__0>d::<>t__builder
+	AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA ___U3CU3Et__builder_1;
+	// WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0 WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0/<<IsSubscribed>b__0>d::<>4__this
+	U3CU3Ec__DisplayClass78_0_t8E495A4B2776EB5DEB7799487EB10579C916DF30* ___U3CU3E4__this_2;
+	// System.Int64 WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0/<<IsSubscribed>b__0>d::<startTime>5__2
+	int64_t ___U3CstartTimeU3E5__2_3;
+	// System.Runtime.CompilerServices.TaskAwaiter WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0/<<IsSubscribed>b__0>d::<>u__1
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_4;
+};
+
+// System.EventHandler`1<WalletConnectSharp.Core.Models.Relay.DecodedMessageEvent>
+struct EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12  : public MulticastDelegate_t
+{
+};
+
+// System.EventHandler`1<WalletConnectSharp.Core.Models.Relay.MessageEvent>
+struct EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032  : public MulticastDelegate_t
+{
+};
+
+// System.EventHandler`1<System.Object>
+struct EventHandler_1_tD8C4A5BE1F7C91B1A7E99AE87AFD2F5432C38746  : public MulticastDelegate_t
+{
+};
+
+// System.Func`2<WalletConnectSharp.Core.Models.Subscriber.PendingSubscription,System.String>
+struct Func_2_t7914F5A12BE568B6275EC665A81F6D6310DF8C53  : public MulticastDelegate_t
+{
+};
+
+// System.Func`3<System.String,System.Int32,WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>
+struct Func_3_tACFA26A227759437FA38AD7C18F4D089F2207248  : public MulticastDelegate_t
+{
+};
+
+// System.EventHandler
+struct EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82  : public MulticastDelegate_t
+{
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<BatchSubscribe>d__80
+struct U3CBatchSubscribeU3Ed__80_tCA9113DDC56BE3B72CC58DA4FEE7546613DE1E35 
+{
+	// System.Int32 WalletConnectSharp.Core.Controllers.Subscriber/<BatchSubscribe>d__80::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder WalletConnectSharp.Core.Controllers.Subscriber/<BatchSubscribe>d__80::<>t__builder
+	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder_1;
+	// WalletConnectSharp.Core.Models.Subscriber.PendingSubscription[] WalletConnectSharp.Core.Controllers.Subscriber/<BatchSubscribe>d__80::subscriptions
+	PendingSubscriptionU5BU5D_t9C7B303D6139B37FD9237F5903F468C6A4FC460D* ___subscriptions_2;
+	// WalletConnectSharp.Core.Controllers.Subscriber WalletConnectSharp.Core.Controllers.Subscriber/<BatchSubscribe>d__80::<>4__this
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* ___U3CU3E4__this_3;
+	// WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass80_0 WalletConnectSharp.Core.Controllers.Subscriber/<BatchSubscribe>d__80::<>8__1
+	U3CU3Ec__DisplayClass80_0_t5AE227440B3757FE475DC7E89007BA1FBBEC3E0D* ___U3CU3E8__1_4;
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.String[]> WalletConnectSharp.Core.Controllers.Subscriber/<BatchSubscribe>d__80::<>u__1
+	TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A ___U3CU3Eu__1_5;
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<Init>d__47
+struct U3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224 
+{
+	// System.Int32 WalletConnectSharp.Core.Controllers.Subscriber/<Init>d__47::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder WalletConnectSharp.Core.Controllers.Subscriber/<Init>d__47::<>t__builder
+	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder_1;
+	// WalletConnectSharp.Core.Controllers.Subscriber WalletConnectSharp.Core.Controllers.Subscriber/<Init>d__47::<>4__this
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* ___U3CU3E4__this_2;
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.String> WalletConnectSharp.Core.Controllers.Subscriber/<Init>d__47::<>u__1
+	TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 ___U3CU3Eu__1_3;
+	// System.Runtime.CompilerServices.TaskAwaiter WalletConnectSharp.Core.Controllers.Subscriber/<Init>d__47::<>u__2
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__2_4;
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<OnUnsubscribe>d__67
+struct U3COnUnsubscribeU3Ed__67_t56A4F46FDB58CEDEF5012CE9071CB52F934CC88A 
+{
+	// System.Int32 WalletConnectSharp.Core.Controllers.Subscriber/<OnUnsubscribe>d__67::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder WalletConnectSharp.Core.Controllers.Subscriber/<OnUnsubscribe>d__67::<>t__builder
+	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder_1;
+	// WalletConnectSharp.Core.Controllers.Subscriber WalletConnectSharp.Core.Controllers.Subscriber/<OnUnsubscribe>d__67::<>4__this
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* ___U3CU3E4__this_2;
+	// System.String WalletConnectSharp.Core.Controllers.Subscriber/<OnUnsubscribe>d__67::id
+	String_t* ___id_3;
+	// System.String WalletConnectSharp.Core.Controllers.Subscriber/<OnUnsubscribe>d__67::topic
+	String_t* ___topic_4;
+	// WalletConnectSharp.Network.Models.Error WalletConnectSharp.Core.Controllers.Subscriber/<OnUnsubscribe>d__67::reason
+	Error_tAFB4B4DDC563B97EAA142E1D487E3ED7ACAD6CB2* ___reason_5;
+	// System.Runtime.CompilerServices.TaskAwaiter WalletConnectSharp.Core.Controllers.Subscriber/<OnUnsubscribe>d__67::<>u__1
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_6;
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<Persist>d__51
+struct U3CPersistU3Ed__51_t529F46716089ABD24DCB4C4DEB5CD3A95647B6CE 
+{
+	// System.Int32 WalletConnectSharp.Core.Controllers.Subscriber/<Persist>d__51::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder WalletConnectSharp.Core.Controllers.Subscriber/<Persist>d__51::<>t__builder
+	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder_1;
+	// WalletConnectSharp.Core.Controllers.Subscriber WalletConnectSharp.Core.Controllers.Subscriber/<Persist>d__51::<>4__this
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* ___U3CU3E4__this_2;
+	// System.Runtime.CompilerServices.TaskAwaiter WalletConnectSharp.Core.Controllers.Subscriber/<Persist>d__51::<>u__1
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_3;
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<Reset>d__56
+struct U3CResetU3Ed__56_tB679077C29F63D0F75B7E05BB158A28452D43DD2 
+{
+	// System.Int32 WalletConnectSharp.Core.Controllers.Subscriber/<Reset>d__56::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder WalletConnectSharp.Core.Controllers.Subscriber/<Reset>d__56::<>t__builder
+	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder_1;
+	// WalletConnectSharp.Core.Controllers.Subscriber WalletConnectSharp.Core.Controllers.Subscriber/<Reset>d__56::<>4__this
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* ___U3CU3E4__this_2;
+	// System.Collections.Generic.IEnumerator`1<System.Collections.Generic.IEnumerable`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>> WalletConnectSharp.Core.Controllers.Subscriber/<Reset>d__56::<>7__wrap1
+	RuntimeObject* ___U3CU3E7__wrap1_3;
+	// System.Runtime.CompilerServices.TaskAwaiter WalletConnectSharp.Core.Controllers.Subscriber/<Reset>d__56::<>u__1
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_4;
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<Restart>d__48
+struct U3CRestartU3Ed__48_tFA2B5073FB50CA5FA24D9CBD1503648BDEAB6830 
+{
+	// System.Int32 WalletConnectSharp.Core.Controllers.Subscriber/<Restart>d__48::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder WalletConnectSharp.Core.Controllers.Subscriber/<Restart>d__48::<>t__builder
+	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder_1;
+	// WalletConnectSharp.Core.Controllers.Subscriber WalletConnectSharp.Core.Controllers.Subscriber/<Restart>d__48::<>4__this
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* ___U3CU3E4__this_2;
+	// System.Runtime.CompilerServices.TaskAwaiter WalletConnectSharp.Core.Controllers.Subscriber/<Restart>d__48::<>u__1
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_3;
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<RestartToComplete>d__64
+struct U3CRestartToCompleteU3Ed__64_t350BC5588F2410005FFABAB86FF15A8E9B0D6028 
+{
+	// System.Int32 WalletConnectSharp.Core.Controllers.Subscriber/<RestartToComplete>d__64::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder WalletConnectSharp.Core.Controllers.Subscriber/<RestartToComplete>d__64::<>t__builder
+	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder_1;
+	// WalletConnectSharp.Core.Controllers.Subscriber WalletConnectSharp.Core.Controllers.Subscriber/<RestartToComplete>d__64::<>4__this
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* ___U3CU3E4__this_2;
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> WalletConnectSharp.Core.Controllers.Subscriber/<RestartToComplete>d__64::<>u__1
+	TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35 ___U3CU3Eu__1_3;
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<Restore>d__54
+struct U3CRestoreU3Ed__54_t4480601D916EC9273A5916B316625001CA6014C2 
+{
+	// System.Int32 WalletConnectSharp.Core.Controllers.Subscriber/<Restore>d__54::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder WalletConnectSharp.Core.Controllers.Subscriber/<Restore>d__54::<>t__builder
+	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder_1;
+	// WalletConnectSharp.Core.Controllers.Subscriber WalletConnectSharp.Core.Controllers.Subscriber/<Restore>d__54::<>4__this
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* ___U3CU3E4__this_2;
+	// System.Runtime.CompilerServices.TaskAwaiter`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]> WalletConnectSharp.Core.Controllers.Subscriber/<Restore>d__54::<>u__1
+	TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE ___U3CU3Eu__1_3;
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<SetRelayerSubscriptions>d__53
+struct U3CSetRelayerSubscriptionsU3Ed__53_t6943AC2A2BA44A2156E5785B6938560F01C41935 
+{
+	// System.Int32 WalletConnectSharp.Core.Controllers.Subscriber/<SetRelayerSubscriptions>d__53::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder WalletConnectSharp.Core.Controllers.Subscriber/<SetRelayerSubscriptions>d__53::<>t__builder
+	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder_1;
+	// WalletConnectSharp.Core.Controllers.Subscriber WalletConnectSharp.Core.Controllers.Subscriber/<SetRelayerSubscriptions>d__53::<>4__this
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* ___U3CU3E4__this_2;
+	// WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[] WalletConnectSharp.Core.Controllers.Subscriber/<SetRelayerSubscriptions>d__53::subscriptions
+	ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* ___subscriptions_3;
+	// System.Runtime.CompilerServices.TaskAwaiter WalletConnectSharp.Core.Controllers.Subscriber/<SetRelayerSubscriptions>d__53::<>u__1
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_4;
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<Unsubscribe>d__77
+struct U3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7 
+{
+	// System.Int32 WalletConnectSharp.Core.Controllers.Subscriber/<Unsubscribe>d__77::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder WalletConnectSharp.Core.Controllers.Subscriber/<Unsubscribe>d__77::<>t__builder
+	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder_1;
+	// WalletConnectSharp.Core.Controllers.Subscriber WalletConnectSharp.Core.Controllers.Subscriber/<Unsubscribe>d__77::<>4__this
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* ___U3CU3E4__this_2;
+	// WalletConnectSharp.Core.Models.Relay.UnsubscribeOptions WalletConnectSharp.Core.Controllers.Subscriber/<Unsubscribe>d__77::opts
+	UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C* ___opts_3;
+	// System.String WalletConnectSharp.Core.Controllers.Subscriber/<Unsubscribe>d__77::topic
+	String_t* ___topic_4;
+	// System.Runtime.CompilerServices.TaskAwaiter WalletConnectSharp.Core.Controllers.Subscriber/<Unsubscribe>d__77::<>u__1
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_5;
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<UnsubscribeById>d__72
+struct U3CUnsubscribeByIdU3Ed__72_t6DFD5C04F5AAB943E42BD66AD756EAC998AD84A5 
+{
+	// System.Int32 WalletConnectSharp.Core.Controllers.Subscriber/<UnsubscribeById>d__72::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder WalletConnectSharp.Core.Controllers.Subscriber/<UnsubscribeById>d__72::<>t__builder
+	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder_1;
+	// WalletConnectSharp.Core.Models.Relay.UnsubscribeOptions WalletConnectSharp.Core.Controllers.Subscriber/<UnsubscribeById>d__72::opts
+	UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C* ___opts_2;
+	// System.String WalletConnectSharp.Core.Controllers.Subscriber/<UnsubscribeById>d__72::id
+	String_t* ___id_3;
+	// WalletConnectSharp.Core.Controllers.Subscriber WalletConnectSharp.Core.Controllers.Subscriber/<UnsubscribeById>d__72::<>4__this
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* ___U3CU3E4__this_4;
+	// System.String WalletConnectSharp.Core.Controllers.Subscriber/<UnsubscribeById>d__72::topic
+	String_t* ___topic_5;
+	// System.Runtime.CompilerServices.TaskAwaiter WalletConnectSharp.Core.Controllers.Subscriber/<UnsubscribeById>d__72::<>u__1
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_6;
+};
+
+// System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>>
+
+// System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>>
+
+// System.Collections.Generic.Dictionary`2<System.String,WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>
+
+// System.Collections.Generic.Dictionary`2<System.String,WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>
+
+// System.Collections.Generic.Dictionary`2<System.String,WalletConnectSharp.Crypto.Models.DecodeOptions>
+
+// System.Collections.Generic.Dictionary`2<System.String,WalletConnectSharp.Crypto.Models.DecodeOptions>
+
+// System.Collections.Generic.Dictionary`2<System.String,System.Object>
+
+// System.Collections.Generic.Dictionary`2<System.String,System.Object>
+
+// System.Collections.Generic.Dictionary`2<System.String,WalletConnectSharp.Core.Models.Subscriber.PendingSubscription>
+
+// System.Collections.Generic.Dictionary`2<System.String,WalletConnectSharp.Core.Models.Subscriber.PendingSubscription>
+
+// System.EmptyArray`1<System.Object>
+struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields
+{
+	// T[] System.EmptyArray`1::Value
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___Value_0;
+};
+
+// System.EmptyArray`1<System.Object>
+
+// WalletConnectSharp.Common.Events.EventHandlerMap`1<WalletConnectSharp.Core.Models.Relay.MessageEvent>
+
+// WalletConnectSharp.Common.Events.EventHandlerMap`1<WalletConnectSharp.Core.Models.Relay.MessageEvent>
+
+// System.Collections.Generic.HashSet`1<System.String>
+
+// System.Collections.Generic.HashSet`1<System.String>
+
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Collections.Generic.List`1<System.String>>
+
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Collections.Generic.List`1<System.String>>
+
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<System.Object>
+
+// System.Collections.Generic.List`1<System.String>
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<System.String>
+
+// WalletConnectSharp.Network.Models.RequestArguments`1<WalletConnectSharp.Core.Models.Subscriber.BatchSubscribeParams>
+
+// WalletConnectSharp.Network.Models.RequestArguments`1<WalletConnectSharp.Core.Models.Subscriber.BatchSubscribeParams>
+
+// WalletConnectSharp.Network.Models.RequestArguments`1<WalletConnectSharp.Core.Models.Subscriber.JsonRpcSubscriberParams>
+
+// WalletConnectSharp.Network.Models.RequestArguments`1<WalletConnectSharp.Core.Models.Subscriber.JsonRpcSubscriberParams>
+
+// WalletConnectSharp.Network.Models.RequestArguments`1<System.Object>
+
+// WalletConnectSharp.Network.Models.RequestArguments`1<System.Object>
+
+// System.Threading.Tasks.TaskCompletionSource`1<System.Boolean>
+
+// System.Threading.Tasks.TaskCompletionSource`1<System.Boolean>
+
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,WalletConnectSharp.Core.Models.Subscriber.PendingSubscription>
+
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,WalletConnectSharp.Core.Models.Subscriber.PendingSubscription>
+
+// WalletConnectSharp.Core.Models.Subscriber.BatchSubscribeParams
+
+// WalletConnectSharp.Core.Models.Subscriber.BatchSubscribeParams
+
+// WalletConnectSharp.Crypto.Models.DecodeOptions
+
+// WalletConnectSharp.Crypto.Models.DecodeOptions
+
+// WalletConnectSharp.Network.Models.Error
+struct Error_tAFB4B4DDC563B97EAA142E1D487E3ED7ACAD6CB2_StaticFields
+{
+	// System.Collections.Generic.IEqualityComparer`1<WalletConnectSharp.Network.Models.Error> WalletConnectSharp.Network.Models.Error::<CodeMessageDataComparer>k__BackingField
+	RuntimeObject* ___U3CCodeMessageDataComparerU3Ek__BackingField_3;
+};
+
+// WalletConnectSharp.Network.Models.Error
+
+// System.EventArgs
+struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
+{
+	// System.EventArgs System.EventArgs::Empty
+	EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___Empty_0;
+};
+
+// System.EventArgs
+
+// WalletConnectSharp.Network.Models.JsonRpcPayload
+
+// WalletConnectSharp.Network.Models.JsonRpcPayload
+
+// WalletConnectSharp.Core.Models.Subscriber.JsonRpcSubscriberParams
+
+// WalletConnectSharp.Core.Models.Subscriber.JsonRpcSubscriberParams
+
+// WalletConnectSharp.Core.Models.Relay.MessageEvent
+
+// WalletConnectSharp.Core.Models.Relay.MessageEvent
+
+// WalletConnectSharp.Core.Models.Relay.ProtocolOptionHolder
+
+// WalletConnectSharp.Core.Models.Relay.ProtocolOptionHolder
+
+// WalletConnectSharp.Core.Models.Relay.ProtocolOptions
+
+// WalletConnectSharp.Core.Models.Relay.ProtocolOptions
+
+// WalletConnectSharp.Common.Model.Relay.RelayProtocols
+struct RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24_StaticFields
+{
+	// System.String WalletConnectSharp.Common.Model.Relay.RelayProtocols::Default
+	String_t* ___Default_0;
+	// WalletConnectSharp.Common.Model.Relay.RelayProtocols WalletConnectSharp.Common.Model.Relay.RelayProtocols::Waku
+	RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24* ___Waku_1;
+	// WalletConnectSharp.Common.Model.Relay.RelayProtocols WalletConnectSharp.Common.Model.Relay.RelayProtocols::Irn
+	RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24* ___Irn_2;
+	// WalletConnectSharp.Common.Model.Relay.RelayProtocols WalletConnectSharp.Common.Model.Relay.RelayProtocols::Iridium
+	RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24* ___Iridium_3;
+	// System.Collections.Generic.Dictionary`2<System.String,WalletConnectSharp.Common.Model.Relay.RelayProtocols> WalletConnectSharp.Common.Model.Relay.RelayProtocols::_protocols
+	Dictionary_2_t2B3F40E5F837536A65591FCC7EAE839CD88E2089* ____protocols_4;
+};
+
+// WalletConnectSharp.Common.Model.Relay.RelayProtocols
+
+// System.String
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.String
+
+// WalletConnectSharp.Core.Controllers.Subscriber
+
+// WalletConnectSharp.Core.Controllers.Subscriber
+
+// System.Threading.Tasks.Task
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields
+{
+	// System.Int32 System.Threading.Tasks.Task::s_taskIdCounter
+	int32_t ___s_taskIdCounter_0;
+	// System.Object System.Threading.Tasks.Task::s_taskCompletionSentinel
+	RuntimeObject* ___s_taskCompletionSentinel_24;
+	// System.Boolean System.Threading.Tasks.Task::s_asyncDebuggingEnabled
+	bool ___s_asyncDebuggingEnabled_25;
+	// System.Action`1<System.Object> System.Threading.Tasks.Task::s_taskCancelCallback
+	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_taskCancelCallback_27;
+	// System.Func`1<System.Threading.Tasks.Task/ContingentProperties> System.Threading.Tasks.Task::s_createContingentProperties
+	Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1* ___s_createContingentProperties_30;
+	// System.Threading.Tasks.TaskFactory System.Threading.Tasks.Task::<Factory>k__BackingField
+	TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* ___U3CFactoryU3Ek__BackingField_31;
+	// System.Threading.Tasks.Task System.Threading.Tasks.Task::<CompletedTask>k__BackingField
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CCompletedTaskU3Ek__BackingField_32;
+	// System.Predicate`1<System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_IsExceptionObservedByParentPredicate
+	Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED* ___s_IsExceptionObservedByParentPredicate_33;
+	// System.Threading.ContextCallback System.Threading.Tasks.Task::s_ecCallback
+	ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007* ___s_ecCallback_34;
+	// System.Predicate`1<System.Object> System.Threading.Tasks.Task::s_IsTaskContinuationNullPredicate
+	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___s_IsTaskContinuationNullPredicate_35;
+	// System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_currentActiveTasks
+	Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55* ___s_currentActiveTasks_36;
+	// System.Object System.Threading.Tasks.Task::s_activeTasksLock
+	RuntimeObject* ___s_activeTasksLock_37;
+};
+
+// System.Threading.Tasks.Task
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_ThreadStaticFields
+{
+	// System.Threading.Tasks.Task System.Threading.Tasks.Task::t_currentTask
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___t_currentTask_28;
+	// System.Threading.Tasks.StackGuard System.Threading.Tasks.Task::t_stackGuard
+	StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352* ___t_stackGuard_29;
+};
+
+// WalletConnectSharp.Core.Controllers.TopicMap
+
+// WalletConnectSharp.Core.Controllers.TopicMap
+
+// WalletConnectSharp.Core.Controllers.TypedMessageHandler
+
+// WalletConnectSharp.Core.Controllers.TypedMessageHandler
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<>c
+struct U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621_StaticFields
+{
+	// WalletConnectSharp.Core.Controllers.Subscriber/<>c WalletConnectSharp.Core.Controllers.Subscriber/<>c::<>9
+	U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621* ___U3CU3E9_0;
+	// System.Func`2<WalletConnectSharp.Core.Models.Subscriber.PendingSubscription,System.String> WalletConnectSharp.Core.Controllers.Subscriber/<>c::<>9__80_0
+	Func_2_t7914F5A12BE568B6275EC665A81F6D6310DF8C53* ___U3CU3E9__80_0_1;
+};
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<>c
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass70_0
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass70_0
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass80_0
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass80_0
+
+// System.Runtime.CompilerServices.TaskAwaiter`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]>
+
+// System.Runtime.CompilerServices.TaskAwaiter`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]>
+
+// System.Runtime.CompilerServices.TaskAwaiter`1<System.String[]>
+
+// System.Runtime.CompilerServices.TaskAwaiter`1<System.String[]>
+
+// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>
+
+// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>
+
+// System.Runtime.CompilerServices.TaskAwaiter`1<WalletConnectSharp.Network.Models.JsonRpcPayload>
+
+// System.Runtime.CompilerServices.TaskAwaiter`1<WalletConnectSharp.Network.Models.JsonRpcPayload>
+
+// System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>
+
+// System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>
+
+// System.Runtime.CompilerServices.TaskAwaiter`1<System.String>
+
+// System.Runtime.CompilerServices.TaskAwaiter`1<System.String>
+
+// System.Threading.Tasks.Task`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]>
+struct Task_1_t1B30037AAD7EEFD36B915BDB500FEE3A04C869B7_StaticFields
+{
+	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
+	TaskFactory_1_t662667D99FF5F168C546EF908BA8A40B546D8D86* ___s_defaultFactory_39;
+};
+
+// System.Threading.Tasks.Task`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]>
+
+// System.Threading.Tasks.Task`1<System.String[]>
+struct Task_1_tE31926224A424AEAE794D9D841B463DE8C3889D4_StaticFields
+{
+	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
+	TaskFactory_1_t238CEB4BCB70F06A874C8D5DDCE901DC42021651* ___s_defaultFactory_39;
+};
+
+// System.Threading.Tasks.Task`1<System.String[]>
+
+// System.Threading.Tasks.Task`1<System.Boolean>
+struct Task_1_t824317F4B958F7512E8F7300511752937A6C6043_StaticFields
+{
+	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
+	TaskFactory_1_tFAEAC22A1E986463E6956C344A78A7C7197288E0* ___s_defaultFactory_39;
+};
+
+// System.Threading.Tasks.Task`1<System.Boolean>
+
+// System.Threading.Tasks.Task`1<WalletConnectSharp.Network.Models.JsonRpcPayload>
+struct Task_1_t8AC29B790ADB6B71C3DE75E2B85471397F7DDCA5_StaticFields
+{
+	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
+	TaskFactory_1_tC74480A3F559096A5E1B29624CC4CC00B9D43351* ___s_defaultFactory_39;
+};
+
+// System.Threading.Tasks.Task`1<WalletConnectSharp.Network.Models.JsonRpcPayload>
+
+// System.Threading.Tasks.Task`1<System.String>
+struct Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0_StaticFields
+{
+	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
+	TaskFactory_1_t7ABCD7F9503486A075E0B072E6EB95956CFE3106* ___s_defaultFactory_39;
+};
+
+// System.Threading.Tasks.Task`1<System.String>
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Boolean
+
+// WalletConnectSharp.Core.Models.Relay.DecodedMessageEvent
+
+// WalletConnectSharp.Core.Models.Relay.DecodedMessageEvent
+
+// System.Double
+
+// System.Double
+
+// System.Int32
+
+// System.Int32
+
+// System.Int64
+
+// System.Int64
+
+// System.IntPtr
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// System.IntPtr
+
+// WalletConnectSharp.Core.Models.Relay.SubscribeOptions
+
+// WalletConnectSharp.Core.Models.Relay.SubscribeOptions
+
+// System.Runtime.CompilerServices.TaskAwaiter
+
+// System.Runtime.CompilerServices.TaskAwaiter
+
+// System.TimeSpan
+struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
+{
+	// System.TimeSpan System.TimeSpan::Zero
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___Zero_19;
+	// System.TimeSpan System.TimeSpan::MaxValue
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxValue_20;
+	// System.TimeSpan System.TimeSpan::MinValue
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MinValue_21;
+};
+
+// System.TimeSpan
+
+// WalletConnectSharp.Core.Models.Relay.UnsubscribeOptions
+
+// WalletConnectSharp.Core.Models.Relay.UnsubscribeOptions
+
+// System.Void
+
+// System.Void
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]>
+struct AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646_StaticFields
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::s_defaultResultTask
+	Task_1_t1B30037AAD7EEFD36B915BDB500FEE3A04C869B7* ___s_defaultResultTask_0;
+};
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]>
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String[]>
+struct AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1_StaticFields
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::s_defaultResultTask
+	Task_1_tE31926224A424AEAE794D9D841B463DE8C3889D4* ___s_defaultResultTask_0;
+};
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String[]>
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>
+struct AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA_StaticFields
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::s_defaultResultTask
+	Task_1_t824317F4B958F7512E8F7300511752937A6C6043* ___s_defaultResultTask_0;
+};
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Object>
+struct AsyncTaskMethodBuilder_1_tE810F083929D7952F192036D298085BD4B048AD0_StaticFields
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::s_defaultResultTask
+	Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* ___s_defaultResultTask_0;
+};
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Object>
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String>
+struct AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E_StaticFields
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::s_defaultResultTask
+	Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* ___s_defaultResultTask_0;
+};
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String>
+
+// System.Runtime.CompilerServices.AsyncVoidMethodBuilder
+
+// System.Runtime.CompilerServices.AsyncVoidMethodBuilder
+
+// System.DateTimeOffset
+struct DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4_StaticFields
+{
+	// System.DateTimeOffset System.DateTimeOffset::MinValue
+	DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 ___MinValue_0;
+	// System.DateTimeOffset System.DateTimeOffset::MaxValue
+	DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 ___MaxValue_1;
+	// System.DateTimeOffset System.DateTimeOffset::UnixEpoch
+	DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 ___UnixEpoch_2;
+};
+
+// System.DateTimeOffset
+
+// System.Delegate
+
+// System.Delegate
+
+// WalletConnectSharp.Common.Model.Errors.ErrorType
+
+// WalletConnectSharp.Common.Model.Errors.ErrorType
+
+// System.Exception
+struct Exception_t_StaticFields
+{
+	// System.Object System.Exception::s_EDILock
+	RuntimeObject* ___s_EDILock_0;
+};
+
+// System.Exception
+
+// WalletConnectSharp.Core.Models.Subscriber.PendingSubscription
+
+// WalletConnectSharp.Core.Models.Subscriber.PendingSubscription
+
+// WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription
+
+// WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder
+struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_StaticFields
+{
+	// System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder::s_cachedCompleted
+	Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17* ___s_cachedCompleted_0;
+};
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder
+
+// WalletConnectSharp.Common.Model.Errors.WalletConnectException
+
+// WalletConnectSharp.Common.Model.Errors.WalletConnectException
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<AsyncPersist>d__50
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<AsyncPersist>d__50
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<CheckPending>d__55
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<CheckPending>d__55
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<GetRelayerSubscriptions>d__52
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<GetRelayerSubscriptions>d__52
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<OnConnect>d__63
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<OnConnect>d__63
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<RpcBatchSubscribe>d__79
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<RpcBatchSubscribe>d__79
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<RpcSubscribe>d__58
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<RpcSubscribe>d__58
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<Subscribe>d__76
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<Subscribe>d__76
+
+// WalletConnectSharp.Core.Controllers.TypedMessageHandler/<RelayerMessageCallback>d__17
+
+// WalletConnectSharp.Core.Controllers.TypedMessageHandler/<RelayerMessageCallback>d__17
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0/<<IsSubscribed>b__0>d
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0/<<IsSubscribed>b__0>d
+
+// System.EventHandler`1<WalletConnectSharp.Core.Models.Relay.DecodedMessageEvent>
+
+// System.EventHandler`1<WalletConnectSharp.Core.Models.Relay.DecodedMessageEvent>
+
+// System.EventHandler`1<WalletConnectSharp.Core.Models.Relay.MessageEvent>
+
+// System.EventHandler`1<WalletConnectSharp.Core.Models.Relay.MessageEvent>
+
+// System.EventHandler`1<System.Object>
+
+// System.EventHandler`1<System.Object>
+
+// System.Func`2<WalletConnectSharp.Core.Models.Subscriber.PendingSubscription,System.String>
+
+// System.Func`2<WalletConnectSharp.Core.Models.Subscriber.PendingSubscription,System.String>
+
+// System.Func`3<System.String,System.Int32,WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>
+
+// System.Func`3<System.String,System.Int32,WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>
+
+// System.EventHandler
+
+// System.EventHandler
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<BatchSubscribe>d__80
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<BatchSubscribe>d__80
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<Init>d__47
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<Init>d__47
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<OnUnsubscribe>d__67
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<OnUnsubscribe>d__67
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<Persist>d__51
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<Persist>d__51
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<Reset>d__56
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<Reset>d__56
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<Restart>d__48
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<Restart>d__48
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<RestartToComplete>d__64
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<RestartToComplete>d__64
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<Restore>d__54
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<Restore>d__54
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<SetRelayerSubscriptions>d__53
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<SetRelayerSubscriptions>d__53
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<Unsubscribe>d__77
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<Unsubscribe>d__77
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<UnsubscribeById>d__72
+
+// WalletConnectSharp.Core.Controllers.Subscriber/<UnsubscribeById>d__72
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// System.String[]
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeArray
+{
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+// WalletConnectSharp.Core.Models.Subscriber.PendingSubscription[]
+struct PendingSubscriptionU5BU5D_t9C7B303D6139B37FD9237F5903F468C6A4FC460D  : public RuntimeArray
+{
+	ALIGN_FIELD (8) PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE* m_Items[1];
+
+	inline PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+// WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]
+struct ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2  : public RuntimeArray
+{
+	ALIGN_FIELD (8) ActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7* m_Items[1];
+
+	inline ActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline ActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, ActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline ActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline ActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, ActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+// System.Object[]
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::Create()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA AsyncTaskMethodBuilder_1_Create_mA86694527610A40A01A943B16F0ECDDD8F00982D_gshared (const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::Start<WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0/<<IsSubscribed>b__0>d>(TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_Start_TisU3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7_mCA1E65D92474D47B6A605BBFC14DDFD09DB85F6A_gshared (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, U3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::get_Task()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* AsyncTaskMethodBuilder_1_get_Task_m09169C120A259AF1F267F54C09A92B84D9832943_gshared (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Object>::ContainsKey(TKey)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) ;
+// System.Boolean System.Linq.Enumerable::Contains<System.Object>(System.Collections.Generic.IEnumerable`1<TSource>,TSource)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerable_Contains_TisRuntimeObject_mBCDB5870C52FC5BD2B6AE472A749FC03B9CF8958_gshared (RuntimeObject* ___0_source, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0/<<IsSubscribed>b__0>d>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7_mE5DB191F952CEEBD63EA03E64EF9F823B3C856F7_gshared (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::SetException(System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_SetException_mB8F5D5EF18A12CBFF3C7D54CE6382DBB1640C0FD_gshared (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, Exception_t* ___0_exception, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::SetResult(TResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_SetResult_mF21C48FC9CEC24F4E9C5975C54F87BE9CA179046_gshared (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, bool ___0_result, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_SetStateMachine_m9D382E265E211762EDB525CF74EBB7FA21DDDCE8_gshared (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<AsyncPersist>d__50>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CAsyncPersistU3Ed__50_t14F322C9F3E5DA5212883D0E4556D7887834CE75_m6D57FD5D1F57A634229921CE493A88E65BBF0CE3_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CAsyncPersistU3Ed__50_t14F322C9F3E5DA5212883D0E4556D7887834CE75* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Func`2<System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E817F7A48562A398_gshared (Func_2_tACBF5A1656250800CE861707354491F0611F6624* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select<System.Object,System.Object>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m67C538A5EBF57C4844107A8EF25DB2CAAFBAF8FB_gshared (RuntimeObject* ___0_source, Func_2_tACBF5A1656250800CE861707354491F0611F6624* ___1_selector, const RuntimeMethod* method) ;
+// TSource[] System.Linq.Enumerable::ToArray<System.Object>(System.Collections.Generic.IEnumerable`1<TSource>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Enumerable_ToArray_TisRuntimeObject_mA54265C2C8A0864929ECD300B75E4952D553D17D_gshared (RuntimeObject* ___0_source, const RuntimeMethod* method) ;
+// System.Runtime.CompilerServices.TaskAwaiter`1<TResult> System.Threading.Tasks.Task`1<System.Object>::GetAwaiter()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA Task_1_GetAwaiter_mD80ED263BF3F1F8DBDBD177BA3401A0AAAFA38E3_gshared (Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>::get_IsCompleted()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TaskAwaiter_1_get_IsCompleted_mEEBB09E26F4165A0F864D92E1890CFCD2C8CFD54_gshared (TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,WalletConnectSharp.Core.Controllers.Subscriber/<BatchSubscribe>d__80>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CBatchSubscribeU3Ed__80_tCA9113DDC56BE3B72CC58DA4FEE7546613DE1E35_mCDA983A78FB24C49699F8FC38B5A3ABCB46F64B7_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CBatchSubscribeU3Ed__80_tCA9113DDC56BE3B72CC58DA4FEE7546613DE1E35* ___1_stateMachine, const RuntimeMethod* method) ;
+// TResult System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>::GetResult()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TaskAwaiter_1_GetResult_mA4A8A1F43A456B40DDA251D00026C60919AED85B_gshared (TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* __this, const RuntimeMethod* method) ;
+// System.Void System.Func`3<System.Object,System.Int32,System.Object>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m8411CFF2BC76BE5C0B5F4237F89BCB1F18EE2F01_gshared (Func_3_tA23F5D62E264071C33C09639DD065B0B691A804D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select<System.Object,System.Object>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`3<TSource,System.Int32,TResult>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m45C3AA817263477F450AE834CEABAE18078DAFD5_gshared (RuntimeObject* ___0_source, Func_3_tA23F5D62E264071C33C09639DD065B0B691A804D* ___1_selector, const RuntimeMethod* method) ;
+// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Object,System.Object>::get_Values()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueCollection_t038245E04B5D2A80048D9F8021A23E69A0C9DBAA* Dictionary_2_get_Values_mA0C01DEA55329E55380E96BBD04D4D228B437EC5_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<CheckPending>d__55>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CCheckPendingU3Ed__55_tD6D8AF914CF597A94B2060BD4DAC41ABE5E1C2A4_mBECCB7EB7ED5BADBF7C1589C2D0904789CFA7BF0_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CCheckPendingU3Ed__55_tD6D8AF914CF597A94B2060BD4DAC41ABE5E1C2A4* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Runtime.CompilerServices.TaskAwaiter`1<TResult> System.Threading.Tasks.Task`1<System.Boolean>::GetAwaiter()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35 Task_1_GetAwaiter_m2245DA7A0F2185DD5617D63F1544165AE6101935_gshared (Task_1_t824317F4B958F7512E8F7300511752937A6C6043* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>::get_IsCompleted()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TaskAwaiter_1_get_IsCompleted_mCAA0D1EB5A6601DF81D5ED06BB0720D47C520DF9_gshared (TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Object>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,WalletConnectSharp.Core.Controllers.Subscriber/<GetRelayerSubscriptions>d__52>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A_mB61CEBF1E6BDB982F1E06CE48D5BFDCF295D5398_gshared (AsyncTaskMethodBuilder_1_tE810F083929D7952F192036D298085BD4B048AD0* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A* ___1_stateMachine, const RuntimeMethod* method) ;
+// TResult System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>::GetResult()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TaskAwaiter_1_GetResult_mB0D209154690F6972CF22B23275167F6A404B08B_gshared (TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Object>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,WalletConnectSharp.Core.Controllers.Subscriber/<GetRelayerSubscriptions>d__52>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A_mC456CAB9F9E2A2F742B77C7F8F408B2587DFB3E8_gshared (AsyncTaskMethodBuilder_1_tE810F083929D7952F192036D298085BD4B048AD0* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A* ___1_stateMachine, const RuntimeMethod* method) ;
+// T[] System.Array::Empty<System.Object>()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Object>::SetException(System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_SetException_mC2F74B26F5303F9F960965220E2866D777F1A5C6_gshared (AsyncTaskMethodBuilder_1_tE810F083929D7952F192036D298085BD4B048AD0* __this, Exception_t* ___0_exception, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Object>::SetResult(TResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_SetResult_m0D83195F995F9825D7A6DCDC3835D6917C43B5A6_gshared (AsyncTaskMethodBuilder_1_tE810F083929D7952F192036D298085BD4B048AD0* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Object>::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_SetStateMachine_m3BE54983634ABF5BE05200C7894AD0F9F20BDD65_gshared (AsyncTaskMethodBuilder_1_tE810F083929D7952F192036D298085BD4B048AD0* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,WalletConnectSharp.Core.Controllers.Subscriber/<Init>d__47>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224_m2DF5910E5B4D63D7E0C27DF84E6E72CA69C592F6_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<Init>d__47>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224_m2A33C3E6FDC088D5BC44CFE53D14B238351E5E91_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<OnConnect>d__63>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3COnConnectU3Ed__63_t683D0B3EA5283B2235D321EE6D040A6A99DF5AA2_m1F1B0078A2D916C59AC356255EC84A80878F7201_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3COnConnectU3Ed__63_t683D0B3EA5283B2235D321EE6D040A6A99DF5AA2* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<OnUnsubscribe>d__67>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3COnUnsubscribeU3Ed__67_t56A4F46FDB58CEDEF5012CE9071CB52F934CC88A_m3DBF5CB51C355502146C722578F7C2076EFAA288_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3COnUnsubscribeU3Ed__67_t56A4F46FDB58CEDEF5012CE9071CB52F934CC88A* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<Persist>d__51>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CPersistU3Ed__51_t529F46716089ABD24DCB4C4DEB5CD3A95647B6CE_mDECC83BE28D6704FDB18950242404BB1853C530E_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CPersistU3Ed__51_t529F46716089ABD24DCB4C4DEB5CD3A95647B6CE* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerable`1<System.Collections.Generic.IEnumerable`1<TSource>> WalletConnectSharp.Core.Utils::Batch<System.Object>(System.Collections.Generic.IEnumerable`1<TSource>,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Utils_Batch_TisRuntimeObject_m3189AF40A1A3A411EEF5F4BA69C322E8AAFE0615_gshared (RuntimeObject* ___0_source, int32_t ___1_size, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<Reset>d__56>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CResetU3Ed__56_tB679077C29F63D0F75B7E05BB158A28452D43DD2_m5A8094928F2B17FF58FA5D8CFA4676F20E25F2C6_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CResetU3Ed__56_tB679077C29F63D0F75B7E05BB158A28452D43DD2* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Threading.Tasks.TaskCompletionSource`1<System.Boolean>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskCompletionSource_1__ctor_mBAB8D6EFEAD1AA6482D19D7CE639528BE66AF646_gshared (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<Restart>d__48>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRestartU3Ed__48_tFA2B5073FB50CA5FA24D9CBD1503648BDEAB6830_m5BE1F147C8FEFE1E26788AE8253285259294D079_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CRestartU3Ed__48_tFA2B5073FB50CA5FA24D9CBD1503648BDEAB6830* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Threading.Tasks.TaskCompletionSource`1<System.Boolean>::SetResult(TResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskCompletionSource_1_SetResult_mA4C94A8605B8E4A2646C0C2B08A3D373E1174448_gshared (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* __this, bool ___0_result, const RuntimeMethod* method) ;
+// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskCompletionSource`1<System.Boolean>::get_Task()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* TaskCompletionSource_1_get_Task_m068E06095F165AE266E15C328CBDA1543429EC66_gshared_inline (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,WalletConnectSharp.Core.Controllers.Subscriber/<RestartToComplete>d__64>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CRestartToCompleteU3Ed__64_t350BC5588F2410005FFABAB86FF15A8E9B0D6028_mD55987D54D873A4364E384EAE46A5CFD2B1418E4_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CRestartToCompleteU3Ed__64_t350BC5588F2410005FFABAB86FF15A8E9B0D6028* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,WalletConnectSharp.Core.Controllers.Subscriber/<Restore>d__54>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CRestoreU3Ed__54_t4480601D916EC9273A5916B316625001CA6014C2_m17B94CBF6A568234500CE0D0A74FE95D8DFC8184_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CRestoreU3Ed__54_t4480601D916EC9273A5916B316625001CA6014C2* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Network.Models.RequestArguments`1<System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequestArguments_1__ctor_m27F1D7B48DB4F643B5F1F763F803A5F0C82F2CE0_gshared (RequestArguments_1_tB7BA13BD181AD5AD363660713ABF89F709B27F5E* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Network.Models.RequestArguments`1<System.Object>::set_Method(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestArguments_1_set_Method_mD11FC060C93D24BF498EF7780EE5DFB799B5A09D_gshared_inline (RequestArguments_1_tB7BA13BD181AD5AD363660713ABF89F709B27F5E* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Network.Models.RequestArguments`1<System.Object>::set_Params(T)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestArguments_1_set_Params_m0AFA17F6E511A56FD33BF37C079FAD08B9097508_gshared_inline (RequestArguments_1_tB7BA13BD181AD5AD363660713ABF89F709B27F5E* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) ;
+// System.Threading.Tasks.Task`1<T> WalletConnectSharp.Common.Utils.Extensions::WithTimeout<System.Object>(System.Threading.Tasks.Task`1<T>,System.TimeSpan,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* Extensions_WithTimeout_TisRuntimeObject_mEF95DD19AA46B17680310E1C6B6A287A8DF2B940_gshared (Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* ___0_task, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___1_timeout, String_t* ___2_message, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Object>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,WalletConnectSharp.Core.Controllers.Subscriber/<RpcBatchSubscribe>d__79>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CRpcBatchSubscribeU3Ed__79_tFC5004C250EA747F7D8C32196267C6663F211C4C_m54CD2FCF596C4519B0A64FF291C51CAD61B114E1_gshared (AsyncTaskMethodBuilder_1_tE810F083929D7952F192036D298085BD4B048AD0* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CRpcBatchSubscribeU3Ed__79_tFC5004C250EA747F7D8C32196267C6663F211C4C* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Threading.Tasks.Task`1<T> WalletConnectSharp.Common.Utils.Extensions::WithTimeout<System.Object>(System.Threading.Tasks.Task`1<T>,System.Int32,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* Extensions_WithTimeout_TisRuntimeObject_mD7536587CA11D4FF243553D55532514D5AB10D05_gshared (Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* ___0_task, int32_t ___1_timeout, String_t* ___2_message, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Object>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,WalletConnectSharp.Core.Controllers.Subscriber/<RpcSubscribe>d__58>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CRpcSubscribeU3Ed__58_t98DBE2C469BDCBF2CC3AAD8D7CBEBD1E7120AD28_m303F280D82DBEC6AD277D72369B7E186E5E901D3_gshared (AsyncTaskMethodBuilder_1_tE810F083929D7952F192036D298085BD4B048AD0* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CRpcSubscribeU3Ed__58_t98DBE2C469BDCBF2CC3AAD8D7CBEBD1E7120AD28* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<SetRelayerSubscriptions>d__53>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CSetRelayerSubscriptionsU3Ed__53_t6943AC2A2BA44A2156E5785B6938560F01C41935_m0EC523945C2912CC4A90E08EFA41640E861329CD_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CSetRelayerSubscriptionsU3Ed__53_t6943AC2A2BA44A2156E5785B6938560F01C41935* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Object>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<Subscribe>d__76>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035_mBE031E911A9E0ABB4B13474DFC9C8FEFF9B1DCC5_gshared (AsyncTaskMethodBuilder_1_tE810F083929D7952F192036D298085BD4B048AD0* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Add(TKey,TValue)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Object>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,WalletConnectSharp.Core.Controllers.Subscriber/<Subscribe>d__76>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035_mB39609B4D5AE9EB5C288BE3B96BE4EAABFB5282E_gshared (AsyncTaskMethodBuilder_1_tE810F083929D7952F192036D298085BD4B048AD0* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<Unsubscribe>d__77>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7_m66B034EFB53F921574C6B15BE6FC48211B557B9D_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<UnsubscribeById>d__72>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CUnsubscribeByIdU3Ed__72_t6DFD5C04F5AAB943E42BD66AD756EAC998AD84A5_mE927ECAD275D1642D6AD59F9EEA2A5D175C987F0_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CUnsubscribeByIdU3Ed__72_t6DFD5C04F5AAB943E42BD66AD756EAC998AD84A5* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Object,System.Object>::get_Keys()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyCollection_tB45A861D090B15129521119AE48ED3813820A974* Dictionary_2_get_Keys_m72D290F90654BFD683FA7AA7C63D9F4F692218B6_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+// TValue System.Collections.Generic.Dictionary`2<System.Object,System.Object>::get_Item(TKey)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<System.Object>::Add(T)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+// T[] System.Collections.Generic.List`1<System.Object>::ToArray()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* List_1_ToArray_mD7E4F8E7C11C3C67CB5739FCC0A6E86106A6291F_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Remove(TKey)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.List`1<System.Object>::Remove(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool List_1_Remove_m4DFA48F4CEB9169601E75FC28517C5C06EFA5AD7_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+// System.Int32 System.Collections.Generic.List`1<System.Object>::get_Count()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Clear()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Clear_mCFB5EA7351D5860D2B91592B91A84CA265A41433_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.HashSet`1<System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Common.Events.EventHandlerMap`1<System.Object>::.ctor(System.EventHandler`1<TEventArgs>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventHandlerMap_1__ctor_mCB338E290D170C748CE9BAA7222B62A680BF5144_gshared (EventHandlerMap_1_tFC7E099D7EF8022E7CBA294D9D7EAD879D74E0AE* __this, EventHandler_1_tD8C4A5BE1F7C91B1A7E99AE87AFD2F5432C38746* ___0_callbackBeforeExecuted, const RuntimeMethod* method) ;
+// System.Void System.EventHandler`1<System.Object>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventHandler_1__ctor_mBA2E748CFBA7A0EEC0A373A6F634D3B5774EA370_gshared (EventHandler_1_tD8C4A5BE1F7C91B1A7E99AE87AFD2F5432C38746* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<WalletConnectSharp.Core.Controllers.TypedMessageHandler/<RelayerMessageCallback>d__17>(TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A_mB9A3BED84E31448BE67962CA66B0A439E73A6815_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, U3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Object>::TryGetValue(TKey,TValue&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_mD15380A4ED7CDEE99EA45881577D26BA9CE1B849_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, RuntimeObject** ___1_value, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,WalletConnectSharp.Core.Controllers.TypedMessageHandler/<RelayerMessageCallback>d__17>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A_m86E391B2966F948102AB819C36C8BB7BA7F53C9F_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.EventHandler`1<TEventArgs> WalletConnectSharp.Common.Events.EventHandlerMap`1<System.Object>::get_Item(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EventHandler_1_tD8C4A5BE1F7C91B1A7E99AE87AFD2F5432C38746* EventHandlerMap_1_get_Item_m38FEF3C11EF9DE8FF1B79060AF6B4921E0703555_gshared (EventHandlerMap_1_tFC7E099D7EF8022E7CBA294D9D7EAD879D74E0AE* __this, String_t* ___0_eventId, const RuntimeMethod* method) ;
+// System.Void System.EventHandler`1<System.Object>::Invoke(System.Object,TEventArgs)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EventHandler_1_Invoke_mBD72C04FF5A08A2EA93DFD21037CD1C27A48D07A_gshared_inline (EventHandler_1_tD8C4A5BE1F7C91B1A7E99AE87AFD2F5432C38746* __this, RuntimeObject* ___0_sender, RuntimeObject* ___1_e, const RuntimeMethod* method) ;
+
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<>c::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m1F16911166F075E672A4349B74DEEB25135C808F (U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621* __this, const RuntimeMethod* method) ;
+// System.Void System.Object::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::Create()
+inline AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA AsyncTaskMethodBuilder_1_Create_mA86694527610A40A01A943B16F0ECDDD8F00982D (const RuntimeMethod* method)
+{
+	return ((  AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA (*) (const RuntimeMethod*))AsyncTaskMethodBuilder_1_Create_mA86694527610A40A01A943B16F0ECDDD8F00982D_gshared)(method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::Start<WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0/<<IsSubscribed>b__0>d>(TStateMachine&)
+inline void AsyncTaskMethodBuilder_1_Start_TisU3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7_mCA1E65D92474D47B6A605BBFC14DDFD09DB85F6A (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, U3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7* ___0_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*, U3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_Start_TisU3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7_mCA1E65D92474D47B6A605BBFC14DDFD09DB85F6A_gshared)(__this, ___0_stateMachine, method);
+}
+// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::get_Task()
+inline Task_1_t824317F4B958F7512E8F7300511752937A6C6043* AsyncTaskMethodBuilder_1_get_Task_m09169C120A259AF1F267F54C09A92B84D9832943 (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, const RuntimeMethod* method)
+{
+	return ((  Task_1_t824317F4B958F7512E8F7300511752937A6C6043* (*) (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_get_Task_m09169C120A259AF1F267F54C09A92B84D9832943_gshared)(__this, method);
+}
+// System.DateTimeOffset System.DateTimeOffset::get_Now()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 DateTimeOffset_get_Now_mFBC17A86139F6EE7C5EBF397BBE5914DCD7B3428 (const RuntimeMethod* method) ;
+// System.Int64 System.DateTimeOffset::ToUnixTimeSeconds()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t DateTimeOffset_ToUnixTimeSeconds_m91F88288451BAB5A8373467A94DAEA359AAF34BD (DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2<System.String,WalletConnectSharp.Core.Models.Subscriber.PendingSubscription>::ContainsKey(TKey)
+inline bool Dictionary_2_ContainsKey_m31416084F21AA8181D98722A73BC622E0423FB5F (Dictionary_2_tE6A6CE64E2358C03896D2342C78C7944D99FD5C5* __this, String_t* ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_tE6A6CE64E2358C03896D2342C78C7944D99FD5C5*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___0_key, method);
+}
+// System.String[] WalletConnectSharp.Core.Controllers.Subscriber::get_Topics()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Subscriber_get_Topics_mF57E120E64BE9CC515F28DE4E3E158D7289BCACE (Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Linq.Enumerable::Contains<System.String>(System.Collections.Generic.IEnumerable`1<TSource>,TSource)
+inline bool Enumerable_Contains_TisString_t_m903B1A64070B00925A8E4E7979330AA7D7B0FB33 (RuntimeObject* ___0_source, String_t* ___1_value, const RuntimeMethod* method)
+{
+	return ((  bool (*) (RuntimeObject*, String_t*, const RuntimeMethod*))Enumerable_Contains_TisRuntimeObject_mBCDB5870C52FC5BD2B6AE472A749FC03B9CF8958_gshared)(___0_source, ___1_value, method);
+}
+// System.Threading.Tasks.Task System.Threading.Tasks.Task::Delay(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Task_Delay_m4B84654B4DAADEC41096D9F01C099CCEA9927A48 (int32_t ___0_millisecondsDelay, const RuntimeMethod* method) ;
+// System.Runtime.CompilerServices.TaskAwaiter System.Threading.Tasks.Task::GetAwaiter()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Runtime.CompilerServices.TaskAwaiter::get_IsCompleted()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8 (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0/<<IsSubscribed>b__0>d>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7_mE5DB191F952CEEBD63EA03E64EF9F823B3C856F7 (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*, U3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7_mE5DB191F952CEEBD63EA03E64EF9F823B3C856F7_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// System.Void System.Runtime.CompilerServices.TaskAwaiter::GetResult()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::SetException(System.Exception)
+inline void AsyncTaskMethodBuilder_1_SetException_mB8F5D5EF18A12CBFF3C7D54CE6382DBB1640C0FD (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, Exception_t* ___0_exception, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*, Exception_t*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_SetException_mB8F5D5EF18A12CBFF3C7D54CE6382DBB1640C0FD_gshared)(__this, ___0_exception, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::SetResult(TResult)
+inline void AsyncTaskMethodBuilder_1_SetResult_mF21C48FC9CEC24F4E9C5975C54F87BE9CA179046 (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, bool ___0_result, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*, bool, const RuntimeMethod*))AsyncTaskMethodBuilder_1_SetResult_mF21C48FC9CEC24F4E9C5975C54F87BE9CA179046_gshared)(__this, ___0_result, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0/<<IsSubscribed>b__0>d::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3CIsSubscribedU3Eb__0U3Ed_MoveNext_mF292D6E4E8D9FB562F40AD06ABADF4C2B41E301F (U3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+inline void AsyncTaskMethodBuilder_1_SetStateMachine_m9D382E265E211762EDB525CF74EBB7FA21DDDCE8 (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*, RuntimeObject*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_SetStateMachine_m9D382E265E211762EDB525CF74EBB7FA21DDDCE8_gshared)(__this, ___0_stateMachine, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0/<<IsSubscribed>b__0>d::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3CIsSubscribedU3Eb__0U3Ed_SetStateMachine_m01995C0794F6BCB684D088F38A2B6C5D78E40711 (U3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActiveSubscription__ctor_mE5B088FCE25B93C65D8FCA66874E92B19F1F6255 (ActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<AsyncPersist>d__50>(TAwaiter&,TStateMachine&)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CAsyncPersistU3Ed__50_t14F322C9F3E5DA5212883D0E4556D7887834CE75_m6D57FD5D1F57A634229921CE493A88E65BBF0CE3 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CAsyncPersistU3Ed__50_t14F322C9F3E5DA5212883D0E4556D7887834CE75* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*, U3CAsyncPersistU3Ed__50_t14F322C9F3E5DA5212883D0E4556D7887834CE75*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CAsyncPersistU3Ed__50_t14F322C9F3E5DA5212883D0E4556D7887834CE75_m6D57FD5D1F57A634229921CE493A88E65BBF0CE3_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::SetException(System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, Exception_t* ___0_exception, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::SetResult()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<AsyncPersist>d__50::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncPersistU3Ed__50_MoveNext_mCBDEE44C3FF421E01479D1CB0D2DEDD2C44BE251 (U3CAsyncPersistU3Ed__50_t14F322C9F3E5DA5212883D0E4556D7887834CE75* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_SetStateMachine_m48640FB81C34D4C2B5A5BBA7F5AE17DC50BF1A25 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<AsyncPersist>d__50::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncPersistU3Ed__50_SetStateMachine_m49FF226A36D83BD3179044FD3E7E5089D2BD70E5 (U3CAsyncPersistU3Ed__50_t14F322C9F3E5DA5212883D0E4556D7887834CE75* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass80_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass80_0__ctor_mB72EDAA5C4F6556606984073535402817EC04DE4 (U3CU3Ec__DisplayClass80_0_t5AE227440B3757FE475DC7E89007BA1FBBEC3E0D* __this, const RuntimeMethod* method) ;
+// System.Void System.Func`2<WalletConnectSharp.Core.Models.Subscriber.PendingSubscription,System.String>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_m4F1D6B362B1A125C8CD70A803EA45A9E0E4662B6 (Func_2_t7914F5A12BE568B6275EC665A81F6D6310DF8C53* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t7914F5A12BE568B6275EC665A81F6D6310DF8C53*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E817F7A48562A398_gshared)(__this, ___0_object, ___1_method, method);
+}
+// System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select<WalletConnectSharp.Core.Models.Subscriber.PendingSubscription,System.String>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
+inline RuntimeObject* Enumerable_Select_TisPendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE_TisString_t_m9E585E4148BC2E9712958D6E104F6279D68D0B98 (RuntimeObject* ___0_source, Func_2_t7914F5A12BE568B6275EC665A81F6D6310DF8C53* ___1_selector, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t7914F5A12BE568B6275EC665A81F6D6310DF8C53*, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m67C538A5EBF57C4844107A8EF25DB2CAAFBAF8FB_gshared)(___0_source, ___1_selector, method);
+}
+// TSource[] System.Linq.Enumerable::ToArray<System.String>(System.Collections.Generic.IEnumerable`1<TSource>)
+inline StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Enumerable_ToArray_TisString_t_m3B23EE2DD15B2996E7D2ECA6E74696DA892AA194 (RuntimeObject* ___0_source, const RuntimeMethod* method)
+{
+	return ((  StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_ToArray_TisRuntimeObject_mA54265C2C8A0864929ECD300B75E4952D553D17D_gshared)(___0_source, method);
+}
+// System.Runtime.CompilerServices.TaskAwaiter`1<TResult> System.Threading.Tasks.Task`1<System.String[]>::GetAwaiter()
+inline TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A Task_1_GetAwaiter_mB26BFA07AC14EF917B761C0D201B116283728D55 (Task_1_tE31926224A424AEAE794D9D841B463DE8C3889D4* __this, const RuntimeMethod* method)
+{
+	return ((  TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A (*) (Task_1_tE31926224A424AEAE794D9D841B463DE8C3889D4*, const RuntimeMethod*))Task_1_GetAwaiter_mD80ED263BF3F1F8DBDBD177BA3401A0AAAFA38E3_gshared)(__this, method);
+}
+// System.Boolean System.Runtime.CompilerServices.TaskAwaiter`1<System.String[]>::get_IsCompleted()
+inline bool TaskAwaiter_1_get_IsCompleted_mBB1935B8D8B149149221600F42DA9073C73FBD5A (TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A*, const RuntimeMethod*))TaskAwaiter_1_get_IsCompleted_mEEBB09E26F4165A0F864D92E1890CFCD2C8CFD54_gshared)(__this, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.String[]>,WalletConnectSharp.Core.Controllers.Subscriber/<BatchSubscribe>d__80>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A_TisU3CBatchSubscribeU3Ed__80_tCA9113DDC56BE3B72CC58DA4FEE7546613DE1E35_m499919F29A560565735522FFE81CE473777B8B44 (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A* ___0_awaiter, U3CBatchSubscribeU3Ed__80_tCA9113DDC56BE3B72CC58DA4FEE7546613DE1E35* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A*, U3CBatchSubscribeU3Ed__80_tCA9113DDC56BE3B72CC58DA4FEE7546613DE1E35*, const RuntimeMethod*))AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CBatchSubscribeU3Ed__80_tCA9113DDC56BE3B72CC58DA4FEE7546613DE1E35_mCDA983A78FB24C49699F8FC38B5A3ABCB46F64B7_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// TResult System.Runtime.CompilerServices.TaskAwaiter`1<System.String[]>::GetResult()
+inline StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* TaskAwaiter_1_GetResult_m83205D2CAC0257ACFB3799DA5DD484B0D4B9DDED (TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A* __this, const RuntimeMethod* method)
+{
+	return ((  StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* (*) (TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A*, const RuntimeMethod*))TaskAwaiter_1_GetResult_mA4A8A1F43A456B40DDA251D00026C60919AED85B_gshared)(__this, method);
+}
+// System.Void System.Func`3<System.String,System.Int32,WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>::.ctor(System.Object,System.IntPtr)
+inline void Func_3__ctor_m29BE31AB1494C0568674F45172D2BC7F1C75CAD1 (Func_3_tACFA26A227759437FA38AD7C18F4D089F2207248* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Func_3_tACFA26A227759437FA38AD7C18F4D089F2207248*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_3__ctor_m8411CFF2BC76BE5C0B5F4237F89BCB1F18EE2F01_gshared)(__this, ___0_object, ___1_method, method);
+}
+// System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select<System.String,WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`3<TSource,System.Int32,TResult>)
+inline RuntimeObject* Enumerable_Select_TisString_t_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_mBBACA2A3FC757E31994E1FC8A510E495F8A89198 (RuntimeObject* ___0_source, Func_3_tACFA26A227759437FA38AD7C18F4D089F2207248* ___1_selector, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_3_tACFA26A227759437FA38AD7C18F4D089F2207248*, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m45C3AA817263477F450AE834CEABAE18078DAFD5_gshared)(___0_source, ___1_selector, method);
+}
+// TSource[] System.Linq.Enumerable::ToArray<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>(System.Collections.Generic.IEnumerable`1<TSource>)
+inline ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* Enumerable_ToArray_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_mCD866931D9EEABB6DDD93D81C9B6575A1AC46F8B (RuntimeObject* ___0_source, const RuntimeMethod* method)
+{
+	return ((  ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_ToArray_TisRuntimeObject_mA54265C2C8A0864929ECD300B75E4952D553D17D_gshared)(___0_source, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber::OnBatchSubscribe(WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Subscriber_OnBatchSubscribe_m0F0288267339CF86C18DB1550CCA8029A076A577 (Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* __this, ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* ___0_subscriptions, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetException(System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_SetException_mBE41863F0571E0177A15731294087DE45E1FC10B (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, Exception_t* ___0_exception, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetResult()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_SetResult_m76D8B84F0068257C1823B1200B00E58E0C8DDDDE (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<BatchSubscribe>d__80::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CBatchSubscribeU3Ed__80_MoveNext_m2FF713D155E9B82682C99EED6537C5A9A0904E97 (U3CBatchSubscribeU3Ed__80_tCA9113DDC56BE3B72CC58DA4FEE7546613DE1E35* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_SetStateMachine_mE52B5B6B076025592A7AB462E3D26FA434AEB795 (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<BatchSubscribe>d__80::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CBatchSubscribeU3Ed__80_SetStateMachine_m7EC5DD4F6D212E88866C8818962EE331959CE9AA (U3CBatchSubscribeU3Ed__80_tCA9113DDC56BE3B72CC58DA4FEE7546613DE1E35* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.String,WalletConnectSharp.Core.Models.Subscriber.PendingSubscription>::get_Values()
+inline ValueCollection_t5C5A15132BFA89F88C412D0DCEEA495392C7AEC3* Dictionary_2_get_Values_mC5FDF54294F6B9B79A25A0298A2F0A9C603F73C8 (Dictionary_2_tE6A6CE64E2358C03896D2342C78C7944D99FD5C5* __this, const RuntimeMethod* method)
+{
+	return ((  ValueCollection_t5C5A15132BFA89F88C412D0DCEEA495392C7AEC3* (*) (Dictionary_2_tE6A6CE64E2358C03896D2342C78C7944D99FD5C5*, const RuntimeMethod*))Dictionary_2_get_Values_mA0C01DEA55329E55380E96BBD04D4D228B437EC5_gshared)(__this, method);
+}
+// TSource[] System.Linq.Enumerable::ToArray<WalletConnectSharp.Core.Models.Subscriber.PendingSubscription>(System.Collections.Generic.IEnumerable`1<TSource>)
+inline PendingSubscriptionU5BU5D_t9C7B303D6139B37FD9237F5903F468C6A4FC460D* Enumerable_ToArray_TisPendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE_mC875F31C74F56FB8398EECD38C5BC26C7F37695B (RuntimeObject* ___0_source, const RuntimeMethod* method)
+{
+	return ((  PendingSubscriptionU5BU5D_t9C7B303D6139B37FD9237F5903F468C6A4FC460D* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_ToArray_TisRuntimeObject_mA54265C2C8A0864929ECD300B75E4952D553D17D_gshared)(___0_source, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<CheckPending>d__55>(TAwaiter&,TStateMachine&)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CCheckPendingU3Ed__55_tD6D8AF914CF597A94B2060BD4DAC41ABE5E1C2A4_mBECCB7EB7ED5BADBF7C1589C2D0904789CFA7BF0 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CCheckPendingU3Ed__55_tD6D8AF914CF597A94B2060BD4DAC41ABE5E1C2A4* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*, U3CCheckPendingU3Ed__55_tD6D8AF914CF597A94B2060BD4DAC41ABE5E1C2A4*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CCheckPendingU3Ed__55_tD6D8AF914CF597A94B2060BD4DAC41ABE5E1C2A4_mBECCB7EB7ED5BADBF7C1589C2D0904789CFA7BF0_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<CheckPending>d__55::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckPendingU3Ed__55_MoveNext_mED61331F457B9D5FDB7B8A627FC28619BC26C5D1 (U3CCheckPendingU3Ed__55_tD6D8AF914CF597A94B2060BD4DAC41ABE5E1C2A4* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<CheckPending>d__55::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckPendingU3Ed__55_SetStateMachine_mFB6AD46131D795B6E2A29F1EA76D6942AEA1C23F (U3CCheckPendingU3Ed__55_tD6D8AF914CF597A94B2060BD4DAC41ABE5E1C2A4* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.String WalletConnectSharp.Core.Controllers.Subscriber::get_StorageKey()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Subscriber_get_StorageKey_mD206B80C7204927066E3A97DB0CA3412E0D45324 (Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* __this, const RuntimeMethod* method) ;
+// System.Runtime.CompilerServices.TaskAwaiter`1<TResult> System.Threading.Tasks.Task`1<System.Boolean>::GetAwaiter()
+inline TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35 Task_1_GetAwaiter_m2245DA7A0F2185DD5617D63F1544165AE6101935 (Task_1_t824317F4B958F7512E8F7300511752937A6C6043* __this, const RuntimeMethod* method)
+{
+	return ((  TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35 (*) (Task_1_t824317F4B958F7512E8F7300511752937A6C6043*, const RuntimeMethod*))Task_1_GetAwaiter_m2245DA7A0F2185DD5617D63F1544165AE6101935_gshared)(__this, method);
+}
+// System.Boolean System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>::get_IsCompleted()
+inline bool TaskAwaiter_1_get_IsCompleted_mCAA0D1EB5A6601DF81D5ED06BB0720D47C520DF9 (TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35*, const RuntimeMethod*))TaskAwaiter_1_get_IsCompleted_mCAA0D1EB5A6601DF81D5ED06BB0720D47C520DF9_gshared)(__this, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,WalletConnectSharp.Core.Controllers.Subscriber/<GetRelayerSubscriptions>d__52>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A_m26A9CE053C55F31F296261B440F16A7BFE8F4CB2 (AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646*, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35*, U3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A_mB61CEBF1E6BDB982F1E06CE48D5BFDCF295D5398_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// TResult System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>::GetResult()
+inline bool TaskAwaiter_1_GetResult_mB0D209154690F6972CF22B23275167F6A404B08B (TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35*, const RuntimeMethod*))TaskAwaiter_1_GetResult_mB0D209154690F6972CF22B23275167F6A404B08B_gshared)(__this, method);
+}
+// System.Runtime.CompilerServices.TaskAwaiter`1<TResult> System.Threading.Tasks.Task`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]>::GetAwaiter()
+inline TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE Task_1_GetAwaiter_mF09429633D4680AB53E194FBD7343B114AD344F8 (Task_1_t1B30037AAD7EEFD36B915BDB500FEE3A04C869B7* __this, const RuntimeMethod* method)
+{
+	return ((  TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE (*) (Task_1_t1B30037AAD7EEFD36B915BDB500FEE3A04C869B7*, const RuntimeMethod*))Task_1_GetAwaiter_mD80ED263BF3F1F8DBDBD177BA3401A0AAAFA38E3_gshared)(__this, method);
+}
+// System.Boolean System.Runtime.CompilerServices.TaskAwaiter`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]>::get_IsCompleted()
+inline bool TaskAwaiter_1_get_IsCompleted_mD0D4B783774CF3EDD6F6388F3DDF44A15816305F (TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE*, const RuntimeMethod*))TaskAwaiter_1_get_IsCompleted_mEEBB09E26F4165A0F864D92E1890CFCD2C8CFD54_gshared)(__this, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]>,WalletConnectSharp.Core.Controllers.Subscriber/<GetRelayerSubscriptions>d__52>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE_TisU3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A_m60122674B8C5BDB32232E7DD024649CBD43AC024 (AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646* __this, TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE* ___0_awaiter, U3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646*, TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE*, U3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A_mC456CAB9F9E2A2F742B77C7F8F408B2587DFB3E8_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// TResult System.Runtime.CompilerServices.TaskAwaiter`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]>::GetResult()
+inline ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* TaskAwaiter_1_GetResult_mFBABCE48CEAAFF6367097A3DF620DF4B9C06E959 (TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE* __this, const RuntimeMethod* method)
+{
+	return ((  ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* (*) (TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE*, const RuntimeMethod*))TaskAwaiter_1_GetResult_mA4A8A1F43A456B40DDA251D00026C60919AED85B_gshared)(__this, method);
+}
+// T[] System.Array::Empty<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>()
+inline ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* Array_Empty_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_m355E5E36D19F8F8D2A2704B562475903AEDB2D8A_inline (const RuntimeMethod* method)
+{
+	return ((  ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* (*) (const RuntimeMethod*))Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline)(method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]>::SetException(System.Exception)
+inline void AsyncTaskMethodBuilder_1_SetException_m7807889AA2F4CFED513E3E4B8D2892FAC904AA40 (AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646* __this, Exception_t* ___0_exception, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646*, Exception_t*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_SetException_mC2F74B26F5303F9F960965220E2866D777F1A5C6_gshared)(__this, ___0_exception, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]>::SetResult(TResult)
+inline void AsyncTaskMethodBuilder_1_SetResult_m96FEFB5E97B6835B3258E9756669F4433E9A4020 (AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646* __this, ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* ___0_result, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646*, ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_SetResult_m0D83195F995F9825D7A6DCDC3835D6917C43B5A6_gshared)(__this, ___0_result, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<GetRelayerSubscriptions>d__52::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetRelayerSubscriptionsU3Ed__52_MoveNext_m5A0F476EA2F5DFE35B604FC73B7380369CADBA28 (U3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]>::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+inline void AsyncTaskMethodBuilder_1_SetStateMachine_m0E14D7EBFE2D9C748B764654069613CB63628A6A (AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646*, RuntimeObject*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_SetStateMachine_m3BE54983634ABF5BE05200C7894AD0F9F20BDD65_gshared)(__this, ___0_stateMachine, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<GetRelayerSubscriptions>d__52::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetRelayerSubscriptionsU3Ed__52_SetStateMachine_mB260B35BFDC27F43622509B43A74B8ACCB04F1AD (U3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Runtime.CompilerServices.TaskAwaiter`1<TResult> System.Threading.Tasks.Task`1<System.String>::GetAwaiter()
+inline TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 Task_1_GetAwaiter_m7727657658441E9D4CE9D3F8B532F9D65CB9CE1F (Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* __this, const RuntimeMethod* method)
+{
+	return ((  TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 (*) (Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0*, const RuntimeMethod*))Task_1_GetAwaiter_mD80ED263BF3F1F8DBDBD177BA3401A0AAAFA38E3_gshared)(__this, method);
+}
+// System.Boolean System.Runtime.CompilerServices.TaskAwaiter`1<System.String>::get_IsCompleted()
+inline bool TaskAwaiter_1_get_IsCompleted_mE207C5509602B0BB59366E53CED6CC9B10A1F8A8 (TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6*, const RuntimeMethod*))TaskAwaiter_1_get_IsCompleted_mEEBB09E26F4165A0F864D92E1890CFCD2C8CFD54_gshared)(__this, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.String>,WalletConnectSharp.Core.Controllers.Subscriber/<Init>d__47>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6_TisU3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224_m663C312E775D805731A79540DE3AD26B29A5B311 (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6* ___0_awaiter, U3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6*, U3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224*, const RuntimeMethod*))AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224_m2DF5910E5B4D63D7E0C27DF84E6E72CA69C592F6_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// TResult System.Runtime.CompilerServices.TaskAwaiter`1<System.String>::GetResult()
+inline String_t* TaskAwaiter_1_GetResult_m82A392802A854576DC9525B87B0053B56201ABB9 (TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6* __this, const RuntimeMethod* method)
+{
+	return ((  String_t* (*) (TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6*, const RuntimeMethod*))TaskAwaiter_1_GetResult_mA4A8A1F43A456B40DDA251D00026C60919AED85B_gshared)(__this, method);
+}
+// System.Threading.Tasks.Task WalletConnectSharp.Core.Controllers.Subscriber::Restart()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Subscriber_Restart_mC0C3273AAA8BFA1C5E9B8E04A00E5DE298AE0B93 (Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<Init>d__47>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224_m2A33C3E6FDC088D5BC44CFE53D14B238351E5E91 (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*, U3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224*, const RuntimeMethod*))AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224_m2A33C3E6FDC088D5BC44CFE53D14B238351E5E91_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Init>d__47::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitU3Ed__47_MoveNext_m2F3CBC801D38B7FD7344D0613CDB6D510E3227E9 (U3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Init>d__47::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitU3Ed__47_SetStateMachine_mDD342C6E7D8833481917C86AEC36458F0AFB73B5 (U3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Boolean WalletConnectSharp.Core.Controllers.Subscriber::get_RestartInProgress()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Subscriber_get_RestartInProgress_mAD06F35BDBC20361F6956A0830DB683251D12782 (Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<OnConnect>d__63>(TAwaiter&,TStateMachine&)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3COnConnectU3Ed__63_t683D0B3EA5283B2235D321EE6D040A6A99DF5AA2_m1F1B0078A2D916C59AC356255EC84A80878F7201 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3COnConnectU3Ed__63_t683D0B3EA5283B2235D321EE6D040A6A99DF5AA2* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*, U3COnConnectU3Ed__63_t683D0B3EA5283B2235D321EE6D040A6A99DF5AA2*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3COnConnectU3Ed__63_t683D0B3EA5283B2235D321EE6D040A6A99DF5AA2_m1F1B0078A2D916C59AC356255EC84A80878F7201_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<OnConnect>d__63::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnConnectU3Ed__63_MoveNext_m8A397368B2C061DD9C0234ED565DCA9C4328A00E (U3COnConnectU3Ed__63_t683D0B3EA5283B2235D321EE6D040A6A99DF5AA2* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<OnConnect>d__63::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnConnectU3Ed__63_SetStateMachine_m18E89A6B883AB58B06450B77A548A9A0674D84E4 (U3COnConnectU3Ed__63_t683D0B3EA5283B2235D321EE6D040A6A99DF5AA2* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<OnUnsubscribe>d__67>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3COnUnsubscribeU3Ed__67_t56A4F46FDB58CEDEF5012CE9071CB52F934CC88A_m3DBF5CB51C355502146C722578F7C2076EFAA288 (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3COnUnsubscribeU3Ed__67_t56A4F46FDB58CEDEF5012CE9071CB52F934CC88A* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*, U3COnUnsubscribeU3Ed__67_t56A4F46FDB58CEDEF5012CE9071CB52F934CC88A*, const RuntimeMethod*))AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3COnUnsubscribeU3Ed__67_t56A4F46FDB58CEDEF5012CE9071CB52F934CC88A_m3DBF5CB51C355502146C722578F7C2076EFAA288_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<OnUnsubscribe>d__67::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnUnsubscribeU3Ed__67_MoveNext_m19D548E1F221CB47E9E0A89CFA9D7A8DDE10D4E1 (U3COnUnsubscribeU3Ed__67_t56A4F46FDB58CEDEF5012CE9071CB52F934CC88A* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<OnUnsubscribe>d__67::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnUnsubscribeU3Ed__67_SetStateMachine_m36DDC3E93B8F7886C0F28484A3F3D6B742FFDF92 (U3COnUnsubscribeU3Ed__67_t56A4F46FDB58CEDEF5012CE9071CB52F934CC88A* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[] WalletConnectSharp.Core.Controllers.Subscriber::get_Values()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* Subscriber_get_Values_m237D81D5D8B58269E5D5C9CBB3F573A3EBF09A4F (Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<Persist>d__51>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CPersistU3Ed__51_t529F46716089ABD24DCB4C4DEB5CD3A95647B6CE_mDECC83BE28D6704FDB18950242404BB1853C530E (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CPersistU3Ed__51_t529F46716089ABD24DCB4C4DEB5CD3A95647B6CE* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*, U3CPersistU3Ed__51_t529F46716089ABD24DCB4C4DEB5CD3A95647B6CE*, const RuntimeMethod*))AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CPersistU3Ed__51_t529F46716089ABD24DCB4C4DEB5CD3A95647B6CE_mDECC83BE28D6704FDB18950242404BB1853C530E_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// System.Void System.EventHandler::Invoke(System.Object,System.EventArgs)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EventHandler_Invoke_m9D3126CBE291A3E7E7C304094E1DA846832F9B96_inline (EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* __this, RuntimeObject* ___0_sender, EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___1_e, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Persist>d__51::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPersistU3Ed__51_MoveNext_m69544CFD33841C80E77A6877F05FB5996B1DBE14 (U3CPersistU3Ed__51_t529F46716089ABD24DCB4C4DEB5CD3A95647B6CE* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Persist>d__51::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPersistU3Ed__51_SetStateMachine_m348011BF6825D7054BF38F5A994A565AFE1DD1D6 (U3CPersistU3Ed__51_t529F46716089ABD24DCB4C4DEB5CD3A95647B6CE* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerable`1<System.Collections.Generic.IEnumerable`1<TSource>> WalletConnectSharp.Core.Utils::Batch<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>(System.Collections.Generic.IEnumerable`1<TSource>,System.Int32)
+inline RuntimeObject* Utils_Batch_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_mD2FD4901F8C637E879CAAB7ECDB959FE17878D4A (RuntimeObject* ___0_source, int32_t ___1_size, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, int32_t, const RuntimeMethod*))Utils_Batch_TisRuntimeObject_m3189AF40A1A3A411EEF5F4BA69C322E8AAFE0615_gshared)(___0_source, ___1_size, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<Reset>d__56>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CResetU3Ed__56_tB679077C29F63D0F75B7E05BB158A28452D43DD2_m5A8094928F2B17FF58FA5D8CFA4676F20E25F2C6 (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CResetU3Ed__56_tB679077C29F63D0F75B7E05BB158A28452D43DD2* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*, U3CResetU3Ed__56_tB679077C29F63D0F75B7E05BB158A28452D43DD2*, const RuntimeMethod*))AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CResetU3Ed__56_tB679077C29F63D0F75B7E05BB158A28452D43DD2_m5A8094928F2B17FF58FA5D8CFA4676F20E25F2C6_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Reset>d__56::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CResetU3Ed__56_MoveNext_m9A9E6645BCAC430BE09AE6749546F096BBF6431C (U3CResetU3Ed__56_tB679077C29F63D0F75B7E05BB158A28452D43DD2* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Reset>d__56::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CResetU3Ed__56_SetStateMachine_m3744752B76DD93CEC06B58D80680FF84B3D1FDED (U3CResetU3Ed__56_tB679077C29F63D0F75B7E05BB158A28452D43DD2* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Threading.Tasks.TaskCompletionSource`1<System.Boolean>::.ctor()
+inline void TaskCompletionSource_1__ctor_mBAB8D6EFEAD1AA6482D19D7CE639528BE66AF646 (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* __this, const RuntimeMethod* method)
+{
+	((  void (*) (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14*, const RuntimeMethod*))TaskCompletionSource_1__ctor_mBAB8D6EFEAD1AA6482D19D7CE639528BE66AF646_gshared)(__this, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<Restart>d__48>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRestartU3Ed__48_tFA2B5073FB50CA5FA24D9CBD1503648BDEAB6830_m5BE1F147C8FEFE1E26788AE8253285259294D079 (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CRestartU3Ed__48_tFA2B5073FB50CA5FA24D9CBD1503648BDEAB6830* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*, U3CRestartU3Ed__48_tFA2B5073FB50CA5FA24D9CBD1503648BDEAB6830*, const RuntimeMethod*))AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRestartU3Ed__48_tFA2B5073FB50CA5FA24D9CBD1503648BDEAB6830_m5BE1F147C8FEFE1E26788AE8253285259294D079_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// System.Void System.Threading.Tasks.TaskCompletionSource`1<System.Boolean>::SetResult(TResult)
+inline void TaskCompletionSource_1_SetResult_mA4C94A8605B8E4A2646C0C2B08A3D373E1174448 (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* __this, bool ___0_result, const RuntimeMethod* method)
+{
+	((  void (*) (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14*, bool, const RuntimeMethod*))TaskCompletionSource_1_SetResult_mA4C94A8605B8E4A2646C0C2B08A3D373E1174448_gshared)(__this, ___0_result, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Restart>d__48::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRestartU3Ed__48_MoveNext_m38A8FDED593E719389D302E7B174272E82BBDF59 (U3CRestartU3Ed__48_tFA2B5073FB50CA5FA24D9CBD1503648BDEAB6830* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Restart>d__48::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRestartU3Ed__48_SetStateMachine_m3BABABB5139E7FDEEFB0D35BD59AEB269EEDB96B (U3CRestartU3Ed__48_tFA2B5073FB50CA5FA24D9CBD1503648BDEAB6830* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskCompletionSource`1<System.Boolean>::get_Task()
+inline Task_1_t824317F4B958F7512E8F7300511752937A6C6043* TaskCompletionSource_1_get_Task_m068E06095F165AE266E15C328CBDA1543429EC66_inline (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* __this, const RuntimeMethod* method)
+{
+	return ((  Task_1_t824317F4B958F7512E8F7300511752937A6C6043* (*) (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14*, const RuntimeMethod*))TaskCompletionSource_1_get_Task_m068E06095F165AE266E15C328CBDA1543429EC66_gshared_inline)(__this, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,WalletConnectSharp.Core.Controllers.Subscriber/<RestartToComplete>d__64>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CRestartToCompleteU3Ed__64_t350BC5588F2410005FFABAB86FF15A8E9B0D6028_mD55987D54D873A4364E384EAE46A5CFD2B1418E4 (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CRestartToCompleteU3Ed__64_t350BC5588F2410005FFABAB86FF15A8E9B0D6028* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35*, U3CRestartToCompleteU3Ed__64_t350BC5588F2410005FFABAB86FF15A8E9B0D6028*, const RuntimeMethod*))AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CRestartToCompleteU3Ed__64_t350BC5588F2410005FFABAB86FF15A8E9B0D6028_mD55987D54D873A4364E384EAE46A5CFD2B1418E4_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<RestartToComplete>d__64::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRestartToCompleteU3Ed__64_MoveNext_mA3422CF45A70B3D82EF7F6488A5611997A0958B4 (U3CRestartToCompleteU3Ed__64_t350BC5588F2410005FFABAB86FF15A8E9B0D6028* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<RestartToComplete>d__64::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRestartToCompleteU3Ed__64_SetStateMachine_m23DFDA15A3706C279CE960493B9D739B4FE4AA25 (U3CRestartToCompleteU3Ed__64_t350BC5588F2410005FFABAB86FF15A8E9B0D6028* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]>,WalletConnectSharp.Core.Controllers.Subscriber/<Restore>d__54>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE_TisU3CRestoreU3Ed__54_t4480601D916EC9273A5916B316625001CA6014C2_mBA8FA644FE6DF9B53DCB9AAA090EF33849CF53F0 (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE* ___0_awaiter, U3CRestoreU3Ed__54_t4480601D916EC9273A5916B316625001CA6014C2* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE*, U3CRestoreU3Ed__54_t4480601D916EC9273A5916B316625001CA6014C2*, const RuntimeMethod*))AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CRestoreU3Ed__54_t4480601D916EC9273A5916B316625001CA6014C2_m17B94CBF6A568234500CE0D0A74FE95D8DFC8184_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// System.Collections.Generic.IReadOnlyDictionary`2<System.String,WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription> WalletConnectSharp.Core.Controllers.Subscriber::get_Subscriptions()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Subscriber_get_Subscriptions_m3241940CCD54EA273900D496D9377C48AFF87628_inline (Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* __this, const RuntimeMethod* method) ;
+// System.String WalletConnectSharp.Core.Controllers.Subscriber::get_Name()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Subscriber_get_Name_m1934BCC1890F66B0A463BA40F455362E215757DA (Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* __this, const RuntimeMethod* method) ;
+// WalletConnectSharp.Common.Model.Errors.WalletConnectException WalletConnectSharp.Common.Model.Errors.WalletConnectException::FromType(WalletConnectSharp.Common.Model.Errors.ErrorType,System.String,System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WalletConnectException_t9CBCE981FDAC7DC8072A3D9E9F941CC2B56A5BA8* WalletConnectException_FromType_mB9C37E5D20E2FD7067A7CA0D4C4CADAB6F731BD6 (uint32_t ___0_type, String_t* ___1_message, Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* ___2_params, Exception_t* ___3_innerException, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Restore>d__54::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRestoreU3Ed__54_MoveNext_mF98CF3D82627DC69270CA39E833E172D1FB769E3 (U3CRestoreU3Ed__54_t4480601D916EC9273A5916B316625001CA6014C2* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Restore>d__54::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRestoreU3Ed__54_SetStateMachine_mEBC7BC0ECFC5CC9CB167B2F0FC55E4494E39064B (U3CRestoreU3Ed__54_t4480601D916EC9273A5916B316625001CA6014C2* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// T[] System.Array::Empty<System.String>()
+inline StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Array_Empty_TisString_t_m9832B70DF2B936246FE60F75D3D12CB946C39D16_inline (const RuntimeMethod* method)
+{
+	return ((  StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* (*) (const RuntimeMethod*))Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline)(method);
+}
+// WalletConnectSharp.Common.Model.Relay.RelayProtocols WalletConnectSharp.Common.Model.Relay.RelayProtocols::GetRelayProtocol(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24* RelayProtocols_GetRelayProtocol_m932AB40AD3F85DC40A2E67E75E0ABB46BACA0652 (String_t* ___0_protocol, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Network.Models.RequestArguments`1<WalletConnectSharp.Core.Models.Subscriber.BatchSubscribeParams>::.ctor()
+inline void RequestArguments_1__ctor_m3B0EE5E255E079A97A5FE4AEFA7C7D9DD34E0FC6 (RequestArguments_1_tC47354EFEF732550FA9F86A5AA0A96FA38944C6A* __this, const RuntimeMethod* method)
+{
+	((  void (*) (RequestArguments_1_tC47354EFEF732550FA9F86A5AA0A96FA38944C6A*, const RuntimeMethod*))RequestArguments_1__ctor_m27F1D7B48DB4F643B5F1F763F803A5F0C82F2CE0_gshared)(__this, method);
+}
+// System.Void WalletConnectSharp.Network.Models.RequestArguments`1<WalletConnectSharp.Core.Models.Subscriber.BatchSubscribeParams>::set_Method(System.String)
+inline void RequestArguments_1_set_Method_m7CA83BA52C1340F811B8965ADFD4C19618C8310A_inline (RequestArguments_1_tC47354EFEF732550FA9F86A5AA0A96FA38944C6A* __this, String_t* ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (RequestArguments_1_tC47354EFEF732550FA9F86A5AA0A96FA38944C6A*, String_t*, const RuntimeMethod*))RequestArguments_1_set_Method_mD11FC060C93D24BF498EF7780EE5DFB799B5A09D_gshared_inline)(__this, ___0_value, method);
+}
+// System.Void WalletConnectSharp.Core.Models.Subscriber.BatchSubscribeParams::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BatchSubscribeParams__ctor_m4ECF523F7ED9C214CD06456AF25FA74DBA5BF486 (BatchSubscribeParams_t52D31D0058449AADDD3E551BA4B74B288098DBAA* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Network.Models.RequestArguments`1<WalletConnectSharp.Core.Models.Subscriber.BatchSubscribeParams>::set_Params(T)
+inline void RequestArguments_1_set_Params_mB8CECA97517D45F19B418E2EA130E32460E82F05_inline (RequestArguments_1_tC47354EFEF732550FA9F86A5AA0A96FA38944C6A* __this, BatchSubscribeParams_t52D31D0058449AADDD3E551BA4B74B288098DBAA* ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (RequestArguments_1_tC47354EFEF732550FA9F86A5AA0A96FA38944C6A*, BatchSubscribeParams_t52D31D0058449AADDD3E551BA4B74B288098DBAA*, const RuntimeMethod*))RequestArguments_1_set_Params_m0AFA17F6E511A56FD33BF37C079FAD08B9097508_gshared_inline)(__this, ___0_value, method);
+}
+// System.TimeSpan System.TimeSpan::FromSeconds(System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A TimeSpan_FromSeconds_m4401B50C0CA831134068595C6AF2F1CA92AAF80F (double ___0_value, const RuntimeMethod* method) ;
+// System.Threading.Tasks.Task`1<T> WalletConnectSharp.Common.Utils.Extensions::WithTimeout<System.String[]>(System.Threading.Tasks.Task`1<T>,System.TimeSpan,System.String)
+inline Task_1_tE31926224A424AEAE794D9D841B463DE8C3889D4* Extensions_WithTimeout_TisStringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_mDAE388B360792DA3028EE735D8DBD942D7855AEF (Task_1_tE31926224A424AEAE794D9D841B463DE8C3889D4* ___0_task, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___1_timeout, String_t* ___2_message, const RuntimeMethod* method)
+{
+	return ((  Task_1_tE31926224A424AEAE794D9D841B463DE8C3889D4* (*) (Task_1_tE31926224A424AEAE794D9D841B463DE8C3889D4*, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A, String_t*, const RuntimeMethod*))Extensions_WithTimeout_TisRuntimeObject_mEF95DD19AA46B17680310E1C6B6A287A8DF2B940_gshared)(___0_task, ___1_timeout, ___2_message, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String[]>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.String[]>,WalletConnectSharp.Core.Controllers.Subscriber/<RpcBatchSubscribe>d__79>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A_TisU3CRpcBatchSubscribeU3Ed__79_tFC5004C250EA747F7D8C32196267C6663F211C4C_mC5E9E0E87710DAD1D2684F01625987311B7324AE (AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1* __this, TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A* ___0_awaiter, U3CRpcBatchSubscribeU3Ed__79_tFC5004C250EA747F7D8C32196267C6663F211C4C* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1*, TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A*, U3CRpcBatchSubscribeU3Ed__79_tFC5004C250EA747F7D8C32196267C6663F211C4C*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CRpcBatchSubscribeU3Ed__79_tFC5004C250EA747F7D8C32196267C6663F211C4C_m54CD2FCF596C4519B0A64FF291C51CAD61B114E1_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String[]>::SetException(System.Exception)
+inline void AsyncTaskMethodBuilder_1_SetException_m51A27189EAA767CDB2E3650CD2C873F661C140EC (AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1* __this, Exception_t* ___0_exception, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1*, Exception_t*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_SetException_mC2F74B26F5303F9F960965220E2866D777F1A5C6_gshared)(__this, ___0_exception, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String[]>::SetResult(TResult)
+inline void AsyncTaskMethodBuilder_1_SetResult_mE9AD4B057332EAA90C35A6FCD0070E75742400C1 (AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_result, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1*, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_SetResult_m0D83195F995F9825D7A6DCDC3835D6917C43B5A6_gshared)(__this, ___0_result, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<RpcBatchSubscribe>d__79::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRpcBatchSubscribeU3Ed__79_MoveNext_m2DC841CF2741434E0A06CCB00F60B0AFB1678619 (U3CRpcBatchSubscribeU3Ed__79_tFC5004C250EA747F7D8C32196267C6663F211C4C* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String[]>::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+inline void AsyncTaskMethodBuilder_1_SetStateMachine_m76594F4F36CBE768DF346B00116C2F1A6C9866FE (AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1*, RuntimeObject*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_SetStateMachine_m3BE54983634ABF5BE05200C7894AD0F9F20BDD65_gshared)(__this, ___0_stateMachine, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<RpcBatchSubscribe>d__79::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRpcBatchSubscribeU3Ed__79_SetStateMachine_mC1C2B5B439479467451E07AC55FE1C2F80DD272F (U3CRpcBatchSubscribeU3Ed__79_tFC5004C250EA747F7D8C32196267C6663F211C4C* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Network.Models.RequestArguments`1<WalletConnectSharp.Core.Models.Subscriber.JsonRpcSubscriberParams>::.ctor()
+inline void RequestArguments_1__ctor_mB5834F104FF8470AA265DD6B51B69D3E591C0AB7 (RequestArguments_1_t397A5667DB6EABF6D7B3A01B5CC8FE6EF00FF2E6* __this, const RuntimeMethod* method)
+{
+	((  void (*) (RequestArguments_1_t397A5667DB6EABF6D7B3A01B5CC8FE6EF00FF2E6*, const RuntimeMethod*))RequestArguments_1__ctor_m27F1D7B48DB4F643B5F1F763F803A5F0C82F2CE0_gshared)(__this, method);
+}
+// System.Void WalletConnectSharp.Network.Models.RequestArguments`1<WalletConnectSharp.Core.Models.Subscriber.JsonRpcSubscriberParams>::set_Method(System.String)
+inline void RequestArguments_1_set_Method_m2FDE55C0EF5140D0AD16F7913B688CA96CEA33F5_inline (RequestArguments_1_t397A5667DB6EABF6D7B3A01B5CC8FE6EF00FF2E6* __this, String_t* ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (RequestArguments_1_t397A5667DB6EABF6D7B3A01B5CC8FE6EF00FF2E6*, String_t*, const RuntimeMethod*))RequestArguments_1_set_Method_mD11FC060C93D24BF498EF7780EE5DFB799B5A09D_gshared_inline)(__this, ___0_value, method);
+}
+// System.Void WalletConnectSharp.Core.Models.Subscriber.JsonRpcSubscriberParams::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonRpcSubscriberParams__ctor_m12015BD20583A93FFB9AE0FAC9571141E404AAE3 (JsonRpcSubscriberParams_t64388A511D8028184019E94496334AB2C06D9403* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Network.Models.RequestArguments`1<WalletConnectSharp.Core.Models.Subscriber.JsonRpcSubscriberParams>::set_Params(T)
+inline void RequestArguments_1_set_Params_mD424F8D9069356B22C85121645301C1517366B00_inline (RequestArguments_1_t397A5667DB6EABF6D7B3A01B5CC8FE6EF00FF2E6* __this, JsonRpcSubscriberParams_t64388A511D8028184019E94496334AB2C06D9403* ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (RequestArguments_1_t397A5667DB6EABF6D7B3A01B5CC8FE6EF00FF2E6*, JsonRpcSubscriberParams_t64388A511D8028184019E94496334AB2C06D9403*, const RuntimeMethod*))RequestArguments_1_set_Params_m0AFA17F6E511A56FD33BF37C079FAD08B9097508_gshared_inline)(__this, ___0_value, method);
+}
+// System.Threading.Tasks.Task`1<T> WalletConnectSharp.Common.Utils.Extensions::WithTimeout<System.String>(System.Threading.Tasks.Task`1<T>,System.Int32,System.String)
+inline Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* Extensions_WithTimeout_TisString_t_mB8F8ECFE5C6D120C887E21EB1FD337E73DBE63E0 (Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* ___0_task, int32_t ___1_timeout, String_t* ___2_message, const RuntimeMethod* method)
+{
+	return ((  Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* (*) (Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0*, int32_t, String_t*, const RuntimeMethod*))Extensions_WithTimeout_TisRuntimeObject_mD7536587CA11D4FF243553D55532514D5AB10D05_gshared)(___0_task, ___1_timeout, ___2_message, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.String>,WalletConnectSharp.Core.Controllers.Subscriber/<RpcSubscribe>d__58>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6_TisU3CRpcSubscribeU3Ed__58_t98DBE2C469BDCBF2CC3AAD8D7CBEBD1E7120AD28_mD426AEF551E9628ADBDFB4AD086EB521B67D0AAC (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E* __this, TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6* ___0_awaiter, U3CRpcSubscribeU3Ed__58_t98DBE2C469BDCBF2CC3AAD8D7CBEBD1E7120AD28* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E*, TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6*, U3CRpcSubscribeU3Ed__58_t98DBE2C469BDCBF2CC3AAD8D7CBEBD1E7120AD28*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CRpcSubscribeU3Ed__58_t98DBE2C469BDCBF2CC3AAD8D7CBEBD1E7120AD28_m303F280D82DBEC6AD277D72369B7E186E5E901D3_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// System.String System.String::Concat(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+// System.String WalletConnectSharp.Common.Utils.HashUtils::HashMessage(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HashUtils_HashMessage_mF7C262884B1A059C52B252238CE9925FDE00A552 (String_t* ___0_message, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String>::SetException(System.Exception)
+inline void AsyncTaskMethodBuilder_1_SetException_m897218C2DB8D7BA446EB263573085805B8F0638C (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E* __this, Exception_t* ___0_exception, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E*, Exception_t*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_SetException_mC2F74B26F5303F9F960965220E2866D777F1A5C6_gshared)(__this, ___0_exception, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String>::SetResult(TResult)
+inline void AsyncTaskMethodBuilder_1_SetResult_mB79121C0ACAC704500FAA7350ED0FE6604DDA05E (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E* __this, String_t* ___0_result, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E*, String_t*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_SetResult_m0D83195F995F9825D7A6DCDC3835D6917C43B5A6_gshared)(__this, ___0_result, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<RpcSubscribe>d__58::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRpcSubscribeU3Ed__58_MoveNext_m64735AA7AFDFA34124C1B39724067E274FA675DE (U3CRpcSubscribeU3Ed__58_t98DBE2C469BDCBF2CC3AAD8D7CBEBD1E7120AD28* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String>::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+inline void AsyncTaskMethodBuilder_1_SetStateMachine_mE4D48B78E50CA2A3650A856ACF86A3CFBA249C30 (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E*, RuntimeObject*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_SetStateMachine_m3BE54983634ABF5BE05200C7894AD0F9F20BDD65_gshared)(__this, ___0_stateMachine, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<RpcSubscribe>d__58::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRpcSubscribeU3Ed__58_SetStateMachine_m27FA6B248310235C85F8AC2BCD871FC60D11A278 (U3CRpcSubscribeU3Ed__58_t98DBE2C469BDCBF2CC3AAD8D7CBEBD1E7120AD28* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<SetRelayerSubscriptions>d__53>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CSetRelayerSubscriptionsU3Ed__53_t6943AC2A2BA44A2156E5785B6938560F01C41935_m0EC523945C2912CC4A90E08EFA41640E861329CD (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CSetRelayerSubscriptionsU3Ed__53_t6943AC2A2BA44A2156E5785B6938560F01C41935* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*, U3CSetRelayerSubscriptionsU3Ed__53_t6943AC2A2BA44A2156E5785B6938560F01C41935*, const RuntimeMethod*))AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CSetRelayerSubscriptionsU3Ed__53_t6943AC2A2BA44A2156E5785B6938560F01C41935_m0EC523945C2912CC4A90E08EFA41640E861329CD_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<SetRelayerSubscriptions>d__53::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetRelayerSubscriptionsU3Ed__53_MoveNext_m48AFAB7C3A2DE90F3CB0A0D7649E79C5B66267C6 (U3CSetRelayerSubscriptionsU3Ed__53_t6943AC2A2BA44A2156E5785B6938560F01C41935* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<SetRelayerSubscriptions>d__53::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetRelayerSubscriptionsU3Ed__53_SetStateMachine_m794DDDBD4B7A1BAD4D2FD72A3996EF2A765FF3A3 (U3CSetRelayerSubscriptionsU3Ed__53_t6943AC2A2BA44A2156E5785B6938560F01C41935* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Threading.Tasks.Task WalletConnectSharp.Core.Controllers.Subscriber::RestartToComplete()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Subscriber_RestartToComplete_mD01963B842EADC56FA516240A88EE61EDFD714E6 (Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<Subscribe>d__76>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035_m69CA64FB8E48223FEADF7782B0C0FF66CCF83AC3 (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E*, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*, U3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035_mBE031E911A9E0ABB4B13474DFC9C8FEFF9B1DCC5_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// System.Void WalletConnectSharp.Core.Models.Relay.SubscribeOptions::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubscribeOptions__ctor_m6BDB932EBA0319D55D73E4DE5A09D0B2EE05A1CA (SubscribeOptions_t783BBD8CC69D46DFC75E8A16A60CD077ADE0ED78* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Models.Relay.ProtocolOptions::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProtocolOptions__ctor_m14973E5DF147DC08F55B43BCAD7D2B2F0E2F8839 (ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Models.Subscriber.PendingSubscription::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PendingSubscription__ctor_mB4EFE3F49A73E95DEDEEC1E85FDD36055FBEDDF9 (PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,WalletConnectSharp.Core.Models.Subscriber.PendingSubscription>::Add(TKey,TValue)
+inline void Dictionary_2_Add_mB4F7FEA177DCF67A5320F3660AF32CBB33F3BA8F (Dictionary_2_tE6A6CE64E2358C03896D2342C78C7944D99FD5C5* __this, String_t* ___0_key, PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tE6A6CE64E2358C03896D2342C78C7944D99FD5C5*, String_t*, PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE*, const RuntimeMethod*))Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared)(__this, ___0_key, ___1_value, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.String>,WalletConnectSharp.Core.Controllers.Subscriber/<Subscribe>d__76>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6_TisU3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035_mA0BDD722D0E80D70BEDC53A91B5D5B82C2B24448 (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E* __this, TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6* ___0_awaiter, U3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E*, TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6*, U3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035_mB39609B4D5AE9EB5C288BE3B96BE4EAABFB5282E_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Subscribe>d__76::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSubscribeU3Ed__76_MoveNext_m4CAECA69982268C6986D40B67D18E99593DBDBA7 (U3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Subscribe>d__76::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSubscribeU3Ed__76_SetStateMachine_m41E3ACF535024CC1999D2F4918792FF2A15FCB29 (U3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<Unsubscribe>d__77>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7_m66B034EFB53F921574C6B15BE6FC48211B557B9D (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*, U3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7*, const RuntimeMethod*))AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7_m66B034EFB53F921574C6B15BE6FC48211B557B9D_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// System.Boolean System.String::IsNullOrWhiteSpace(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrWhiteSpace_m42E1F3B2C358068D645E46F01CF1834DC77A5A10 (String_t* ___0_value, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Unsubscribe>d__77::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUnsubscribeU3Ed__77_MoveNext_m2646C199DBA60BF7CE4448B2F8F408A91F2C3254 (U3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Unsubscribe>d__77::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUnsubscribeU3Ed__77_SetStateMachine_mB40656213F09D45E77468E44581AE4CFFE9F2BA8 (U3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Models.Relay.UnsubscribeOptions::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsubscribeOptions__ctor_m1F0CF8D22F48929D9490F386D3D2698B9A200AC6 (UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,WalletConnectSharp.Core.Controllers.Subscriber/<UnsubscribeById>d__72>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CUnsubscribeByIdU3Ed__72_t6DFD5C04F5AAB943E42BD66AD756EAC998AD84A5_mE927ECAD275D1642D6AD59F9EEA2A5D175C987F0 (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CUnsubscribeByIdU3Ed__72_t6DFD5C04F5AAB943E42BD66AD756EAC998AD84A5* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*, U3CUnsubscribeByIdU3Ed__72_t6DFD5C04F5AAB943E42BD66AD756EAC998AD84A5*, const RuntimeMethod*))AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CUnsubscribeByIdU3Ed__72_t6DFD5C04F5AAB943E42BD66AD756EAC998AD84A5_mE927ECAD275D1642D6AD59F9EEA2A5D175C987F0_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<UnsubscribeById>d__72::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUnsubscribeByIdU3Ed__72_MoveNext_mDE992CC9FDDF9ADB0D57AAE073616DC06187159A (U3CUnsubscribeByIdU3Ed__72_t6DFD5C04F5AAB943E42BD66AD756EAC998AD84A5* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<UnsubscribeById>d__72::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUnsubscribeByIdU3Ed__72_SetStateMachine_mD893684771A8CC639BD3170956AC97BC4CA8BD20 (U3CUnsubscribeByIdU3Ed__72_t6DFD5C04F5AAB943E42BD66AD756EAC998AD84A5* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>>::get_Keys()
+inline KeyCollection_tAF09DE3ACAF1ABD7544A92CFC2787E520703246E* Dictionary_2_get_Keys_m59A69924F2540E4A7563685D8825BAAC1BE4A487 (Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* __this, const RuntimeMethod* method)
+{
+	return ((  KeyCollection_tAF09DE3ACAF1ABD7544A92CFC2787E520703246E* (*) (Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638*, const RuntimeMethod*))Dictionary_2_get_Keys_m72D290F90654BFD683FA7AA7C63D9F4F692218B6_gshared)(__this, method);
+}
+// System.Boolean WalletConnectSharp.Core.Controllers.TopicMap::Exists(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TopicMap_Exists_m5211A4E3F9D15DBA1F3470958767B9574FDFF3BF (TopicMap_t13940483C78913935B097CDAE306826382656B0A* __this, String_t* ___0_topic, String_t* ___1_id, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>>::ContainsKey(TKey)
+inline bool Dictionary_2_ContainsKey_m994A6496B0ED7177E6D4535A398A7EFFF9684FE8 (Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* __this, String_t* ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___0_key, method);
+}
+// System.Void System.Collections.Generic.List`1<System.String>::.ctor()
+inline void List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>>::Add(TKey,TValue)
+inline void Dictionary_2_Add_mFC882976F9C1D377FB9B96AC561BF0301DCC75F5 (Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* __this, String_t* ___0_key, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638*, String_t*, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared)(__this, ___0_key, ___1_value, method);
+}
+// TValue System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>>::get_Item(TKey)
+inline List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* Dictionary_2_get_Item_m8B64E2395E0FED66B5313607CFF79A5C8A46358A (Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* __this, String_t* ___0_key, const RuntimeMethod* method)
+{
+	return ((  List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* (*) (Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638*, String_t*, const RuntimeMethod*))Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared)(__this, ___0_key, method);
+}
+// System.Void System.Collections.Generic.List`1<System.String>::Add(T)
+inline void List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+// T[] System.Collections.Generic.List`1<System.String>::ToArray()
+inline StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* List_1_ToArray_m2C402D882AA60FC1D5C7C09A129BE7779F833B4A (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
+{
+	return ((  StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1_ToArray_mD7E4F8E7C11C3C67CB5739FCC0A6E86106A6291F_gshared)(__this, method);
+}
+// System.String[] WalletConnectSharp.Core.Controllers.TopicMap::Get(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* TopicMap_Get_mC5F03878D703ADBC8C59BD3CDC24BBC06D5B5C3C (TopicMap_t13940483C78913935B097CDAE306826382656B0A* __this, String_t* ___0_topic, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>>::Remove(TKey)
+inline bool Dictionary_2_Remove_mDB00D5452D57246DFF62C0399CDF9CE27C9CDFB8 (Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* __this, String_t* ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638*, String_t*, const RuntimeMethod*))Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared)(__this, ___0_key, method);
+}
+// System.Boolean System.Collections.Generic.List`1<System.String>::Remove(T)
+inline bool List_1_Remove_mD9E8CFB6777A99046B3C0195F7343FE771A2E99D (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___0_item, const RuntimeMethod* method)
+{
+	return ((  bool (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_Remove_m4DFA48F4CEB9169601E75FC28517C5C06EFA5AD7_gshared)(__this, ___0_item, method);
+}
+// System.Int32 System.Collections.Generic.List`1<System.String>::get_Count()
+inline int32_t List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_inline (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>>::Clear()
+inline void Dictionary_2_Clear_m579F96CEA464EF87F663F52EE0DC85BD20CD0D13 (Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638*, const RuntimeMethod*))Dictionary_2_Clear_mCFB5EA7351D5860D2B91592B91A84CA265A41433_gshared)(__this, method);
+}
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>>::.ctor()
+inline void Dictionary_2__ctor_m79EA54A4C736FED8607D6E97BD54974D340AEA82 (Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
+}
+// System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___0_a, Delegate_t* ___1_b, const RuntimeMethod* method) ;
+// System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___0_source, Delegate_t* ___1_value, const RuntimeMethod* method) ;
+// WalletConnectSharp.Core.Interfaces.ICore WalletConnectSharp.Core.Controllers.TypedMessageHandler::get_Core()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* TypedMessageHandler_get_Core_m837D940C01119B47F71386EC4F84456131F17744_inline (TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* __this, const RuntimeMethod* method) ;
+// System.String WalletConnectSharp.Core.Controllers.TypedMessageHandler::get_Name()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TypedMessageHandler_get_Name_mE0A0C7BA0F4911563C9FC5201FE1BBAB7BE90EAA (TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,WalletConnectSharp.Crypto.Models.DecodeOptions>::.ctor()
+inline void Dictionary_2__ctor_m68DF910EEB75B030809A7CFCDFD7C23F46D33B74 (Dictionary_2_t255F5E1A0A9A9D2C31BBC3916442756F4C338515* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t255F5E1A0A9A9D2C31BBC3916442756F4C338515*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
+}
+// System.Void System.Collections.Generic.HashSet`1<System.String>::.ctor()
+inline void HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03 (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, const RuntimeMethod* method)
+{
+	((  void (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, const RuntimeMethod*))HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_gshared)(__this, method);
+}
+// System.Void WalletConnectSharp.Common.Events.EventHandlerMap`1<WalletConnectSharp.Core.Models.Relay.MessageEvent>::.ctor(System.EventHandler`1<TEventArgs>)
+inline void EventHandlerMap_1__ctor_m3F785B7C2B92A4DE08AB905DEB5B6BFA22FE018E (EventHandlerMap_1_tA990682DC4CF746FCA3E3E7E056BA863084CC4EA* __this, EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032* ___0_callbackBeforeExecuted, const RuntimeMethod* method)
+{
+	((  void (*) (EventHandlerMap_1_tA990682DC4CF746FCA3E3E7E056BA863084CC4EA*, EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032*, const RuntimeMethod*))EventHandlerMap_1__ctor_mCB338E290D170C748CE9BAA7222B62A680BF5144_gshared)(__this, ___0_callbackBeforeExecuted, method);
+}
+// System.Void System.EventHandler`1<WalletConnectSharp.Core.Models.Relay.MessageEvent>::.ctor(System.Object,System.IntPtr)
+inline void EventHandler_1__ctor_m4CFC52D2031F8B685073E23A20707BC228661E37 (EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032*, RuntimeObject*, intptr_t, const RuntimeMethod*))EventHandler_1__ctor_mBA2E748CFBA7A0EEC0A373A6F634D3B5774EA370_gshared)(__this, ___0_object, ___1_method, method);
+}
+// System.Threading.Tasks.Task System.Threading.Tasks.Task::get_CompletedTask()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Task_get_CompletedTask_m1567097D0142D009DC8F9B70DA2C55DA651D55E9_inline (const RuntimeMethod* method) ;
+// System.Runtime.CompilerServices.AsyncVoidMethodBuilder System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Create()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D AsyncVoidMethodBuilder_Create_m13D0B23DD350C14035918384E10AF641E6B9EE67 (const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<WalletConnectSharp.Core.Controllers.TypedMessageHandler/<RelayerMessageCallback>d__17>(TStateMachine&)
+inline void AsyncVoidMethodBuilder_Start_TisU3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A_mB9A3BED84E31448BE67962CA66B0A439E73A6815 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, U3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A* ___0_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, U3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A*, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisU3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A_mB9A3BED84E31448BE67962CA66B0A439E73A6815_gshared)(__this, ___0_stateMachine, method);
+}
+// System.Boolean System.Collections.Generic.Dictionary`2<System.String,WalletConnectSharp.Crypto.Models.DecodeOptions>::TryGetValue(TKey,TValue&)
+inline bool Dictionary_2_TryGetValue_mCCF4A2DE44ED163296FCEF3801FF2ED43E20AF5A (Dictionary_2_t255F5E1A0A9A9D2C31BBC3916442756F4C338515* __this, String_t* ___0_key, DecodeOptions_t00A5DC7FFE24EF00D03BBB102B7B0802EA13B902** ___1_value, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_t255F5E1A0A9A9D2C31BBC3916442756F4C338515*, String_t*, DecodeOptions_t00A5DC7FFE24EF00D03BBB102B7B0802EA13B902**, const RuntimeMethod*))Dictionary_2_TryGetValue_mD15380A4ED7CDEE99EA45881577D26BA9CE1B849_gshared)(__this, ___0_key, ___1_value, method);
+}
+// System.Void System.GC::SuppressFinalize(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65 (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+// WalletConnectSharp.Crypto.Models.DecodeOptions WalletConnectSharp.Core.Controllers.TypedMessageHandler::DecodeOptionForTopic(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DecodeOptions_t00A5DC7FFE24EF00D03BBB102B7B0802EA13B902* TypedMessageHandler_DecodeOptionForTopic_m5844AE577A95147CEABB1A47FF750132B42077D1 (TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* __this, String_t* ___0_topic, const RuntimeMethod* method) ;
+// System.Runtime.CompilerServices.TaskAwaiter`1<TResult> System.Threading.Tasks.Task`1<WalletConnectSharp.Network.Models.JsonRpcPayload>::GetAwaiter()
+inline TaskAwaiter_1_t865781AF9434B0AA55F8D08AA4415F9239CB879D Task_1_GetAwaiter_m5D50FB4B03308E3648A62D29A21089415DA95108 (Task_1_t8AC29B790ADB6B71C3DE75E2B85471397F7DDCA5* __this, const RuntimeMethod* method)
+{
+	return ((  TaskAwaiter_1_t865781AF9434B0AA55F8D08AA4415F9239CB879D (*) (Task_1_t8AC29B790ADB6B71C3DE75E2B85471397F7DDCA5*, const RuntimeMethod*))Task_1_GetAwaiter_mD80ED263BF3F1F8DBDBD177BA3401A0AAAFA38E3_gshared)(__this, method);
+}
+// System.Boolean System.Runtime.CompilerServices.TaskAwaiter`1<WalletConnectSharp.Network.Models.JsonRpcPayload>::get_IsCompleted()
+inline bool TaskAwaiter_1_get_IsCompleted_m3BFBBCF37953C0648B43E39D7814B76FC781A1F5 (TaskAwaiter_1_t865781AF9434B0AA55F8D08AA4415F9239CB879D* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (TaskAwaiter_1_t865781AF9434B0AA55F8D08AA4415F9239CB879D*, const RuntimeMethod*))TaskAwaiter_1_get_IsCompleted_mEEBB09E26F4165A0F864D92E1890CFCD2C8CFD54_gshared)(__this, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<WalletConnectSharp.Network.Models.JsonRpcPayload>,WalletConnectSharp.Core.Controllers.TypedMessageHandler/<RelayerMessageCallback>d__17>(TAwaiter&,TStateMachine&)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t865781AF9434B0AA55F8D08AA4415F9239CB879D_TisU3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A_m0A4DC75A264D020C9DDD7A245C7406D229DE77A7 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t865781AF9434B0AA55F8D08AA4415F9239CB879D* ___0_awaiter, U3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A* ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_t865781AF9434B0AA55F8D08AA4415F9239CB879D*, U3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A_m86E391B2966F948102AB819C36C8BB7BA7F53C9F_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+// TResult System.Runtime.CompilerServices.TaskAwaiter`1<WalletConnectSharp.Network.Models.JsonRpcPayload>::GetResult()
+inline JsonRpcPayload_t1D60CBA3C374F07770CA2AEBECB5FED2A5AC854F* TaskAwaiter_1_GetResult_mAAD79AECD9D476B67AAF8E6B7A53049D1E99976C (TaskAwaiter_1_t865781AF9434B0AA55F8D08AA4415F9239CB879D* __this, const RuntimeMethod* method)
+{
+	return ((  JsonRpcPayload_t1D60CBA3C374F07770CA2AEBECB5FED2A5AC854F* (*) (TaskAwaiter_1_t865781AF9434B0AA55F8D08AA4415F9239CB879D*, const RuntimeMethod*))TaskAwaiter_1_GetResult_mA4A8A1F43A456B40DDA251D00026C60919AED85B_gshared)(__this, method);
+}
+// System.Boolean WalletConnectSharp.Network.Models.JsonRpcPayload::get_IsRequest()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JsonRpcPayload_get_IsRequest_m71EFBADA83DAF685C2D750CB7EAD02AAC3FE2601 (JsonRpcPayload_t1D60CBA3C374F07770CA2AEBECB5FED2A5AC854F* __this, const RuntimeMethod* method) ;
+// System.String WalletConnectSharp.Network.Models.JsonRpcPayload::get_Method()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonRpcPayload_get_Method_m4BC5E6037F2B64FADEC302C2B2A69AE918C9216B (JsonRpcPayload_t1D60CBA3C374F07770CA2AEBECB5FED2A5AC854F* __this, const RuntimeMethod* method) ;
+// System.EventHandler`1<TEventArgs> WalletConnectSharp.Common.Events.EventHandlerMap`1<WalletConnectSharp.Core.Models.Relay.MessageEvent>::get_Item(System.String)
+inline EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032* EventHandlerMap_1_get_Item_m57EF3026D7DEE0EFA8B3543F9C17D95E529AC3E0 (EventHandlerMap_1_tA990682DC4CF746FCA3E3E7E056BA863084CC4EA* __this, String_t* ___0_eventId, const RuntimeMethod* method)
+{
+	return ((  EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032* (*) (EventHandlerMap_1_tA990682DC4CF746FCA3E3E7E056BA863084CC4EA*, String_t*, const RuntimeMethod*))EventHandlerMap_1_get_Item_m38FEF3C11EF9DE8FF1B79060AF6B4921E0703555_gshared)(__this, ___0_eventId, method);
+}
+// System.Void System.EventHandler`1<WalletConnectSharp.Core.Models.Relay.MessageEvent>::Invoke(System.Object,TEventArgs)
+inline void EventHandler_1_Invoke_mF938B1023BFE6F1C86C60E5FBFC1457423447DD0_inline (EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032* __this, RuntimeObject* ___0_sender, MessageEvent_t66B44AC2D6F52E6FC5B18010F929A908223903DE* ___1_e, const RuntimeMethod* method)
+{
+	((  void (*) (EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032*, RuntimeObject*, MessageEvent_t66B44AC2D6F52E6FC5B18010F929A908223903DE*, const RuntimeMethod*))EventHandler_1_Invoke_mBD72C04FF5A08A2EA93DFD21037CD1C27A48D07A_gshared_inline)(__this, ___0_sender, ___1_e, method);
+}
+// System.Boolean WalletConnectSharp.Network.Models.JsonRpcPayload::get_IsResponse()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JsonRpcPayload_get_IsResponse_m32D9D1D9458C517F47F9590663912D6B26BB76A6 (JsonRpcPayload_t1D60CBA3C374F07770CA2AEBECB5FED2A5AC854F* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Models.Relay.DecodedMessageEvent::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DecodedMessageEvent__ctor_m7F8662C737AC20DAE248C61F29F296C9EEC677E5 (DecodedMessageEvent_t79A6F8CFF17A53CF1D858358FB210080BCFAE126* __this, const RuntimeMethod* method) ;
+// System.Void System.EventHandler`1<WalletConnectSharp.Core.Models.Relay.DecodedMessageEvent>::Invoke(System.Object,TEventArgs)
+inline void EventHandler_1_Invoke_m3696BDCFD03D5183CC78C3810287C7AFBEFAF02E_inline (EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* __this, RuntimeObject* ___0_sender, DecodedMessageEvent_t79A6F8CFF17A53CF1D858358FB210080BCFAE126* ___1_e, const RuntimeMethod* method)
+{
+	((  void (*) (EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12*, RuntimeObject*, DecodedMessageEvent_t79A6F8CFF17A53CF1D858358FB210080BCFAE126*, const RuntimeMethod*))EventHandler_1_Invoke_mBD72C04FF5A08A2EA93DFD21037CD1C27A48D07A_gshared_inline)(__this, ___0_sender, ___1_e, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.TypedMessageHandler/<RelayerMessageCallback>d__17::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRelayerMessageCallbackU3Ed__17_MoveNext_mE0EC2931CCF92D96A3774F6432BA78BE147CD49D (U3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A* __this, const RuntimeMethod* method) ;
+// System.Void WalletConnectSharp.Core.Controllers.TypedMessageHandler/<RelayerMessageCallback>d__17::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRelayerMessageCallbackU3Ed__17_SetStateMachine_m2D4767EB6130CB84C522BB3454F2140E78AEBB79 (U3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<>c::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m67C467C56BC75629EE96B20FECAAFDE04717104C (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621* L_0 = (U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621*)il2cpp_codegen_object_new(U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621_il2cpp_TypeInfo_var);
+		U3CU3Ec__ctor_m1F16911166F075E672A4349B74DEEB25135C808F(L_0, NULL);
+		((U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621_il2cpp_TypeInfo_var))->___U3CU3E9_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621_il2cpp_TypeInfo_var))->___U3CU3E9_0), (void*)L_0);
+		return;
+	}
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<>c::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m1F16911166F075E672A4349B74DEEB25135C808F (U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.String WalletConnectSharp.Core.Controllers.Subscriber/<>c::<BatchSubscribe>b__80_0(WalletConnectSharp.Core.Models.Subscriber.PendingSubscription)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CBatchSubscribeU3Eb__80_0_m75F5428C9CFBC5B021395AE0A2B11AAE5EA482D0 (U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621* __this, PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE* ___0_s, const RuntimeMethod* method) 
+{
+	{
+		PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE* L_0 = ___0_s;
+		String_t* L_1 = L_0->___Topic_1;
+		return L_1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass70_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass70_0__ctor_m46E82B35577000F9F6CF24CF2FA155913569E527 (U3CU3Ec__DisplayClass70_0_t063F47258B22BD167E6F38BF1F6CAB1C9B471794* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Threading.Tasks.Task WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass70_0::<UnsubscribeByTopic>b__0(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* U3CU3Ec__DisplayClass70_0_U3CUnsubscribeByTopicU3Eb__0_mB912DB9C10429CE054F88BE0846AB37CE8B88B92 (U3CU3Ec__DisplayClass70_0_t063F47258B22BD167E6F38BF1F6CAB1C9B471794* __this, String_t* ___0_id, const RuntimeMethod* method) 
+{
+	{
+		Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_0 = __this->___U3CU3E4__this_0;
+		String_t* L_1 = __this->___topic_1;
+		String_t* L_2 = ___0_id;
+		UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C* L_3 = __this->___opts_2;
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_4;
+		L_4 = VirtualFuncInvoker3< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, String_t*, String_t*, UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C* >::Invoke(41 /* System.Threading.Tasks.Task WalletConnectSharp.Core.Controllers.Subscriber::UnsubscribeById(System.String,System.String,WalletConnectSharp.Core.Models.Relay.UnsubscribeOptions) */, L_0, L_1, L_2, L_3);
+		return L_4;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass78_0__ctor_mACDD7E0410656082812E7C68C4D3CBF00F0B0AE3 (U3CU3Ec__DisplayClass78_0_t8E495A4B2776EB5DEB7799487EB10579C916DF30* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Threading.Tasks.Task`1<System.Boolean> WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0::<IsSubscribed>b__0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* U3CU3Ec__DisplayClass78_0_U3CIsSubscribedU3Eb__0_m97FEA075610B1A64259EBAF83C8831D58383791F (U3CU3Ec__DisplayClass78_0_t8E495A4B2776EB5DEB7799487EB10579C916DF30* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_Create_mA86694527610A40A01A943B16F0ECDDD8F00982D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_Start_TisU3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7_mCA1E65D92474D47B6A605BBFC14DDFD09DB85F6A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_get_Task_m09169C120A259AF1F267F54C09A92B84D9832943_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA L_0;
+		L_0 = AsyncTaskMethodBuilder_1_Create_mA86694527610A40A01A943B16F0ECDDD8F00982D(AsyncTaskMethodBuilder_1_Create_mA86694527610A40A01A943B16F0ECDDD8F00982D_RuntimeMethod_var);
+		(&V_0)->___U3CU3Et__builder_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&(&V_0)->___U3CU3Et__builder_1))->___m_coreState_1))->___m_stateMachine_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&(&V_0)->___U3CU3Et__builder_1))->___m_coreState_1))->___m_defaultContextAction_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&(&V_0)->___U3CU3Et__builder_1))->___m_task_2), (void*)NULL);
+		#endif
+		(&V_0)->___U3CU3E4__this_2 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___U3CU3E4__this_2), (void*)__this);
+		(&V_0)->___U3CU3E1__state_0 = (-1);
+		AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* L_1 = (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*)(&(&V_0)->___U3CU3Et__builder_1);
+		AsyncTaskMethodBuilder_1_Start_TisU3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7_mCA1E65D92474D47B6A605BBFC14DDFD09DB85F6A(L_1, (&V_0), AsyncTaskMethodBuilder_1_Start_TisU3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7_mCA1E65D92474D47B6A605BBFC14DDFD09DB85F6A_RuntimeMethod_var);
+		AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* L_2 = (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*)(&(&V_0)->___U3CU3Et__builder_1);
+		Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_3;
+		L_3 = AsyncTaskMethodBuilder_1_get_Task_m09169C120A259AF1F267F54C09A92B84D9832943(L_2, AsyncTaskMethodBuilder_1_get_Task_m09169C120A259AF1F267F54C09A92B84D9832943_RuntimeMethod_var);
+		return L_3;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0/<<IsSubscribed>b__0>d::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3CIsSubscribedU3Eb__0U3Ed_MoveNext_mF292D6E4E8D9FB562F40AD06ABADF4C2B41E301F (U3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7_mE5DB191F952CEEBD63EA03E64EF9F823B3C856F7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_SetResult_mF21C48FC9CEC24F4E9C5975C54F87BE9CA179046_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m31416084F21AA8181D98722A73BC622E0423FB5F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Contains_TisString_t_m903B1A64070B00925A8E4E7979330AA7D7B0FB33_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	U3CU3Ec__DisplayClass78_0_t8E495A4B2776EB5DEB7799487EB10579C916DF30* V_1 = NULL;
+	bool V_2 = false;
+	DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass78_0_t8E495A4B2776EB5DEB7799487EB10579C916DF30* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_00b2_1;
+			}
+		}
+		{
+			il2cpp_codegen_runtime_class_init_inline(DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4_il2cpp_TypeInfo_var);
+			DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 L_3;
+			L_3 = DateTimeOffset_get_Now_mFBC17A86139F6EE7C5EBF397BBE5914DCD7B3428(NULL);
+			V_3 = L_3;
+			int64_t L_4;
+			L_4 = DateTimeOffset_ToUnixTimeSeconds_m91F88288451BAB5A8373467A94DAEA359AAF34BD((&V_3), NULL);
+			__this->___U3CstartTimeU3E5__2_3 = L_4;
+		}
+
+IL_0027_1:
+		{
+			U3CU3Ec__DisplayClass78_0_t8E495A4B2776EB5DEB7799487EB10579C916DF30* L_5 = V_1;
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_6 = L_5->___U3CU3E4__this_0;
+			Dictionary_2_tE6A6CE64E2358C03896D2342C78C7944D99FD5C5* L_7 = L_6->___pending_5;
+			U3CU3Ec__DisplayClass78_0_t8E495A4B2776EB5DEB7799487EB10579C916DF30* L_8 = V_1;
+			String_t* L_9 = L_8->___topic_1;
+			bool L_10;
+			L_10 = Dictionary_2_ContainsKey_m31416084F21AA8181D98722A73BC622E0423FB5F(L_7, L_9, Dictionary_2_ContainsKey_m31416084F21AA8181D98722A73BC622E0423FB5F_RuntimeMethod_var);
+			if (L_10)
+			{
+				goto IL_005e_1;
+			}
+		}
+		{
+			U3CU3Ec__DisplayClass78_0_t8E495A4B2776EB5DEB7799487EB10579C916DF30* L_11 = V_1;
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_12 = L_11->___U3CU3E4__this_0;
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13;
+			L_13 = Subscriber_get_Topics_mF57E120E64BE9CC515F28DE4E3E158D7289BCACE(L_12, NULL);
+			U3CU3Ec__DisplayClass78_0_t8E495A4B2776EB5DEB7799487EB10579C916DF30* L_14 = V_1;
+			String_t* L_15 = L_14->___topic_1;
+			bool L_16;
+			L_16 = Enumerable_Contains_TisString_t_m903B1A64070B00925A8E4E7979330AA7D7B0FB33((RuntimeObject*)L_13, L_15, Enumerable_Contains_TisString_t_m903B1A64070B00925A8E4E7979330AA7D7B0FB33_RuntimeMethod_var);
+			if (!L_16)
+			{
+				goto IL_005e_1;
+			}
+		}
+		{
+			V_2 = (bool)1;
+			goto IL_00f4;
+		}
+
+IL_005e_1:
+		{
+			il2cpp_codegen_runtime_class_init_inline(DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4_il2cpp_TypeInfo_var);
+			DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 L_17;
+			L_17 = DateTimeOffset_get_Now_mFBC17A86139F6EE7C5EBF397BBE5914DCD7B3428(NULL);
+			V_3 = L_17;
+			int64_t L_18;
+			L_18 = DateTimeOffset_ToUnixTimeSeconds_m91F88288451BAB5A8373467A94DAEA359AAF34BD((&V_3), NULL);
+			int64_t L_19 = __this->___U3CstartTimeU3E5__2_3;
+			if ((((int64_t)((int64_t)il2cpp_codegen_subtract(L_18, L_19))) < ((int64_t)((int64_t)5))))
+			{
+				goto IL_007a_1;
+			}
+		}
+		{
+			V_2 = (bool)0;
+			goto IL_00f4;
+		}
+
+IL_007a_1:
+		{
+			il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_20;
+			L_20 = Task_Delay_m4B84654B4DAADEC41096D9F01C099CCEA9927A48(((int32_t)20), NULL);
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_21;
+			L_21 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_20, NULL);
+			V_4 = L_21;
+			bool L_22;
+			L_22 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_4), NULL);
+			if (L_22)
+			{
+				goto IL_00cf_1;
+			}
+		}
+		{
+			int32_t L_23 = 0;
+			V_0 = L_23;
+			__this->___U3CU3E1__state_0 = L_23;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_24 = V_4;
+			__this->___U3CU3Eu__1_4 = L_24;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_4))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* L_25 = (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*)(&__this->___U3CU3Et__builder_1);
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7_mE5DB191F952CEEBD63EA03E64EF9F823B3C856F7(L_25, (&V_4), __this, AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7_mE5DB191F952CEEBD63EA03E64EF9F823B3C856F7_RuntimeMethod_var);
+			goto IL_0108;
+		}
+
+IL_00b2_1:
+		{
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_26 = __this->___U3CU3Eu__1_4;
+			V_4 = L_26;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_27 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*)(&__this->___U3CU3Eu__1_4);
+			il2cpp_codegen_initobj(L_27, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_28 = (-1);
+			V_0 = L_28;
+			__this->___U3CU3E1__state_0 = L_28;
+		}
+
+IL_00cf_1:
+		{
+			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_4), NULL);
+			goto IL_0027_1;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_00db;
+		}
+		throw e;
+	}
+
+CATCH_00db:
+	{// begin catch(System.Exception)
+		Exception_t* L_29 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_29;
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* L_30 = (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*)(&__this->___U3CU3Et__builder_1);
+		Exception_t* L_31 = V_5;
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA_il2cpp_TypeInfo_var)));
+		AsyncTaskMethodBuilder_1_SetException_mB8F5D5EF18A12CBFF3C7D54CE6382DBB1640C0FD(L_30, L_31, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_1_SetException_mB8F5D5EF18A12CBFF3C7D54CE6382DBB1640C0FD_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0108;
+	}// end catch (depth: 1)
+
+IL_00f4:
+	{
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* L_32 = (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*)(&__this->___U3CU3Et__builder_1);
+		bool L_33 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_1_SetResult_mF21C48FC9CEC24F4E9C5975C54F87BE9CA179046(L_32, L_33, AsyncTaskMethodBuilder_1_SetResult_mF21C48FC9CEC24F4E9C5975C54F87BE9CA179046_RuntimeMethod_var);
+	}
+
+IL_0108:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CU3CIsSubscribedU3Eb__0U3Ed_MoveNext_mF292D6E4E8D9FB562F40AD06ABADF4C2B41E301F_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7*>(__this + _offset);
+	U3CU3CIsSubscribedU3Eb__0U3Ed_MoveNext_mF292D6E4E8D9FB562F40AD06ABADF4C2B41E301F(_thisAdjusted, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass78_0/<<IsSubscribed>b__0>d::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3CIsSubscribedU3Eb__0U3Ed_SetStateMachine_m01995C0794F6BCB684D088F38A2B6C5D78E40711 (U3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_SetStateMachine_m9D382E265E211762EDB525CF74EBB7FA21DDDCE8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* L_0 = (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*)(&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___0_stateMachine;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_1_SetStateMachine_m9D382E265E211762EDB525CF74EBB7FA21DDDCE8(L_0, L_1, AsyncTaskMethodBuilder_1_SetStateMachine_m9D382E265E211762EDB525CF74EBB7FA21DDDCE8_RuntimeMethod_var);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CU3CIsSubscribedU3Eb__0U3Ed_SetStateMachine_m01995C0794F6BCB684D088F38A2B6C5D78E40711_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	U3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CU3CIsSubscribedU3Eb__0U3Ed_t4B2C931CE8792C9F2F142B313E8B7C10962F0CD7*>(__this + _offset);
+	U3CU3CIsSubscribedU3Eb__0U3Ed_SetStateMachine_m01995C0794F6BCB684D088F38A2B6C5D78E40711(_thisAdjusted, ___0_stateMachine, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass80_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass80_0__ctor_mB72EDAA5C4F6556606984073535402817EC04DE4 (U3CU3Ec__DisplayClass80_0_t5AE227440B3757FE475DC7E89007BA1FBBEC3E0D* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription WalletConnectSharp.Core.Controllers.Subscriber/<>c__DisplayClass80_0::<BatchSubscribe>b__1(System.String,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7* U3CU3Ec__DisplayClass80_0_U3CBatchSubscribeU3Eb__1_mA5E3F03C9D635E94170F020303A9E15125E29D9F (U3CU3Ec__DisplayClass80_0_t5AE227440B3757FE475DC7E89007BA1FBBEC3E0D* __this, String_t* ___0_r, int32_t ___1_i, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7* L_0 = (ActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7*)il2cpp_codegen_object_new(ActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_il2cpp_TypeInfo_var);
+		ActiveSubscription__ctor_mE5B088FCE25B93C65D8FCA66874E92B19F1F6255(L_0, NULL);
+		ActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7* L_1 = L_0;
+		String_t* L_2 = ___0_r;
+		L_1->___Id_2 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___Id_2), (void*)L_2);
+		ActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7* L_3 = L_1;
+		ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668* L_4 = __this->___relay_0;
+		((ProtocolOptionHolder_tCBB3405C491C58313845C00EB83F311E0038E657*)L_3)->___Relay_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((ProtocolOptionHolder_tCBB3405C491C58313845C00EB83F311E0038E657*)L_3)->___Relay_0), (void*)L_4);
+		ActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7* L_5 = L_3;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = __this->___topics_1;
+		int32_t L_7 = ___1_i;
+		int32_t L_8 = L_7;
+		String_t* L_9 = (L_6)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_8));
+		((PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE*)L_5)->___Topic_1 = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&((PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE*)L_5)->___Topic_1), (void*)L_9);
+		return L_5;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<AsyncPersist>d__50::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncPersistU3Ed__50_MoveNext_mCBDEE44C3FF421E01479D1CB0D2DEDD2C44BE251 (U3CAsyncPersistU3Ed__50_t14F322C9F3E5DA5212883D0E4556D7887834CE75* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CAsyncPersistU3Ed__50_t14F322C9F3E5DA5212883D0E4556D7887834CE75_m6D57FD5D1F57A634229921CE493A88E65BBF0CE3_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* V_1 = NULL;
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Exception_t* V_3 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_0046_1;
+			}
+		}
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_3 = V_1;
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_4;
+			L_4 = VirtualFuncInvoker0< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* >::Invoke(23 /* System.Threading.Tasks.Task WalletConnectSharp.Core.Controllers.Subscriber::Persist() */, L_3);
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_5;
+			L_5 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_4, NULL);
+			V_2 = L_5;
+			bool L_6;
+			L_6 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_2), NULL);
+			if (L_6)
+			{
+				goto IL_0062_1;
+			}
+		}
+		{
+			int32_t L_7 = 0;
+			V_0 = L_7;
+			__this->___U3CU3E1__state_0 = L_7;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_8 = V_2;
+			__this->___U3CU3Eu__1_3 = L_8;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
+			AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_9 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder_1);
+			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CAsyncPersistU3Ed__50_t14F322C9F3E5DA5212883D0E4556D7887834CE75_m6D57FD5D1F57A634229921CE493A88E65BBF0CE3(L_9, (&V_2), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CAsyncPersistU3Ed__50_t14F322C9F3E5DA5212883D0E4556D7887834CE75_m6D57FD5D1F57A634229921CE493A88E65BBF0CE3_RuntimeMethod_var);
+			goto IL_0095;
+		}
+
+IL_0046_1:
+		{
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_10 = __this->___U3CU3Eu__1_3;
+			V_2 = L_10;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_11 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*)(&__this->___U3CU3Eu__1_3);
+			il2cpp_codegen_initobj(L_11, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_12 = (-1);
+			V_0 = L_12;
+			__this->___U3CU3E1__state_0 = L_12;
+		}
+
+IL_0062_1:
+		{
+			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
+			goto IL_0082;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_006b;
+		}
+		throw e;
+	}
+
+CATCH_006b:
+	{// begin catch(System.Exception)
+		Exception_t* L_13 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_3 = L_13;
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_14 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder_1);
+		Exception_t* L_15 = V_3;
+		AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B(L_14, L_15, NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0095;
+	}// end catch (depth: 1)
+
+IL_0082:
+	{
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_16 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder_1);
+		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_16, NULL);
+	}
+
+IL_0095:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CAsyncPersistU3Ed__50_MoveNext_mCBDEE44C3FF421E01479D1CB0D2DEDD2C44BE251_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CAsyncPersistU3Ed__50_t14F322C9F3E5DA5212883D0E4556D7887834CE75* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CAsyncPersistU3Ed__50_t14F322C9F3E5DA5212883D0E4556D7887834CE75*>(__this + _offset);
+	U3CAsyncPersistU3Ed__50_MoveNext_mCBDEE44C3FF421E01479D1CB0D2DEDD2C44BE251(_thisAdjusted, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<AsyncPersist>d__50::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncPersistU3Ed__50_SetStateMachine_m49FF226A36D83BD3179044FD3E7E5089D2BD70E5 (U3CAsyncPersistU3Ed__50_t14F322C9F3E5DA5212883D0E4556D7887834CE75* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	{
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_0 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___0_stateMachine;
+		AsyncVoidMethodBuilder_SetStateMachine_m48640FB81C34D4C2B5A5BBA7F5AE17DC50BF1A25(L_0, L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CAsyncPersistU3Ed__50_SetStateMachine_m49FF226A36D83BD3179044FD3E7E5089D2BD70E5_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	U3CAsyncPersistU3Ed__50_t14F322C9F3E5DA5212883D0E4556D7887834CE75* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CAsyncPersistU3Ed__50_t14F322C9F3E5DA5212883D0E4556D7887834CE75*>(__this + _offset);
+	U3CAsyncPersistU3Ed__50_SetStateMachine_m49FF226A36D83BD3179044FD3E7E5089D2BD70E5(_thisAdjusted, ___0_stateMachine, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<BatchSubscribe>d__80::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CBatchSubscribeU3Ed__80_MoveNext_m2FF713D155E9B82682C99EED6537C5A9A0904E97 (U3CBatchSubscribeU3Ed__80_tCA9113DDC56BE3B72CC58DA4FEE7546613DE1E35* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A_TisU3CBatchSubscribeU3Ed__80_tCA9113DDC56BE3B72CC58DA4FEE7546613DE1E35_m499919F29A560565735522FFE81CE473777B8B44_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Select_TisPendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE_TisString_t_m9E585E4148BC2E9712958D6E104F6279D68D0B98_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Select_TisString_t_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_mBBACA2A3FC757E31994E1FC8A510E495F8A89198_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_ToArray_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_mCD866931D9EEABB6DDD93D81C9B6575A1AC46F8B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_ToArray_TisString_t_m3B23EE2DD15B2996E7D2ECA6E74696DA892AA194_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t7914F5A12BE568B6275EC665A81F6D6310DF8C53_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_tACFA26A227759437FA38AD7C18F4D089F2207248_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_1_GetResult_m83205D2CAC0257ACFB3799DA5DD484B0D4B9DDED_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_1_get_IsCompleted_mBB1935B8D8B149149221600F42DA9073C73FBD5A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_GetAwaiter_mB26BFA07AC14EF917B761C0D201B116283728D55_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CBatchSubscribeU3Eb__80_0_m75F5428C9CFBC5B021395AE0A2B11AAE5EA482D0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass80_0_U3CBatchSubscribeU3Eb__1_mA5E3F03C9D635E94170F020303A9E15125E29D9F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass80_0_t5AE227440B3757FE475DC7E89007BA1FBBEC3E0D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* V_1 = NULL;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_2 = NULL;
+	TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	Func_2_t7914F5A12BE568B6275EC665A81F6D6310DF8C53* G_B6_0 = NULL;
+	PendingSubscriptionU5BU5D_t9C7B303D6139B37FD9237F5903F468C6A4FC460D* G_B6_1 = NULL;
+	U3CU3Ec__DisplayClass80_0_t5AE227440B3757FE475DC7E89007BA1FBBEC3E0D* G_B6_2 = NULL;
+	Func_2_t7914F5A12BE568B6275EC665A81F6D6310DF8C53* G_B5_0 = NULL;
+	PendingSubscriptionU5BU5D_t9C7B303D6139B37FD9237F5903F468C6A4FC460D* G_B5_1 = NULL;
+	U3CU3Ec__DisplayClass80_0_t5AE227440B3757FE475DC7E89007BA1FBBEC3E0D* G_B5_2 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_1 = __this->___U3CU3E4__this_3;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_00cd_1;
+			}
+		}
+		{
+			U3CU3Ec__DisplayClass80_0_t5AE227440B3757FE475DC7E89007BA1FBBEC3E0D* L_3 = (U3CU3Ec__DisplayClass80_0_t5AE227440B3757FE475DC7E89007BA1FBBEC3E0D*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass80_0_t5AE227440B3757FE475DC7E89007BA1FBBEC3E0D_il2cpp_TypeInfo_var);
+			U3CU3Ec__DisplayClass80_0__ctor_mB72EDAA5C4F6556606984073535402817EC04DE4(L_3, NULL);
+			__this->___U3CU3E8__1_4 = L_3;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1_4), (void*)L_3);
+			PendingSubscriptionU5BU5D_t9C7B303D6139B37FD9237F5903F468C6A4FC460D* L_4 = __this->___subscriptions_2;
+			if ((((RuntimeArray*)L_4)->max_length))
+			{
+				goto IL_002d_1;
+			}
+		}
+		{
+			goto IL_0135;
+		}
+
+IL_002d_1:
+		{
+			U3CU3Ec__DisplayClass80_0_t5AE227440B3757FE475DC7E89007BA1FBBEC3E0D* L_5 = __this->___U3CU3E8__1_4;
+			PendingSubscriptionU5BU5D_t9C7B303D6139B37FD9237F5903F468C6A4FC460D* L_6 = __this->___subscriptions_2;
+			il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621_il2cpp_TypeInfo_var);
+			Func_2_t7914F5A12BE568B6275EC665A81F6D6310DF8C53* L_7 = ((U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621_il2cpp_TypeInfo_var))->___U3CU3E9__80_0_1;
+			Func_2_t7914F5A12BE568B6275EC665A81F6D6310DF8C53* L_8 = L_7;
+			G_B5_0 = L_8;
+			G_B5_1 = L_6;
+			G_B5_2 = L_5;
+			if (L_8)
+			{
+				G_B6_0 = L_8;
+				G_B6_1 = L_6;
+				G_B6_2 = L_5;
+				goto IL_0058_1;
+			}
+		}
+		{
+			il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621_il2cpp_TypeInfo_var);
+			U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621* L_9 = ((U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+			Func_2_t7914F5A12BE568B6275EC665A81F6D6310DF8C53* L_10 = (Func_2_t7914F5A12BE568B6275EC665A81F6D6310DF8C53*)il2cpp_codegen_object_new(Func_2_t7914F5A12BE568B6275EC665A81F6D6310DF8C53_il2cpp_TypeInfo_var);
+			Func_2__ctor_m4F1D6B362B1A125C8CD70A803EA45A9E0E4662B6(L_10, L_9, (intptr_t)((void*)U3CU3Ec_U3CBatchSubscribeU3Eb__80_0_m75F5428C9CFBC5B021395AE0A2B11AAE5EA482D0_RuntimeMethod_var), NULL);
+			Func_2_t7914F5A12BE568B6275EC665A81F6D6310DF8C53* L_11 = L_10;
+			((U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621_il2cpp_TypeInfo_var))->___U3CU3E9__80_0_1 = L_11;
+			Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1BDEBAB663745C618835715229A4DD50C11AF621_il2cpp_TypeInfo_var))->___U3CU3E9__80_0_1), (void*)L_11);
+			G_B6_0 = L_11;
+			G_B6_1 = G_B5_1;
+			G_B6_2 = G_B5_2;
+		}
+
+IL_0058_1:
+		{
+			RuntimeObject* L_12;
+			L_12 = Enumerable_Select_TisPendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE_TisString_t_m9E585E4148BC2E9712958D6E104F6279D68D0B98((RuntimeObject*)G_B6_1, G_B6_0, Enumerable_Select_TisPendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE_TisString_t_m9E585E4148BC2E9712958D6E104F6279D68D0B98_RuntimeMethod_var);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13;
+			L_13 = Enumerable_ToArray_TisString_t_m3B23EE2DD15B2996E7D2ECA6E74696DA892AA194(L_12, Enumerable_ToArray_TisString_t_m3B23EE2DD15B2996E7D2ECA6E74696DA892AA194_RuntimeMethod_var);
+			G_B6_2->___topics_1 = L_13;
+			Il2CppCodeGenWriteBarrier((void**)(&G_B6_2->___topics_1), (void*)L_13);
+			U3CU3Ec__DisplayClass80_0_t5AE227440B3757FE475DC7E89007BA1FBBEC3E0D* L_14 = __this->___U3CU3E8__1_4;
+			PendingSubscriptionU5BU5D_t9C7B303D6139B37FD9237F5903F468C6A4FC460D* L_15 = __this->___subscriptions_2;
+			int32_t L_16 = 0;
+			PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE* L_17 = (L_15)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_16));
+			ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668* L_18 = ((ProtocolOptionHolder_tCBB3405C491C58313845C00EB83F311E0038E657*)L_17)->___Relay_0;
+			L_14->___relay_0 = L_18;
+			Il2CppCodeGenWriteBarrier((void**)(&L_14->___relay_0), (void*)L_18);
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_19 = V_1;
+			U3CU3Ec__DisplayClass80_0_t5AE227440B3757FE475DC7E89007BA1FBBEC3E0D* L_20 = __this->___U3CU3E8__1_4;
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_21 = L_20->___topics_1;
+			U3CU3Ec__DisplayClass80_0_t5AE227440B3757FE475DC7E89007BA1FBBEC3E0D* L_22 = __this->___U3CU3E8__1_4;
+			ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668* L_23 = L_22->___relay_0;
+			Task_1_tE31926224A424AEAE794D9D841B463DE8C3889D4* L_24;
+			L_24 = VirtualFuncInvoker2< Task_1_tE31926224A424AEAE794D9D841B463DE8C3889D4*, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*, ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668* >::Invoke(45 /* System.Threading.Tasks.Task`1<System.String[]> WalletConnectSharp.Core.Controllers.Subscriber::RpcBatchSubscribe(System.String[],WalletConnectSharp.Core.Models.Relay.ProtocolOptions) */, L_19, L_21, L_23);
+			TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A L_25;
+			L_25 = Task_1_GetAwaiter_mB26BFA07AC14EF917B761C0D201B116283728D55(L_24, Task_1_GetAwaiter_mB26BFA07AC14EF917B761C0D201B116283728D55_RuntimeMethod_var);
+			V_3 = L_25;
+			bool L_26;
+			L_26 = TaskAwaiter_1_get_IsCompleted_mBB1935B8D8B149149221600F42DA9073C73FBD5A((&V_3), TaskAwaiter_1_get_IsCompleted_mBB1935B8D8B149149221600F42DA9073C73FBD5A_RuntimeMethod_var);
+			if (L_26)
+			{
+				goto IL_00e9_1;
+			}
+		}
+		{
+			int32_t L_27 = 0;
+			V_0 = L_27;
+			__this->___U3CU3E1__state_0 = L_27;
+			TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A L_28 = V_3;
+			__this->___U3CU3Eu__1_5 = L_28;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_5))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_29 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A_TisU3CBatchSubscribeU3Ed__80_tCA9113DDC56BE3B72CC58DA4FEE7546613DE1E35_m499919F29A560565735522FFE81CE473777B8B44(L_29, (&V_3), __this, AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A_TisU3CBatchSubscribeU3Ed__80_tCA9113DDC56BE3B72CC58DA4FEE7546613DE1E35_m499919F29A560565735522FFE81CE473777B8B44_RuntimeMethod_var);
+			goto IL_014f;
+		}
+
+IL_00cd_1:
+		{
+			TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A L_30 = __this->___U3CU3Eu__1_5;
+			V_3 = L_30;
+			TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A* L_31 = (TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A*)(&__this->___U3CU3Eu__1_5);
+			il2cpp_codegen_initobj(L_31, sizeof(TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A));
+			int32_t L_32 = (-1);
+			V_0 = L_32;
+			__this->___U3CU3E1__state_0 = L_32;
+		}
+
+IL_00e9_1:
+		{
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_33;
+			L_33 = TaskAwaiter_1_GetResult_m83205D2CAC0257ACFB3799DA5DD484B0D4B9DDED((&V_3), TaskAwaiter_1_GetResult_m83205D2CAC0257ACFB3799DA5DD484B0D4B9DDED_RuntimeMethod_var);
+			V_2 = L_33;
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_34 = V_1;
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_35 = V_2;
+			U3CU3Ec__DisplayClass80_0_t5AE227440B3757FE475DC7E89007BA1FBBEC3E0D* L_36 = __this->___U3CU3E8__1_4;
+			Func_3_tACFA26A227759437FA38AD7C18F4D089F2207248* L_37 = (Func_3_tACFA26A227759437FA38AD7C18F4D089F2207248*)il2cpp_codegen_object_new(Func_3_tACFA26A227759437FA38AD7C18F4D089F2207248_il2cpp_TypeInfo_var);
+			Func_3__ctor_m29BE31AB1494C0568674F45172D2BC7F1C75CAD1(L_37, L_36, (intptr_t)((void*)U3CU3Ec__DisplayClass80_0_U3CBatchSubscribeU3Eb__1_mA5E3F03C9D635E94170F020303A9E15125E29D9F_RuntimeMethod_var), NULL);
+			RuntimeObject* L_38;
+			L_38 = Enumerable_Select_TisString_t_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_mBBACA2A3FC757E31994E1FC8A510E495F8A89198((RuntimeObject*)L_35, L_37, Enumerable_Select_TisString_t_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_mBBACA2A3FC757E31994E1FC8A510E495F8A89198_RuntimeMethod_var);
+			ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* L_39;
+			L_39 = Enumerable_ToArray_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_mCD866931D9EEABB6DDD93D81C9B6575A1AC46F8B(L_38, Enumerable_ToArray_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_mCD866931D9EEABB6DDD93D81C9B6575A1AC46F8B_RuntimeMethod_var);
+			Subscriber_OnBatchSubscribe_m0F0288267339CF86C18DB1550CCA8029A076A577(L_34, L_39, NULL);
+			goto IL_0135;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0115;
+		}
+		throw e;
+	}
+
+CATCH_0115:
+	{// begin catch(System.Exception)
+		Exception_t* L_40 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_40;
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		__this->___U3CU3E8__1_4 = (U3CU3Ec__DisplayClass80_0_t5AE227440B3757FE475DC7E89007BA1FBBEC3E0D*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1_4), (void*)(U3CU3Ec__DisplayClass80_0_t5AE227440B3757FE475DC7E89007BA1FBBEC3E0D*)NULL);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_41 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		Exception_t* L_42 = V_4;
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var)));
+		AsyncTaskMethodBuilder_SetException_mBE41863F0571E0177A15731294087DE45E1FC10B(L_41, L_42, NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_014f;
+	}// end catch (depth: 1)
+
+IL_0135:
+	{
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		__this->___U3CU3E8__1_4 = (U3CU3Ec__DisplayClass80_0_t5AE227440B3757FE475DC7E89007BA1FBBEC3E0D*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1_4), (void*)(U3CU3Ec__DisplayClass80_0_t5AE227440B3757FE475DC7E89007BA1FBBEC3E0D*)NULL);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_43 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetResult_m76D8B84F0068257C1823B1200B00E58E0C8DDDDE(L_43, NULL);
+	}
+
+IL_014f:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CBatchSubscribeU3Ed__80_MoveNext_m2FF713D155E9B82682C99EED6537C5A9A0904E97_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CBatchSubscribeU3Ed__80_tCA9113DDC56BE3B72CC58DA4FEE7546613DE1E35* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CBatchSubscribeU3Ed__80_tCA9113DDC56BE3B72CC58DA4FEE7546613DE1E35*>(__this + _offset);
+	U3CBatchSubscribeU3Ed__80_MoveNext_m2FF713D155E9B82682C99EED6537C5A9A0904E97(_thisAdjusted, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<BatchSubscribe>d__80::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CBatchSubscribeU3Ed__80_SetStateMachine_m7EC5DD4F6D212E88866C8818962EE331959CE9AA (U3CBatchSubscribeU3Ed__80_tCA9113DDC56BE3B72CC58DA4FEE7546613DE1E35* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_0 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___0_stateMachine;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetStateMachine_mE52B5B6B076025592A7AB462E3D26FA434AEB795(L_0, L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CBatchSubscribeU3Ed__80_SetStateMachine_m7EC5DD4F6D212E88866C8818962EE331959CE9AA_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	U3CBatchSubscribeU3Ed__80_tCA9113DDC56BE3B72CC58DA4FEE7546613DE1E35* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CBatchSubscribeU3Ed__80_tCA9113DDC56BE3B72CC58DA4FEE7546613DE1E35*>(__this + _offset);
+	U3CBatchSubscribeU3Ed__80_SetStateMachine_m7EC5DD4F6D212E88866C8818962EE331959CE9AA(_thisAdjusted, ___0_stateMachine, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<CheckPending>d__55::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckPendingU3Ed__55_MoveNext_mED61331F457B9D5FDB7B8A627FC28619BC26C5D1 (U3CCheckPendingU3Ed__55_tD6D8AF914CF597A94B2060BD4DAC41ABE5E1C2A4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CCheckPendingU3Ed__55_tD6D8AF914CF597A94B2060BD4DAC41ABE5E1C2A4_mBECCB7EB7ED5BADBF7C1589C2D0904789CFA7BF0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Values_mC5FDF54294F6B9B79A25A0298A2F0A9C603F73C8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_ToArray_TisPendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE_mC875F31C74F56FB8398EECD38C5BC26C7F37695B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IRelayer_tE54D756EB9603AF398D155653194DCAF6BD6FA24_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* V_1 = NULL;
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Exception_t* V_3 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_0068_1;
+			}
+		}
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_3 = V_1;
+			RuntimeObject* L_4 = L_3->____relayer_9;
+			bool L_5;
+			L_5 = InterfaceFuncInvoker0< bool >::Invoke(7 /* System.Boolean WalletConnectSharp.Core.Interfaces.IRelayer::get_TransportExplicitlyClosed() */, IRelayer_tE54D756EB9603AF398D155653194DCAF6BD6FA24_il2cpp_TypeInfo_var, L_4);
+			if (!L_5)
+			{
+				goto IL_0023_1;
+			}
+		}
+		{
+			goto IL_00a4;
+		}
+
+IL_0023_1:
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_6 = V_1;
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_7 = V_1;
+			Dictionary_2_tE6A6CE64E2358C03896D2342C78C7944D99FD5C5* L_8 = L_7->___pending_5;
+			ValueCollection_t5C5A15132BFA89F88C412D0DCEEA495392C7AEC3* L_9;
+			L_9 = Dictionary_2_get_Values_mC5FDF54294F6B9B79A25A0298A2F0A9C603F73C8(L_8, Dictionary_2_get_Values_mC5FDF54294F6B9B79A25A0298A2F0A9C603F73C8_RuntimeMethod_var);
+			PendingSubscriptionU5BU5D_t9C7B303D6139B37FD9237F5903F468C6A4FC460D* L_10;
+			L_10 = Enumerable_ToArray_TisPendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE_mC875F31C74F56FB8398EECD38C5BC26C7F37695B(L_9, Enumerable_ToArray_TisPendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE_mC875F31C74F56FB8398EECD38C5BC26C7F37695B_RuntimeMethod_var);
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_11;
+			L_11 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, PendingSubscriptionU5BU5D_t9C7B303D6139B37FD9237F5903F468C6A4FC460D* >::Invoke(46 /* System.Threading.Tasks.Task WalletConnectSharp.Core.Controllers.Subscriber::BatchSubscribe(WalletConnectSharp.Core.Models.Subscriber.PendingSubscription[]) */, L_6, L_10);
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_12;
+			L_12 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_11, NULL);
+			V_2 = L_12;
+			bool L_13;
+			L_13 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_2), NULL);
+			if (L_13)
+			{
+				goto IL_0084_1;
+			}
+		}
+		{
+			int32_t L_14 = 0;
+			V_0 = L_14;
+			__this->___U3CU3E1__state_0 = L_14;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_15 = V_2;
+			__this->___U3CU3Eu__1_3 = L_15;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
+			AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_16 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder_1);
+			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CCheckPendingU3Ed__55_tD6D8AF914CF597A94B2060BD4DAC41ABE5E1C2A4_mBECCB7EB7ED5BADBF7C1589C2D0904789CFA7BF0(L_16, (&V_2), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CCheckPendingU3Ed__55_tD6D8AF914CF597A94B2060BD4DAC41ABE5E1C2A4_mBECCB7EB7ED5BADBF7C1589C2D0904789CFA7BF0_RuntimeMethod_var);
+			goto IL_00b7;
+		}
+
+IL_0068_1:
+		{
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_17 = __this->___U3CU3Eu__1_3;
+			V_2 = L_17;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_18 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*)(&__this->___U3CU3Eu__1_3);
+			il2cpp_codegen_initobj(L_18, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_19 = (-1);
+			V_0 = L_19;
+			__this->___U3CU3E1__state_0 = L_19;
+		}
+
+IL_0084_1:
+		{
+			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
+			goto IL_00a4;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008d;
+		}
+		throw e;
+	}
+
+CATCH_008d:
+	{// begin catch(System.Exception)
+		Exception_t* L_20 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_3 = L_20;
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_21 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder_1);
+		Exception_t* L_22 = V_3;
+		AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B(L_21, L_22, NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00b7;
+	}// end catch (depth: 1)
+
+IL_00a4:
+	{
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_23 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder_1);
+		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_23, NULL);
+	}
+
+IL_00b7:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CCheckPendingU3Ed__55_MoveNext_mED61331F457B9D5FDB7B8A627FC28619BC26C5D1_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CCheckPendingU3Ed__55_tD6D8AF914CF597A94B2060BD4DAC41ABE5E1C2A4* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CCheckPendingU3Ed__55_tD6D8AF914CF597A94B2060BD4DAC41ABE5E1C2A4*>(__this + _offset);
+	U3CCheckPendingU3Ed__55_MoveNext_mED61331F457B9D5FDB7B8A627FC28619BC26C5D1(_thisAdjusted, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<CheckPending>d__55::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckPendingU3Ed__55_SetStateMachine_mFB6AD46131D795B6E2A29F1EA76D6942AEA1C23F (U3CCheckPendingU3Ed__55_tD6D8AF914CF597A94B2060BD4DAC41ABE5E1C2A4* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	{
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_0 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___0_stateMachine;
+		AsyncVoidMethodBuilder_SetStateMachine_m48640FB81C34D4C2B5A5BBA7F5AE17DC50BF1A25(L_0, L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CCheckPendingU3Ed__55_SetStateMachine_mFB6AD46131D795B6E2A29F1EA76D6942AEA1C23F_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	U3CCheckPendingU3Ed__55_tD6D8AF914CF597A94B2060BD4DAC41ABE5E1C2A4* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CCheckPendingU3Ed__55_tD6D8AF914CF597A94B2060BD4DAC41ABE5E1C2A4*>(__this + _offset);
+	U3CCheckPendingU3Ed__55_SetStateMachine_mFB6AD46131D795B6E2A29F1EA76D6942AEA1C23F(_thisAdjusted, ___0_stateMachine, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<GetRelayerSubscriptions>d__52::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetRelayerSubscriptionsU3Ed__52_MoveNext_m5A0F476EA2F5DFE35B604FC73B7380369CADBA28 (U3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_m355E5E36D19F8F8D2A2704B562475903AEDB2D8A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A_m26A9CE053C55F31F296261B440F16A7BFE8F4CB2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE_TisU3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A_m60122674B8C5BDB32232E7DD024649CBD43AC024_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_SetResult_m96FEFB5E97B6835B3258E9756669F4433E9A4020_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ICore_t486AB9797C8EA37B31C47E5ACD8D2A65C63C3BDF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IKeyValueStorage_GetItem_TisActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2_m65416C49164C17CCE100D87EF613B1A737792AD1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IKeyValueStorage_t32495C81C0D854E5375AAE500F8A102DF003DDF2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IRelayer_tE54D756EB9603AF398D155653194DCAF6BD6FA24_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_1_GetResult_mB0D209154690F6972CF22B23275167F6A404B08B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_1_GetResult_mFBABCE48CEAAFF6367097A3DF620DF4B9C06E959_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_1_get_IsCompleted_mCAA0D1EB5A6601DF81D5ED06BB0720D47C520DF9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_1_get_IsCompleted_mD0D4B783774CF3EDD6F6388F3DDF44A15816305F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_GetAwaiter_m2245DA7A0F2185DD5617D63F1544165AE6101935_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_GetAwaiter_mF09429633D4680AB53E194FBD7343B114AD344F8_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* V_1 = NULL;
+	ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* V_2 = NULL;
+	TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_0065_1;
+			}
+		}
+		{
+			int32_t L_3 = V_0;
+			if ((((int32_t)L_3) == ((int32_t)1)))
+			{
+				goto IL_00d6_1;
+			}
+		}
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_4 = V_1;
+			RuntimeObject* L_5 = L_4->____relayer_9;
+			RuntimeObject* L_6;
+			L_6 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(6 /* WalletConnectSharp.Core.Interfaces.ICore WalletConnectSharp.Core.Interfaces.IRelayer::get_Core() */, IRelayer_tE54D756EB9603AF398D155653194DCAF6BD6FA24_il2cpp_TypeInfo_var, L_5);
+			RuntimeObject* L_7;
+			L_7 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(4 /* WalletConnectSharp.Storage.Interfaces.IKeyValueStorage WalletConnectSharp.Core.Interfaces.ICore::get_Storage() */, ICore_t486AB9797C8EA37B31C47E5ACD8D2A65C63C3BDF_il2cpp_TypeInfo_var, L_6);
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_8 = V_1;
+			String_t* L_9;
+			L_9 = Subscriber_get_StorageKey_mD206B80C7204927066E3A97DB0CA3412E0D45324(L_8, NULL);
+			Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_10;
+			L_10 = InterfaceFuncInvoker1< Task_1_t824317F4B958F7512E8F7300511752937A6C6043*, String_t* >::Invoke(3 /* System.Threading.Tasks.Task`1<System.Boolean> WalletConnectSharp.Storage.Interfaces.IKeyValueStorage::HasItem(System.String) */, IKeyValueStorage_t32495C81C0D854E5375AAE500F8A102DF003DDF2_il2cpp_TypeInfo_var, L_7, L_9);
+			TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35 L_11;
+			L_11 = Task_1_GetAwaiter_m2245DA7A0F2185DD5617D63F1544165AE6101935(L_10, Task_1_GetAwaiter_m2245DA7A0F2185DD5617D63F1544165AE6101935_RuntimeMethod_var);
+			V_3 = L_11;
+			bool L_12;
+			L_12 = TaskAwaiter_1_get_IsCompleted_mCAA0D1EB5A6601DF81D5ED06BB0720D47C520DF9((&V_3), TaskAwaiter_1_get_IsCompleted_mCAA0D1EB5A6601DF81D5ED06BB0720D47C520DF9_RuntimeMethod_var);
+			if (L_12)
+			{
+				goto IL_0081_1;
+			}
+		}
+		{
+			int32_t L_13 = 0;
+			V_0 = L_13;
+			__this->___U3CU3E1__state_0 = L_13;
+			TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35 L_14 = V_3;
+			__this->___U3CU3Eu__1_3 = L_14;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646* L_15 = (AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646*)(&__this->___U3CU3Et__builder_1);
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A_m26A9CE053C55F31F296261B440F16A7BFE8F4CB2(L_15, (&V_3), __this, AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A_m26A9CE053C55F31F296261B440F16A7BFE8F4CB2_RuntimeMethod_var);
+			goto IL_0132;
+		}
+
+IL_0065_1:
+		{
+			TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35 L_16 = __this->___U3CU3Eu__1_3;
+			V_3 = L_16;
+			TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* L_17 = (TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35*)(&__this->___U3CU3Eu__1_3);
+			il2cpp_codegen_initobj(L_17, sizeof(TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35));
+			int32_t L_18 = (-1);
+			V_0 = L_18;
+			__this->___U3CU3E1__state_0 = L_18;
+		}
+
+IL_0081_1:
+		{
+			bool L_19;
+			L_19 = TaskAwaiter_1_GetResult_mB0D209154690F6972CF22B23275167F6A404B08B((&V_3), TaskAwaiter_1_GetResult_mB0D209154690F6972CF22B23275167F6A404B08B_RuntimeMethod_var);
+			if (!L_19)
+			{
+				goto IL_00fd_1;
+			}
+		}
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_20 = V_1;
+			RuntimeObject* L_21 = L_20->____relayer_9;
+			RuntimeObject* L_22;
+			L_22 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(6 /* WalletConnectSharp.Core.Interfaces.ICore WalletConnectSharp.Core.Interfaces.IRelayer::get_Core() */, IRelayer_tE54D756EB9603AF398D155653194DCAF6BD6FA24_il2cpp_TypeInfo_var, L_21);
+			RuntimeObject* L_23;
+			L_23 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(4 /* WalletConnectSharp.Storage.Interfaces.IKeyValueStorage WalletConnectSharp.Core.Interfaces.ICore::get_Storage() */, ICore_t486AB9797C8EA37B31C47E5ACD8D2A65C63C3BDF_il2cpp_TypeInfo_var, L_22);
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_24 = V_1;
+			String_t* L_25;
+			L_25 = Subscriber_get_StorageKey_mD206B80C7204927066E3A97DB0CA3412E0D45324(L_24, NULL);
+			Task_1_t1B30037AAD7EEFD36B915BDB500FEE3A04C869B7* L_26;
+			L_26 = GenericInterfaceFuncInvoker1< Task_1_t1B30037AAD7EEFD36B915BDB500FEE3A04C869B7*, String_t* >::Invoke(IKeyValueStorage_GetItem_TisActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2_m65416C49164C17CCE100D87EF613B1A737792AD1_RuntimeMethod_var, L_23, L_25);
+			TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE L_27;
+			L_27 = Task_1_GetAwaiter_mF09429633D4680AB53E194FBD7343B114AD344F8(L_26, Task_1_GetAwaiter_mF09429633D4680AB53E194FBD7343B114AD344F8_RuntimeMethod_var);
+			V_4 = L_27;
+			bool L_28;
+			L_28 = TaskAwaiter_1_get_IsCompleted_mD0D4B783774CF3EDD6F6388F3DDF44A15816305F((&V_4), TaskAwaiter_1_get_IsCompleted_mD0D4B783774CF3EDD6F6388F3DDF44A15816305F_RuntimeMethod_var);
+			if (L_28)
+			{
+				goto IL_00f3_1;
+			}
+		}
+		{
+			int32_t L_29 = 1;
+			V_0 = L_29;
+			__this->___U3CU3E1__state_0 = L_29;
+			TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE L_30 = V_4;
+			__this->___U3CU3Eu__2_4 = L_30;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__2_4))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646* L_31 = (AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646*)(&__this->___U3CU3Et__builder_1);
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE_TisU3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A_m60122674B8C5BDB32232E7DD024649CBD43AC024(L_31, (&V_4), __this, AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE_TisU3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A_m60122674B8C5BDB32232E7DD024649CBD43AC024_RuntimeMethod_var);
+			goto IL_0132;
+		}
+
+IL_00d6_1:
+		{
+			TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE L_32 = __this->___U3CU3Eu__2_4;
+			V_4 = L_32;
+			TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE* L_33 = (TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE*)(&__this->___U3CU3Eu__2_4);
+			il2cpp_codegen_initobj(L_33, sizeof(TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE));
+			int32_t L_34 = (-1);
+			V_0 = L_34;
+			__this->___U3CU3E1__state_0 = L_34;
+		}
+
+IL_00f3_1:
+		{
+			ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* L_35;
+			L_35 = TaskAwaiter_1_GetResult_mFBABCE48CEAAFF6367097A3DF620DF4B9C06E959((&V_4), TaskAwaiter_1_GetResult_mFBABCE48CEAAFF6367097A3DF620DF4B9C06E959_RuntimeMethod_var);
+			V_2 = L_35;
+			goto IL_011e;
+		}
+
+IL_00fd_1:
+		{
+			ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* L_36;
+			L_36 = Array_Empty_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_m355E5E36D19F8F8D2A2704B562475903AEDB2D8A_inline(Array_Empty_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_m355E5E36D19F8F8D2A2704B562475903AEDB2D8A_RuntimeMethod_var);
+			V_2 = L_36;
+			goto IL_011e;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0105;
+		}
+		throw e;
+	}
+
+CATCH_0105:
+	{// begin catch(System.Exception)
+		Exception_t* L_37 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_37;
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646* L_38 = (AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646*)(&__this->___U3CU3Et__builder_1);
+		Exception_t* L_39 = V_5;
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646_il2cpp_TypeInfo_var)));
+		AsyncTaskMethodBuilder_1_SetException_m7807889AA2F4CFED513E3E4B8D2892FAC904AA40(L_38, L_39, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_1_SetException_m7807889AA2F4CFED513E3E4B8D2892FAC904AA40_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0132;
+	}// end catch (depth: 1)
+
+IL_011e:
+	{
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646* L_40 = (AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646*)(&__this->___U3CU3Et__builder_1);
+		ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* L_41 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_1_SetResult_m96FEFB5E97B6835B3258E9756669F4433E9A4020(L_40, L_41, AsyncTaskMethodBuilder_1_SetResult_m96FEFB5E97B6835B3258E9756669F4433E9A4020_RuntimeMethod_var);
+	}
+
+IL_0132:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CGetRelayerSubscriptionsU3Ed__52_MoveNext_m5A0F476EA2F5DFE35B604FC73B7380369CADBA28_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A*>(__this + _offset);
+	U3CGetRelayerSubscriptionsU3Ed__52_MoveNext_m5A0F476EA2F5DFE35B604FC73B7380369CADBA28(_thisAdjusted, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<GetRelayerSubscriptions>d__52::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetRelayerSubscriptionsU3Ed__52_SetStateMachine_mB260B35BFDC27F43622509B43A74B8ACCB04F1AD (U3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_SetStateMachine_m0E14D7EBFE2D9C748B764654069613CB63628A6A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646* L_0 = (AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646*)(&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___0_stateMachine;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_tCD1788143A0C2D43B601FE526912A78CC63AB646_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_1_SetStateMachine_m0E14D7EBFE2D9C748B764654069613CB63628A6A(L_0, L_1, AsyncTaskMethodBuilder_1_SetStateMachine_m0E14D7EBFE2D9C748B764654069613CB63628A6A_RuntimeMethod_var);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CGetRelayerSubscriptionsU3Ed__52_SetStateMachine_mB260B35BFDC27F43622509B43A74B8ACCB04F1AD_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	U3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CGetRelayerSubscriptionsU3Ed__52_tE2EAAB3FF7D556E0592E868EF893AB6AE2FDF97A*>(__this + _offset);
+	U3CGetRelayerSubscriptionsU3Ed__52_SetStateMachine_mB260B35BFDC27F43622509B43A74B8ACCB04F1AD(_thisAdjusted, ___0_stateMachine, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Init>d__47::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitU3Ed__47_MoveNext_m2F3CBC801D38B7FD7344D0613CDB6D510E3227E9 (U3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6_TisU3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224_m663C312E775D805731A79540DE3AD26B29A5B311_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224_m2A33C3E6FDC088D5BC44CFE53D14B238351E5E91_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ICore_t486AB9797C8EA37B31C47E5ACD8D2A65C63C3BDF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ICrypto_t2BDE2CC1165370E3D0B58E5D7192866DA3016A38_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IRelayer_tE54D756EB9603AF398D155653194DCAF6BD6FA24_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_1_GetResult_m82A392802A854576DC9525B87B0053B56201ABB9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_1_get_IsCompleted_mE207C5509602B0BB59366E53CED6CC9B10A1F8A8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_GetAwaiter_m7727657658441E9D4CE9D3F8B532F9D65CB9CE1F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* V_1 = NULL;
+	String_t* V_2 = NULL;
+	TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_006a_1;
+			}
+		}
+		{
+			int32_t L_3 = V_0;
+			if ((((int32_t)L_3) == ((int32_t)1)))
+			{
+				goto IL_00cc_1;
+			}
+		}
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_4 = V_1;
+			bool L_5 = L_4->____initialized_10;
+			if (L_5)
+			{
+				goto IL_00fc_1;
+			}
+		}
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_6 = V_1;
+			RuntimeObject* L_7 = L_6->____relayer_9;
+			RuntimeObject* L_8;
+			L_8 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(6 /* WalletConnectSharp.Core.Interfaces.ICore WalletConnectSharp.Core.Interfaces.IRelayer::get_Core() */, IRelayer_tE54D756EB9603AF398D155653194DCAF6BD6FA24_il2cpp_TypeInfo_var, L_7);
+			RuntimeObject* L_9;
+			L_9 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(2 /* WalletConnectSharp.Crypto.Interfaces.ICrypto WalletConnectSharp.Core.Interfaces.ICore::get_Crypto() */, ICore_t486AB9797C8EA37B31C47E5ACD8D2A65C63C3BDF_il2cpp_TypeInfo_var, L_8);
+			Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_10;
+			L_10 = InterfaceFuncInvoker0< Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* >::Invoke(10 /* System.Threading.Tasks.Task`1<System.String> WalletConnectSharp.Crypto.Interfaces.ICrypto::GetClientId() */, ICrypto_t2BDE2CC1165370E3D0B58E5D7192866DA3016A38_il2cpp_TypeInfo_var, L_9);
+			TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 L_11;
+			L_11 = Task_1_GetAwaiter_m7727657658441E9D4CE9D3F8B532F9D65CB9CE1F(L_10, Task_1_GetAwaiter_m7727657658441E9D4CE9D3F8B532F9D65CB9CE1F_RuntimeMethod_var);
+			V_3 = L_11;
+			bool L_12;
+			L_12 = TaskAwaiter_1_get_IsCompleted_mE207C5509602B0BB59366E53CED6CC9B10A1F8A8((&V_3), TaskAwaiter_1_get_IsCompleted_mE207C5509602B0BB59366E53CED6CC9B10A1F8A8_RuntimeMethod_var);
+			if (L_12)
+			{
+				goto IL_0086_1;
+			}
+		}
+		{
+			int32_t L_13 = 0;
+			V_0 = L_13;
+			__this->___U3CU3E1__state_0 = L_13;
+			TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 L_14 = V_3;
+			__this->___U3CU3Eu__1_3 = L_14;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_15 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6_TisU3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224_m663C312E775D805731A79540DE3AD26B29A5B311(L_15, (&V_3), __this, AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6_TisU3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224_m663C312E775D805731A79540DE3AD26B29A5B311_RuntimeMethod_var);
+			goto IL_012a;
+		}
+
+IL_006a_1:
+		{
+			TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 L_16 = __this->___U3CU3Eu__1_3;
+			V_3 = L_16;
+			TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6* L_17 = (TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6*)(&__this->___U3CU3Eu__1_3);
+			il2cpp_codegen_initobj(L_17, sizeof(TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6));
+			int32_t L_18 = (-1);
+			V_0 = L_18;
+			__this->___U3CU3E1__state_0 = L_18;
+		}
+
+IL_0086_1:
+		{
+			String_t* L_19;
+			L_19 = TaskAwaiter_1_GetResult_m82A392802A854576DC9525B87B0053B56201ABB9((&V_3), TaskAwaiter_1_GetResult_m82A392802A854576DC9525B87B0053B56201ABB9_RuntimeMethod_var);
+			V_2 = L_19;
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_20 = V_1;
+			String_t* L_21 = V_2;
+			L_20->____clientId_11 = L_21;
+			Il2CppCodeGenWriteBarrier((void**)(&L_20->____clientId_11), (void*)L_21);
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_22 = V_1;
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_23;
+			L_23 = Subscriber_Restart_mC0C3273AAA8BFA1C5E9B8E04A00E5DE298AE0B93(L_22, NULL);
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_24;
+			L_24 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_23, NULL);
+			V_4 = L_24;
+			bool L_25;
+			L_25 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_4), NULL);
+			if (L_25)
+			{
+				goto IL_00e9_1;
+			}
+		}
+		{
+			int32_t L_26 = 1;
+			V_0 = L_26;
+			__this->___U3CU3E1__state_0 = L_26;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_27 = V_4;
+			__this->___U3CU3Eu__2_4 = L_27;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__2_4))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_28 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224_m2A33C3E6FDC088D5BC44CFE53D14B238351E5E91(L_28, (&V_4), __this, AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224_m2A33C3E6FDC088D5BC44CFE53D14B238351E5E91_RuntimeMethod_var);
+			goto IL_012a;
+		}
+
+IL_00cc_1:
+		{
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_29 = __this->___U3CU3Eu__2_4;
+			V_4 = L_29;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_30 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*)(&__this->___U3CU3Eu__2_4);
+			il2cpp_codegen_initobj(L_30, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_31 = (-1);
+			V_0 = L_31;
+			__this->___U3CU3E1__state_0 = L_31;
+		}
+
+IL_00e9_1:
+		{
+			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_4), NULL);
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_32 = V_1;
+			VirtualActionInvoker0::Invoke(21 /* System.Void WalletConnectSharp.Core.Controllers.Subscriber::RegisterEventListeners() */, L_32);
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_33 = V_1;
+			VirtualActionInvoker0::Invoke(31 /* System.Void WalletConnectSharp.Core.Controllers.Subscriber::OnEnabled() */, L_33);
+		}
+
+IL_00fc_1:
+		{
+			goto IL_0117;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_00fe;
+		}
+		throw e;
+	}
+
+CATCH_00fe:
+	{// begin catch(System.Exception)
+		Exception_t* L_34 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_34;
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_35 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		Exception_t* L_36 = V_5;
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var)));
+		AsyncTaskMethodBuilder_SetException_mBE41863F0571E0177A15731294087DE45E1FC10B(L_35, L_36, NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_012a;
+	}// end catch (depth: 1)
+
+IL_0117:
+	{
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_37 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetResult_m76D8B84F0068257C1823B1200B00E58E0C8DDDDE(L_37, NULL);
+	}
+
+IL_012a:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CInitU3Ed__47_MoveNext_m2F3CBC801D38B7FD7344D0613CDB6D510E3227E9_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224*>(__this + _offset);
+	U3CInitU3Ed__47_MoveNext_m2F3CBC801D38B7FD7344D0613CDB6D510E3227E9(_thisAdjusted, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Init>d__47::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitU3Ed__47_SetStateMachine_mDD342C6E7D8833481917C86AEC36458F0AFB73B5 (U3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_0 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___0_stateMachine;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetStateMachine_mE52B5B6B076025592A7AB462E3D26FA434AEB795(L_0, L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CInitU3Ed__47_SetStateMachine_mDD342C6E7D8833481917C86AEC36458F0AFB73B5_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	U3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CInitU3Ed__47_t89FF2C80CED6FE39D0915559EB4C2D6BCCF44224*>(__this + _offset);
+	U3CInitU3Ed__47_SetStateMachine_mDD342C6E7D8833481917C86AEC36458F0AFB73B5(_thisAdjusted, ___0_stateMachine, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<OnConnect>d__63::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnConnectU3Ed__63_MoveNext_m8A397368B2C061DD9C0234ED565DCA9C4328A00E (U3COnConnectU3Ed__63_t683D0B3EA5283B2235D321EE6D040A6A99DF5AA2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3COnConnectU3Ed__63_t683D0B3EA5283B2235D321EE6D040A6A99DF5AA2_m1F1B0078A2D916C59AC356255EC84A80878F7201_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* V_1 = NULL;
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Exception_t* V_3 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_0050_1;
+			}
+		}
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_3 = V_1;
+			bool L_4;
+			L_4 = Subscriber_get_RestartInProgress_mAD06F35BDBC20361F6956A0830DB683251D12782(L_3, NULL);
+			if (!L_4)
+			{
+				goto IL_001b_1;
+			}
+		}
+		{
+			goto IL_0092;
+		}
+
+IL_001b_1:
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_5 = V_1;
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_6;
+			L_6 = Subscriber_Restart_mC0C3273AAA8BFA1C5E9B8E04A00E5DE298AE0B93(L_5, NULL);
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_7;
+			L_7 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_6, NULL);
+			V_2 = L_7;
+			bool L_8;
+			L_8 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_2), NULL);
+			if (L_8)
+			{
+				goto IL_006c_1;
+			}
+		}
+		{
+			int32_t L_9 = 0;
+			V_0 = L_9;
+			__this->___U3CU3E1__state_0 = L_9;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_10 = V_2;
+			__this->___U3CU3Eu__1_3 = L_10;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
+			AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_11 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder_1);
+			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3COnConnectU3Ed__63_t683D0B3EA5283B2235D321EE6D040A6A99DF5AA2_m1F1B0078A2D916C59AC356255EC84A80878F7201(L_11, (&V_2), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3COnConnectU3Ed__63_t683D0B3EA5283B2235D321EE6D040A6A99DF5AA2_m1F1B0078A2D916C59AC356255EC84A80878F7201_RuntimeMethod_var);
+			goto IL_00a5;
+		}
+
+IL_0050_1:
+		{
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_12 = __this->___U3CU3Eu__1_3;
+			V_2 = L_12;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_13 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*)(&__this->___U3CU3Eu__1_3);
+			il2cpp_codegen_initobj(L_13, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_14 = (-1);
+			V_0 = L_14;
+			__this->___U3CU3E1__state_0 = L_14;
+		}
+
+IL_006c_1:
+		{
+			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_15 = V_1;
+			VirtualActionInvoker0::Invoke(31 /* System.Void WalletConnectSharp.Core.Controllers.Subscriber::OnEnabled() */, L_15);
+			goto IL_0092;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_007b;
+		}
+		throw e;
+	}
+
+CATCH_007b:
+	{// begin catch(System.Exception)
+		Exception_t* L_16 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_3 = L_16;
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_17 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder_1);
+		Exception_t* L_18 = V_3;
+		AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B(L_17, L_18, NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00a5;
+	}// end catch (depth: 1)
+
+IL_0092:
+	{
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_19 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder_1);
+		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_19, NULL);
+	}
+
+IL_00a5:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3COnConnectU3Ed__63_MoveNext_m8A397368B2C061DD9C0234ED565DCA9C4328A00E_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3COnConnectU3Ed__63_t683D0B3EA5283B2235D321EE6D040A6A99DF5AA2* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3COnConnectU3Ed__63_t683D0B3EA5283B2235D321EE6D040A6A99DF5AA2*>(__this + _offset);
+	U3COnConnectU3Ed__63_MoveNext_m8A397368B2C061DD9C0234ED565DCA9C4328A00E(_thisAdjusted, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<OnConnect>d__63::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnConnectU3Ed__63_SetStateMachine_m18E89A6B883AB58B06450B77A548A9A0674D84E4 (U3COnConnectU3Ed__63_t683D0B3EA5283B2235D321EE6D040A6A99DF5AA2* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	{
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_0 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___0_stateMachine;
+		AsyncVoidMethodBuilder_SetStateMachine_m48640FB81C34D4C2B5A5BBA7F5AE17DC50BF1A25(L_0, L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3COnConnectU3Ed__63_SetStateMachine_m18E89A6B883AB58B06450B77A548A9A0674D84E4_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	U3COnConnectU3Ed__63_t683D0B3EA5283B2235D321EE6D040A6A99DF5AA2* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3COnConnectU3Ed__63_t683D0B3EA5283B2235D321EE6D040A6A99DF5AA2*>(__this + _offset);
+	U3COnConnectU3Ed__63_SetStateMachine_m18E89A6B883AB58B06450B77A548A9A0674D84E4(_thisAdjusted, ___0_stateMachine, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<OnUnsubscribe>d__67::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnUnsubscribeU3Ed__67_MoveNext_m19D548E1F221CB47E9E0A89CFA9D7A8DDE10D4E1 (U3COnUnsubscribeU3Ed__67_t56A4F46FDB58CEDEF5012CE9071CB52F934CC88A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3COnUnsubscribeU3Ed__67_t56A4F46FDB58CEDEF5012CE9071CB52F934CC88A_m3DBF5CB51C355502146C722578F7C2076EFAA288_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IMessageTracker_t98138D26B89D92774DD6AE1AB79123139D8C6CDC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IRelayer_tE54D756EB9603AF398D155653194DCAF6BD6FA24_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* V_1 = NULL;
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Exception_t* V_3 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_007c_1;
+			}
+		}
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_3 = V_1;
+			String_t* L_4 = __this->___id_3;
+			String_t* L_5 = __this->___topic_4;
+			bool L_6;
+			L_6 = VirtualFuncInvoker2< bool, String_t*, String_t* >::Invoke(43 /* System.Boolean WalletConnectSharp.Core.Controllers.Subscriber::HasSubscription(System.String,System.String) */, L_3, L_4, L_5);
+			if (!L_6)
+			{
+				goto IL_0037_1;
+			}
+		}
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_7 = V_1;
+			String_t* L_8 = __this->___id_3;
+			Error_tAFB4B4DDC563B97EAA142E1D487E3ED7ACAD6CB2* L_9 = __this->___reason_5;
+			VirtualActionInvoker2< String_t*, Error_tAFB4B4DDC563B97EAA142E1D487E3ED7ACAD6CB2* >::Invoke(40 /* System.Void WalletConnectSharp.Core.Controllers.Subscriber::DeleteSubscription(System.String,WalletConnectSharp.Network.Models.Error) */, L_7, L_8, L_9);
+		}
+
+IL_0037_1:
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_10 = V_1;
+			RuntimeObject* L_11 = L_10->____relayer_9;
+			RuntimeObject* L_12;
+			L_12 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(9 /* WalletConnectSharp.Core.Interfaces.IMessageTracker WalletConnectSharp.Core.Interfaces.IRelayer::get_Messages() */, IRelayer_tE54D756EB9603AF398D155653194DCAF6BD6FA24_il2cpp_TypeInfo_var, L_11);
+			String_t* L_13 = __this->___topic_4;
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_14;
+			L_14 = InterfaceFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, String_t* >::Invoke(3 /* System.Threading.Tasks.Task WalletConnectSharp.Core.Interfaces.IMessageTracker::Delete(System.String) */, IMessageTracker_t98138D26B89D92774DD6AE1AB79123139D8C6CDC_il2cpp_TypeInfo_var, L_12, L_13);
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_15;
+			L_15 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_14, NULL);
+			V_2 = L_15;
+			bool L_16;
+			L_16 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_2), NULL);
+			if (L_16)
+			{
+				goto IL_0098_1;
+			}
+		}
+		{
+			int32_t L_17 = 0;
+			V_0 = L_17;
+			__this->___U3CU3E1__state_0 = L_17;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_18 = V_2;
+			__this->___U3CU3Eu__1_6 = L_18;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_6))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_19 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3COnUnsubscribeU3Ed__67_t56A4F46FDB58CEDEF5012CE9071CB52F934CC88A_m3DBF5CB51C355502146C722578F7C2076EFAA288(L_19, (&V_2), __this, AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3COnUnsubscribeU3Ed__67_t56A4F46FDB58CEDEF5012CE9071CB52F934CC88A_m3DBF5CB51C355502146C722578F7C2076EFAA288_RuntimeMethod_var);
+			goto IL_00cb;
+		}
+
+IL_007c_1:
+		{
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_20 = __this->___U3CU3Eu__1_6;
+			V_2 = L_20;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_21 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*)(&__this->___U3CU3Eu__1_6);
+			il2cpp_codegen_initobj(L_21, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_22 = (-1);
+			V_0 = L_22;
+			__this->___U3CU3E1__state_0 = L_22;
+		}
+
+IL_0098_1:
+		{
+			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
+			goto IL_00b8;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_00a1;
+		}
+		throw e;
+	}
+
+CATCH_00a1:
+	{// begin catch(System.Exception)
+		Exception_t* L_23 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_3 = L_23;
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_24 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		Exception_t* L_25 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var)));
+		AsyncTaskMethodBuilder_SetException_mBE41863F0571E0177A15731294087DE45E1FC10B(L_24, L_25, NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00cb;
+	}// end catch (depth: 1)
+
+IL_00b8:
+	{
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_26 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetResult_m76D8B84F0068257C1823B1200B00E58E0C8DDDDE(L_26, NULL);
+	}
+
+IL_00cb:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3COnUnsubscribeU3Ed__67_MoveNext_m19D548E1F221CB47E9E0A89CFA9D7A8DDE10D4E1_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3COnUnsubscribeU3Ed__67_t56A4F46FDB58CEDEF5012CE9071CB52F934CC88A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3COnUnsubscribeU3Ed__67_t56A4F46FDB58CEDEF5012CE9071CB52F934CC88A*>(__this + _offset);
+	U3COnUnsubscribeU3Ed__67_MoveNext_m19D548E1F221CB47E9E0A89CFA9D7A8DDE10D4E1(_thisAdjusted, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<OnUnsubscribe>d__67::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnUnsubscribeU3Ed__67_SetStateMachine_m36DDC3E93B8F7886C0F28484A3F3D6B742FFDF92 (U3COnUnsubscribeU3Ed__67_t56A4F46FDB58CEDEF5012CE9071CB52F934CC88A* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_0 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___0_stateMachine;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetStateMachine_mE52B5B6B076025592A7AB462E3D26FA434AEB795(L_0, L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3COnUnsubscribeU3Ed__67_SetStateMachine_m36DDC3E93B8F7886C0F28484A3F3D6B742FFDF92_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	U3COnUnsubscribeU3Ed__67_t56A4F46FDB58CEDEF5012CE9071CB52F934CC88A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3COnUnsubscribeU3Ed__67_t56A4F46FDB58CEDEF5012CE9071CB52F934CC88A*>(__this + _offset);
+	U3COnUnsubscribeU3Ed__67_SetStateMachine_m36DDC3E93B8F7886C0F28484A3F3D6B742FFDF92(_thisAdjusted, ___0_stateMachine, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Persist>d__51::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPersistU3Ed__51_MoveNext_m69544CFD33841C80E77A6877F05FB5996B1DBE14 (U3CPersistU3Ed__51_t529F46716089ABD24DCB4C4DEB5CD3A95647B6CE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CPersistU3Ed__51_t529F46716089ABD24DCB4C4DEB5CD3A95647B6CE_mDECC83BE28D6704FDB18950242404BB1853C530E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* V_1 = NULL;
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Exception_t* V_3 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* G_B7_0 = NULL;
+	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* G_B6_0 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_004c_1;
+			}
+		}
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_3 = V_1;
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_4 = V_1;
+			ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* L_5;
+			L_5 = Subscriber_get_Values_m237D81D5D8B58269E5D5C9CBB3F573A3EBF09A4F(L_4, NULL);
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_6;
+			L_6 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* >::Invoke(25 /* System.Threading.Tasks.Task WalletConnectSharp.Core.Controllers.Subscriber::SetRelayerSubscriptions(WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]) */, L_3, L_5);
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_7;
+			L_7 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_6, NULL);
+			V_2 = L_7;
+			bool L_8;
+			L_8 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_2), NULL);
+			if (L_8)
+			{
+				goto IL_0068_1;
+			}
+		}
+		{
+			int32_t L_9 = 0;
+			V_0 = L_9;
+			__this->___U3CU3E1__state_0 = L_9;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_10 = V_2;
+			__this->___U3CU3Eu__1_3 = L_10;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_11 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CPersistU3Ed__51_t529F46716089ABD24DCB4C4DEB5CD3A95647B6CE_mDECC83BE28D6704FDB18950242404BB1853C530E(L_11, (&V_2), __this, AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CPersistU3Ed__51_t529F46716089ABD24DCB4C4DEB5CD3A95647B6CE_mDECC83BE28D6704FDB18950242404BB1853C530E_RuntimeMethod_var);
+			goto IL_00b2;
+		}
+
+IL_004c_1:
+		{
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_12 = __this->___U3CU3Eu__1_3;
+			V_2 = L_12;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_13 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*)(&__this->___U3CU3Eu__1_3);
+			il2cpp_codegen_initobj(L_13, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_14 = (-1);
+			V_0 = L_14;
+			__this->___U3CU3E1__state_0 = L_14;
+		}
+
+IL_0068_1:
+		{
+			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_15 = V_1;
+			EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_16 = L_15->___Sync_0;
+			EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_17 = L_16;
+			G_B6_0 = L_17;
+			if (L_17)
+			{
+				G_B7_0 = L_17;
+				goto IL_007b_1;
+			}
+		}
+		{
+			goto IL_0086_1;
+		}
+
+IL_007b_1:
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_18 = V_1;
+			il2cpp_codegen_runtime_class_init_inline(EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_il2cpp_TypeInfo_var);
+			EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* L_19 = ((EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields*)il2cpp_codegen_static_fields_for(EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_il2cpp_TypeInfo_var))->___Empty_0;
+			EventHandler_Invoke_m9D3126CBE291A3E7E7C304094E1DA846832F9B96_inline(G_B7_0, L_18, L_19, NULL);
+		}
+
+IL_0086_1:
+		{
+			goto IL_009f;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0088;
+		}
+		throw e;
+	}
+
+CATCH_0088:
+	{// begin catch(System.Exception)
+		Exception_t* L_20 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_3 = L_20;
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_21 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		Exception_t* L_22 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var)));
+		AsyncTaskMethodBuilder_SetException_mBE41863F0571E0177A15731294087DE45E1FC10B(L_21, L_22, NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00b2;
+	}// end catch (depth: 1)
+
+IL_009f:
+	{
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_23 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetResult_m76D8B84F0068257C1823B1200B00E58E0C8DDDDE(L_23, NULL);
+	}
+
+IL_00b2:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CPersistU3Ed__51_MoveNext_m69544CFD33841C80E77A6877F05FB5996B1DBE14_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CPersistU3Ed__51_t529F46716089ABD24DCB4C4DEB5CD3A95647B6CE* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CPersistU3Ed__51_t529F46716089ABD24DCB4C4DEB5CD3A95647B6CE*>(__this + _offset);
+	U3CPersistU3Ed__51_MoveNext_m69544CFD33841C80E77A6877F05FB5996B1DBE14(_thisAdjusted, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Persist>d__51::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPersistU3Ed__51_SetStateMachine_m348011BF6825D7054BF38F5A994A565AFE1DD1D6 (U3CPersistU3Ed__51_t529F46716089ABD24DCB4C4DEB5CD3A95647B6CE* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_0 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___0_stateMachine;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetStateMachine_mE52B5B6B076025592A7AB462E3D26FA434AEB795(L_0, L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CPersistU3Ed__51_SetStateMachine_m348011BF6825D7054BF38F5A994A565AFE1DD1D6_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	U3CPersistU3Ed__51_t529F46716089ABD24DCB4C4DEB5CD3A95647B6CE* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CPersistU3Ed__51_t529F46716089ABD24DCB4C4DEB5CD3A95647B6CE*>(__this + _offset);
+	U3CPersistU3Ed__51_SetStateMachine_m348011BF6825D7054BF38F5A994A565AFE1DD1D6(_thisAdjusted, ___0_stateMachine, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Reset>d__56::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CResetU3Ed__56_MoveNext_m9A9E6645BCAC430BE09AE6749546F096BBF6431C (U3CResetU3Ed__56_tB679077C29F63D0F75B7E05BB158A28452D43DD2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CResetU3Ed__56_tB679077C29F63D0F75B7E05BB158A28452D43DD2_m5A8094928F2B17FF58FA5D8CFA4676F20E25F2C6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_ToArray_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_mCD866931D9EEABB6DDD93D81C9B6575A1AC46F8B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerable_1_t4E6A17D3141DEE7367FCC912D6C2B810F30E5ED4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1_tA7D776A97F87B1DCD8B106D27D0EA9883A7F642C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Utils_Batch_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_mD2FD4901F8C637E879CAAB7ECDB959FE17878D4A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	RuntimeObject* V_3 = NULL;
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	PendingSubscriptionU5BU5D_t9C7B303D6139B37FD9237F5903F468C6A4FC460D* V_5 = NULL;
+	Exception_t* V_6 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* G_B20_0 = NULL;
+	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* G_B19_0 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_003a_1;
+			}
+		}
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_3 = V_1;
+			ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* L_4 = L_3->____cached_13;
+			if (!(((RuntimeArray*)L_4)->max_length))
+			{
+				goto IL_00e5_1;
+			}
+		}
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_5 = V_1;
+			ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* L_6 = L_5->____cached_13;
+			RuntimeObject* L_7;
+			L_7 = Utils_Batch_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_mD2FD4901F8C637E879CAAB7ECDB959FE17878D4A((RuntimeObject*)L_6, ((int32_t)500), Utils_Batch_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_mD2FD4901F8C637E879CAAB7ECDB959FE17878D4A_RuntimeMethod_var);
+			V_2 = L_7;
+			RuntimeObject* L_8 = V_2;
+			RuntimeObject* L_9;
+			L_9 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<System.Collections.Generic.IEnumerable`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>>::GetEnumerator() */, IEnumerable_1_t4E6A17D3141DEE7367FCC912D6C2B810F30E5ED4_il2cpp_TypeInfo_var, L_8);
+			__this->___U3CU3E7__wrap1_3 = L_9;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E7__wrap1_3), (void*)L_9);
+		}
+
+IL_003a_1:
+		{
+		}
+		{
+			auto __finallyBlock = il2cpp::utils::Finally([&]
+			{
+
+FINALLY_00c6_1:
+				{// begin finally (depth: 2)
+					{
+						int32_t L_10 = V_0;
+						if ((((int32_t)L_10) >= ((int32_t)0)))
+						{
+							goto IL_00dd_1;
+						}
+					}
+					{
+						RuntimeObject* L_11 = __this->___U3CU3E7__wrap1_3;
+						if (!L_11)
+						{
+							goto IL_00dd_1;
+						}
+					}
+					{
+						RuntimeObject* L_12 = __this->___U3CU3E7__wrap1_3;
+						InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_12);
+					}
+
+IL_00dd_1:
+					{
+						return;
+					}
+				}// end finally (depth: 2)
+			});
+			try
+			{// begin try (depth: 2)
+				{
+					int32_t L_13 = V_0;
+					if (!L_13)
+					{
+						goto IL_0090_2;
+					}
+				}
+				{
+					goto IL_00b4_2;
+				}
+
+IL_0040_2:
+				{
+					RuntimeObject* L_14 = __this->___U3CU3E7__wrap1_3;
+					RuntimeObject* L_15;
+					L_15 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* T System.Collections.Generic.IEnumerator`1<System.Collections.Generic.IEnumerable`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>>::get_Current() */, IEnumerator_1_tA7D776A97F87B1DCD8B106D27D0EA9883A7F642C_il2cpp_TypeInfo_var, L_14);
+					V_3 = L_15;
+					Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_16 = V_1;
+					RuntimeObject* L_17 = V_3;
+					ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* L_18;
+					L_18 = Enumerable_ToArray_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_mCD866931D9EEABB6DDD93D81C9B6575A1AC46F8B(L_17, Enumerable_ToArray_TisActiveSubscription_t03F6D9091FB30769A36A4F7A374CC05738DD48D7_mCD866931D9EEABB6DDD93D81C9B6575A1AC46F8B_RuntimeMethod_var);
+					V_5 = (PendingSubscriptionU5BU5D_t9C7B303D6139B37FD9237F5903F468C6A4FC460D*)L_18;
+					PendingSubscriptionU5BU5D_t9C7B303D6139B37FD9237F5903F468C6A4FC460D* L_19 = V_5;
+					Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_20;
+					L_20 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, PendingSubscriptionU5BU5D_t9C7B303D6139B37FD9237F5903F468C6A4FC460D* >::Invoke(46 /* System.Threading.Tasks.Task WalletConnectSharp.Core.Controllers.Subscriber::BatchSubscribe(WalletConnectSharp.Core.Models.Subscriber.PendingSubscription[]) */, L_16, L_19);
+					TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_21;
+					L_21 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_20, NULL);
+					V_4 = L_21;
+					bool L_22;
+					L_22 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_4), NULL);
+					if (L_22)
+					{
+						goto IL_00ad_2;
+					}
+				}
+				{
+					int32_t L_23 = 0;
+					V_0 = L_23;
+					__this->___U3CU3E1__state_0 = L_23;
+					TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_24 = V_4;
+					__this->___U3CU3Eu__1_4 = L_24;
+					Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_4))->___m_task_0), (void*)NULL);
+					AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_25 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+					il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+					AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CResetU3Ed__56_tB679077C29F63D0F75B7E05BB158A28452D43DD2_m5A8094928F2B17FF58FA5D8CFA4676F20E25F2C6(L_25, (&V_4), __this, AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CResetU3Ed__56_tB679077C29F63D0F75B7E05BB158A28452D43DD2_m5A8094928F2B17FF58FA5D8CFA4676F20E25F2C6_RuntimeMethod_var);
+					goto IL_012a;
+				}
+
+IL_0090_2:
+				{
+					TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_26 = __this->___U3CU3Eu__1_4;
+					V_4 = L_26;
+					TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_27 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*)(&__this->___U3CU3Eu__1_4);
+					il2cpp_codegen_initobj(L_27, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+					int32_t L_28 = (-1);
+					V_0 = L_28;
+					__this->___U3CU3E1__state_0 = L_28;
+				}
+
+IL_00ad_2:
+				{
+					TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_4), NULL);
+				}
+
+IL_00b4_2:
+				{
+					RuntimeObject* L_29 = __this->___U3CU3E7__wrap1_3;
+					bool L_30;
+					L_30 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_29);
+					if (L_30)
+					{
+						goto IL_0040_2;
+					}
+				}
+				{
+					goto IL_00de_1;
+				}
+			}// end try (depth: 2)
+			catch(Il2CppExceptionWrapper& e)
+			{
+				__finallyBlock.StoreException(e.ex);
+			}
+		}
+
+IL_00de_1:
+		{
+			__this->___U3CU3E7__wrap1_3 = (RuntimeObject*)NULL;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E7__wrap1_3), (void*)(RuntimeObject*)NULL);
+		}
+
+IL_00e5_1:
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_31 = V_1;
+			EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_32 = L_31->___Resubscribed_1;
+			EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* L_33 = L_32;
+			G_B19_0 = L_33;
+			if (L_33)
+			{
+				G_B20_0 = L_33;
+				goto IL_00f1_1;
+			}
+		}
+		{
+			goto IL_00fc_1;
+		}
+
+IL_00f1_1:
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_34 = V_1;
+			il2cpp_codegen_runtime_class_init_inline(EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_il2cpp_TypeInfo_var);
+			EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* L_35 = ((EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields*)il2cpp_codegen_static_fields_for(EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_il2cpp_TypeInfo_var))->___Empty_0;
+			EventHandler_Invoke_m9D3126CBE291A3E7E7C304094E1DA846832F9B96_inline(G_B20_0, L_34, L_35, NULL);
+		}
+
+IL_00fc_1:
+		{
+			goto IL_0117;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_00fe;
+		}
+		throw e;
+	}
+
+CATCH_00fe:
+	{// begin catch(System.Exception)
+		Exception_t* L_36 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_6 = L_36;
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_37 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		Exception_t* L_38 = V_6;
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var)));
+		AsyncTaskMethodBuilder_SetException_mBE41863F0571E0177A15731294087DE45E1FC10B(L_37, L_38, NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_012a;
+	}// end catch (depth: 1)
+
+IL_0117:
+	{
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_39 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetResult_m76D8B84F0068257C1823B1200B00E58E0C8DDDDE(L_39, NULL);
+	}
+
+IL_012a:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CResetU3Ed__56_MoveNext_m9A9E6645BCAC430BE09AE6749546F096BBF6431C_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CResetU3Ed__56_tB679077C29F63D0F75B7E05BB158A28452D43DD2* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CResetU3Ed__56_tB679077C29F63D0F75B7E05BB158A28452D43DD2*>(__this + _offset);
+	U3CResetU3Ed__56_MoveNext_m9A9E6645BCAC430BE09AE6749546F096BBF6431C(_thisAdjusted, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Reset>d__56::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CResetU3Ed__56_SetStateMachine_m3744752B76DD93CEC06B58D80680FF84B3D1FDED (U3CResetU3Ed__56_tB679077C29F63D0F75B7E05BB158A28452D43DD2* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_0 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___0_stateMachine;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetStateMachine_mE52B5B6B076025592A7AB462E3D26FA434AEB795(L_0, L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CResetU3Ed__56_SetStateMachine_m3744752B76DD93CEC06B58D80680FF84B3D1FDED_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	U3CResetU3Ed__56_tB679077C29F63D0F75B7E05BB158A28452D43DD2* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CResetU3Ed__56_tB679077C29F63D0F75B7E05BB158A28452D43DD2*>(__this + _offset);
+	U3CResetU3Ed__56_SetStateMachine_m3744752B76DD93CEC06B58D80680FF84B3D1FDED(_thisAdjusted, ___0_stateMachine, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Restart>d__48::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRestartU3Ed__48_MoveNext_m38A8FDED593E719389D302E7B174272E82BBDF59 (U3CRestartU3Ed__48_tFA2B5073FB50CA5FA24D9CBD1503648BDEAB6830* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRestartU3Ed__48_tFA2B5073FB50CA5FA24D9CBD1503648BDEAB6830_m5BE1F147C8FEFE1E26788AE8253285259294D079_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_SetResult_mA4C94A8605B8E4A2646C0C2B08A3D373E1174448_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1__ctor_mBAB8D6EFEAD1AA6482D19D7CE639528BE66AF646_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* V_1 = NULL;
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Exception_t* V_3 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_005b_1;
+			}
+		}
+		{
+			int32_t L_3 = V_0;
+			if ((((int32_t)L_3) == ((int32_t)1)))
+			{
+				goto IL_00b3_1;
+			}
+		}
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_4 = V_1;
+			TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_5 = (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14*)il2cpp_codegen_object_new(TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14_il2cpp_TypeInfo_var);
+			TaskCompletionSource_1__ctor_mBAB8D6EFEAD1AA6482D19D7CE639528BE66AF646(L_5, TaskCompletionSource_1__ctor_mBAB8D6EFEAD1AA6482D19D7CE639528BE66AF646_RuntimeMethod_var);
+			L_4->___restartTask_6 = L_5;
+			Il2CppCodeGenWriteBarrier((void**)(&L_4->___restartTask_6), (void*)L_5);
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_6 = V_1;
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_7;
+			L_7 = VirtualFuncInvoker0< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* >::Invoke(26 /* System.Threading.Tasks.Task WalletConnectSharp.Core.Controllers.Subscriber::Restore() */, L_6);
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_8;
+			L_8 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_7, NULL);
+			V_2 = L_8;
+			bool L_9;
+			L_9 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_2), NULL);
+			if (L_9)
+			{
+				goto IL_0077_1;
+			}
+		}
+		{
+			int32_t L_10 = 0;
+			V_0 = L_10;
+			__this->___U3CU3E1__state_0 = L_10;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_11 = V_2;
+			__this->___U3CU3Eu__1_3 = L_11;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_12 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRestartU3Ed__48_tFA2B5073FB50CA5FA24D9CBD1503648BDEAB6830_m5BE1F147C8FEFE1E26788AE8253285259294D079(L_12, (&V_2), __this, AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRestartU3Ed__48_tFA2B5073FB50CA5FA24D9CBD1503648BDEAB6830_m5BE1F147C8FEFE1E26788AE8253285259294D079_RuntimeMethod_var);
+			goto IL_010e;
+		}
+
+IL_005b_1:
+		{
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_13 = __this->___U3CU3Eu__1_3;
+			V_2 = L_13;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_14 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*)(&__this->___U3CU3Eu__1_3);
+			il2cpp_codegen_initobj(L_14, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_15 = (-1);
+			V_0 = L_15;
+			__this->___U3CU3E1__state_0 = L_15;
+		}
+
+IL_0077_1:
+		{
+			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_16 = V_1;
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_17;
+			L_17 = VirtualFuncInvoker0< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* >::Invoke(28 /* System.Threading.Tasks.Task WalletConnectSharp.Core.Controllers.Subscriber::Reset() */, L_16);
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_18;
+			L_18 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_17, NULL);
+			V_2 = L_18;
+			bool L_19;
+			L_19 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_2), NULL);
+			if (L_19)
+			{
+				goto IL_00cf_1;
+			}
+		}
+		{
+			int32_t L_20 = 1;
+			V_0 = L_20;
+			__this->___U3CU3E1__state_0 = L_20;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_21 = V_2;
+			__this->___U3CU3Eu__1_3 = L_21;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_22 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRestartU3Ed__48_tFA2B5073FB50CA5FA24D9CBD1503648BDEAB6830_m5BE1F147C8FEFE1E26788AE8253285259294D079(L_22, (&V_2), __this, AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRestartU3Ed__48_tFA2B5073FB50CA5FA24D9CBD1503648BDEAB6830_m5BE1F147C8FEFE1E26788AE8253285259294D079_RuntimeMethod_var);
+			goto IL_010e;
+		}
+
+IL_00b3_1:
+		{
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_23 = __this->___U3CU3Eu__1_3;
+			V_2 = L_23;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_24 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*)(&__this->___U3CU3Eu__1_3);
+			il2cpp_codegen_initobj(L_24, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_25 = (-1);
+			V_0 = L_25;
+			__this->___U3CU3E1__state_0 = L_25;
+		}
+
+IL_00cf_1:
+		{
+			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_26 = V_1;
+			TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_27 = L_26->___restartTask_6;
+			TaskCompletionSource_1_SetResult_mA4C94A8605B8E4A2646C0C2B08A3D373E1174448(L_27, (bool)1, TaskCompletionSource_1_SetResult_mA4C94A8605B8E4A2646C0C2B08A3D373E1174448_RuntimeMethod_var);
+			goto IL_00fb;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_00e4;
+		}
+		throw e;
+	}
+
+CATCH_00e4:
+	{// begin catch(System.Exception)
+		Exception_t* L_28 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_3 = L_28;
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_29 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		Exception_t* L_30 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var)));
+		AsyncTaskMethodBuilder_SetException_mBE41863F0571E0177A15731294087DE45E1FC10B(L_29, L_30, NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_010e;
+	}// end catch (depth: 1)
+
+IL_00fb:
+	{
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_31 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetResult_m76D8B84F0068257C1823B1200B00E58E0C8DDDDE(L_31, NULL);
+	}
+
+IL_010e:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CRestartU3Ed__48_MoveNext_m38A8FDED593E719389D302E7B174272E82BBDF59_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CRestartU3Ed__48_tFA2B5073FB50CA5FA24D9CBD1503648BDEAB6830* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CRestartU3Ed__48_tFA2B5073FB50CA5FA24D9CBD1503648BDEAB6830*>(__this + _offset);
+	U3CRestartU3Ed__48_MoveNext_m38A8FDED593E719389D302E7B174272E82BBDF59(_thisAdjusted, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Restart>d__48::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRestartU3Ed__48_SetStateMachine_m3BABABB5139E7FDEEFB0D35BD59AEB269EEDB96B (U3CRestartU3Ed__48_tFA2B5073FB50CA5FA24D9CBD1503648BDEAB6830* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_0 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___0_stateMachine;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetStateMachine_mE52B5B6B076025592A7AB462E3D26FA434AEB795(L_0, L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CRestartU3Ed__48_SetStateMachine_m3BABABB5139E7FDEEFB0D35BD59AEB269EEDB96B_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	U3CRestartU3Ed__48_tFA2B5073FB50CA5FA24D9CBD1503648BDEAB6830* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CRestartU3Ed__48_tFA2B5073FB50CA5FA24D9CBD1503648BDEAB6830*>(__this + _offset);
+	U3CRestartU3Ed__48_SetStateMachine_m3BABABB5139E7FDEEFB0D35BD59AEB269EEDB96B(_thisAdjusted, ___0_stateMachine, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<RestartToComplete>d__64::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRestartToCompleteU3Ed__64_MoveNext_mA3422CF45A70B3D82EF7F6488A5611997A0958B4 (U3CRestartToCompleteU3Ed__64_t350BC5588F2410005FFABAB86FF15A8E9B0D6028* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CRestartToCompleteU3Ed__64_t350BC5588F2410005FFABAB86FF15A8E9B0D6028_mD55987D54D873A4364E384EAE46A5CFD2B1418E4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILogger_t18EFBC64113D42A45E5FE1513D40D5E9E8382DB1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_1_GetResult_mB0D209154690F6972CF22B23275167F6A404B08B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_1_get_IsCompleted_mCAA0D1EB5A6601DF81D5ED06BB0720D47C520DF9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_get_Task_m068E06095F165AE266E15C328CBDA1543429EC66_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_GetAwaiter_m2245DA7A0F2185DD5617D63F1544165AE6101935_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAE41B688C48935D30A1331766C1AEB7823B4BDED);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCB89A4BCEA4B57477122C966F0A3B51C57366284);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* V_1 = NULL;
+	TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Exception_t* V_3 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_0068_1;
+			}
+		}
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_3 = V_1;
+			bool L_4;
+			L_4 = Subscriber_get_RestartInProgress_mAD06F35BDBC20361F6956A0830DB683251D12782(L_3, NULL);
+			if (L_4)
+			{
+				goto IL_001e_1;
+			}
+		}
+		{
+			goto IL_00b5;
+		}
+
+IL_001e_1:
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_5 = V_1;
+			RuntimeObject* L_6 = L_5->____logger_12;
+			InterfaceActionInvoker1< String_t* >::Invoke(0 /* System.Void WalletConnectSharp.Common.Logging.ILogger::Log(System.String) */, ILogger_t18EFBC64113D42A45E5FE1513D40D5E9E8382DB1_il2cpp_TypeInfo_var, L_6, _stringLiteralAE41B688C48935D30A1331766C1AEB7823B4BDED);
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_7 = V_1;
+			TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_8 = L_7->___restartTask_6;
+			Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_9;
+			L_9 = TaskCompletionSource_1_get_Task_m068E06095F165AE266E15C328CBDA1543429EC66_inline(L_8, TaskCompletionSource_1_get_Task_m068E06095F165AE266E15C328CBDA1543429EC66_RuntimeMethod_var);
+			TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35 L_10;
+			L_10 = Task_1_GetAwaiter_m2245DA7A0F2185DD5617D63F1544165AE6101935(L_9, Task_1_GetAwaiter_m2245DA7A0F2185DD5617D63F1544165AE6101935_RuntimeMethod_var);
+			V_2 = L_10;
+			bool L_11;
+			L_11 = TaskAwaiter_1_get_IsCompleted_mCAA0D1EB5A6601DF81D5ED06BB0720D47C520DF9((&V_2), TaskAwaiter_1_get_IsCompleted_mCAA0D1EB5A6601DF81D5ED06BB0720D47C520DF9_RuntimeMethod_var);
+			if (L_11)
+			{
+				goto IL_0084_1;
+			}
+		}
+		{
+			int32_t L_12 = 0;
+			V_0 = L_12;
+			__this->___U3CU3E1__state_0 = L_12;
+			TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35 L_13 = V_2;
+			__this->___U3CU3Eu__1_3 = L_13;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_14 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CRestartToCompleteU3Ed__64_t350BC5588F2410005FFABAB86FF15A8E9B0D6028_mD55987D54D873A4364E384EAE46A5CFD2B1418E4(L_14, (&V_2), __this, AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CRestartToCompleteU3Ed__64_t350BC5588F2410005FFABAB86FF15A8E9B0D6028_mD55987D54D873A4364E384EAE46A5CFD2B1418E4_RuntimeMethod_var);
+			goto IL_00c8;
+		}
+
+IL_0068_1:
+		{
+			TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35 L_15 = __this->___U3CU3Eu__1_3;
+			V_2 = L_15;
+			TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* L_16 = (TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35*)(&__this->___U3CU3Eu__1_3);
+			il2cpp_codegen_initobj(L_16, sizeof(TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35));
+			int32_t L_17 = (-1);
+			V_0 = L_17;
+			__this->___U3CU3E1__state_0 = L_17;
+		}
+
+IL_0084_1:
+		{
+			bool L_18;
+			L_18 = TaskAwaiter_1_GetResult_mB0D209154690F6972CF22B23275167F6A404B08B((&V_2), TaskAwaiter_1_GetResult_mB0D209154690F6972CF22B23275167F6A404B08B_RuntimeMethod_var);
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_19 = V_1;
+			RuntimeObject* L_20 = L_19->____logger_12;
+			InterfaceActionInvoker1< String_t* >::Invoke(0 /* System.Void WalletConnectSharp.Common.Logging.ILogger::Log(System.String) */, ILogger_t18EFBC64113D42A45E5FE1513D40D5E9E8382DB1_il2cpp_TypeInfo_var, L_20, _stringLiteralCB89A4BCEA4B57477122C966F0A3B51C57366284);
+			goto IL_00b5;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_009e;
+		}
+		throw e;
+	}
+
+CATCH_009e:
+	{// begin catch(System.Exception)
+		Exception_t* L_21 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_3 = L_21;
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_22 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		Exception_t* L_23 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var)));
+		AsyncTaskMethodBuilder_SetException_mBE41863F0571E0177A15731294087DE45E1FC10B(L_22, L_23, NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00c8;
+	}// end catch (depth: 1)
+
+IL_00b5:
+	{
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_24 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetResult_m76D8B84F0068257C1823B1200B00E58E0C8DDDDE(L_24, NULL);
+	}
+
+IL_00c8:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CRestartToCompleteU3Ed__64_MoveNext_mA3422CF45A70B3D82EF7F6488A5611997A0958B4_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CRestartToCompleteU3Ed__64_t350BC5588F2410005FFABAB86FF15A8E9B0D6028* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CRestartToCompleteU3Ed__64_t350BC5588F2410005FFABAB86FF15A8E9B0D6028*>(__this + _offset);
+	U3CRestartToCompleteU3Ed__64_MoveNext_mA3422CF45A70B3D82EF7F6488A5611997A0958B4(_thisAdjusted, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<RestartToComplete>d__64::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRestartToCompleteU3Ed__64_SetStateMachine_m23DFDA15A3706C279CE960493B9D739B4FE4AA25 (U3CRestartToCompleteU3Ed__64_t350BC5588F2410005FFABAB86FF15A8E9B0D6028* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_0 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___0_stateMachine;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetStateMachine_mE52B5B6B076025592A7AB462E3D26FA434AEB795(L_0, L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CRestartToCompleteU3Ed__64_SetStateMachine_m23DFDA15A3706C279CE960493B9D739B4FE4AA25_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	U3CRestartToCompleteU3Ed__64_t350BC5588F2410005FFABAB86FF15A8E9B0D6028* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CRestartToCompleteU3Ed__64_t350BC5588F2410005FFABAB86FF15A8E9B0D6028*>(__this + _offset);
+	U3CRestartToCompleteU3Ed__64_SetStateMachine_m23DFDA15A3706C279CE960493B9D739B4FE4AA25(_thisAdjusted, ___0_stateMachine, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Restore>d__54::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRestoreU3Ed__54_MoveNext_mF98CF3D82627DC69270CA39E833E172D1FB769E3 (U3CRestoreU3Ed__54_t4480601D916EC9273A5916B316625001CA6014C2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE_TisU3CRestoreU3Ed__54_t4480601D916EC9273A5916B316625001CA6014C2_mBA8FA644FE6DF9B53DCB9AAA090EF33849CF53F0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyCollection_1_t73516851E97956CB5822FF419C7451A2C436E266_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_1_GetResult_mFBABCE48CEAAFF6367097A3DF620DF4B9C06E959_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_1_get_IsCompleted_mD0D4B783774CF3EDD6F6388F3DDF44A15816305F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_GetAwaiter_mF09429633D4680AB53E194FBD7343B114AD344F8_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* V_1 = NULL;
+	ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* V_2 = NULL;
+	TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_0049_1;
+			}
+		}
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_3 = V_1;
+			Task_1_t1B30037AAD7EEFD36B915BDB500FEE3A04C869B7* L_4;
+			L_4 = VirtualFuncInvoker0< Task_1_t1B30037AAD7EEFD36B915BDB500FEE3A04C869B7* >::Invoke(24 /* System.Threading.Tasks.Task`1<WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription[]> WalletConnectSharp.Core.Controllers.Subscriber::GetRelayerSubscriptions() */, L_3);
+			TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE L_5;
+			L_5 = Task_1_GetAwaiter_mF09429633D4680AB53E194FBD7343B114AD344F8(L_4, Task_1_GetAwaiter_mF09429633D4680AB53E194FBD7343B114AD344F8_RuntimeMethod_var);
+			V_3 = L_5;
+			bool L_6;
+			L_6 = TaskAwaiter_1_get_IsCompleted_mD0D4B783774CF3EDD6F6388F3DDF44A15816305F((&V_3), TaskAwaiter_1_get_IsCompleted_mD0D4B783774CF3EDD6F6388F3DDF44A15816305F_RuntimeMethod_var);
+			if (L_6)
+			{
+				goto IL_0065_1;
+			}
+		}
+		{
+			int32_t L_7 = 0;
+			V_0 = L_7;
+			__this->___U3CU3E1__state_0 = L_7;
+			TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE L_8 = V_3;
+			__this->___U3CU3Eu__1_3 = L_8;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_9 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE_TisU3CRestoreU3Ed__54_t4480601D916EC9273A5916B316625001CA6014C2_mBA8FA644FE6DF9B53DCB9AAA090EF33849CF53F0(L_9, (&V_3), __this, AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE_TisU3CRestoreU3Ed__54_t4480601D916EC9273A5916B316625001CA6014C2_mBA8FA644FE6DF9B53DCB9AAA090EF33849CF53F0_RuntimeMethod_var);
+			goto IL_00c9;
+		}
+
+IL_0049_1:
+		{
+			TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE L_10 = __this->___U3CU3Eu__1_3;
+			V_3 = L_10;
+			TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE* L_11 = (TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE*)(&__this->___U3CU3Eu__1_3);
+			il2cpp_codegen_initobj(L_11, sizeof(TaskAwaiter_1_tA12AB5777BFDE20DF3EF4CCC5C55308CB7A406DE));
+			int32_t L_12 = (-1);
+			V_0 = L_12;
+			__this->___U3CU3E1__state_0 = L_12;
+		}
+
+IL_0065_1:
+		{
+			ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* L_13;
+			L_13 = TaskAwaiter_1_GetResult_mFBABCE48CEAAFF6367097A3DF620DF4B9C06E959((&V_3), TaskAwaiter_1_GetResult_mFBABCE48CEAAFF6367097A3DF620DF4B9C06E959_RuntimeMethod_var);
+			V_2 = L_13;
+			ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* L_14 = V_2;
+			if ((((RuntimeArray*)L_14)->max_length))
+			{
+				goto IL_0073_1;
+			}
+		}
+		{
+			goto IL_00b6;
+		}
+
+IL_0073_1:
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_15 = V_1;
+			RuntimeObject* L_16;
+			L_16 = Subscriber_get_Subscriptions_m3241940CCD54EA273900D496D9377C48AFF87628_inline(L_15, NULL);
+			int32_t L_17;
+			L_17 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.IReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.String,WalletConnectSharp.Core.Models.Subscriber.ActiveSubscription>>::get_Count() */, IReadOnlyCollection_1_t73516851E97956CB5822FF419C7451A2C436E266_il2cpp_TypeInfo_var, L_16);
+			if ((((int32_t)L_17) <= ((int32_t)0)))
+			{
+				goto IL_0094_1;
+			}
+		}
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_18 = V_1;
+			String_t* L_19;
+			L_19 = Subscriber_get_Name_m1934BCC1890F66B0A463BA40F455362E215757DA(L_18, NULL);
+			WalletConnectException_t9CBCE981FDAC7DC8072A3D9E9F941CC2B56A5BA8* L_20;
+			L_20 = WalletConnectException_FromType_mB9C37E5D20E2FD7067A7CA0D4C4CADAB6F731BD6(((int32_t)1200), L_19, (Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710*)NULL, (Exception_t*)NULL, NULL);
+			IL2CPP_RAISE_MANAGED_EXCEPTION(L_20, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CRestoreU3Ed__54_MoveNext_mF98CF3D82627DC69270CA39E833E172D1FB769E3_RuntimeMethod_var)));
+		}
+
+IL_0094_1:
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_21 = V_1;
+			ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* L_22 = V_2;
+			L_21->____cached_13 = L_22;
+			Il2CppCodeGenWriteBarrier((void**)(&L_21->____cached_13), (void*)L_22);
+			goto IL_00b6;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_009d;
+		}
+		throw e;
+	}
+
+CATCH_009d:
+	{// begin catch(System.Exception)
+		Exception_t* L_23 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_23;
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_24 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		Exception_t* L_25 = V_4;
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var)));
+		AsyncTaskMethodBuilder_SetException_mBE41863F0571E0177A15731294087DE45E1FC10B(L_24, L_25, NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00c9;
+	}// end catch (depth: 1)
+
+IL_00b6:
+	{
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_26 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetResult_m76D8B84F0068257C1823B1200B00E58E0C8DDDDE(L_26, NULL);
+	}
+
+IL_00c9:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CRestoreU3Ed__54_MoveNext_mF98CF3D82627DC69270CA39E833E172D1FB769E3_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CRestoreU3Ed__54_t4480601D916EC9273A5916B316625001CA6014C2* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CRestoreU3Ed__54_t4480601D916EC9273A5916B316625001CA6014C2*>(__this + _offset);
+	U3CRestoreU3Ed__54_MoveNext_mF98CF3D82627DC69270CA39E833E172D1FB769E3(_thisAdjusted, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Restore>d__54::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRestoreU3Ed__54_SetStateMachine_mEBC7BC0ECFC5CC9CB167B2F0FC55E4494E39064B (U3CRestoreU3Ed__54_t4480601D916EC9273A5916B316625001CA6014C2* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_0 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___0_stateMachine;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetStateMachine_mE52B5B6B076025592A7AB462E3D26FA434AEB795(L_0, L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CRestoreU3Ed__54_SetStateMachine_mEBC7BC0ECFC5CC9CB167B2F0FC55E4494E39064B_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	U3CRestoreU3Ed__54_t4480601D916EC9273A5916B316625001CA6014C2* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CRestoreU3Ed__54_t4480601D916EC9273A5916B316625001CA6014C2*>(__this + _offset);
+	U3CRestoreU3Ed__54_SetStateMachine_mEBC7BC0ECFC5CC9CB167B2F0FC55E4494E39064B(_thisAdjusted, ___0_stateMachine, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<RpcBatchSubscribe>d__79::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRpcBatchSubscribeU3Ed__79_MoveNext_m2DC841CF2741434E0A06CCB00F60B0AFB1678619 (U3CRpcBatchSubscribeU3Ed__79_tFC5004C250EA747F7D8C32196267C6663F211C4C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisString_t_m9832B70DF2B936246FE60F75D3D12CB946C39D16_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A_TisU3CRpcBatchSubscribeU3Ed__79_tFC5004C250EA747F7D8C32196267C6663F211C4C_mC5E9E0E87710DAD1D2684F01625987311B7324AE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_SetResult_mE9AD4B057332EAA90C35A6FCD0070E75742400C1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BatchSubscribeParams_t52D31D0058449AADDD3E551BA4B74B288098DBAA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Extensions_WithTimeout_TisStringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_mDAE388B360792DA3028EE735D8DBD942D7855AEF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IRelayer_Request_TisBatchSubscribeParams_t52D31D0058449AADDD3E551BA4B74B288098DBAA_TisStringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_m96E6886DC1A9F69F772BAC580134447132BCD6D7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RequestArguments_1__ctor_m3B0EE5E255E079A97A5FE4AEFA7C7D9DD34E0FC6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RequestArguments_1_set_Method_m7CA83BA52C1340F811B8965ADFD4C19618C8310A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RequestArguments_1_set_Params_mB8CECA97517D45F19B418E2EA130E32460E82F05_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RequestArguments_1_tC47354EFEF732550FA9F86A5AA0A96FA38944C6A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_1_GetResult_m83205D2CAC0257ACFB3799DA5DD484B0D4B9DDED_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_1_get_IsCompleted_mBB1935B8D8B149149221600F42DA9073C73FBD5A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_GetAwaiter_mB26BFA07AC14EF917B761C0D201B116283728D55_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1DD31C26CFD4B130914980F87D5B06DBB4837277);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* V_1 = NULL;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_2 = NULL;
+	RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24* V_3 = NULL;
+	RequestArguments_1_tC47354EFEF732550FA9F86A5AA0A96FA38944C6A* V_4 = NULL;
+	TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	Exception_t* V_6 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 2> __active_exceptions;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_1 = __this->___U3CU3E4__this_4;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_0060_1;
+			}
+		}
+		{
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = __this->___topics_2;
+			if ((((RuntimeArray*)L_3)->max_length))
+			{
+				goto IL_0025_1;
+			}
+		}
+		{
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4;
+			L_4 = Array_Empty_TisString_t_m9832B70DF2B936246FE60F75D3D12CB946C39D16_inline(Array_Empty_TisString_t_m9832B70DF2B936246FE60F75D3D12CB946C39D16_RuntimeMethod_var);
+			V_2 = L_4;
+			goto IL_0109;
+		}
+
+IL_0025_1:
+		{
+			ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668* L_5 = __this->___relay_3;
+			String_t* L_6 = L_5->___Protocol_0;
+			il2cpp_codegen_runtime_class_init_inline(RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24_il2cpp_TypeInfo_var);
+			RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24* L_7;
+			L_7 = RelayProtocols_GetRelayProtocol_m932AB40AD3F85DC40A2E67E75E0ABB46BACA0652(L_6, NULL);
+			V_3 = L_7;
+			RequestArguments_1_tC47354EFEF732550FA9F86A5AA0A96FA38944C6A* L_8 = (RequestArguments_1_tC47354EFEF732550FA9F86A5AA0A96FA38944C6A*)il2cpp_codegen_object_new(RequestArguments_1_tC47354EFEF732550FA9F86A5AA0A96FA38944C6A_il2cpp_TypeInfo_var);
+			RequestArguments_1__ctor_m3B0EE5E255E079A97A5FE4AEFA7C7D9DD34E0FC6(L_8, RequestArguments_1__ctor_m3B0EE5E255E079A97A5FE4AEFA7C7D9DD34E0FC6_RuntimeMethod_var);
+			RequestArguments_1_tC47354EFEF732550FA9F86A5AA0A96FA38944C6A* L_9 = L_8;
+			RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24* L_10 = V_3;
+			String_t* L_11;
+			L_11 = VirtualFuncInvoker0< String_t* >::Invoke(6 /* System.String WalletConnectSharp.Common.Model.Relay.RelayProtocols::get_BatchSubscribe() */, L_10);
+			RequestArguments_1_set_Method_m7CA83BA52C1340F811B8965ADFD4C19618C8310A_inline(L_9, L_11, RequestArguments_1_set_Method_m7CA83BA52C1340F811B8965ADFD4C19618C8310A_RuntimeMethod_var);
+			RequestArguments_1_tC47354EFEF732550FA9F86A5AA0A96FA38944C6A* L_12 = L_9;
+			BatchSubscribeParams_t52D31D0058449AADDD3E551BA4B74B288098DBAA* L_13 = (BatchSubscribeParams_t52D31D0058449AADDD3E551BA4B74B288098DBAA*)il2cpp_codegen_object_new(BatchSubscribeParams_t52D31D0058449AADDD3E551BA4B74B288098DBAA_il2cpp_TypeInfo_var);
+			BatchSubscribeParams__ctor_m4ECF523F7ED9C214CD06456AF25FA74DBA5BF486(L_13, NULL);
+			BatchSubscribeParams_t52D31D0058449AADDD3E551BA4B74B288098DBAA* L_14 = L_13;
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = __this->___topics_2;
+			L_14->___Topics_0 = L_15;
+			Il2CppCodeGenWriteBarrier((void**)(&L_14->___Topics_0), (void*)L_15);
+			RequestArguments_1_set_Params_mB8CECA97517D45F19B418E2EA130E32460E82F05_inline(L_12, L_14, RequestArguments_1_set_Params_mB8CECA97517D45F19B418E2EA130E32460E82F05_RuntimeMethod_var);
+			V_4 = L_12;
+		}
+
+IL_0060_1:
+		{
+		}
+		try
+		{// begin try (depth: 2)
+			{
+				int32_t L_16 = V_0;
+				if (!L_16)
+				{
+					goto IL_00bb_2;
+				}
+			}
+			{
+				Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_17 = V_1;
+				RuntimeObject* L_18 = L_17->____relayer_9;
+				RequestArguments_1_tC47354EFEF732550FA9F86A5AA0A96FA38944C6A* L_19 = V_4;
+				Task_1_tE31926224A424AEAE794D9D841B463DE8C3889D4* L_20;
+				L_20 = GenericInterfaceFuncInvoker2< Task_1_tE31926224A424AEAE794D9D841B463DE8C3889D4*, RuntimeObject*, RuntimeObject* >::Invoke(IRelayer_Request_TisBatchSubscribeParams_t52D31D0058449AADDD3E551BA4B74B288098DBAA_TisStringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_m96E6886DC1A9F69F772BAC580134447132BCD6D7_RuntimeMethod_var, L_18, L_19, NULL);
+				il2cpp_codegen_runtime_class_init_inline(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
+				TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_21;
+				L_21 = TimeSpan_FromSeconds_m4401B50C0CA831134068595C6AF2F1CA92AAF80F((45.0), NULL);
+				Task_1_tE31926224A424AEAE794D9D841B463DE8C3889D4* L_22;
+				L_22 = Extensions_WithTimeout_TisStringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_mDAE388B360792DA3028EE735D8DBD942D7855AEF(L_20, L_21, _stringLiteral1DD31C26CFD4B130914980F87D5B06DBB4837277, Extensions_WithTimeout_TisStringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_mDAE388B360792DA3028EE735D8DBD942D7855AEF_RuntimeMethod_var);
+				TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A L_23;
+				L_23 = Task_1_GetAwaiter_mB26BFA07AC14EF917B761C0D201B116283728D55(L_22, Task_1_GetAwaiter_mB26BFA07AC14EF917B761C0D201B116283728D55_RuntimeMethod_var);
+				V_5 = L_23;
+				bool L_24;
+				L_24 = TaskAwaiter_1_get_IsCompleted_mBB1935B8D8B149149221600F42DA9073C73FBD5A((&V_5), TaskAwaiter_1_get_IsCompleted_mBB1935B8D8B149149221600F42DA9073C73FBD5A_RuntimeMethod_var);
+				if (L_24)
+				{
+					goto IL_00d8_2;
+				}
+			}
+			{
+				int32_t L_25 = 0;
+				V_0 = L_25;
+				__this->___U3CU3E1__state_0 = L_25;
+				TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A L_26 = V_5;
+				__this->___U3CU3Eu__1_5 = L_26;
+				Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_5))->___m_task_0), (void*)NULL);
+				AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1* L_27 = (AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1*)(&__this->___U3CU3Et__builder_1);
+				il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1_il2cpp_TypeInfo_var);
+				AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A_TisU3CRpcBatchSubscribeU3Ed__79_tFC5004C250EA747F7D8C32196267C6663F211C4C_mC5E9E0E87710DAD1D2684F01625987311B7324AE(L_27, (&V_5), __this, AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A_TisU3CRpcBatchSubscribeU3Ed__79_tFC5004C250EA747F7D8C32196267C6663F211C4C_mC5E9E0E87710DAD1D2684F01625987311B7324AE_RuntimeMethod_var);
+				goto IL_011d;
+			}
+
+IL_00bb_2:
+			{
+				TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A L_28 = __this->___U3CU3Eu__1_5;
+				V_5 = L_28;
+				TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A* L_29 = (TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A*)(&__this->___U3CU3Eu__1_5);
+				il2cpp_codegen_initobj(L_29, sizeof(TaskAwaiter_1_t0E21B063BE3BF31D10B7AA9DBE4EE94929C1DD7A));
+				int32_t L_30 = (-1);
+				V_0 = L_30;
+				__this->___U3CU3E1__state_0 = L_30;
+			}
+
+IL_00d8_2:
+			{
+				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_31;
+				L_31 = TaskAwaiter_1_GetResult_m83205D2CAC0257ACFB3799DA5DD484B0D4B9DDED((&V_5), TaskAwaiter_1_GetResult_m83205D2CAC0257ACFB3799DA5DD484B0D4B9DDED_RuntimeMethod_var);
+				V_2 = L_31;
+				goto IL_0109;
+			}
+		}// end try (depth: 2)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+			{
+				IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+				goto CATCH_00e2_1;
+			}
+			throw e;
+		}
+
+CATCH_00e2_1:
+		{// begin catch(System.Exception)
+			Exception_t* L_32 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_33 = V_1;
+			RuntimeObject* L_34 = L_33->____relayer_9;
+			InterfaceActionInvoker0::Invoke(15 /* System.Void WalletConnectSharp.Core.Interfaces.IRelayer::TriggerConnectionStalled() */, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&IRelayer_tE54D756EB9603AF398D155653194DCAF6BD6FA24_il2cpp_TypeInfo_var)), L_34);
+			IL2CPP_RETHROW_MANAGED_EXCEPTION(IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*));
+		}// end catch (depth: 2)
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_00f0;
+		}
+		throw e;
+	}
+
+CATCH_00f0:
+	{// begin catch(System.Exception)
+		Exception_t* L_35 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_6 = L_35;
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1* L_36 = (AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1*)(&__this->___U3CU3Et__builder_1);
+		Exception_t* L_37 = V_6;
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1_il2cpp_TypeInfo_var)));
+		AsyncTaskMethodBuilder_1_SetException_m51A27189EAA767CDB2E3650CD2C873F661C140EC(L_36, L_37, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_1_SetException_m51A27189EAA767CDB2E3650CD2C873F661C140EC_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_011d;
+	}// end catch (depth: 1)
+
+IL_0109:
+	{
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1* L_38 = (AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1*)(&__this->___U3CU3Et__builder_1);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_39 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_1_SetResult_mE9AD4B057332EAA90C35A6FCD0070E75742400C1(L_38, L_39, AsyncTaskMethodBuilder_1_SetResult_mE9AD4B057332EAA90C35A6FCD0070E75742400C1_RuntimeMethod_var);
+	}
+
+IL_011d:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CRpcBatchSubscribeU3Ed__79_MoveNext_m2DC841CF2741434E0A06CCB00F60B0AFB1678619_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CRpcBatchSubscribeU3Ed__79_tFC5004C250EA747F7D8C32196267C6663F211C4C* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CRpcBatchSubscribeU3Ed__79_tFC5004C250EA747F7D8C32196267C6663F211C4C*>(__this + _offset);
+	U3CRpcBatchSubscribeU3Ed__79_MoveNext_m2DC841CF2741434E0A06CCB00F60B0AFB1678619(_thisAdjusted, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<RpcBatchSubscribe>d__79::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRpcBatchSubscribeU3Ed__79_SetStateMachine_mC1C2B5B439479467451E07AC55FE1C2F80DD272F (U3CRpcBatchSubscribeU3Ed__79_tFC5004C250EA747F7D8C32196267C6663F211C4C* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_SetStateMachine_m76594F4F36CBE768DF346B00116C2F1A6C9866FE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1* L_0 = (AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1*)(&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___0_stateMachine;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_t217656B5F01FF57AFEB0481625743B832B93CEB1_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_1_SetStateMachine_m76594F4F36CBE768DF346B00116C2F1A6C9866FE(L_0, L_1, AsyncTaskMethodBuilder_1_SetStateMachine_m76594F4F36CBE768DF346B00116C2F1A6C9866FE_RuntimeMethod_var);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CRpcBatchSubscribeU3Ed__79_SetStateMachine_mC1C2B5B439479467451E07AC55FE1C2F80DD272F_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	U3CRpcBatchSubscribeU3Ed__79_tFC5004C250EA747F7D8C32196267C6663F211C4C* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CRpcBatchSubscribeU3Ed__79_tFC5004C250EA747F7D8C32196267C6663F211C4C*>(__this + _offset);
+	U3CRpcBatchSubscribeU3Ed__79_SetStateMachine_mC1C2B5B439479467451E07AC55FE1C2F80DD272F(_thisAdjusted, ___0_stateMachine, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<RpcSubscribe>d__58::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRpcSubscribeU3Ed__58_MoveNext_m64735AA7AFDFA34124C1B39724067E274FA675DE (U3CRpcSubscribeU3Ed__58_t98DBE2C469BDCBF2CC3AAD8D7CBEBD1E7120AD28* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6_TisU3CRpcSubscribeU3Ed__58_t98DBE2C469BDCBF2CC3AAD8D7CBEBD1E7120AD28_mD426AEF551E9628ADBDFB4AD086EB521B67D0AAC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_SetResult_mB79121C0ACAC704500FAA7350ED0FE6604DDA05E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Extensions_WithTimeout_TisString_t_mB8F8ECFE5C6D120C887E21EB1FD337E73DBE63E0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IRelayer_Request_TisJsonRpcSubscriberParams_t64388A511D8028184019E94496334AB2C06D9403_TisString_t_mF007D924F4FB10862AD894D84D6294B9A1B7D7C0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JsonRpcSubscriberParams_t64388A511D8028184019E94496334AB2C06D9403_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RequestArguments_1__ctor_mB5834F104FF8470AA265DD6B51B69D3E591C0AB7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RequestArguments_1_set_Method_m2FDE55C0EF5140D0AD16F7913B688CA96CEA33F5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RequestArguments_1_set_Params_mD424F8D9069356B22C85121645301C1517366B00_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RequestArguments_1_t397A5667DB6EABF6D7B3A01B5CC8FE6EF00FF2E6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_1_GetResult_m82A392802A854576DC9525B87B0053B56201ABB9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_1_get_IsCompleted_mE207C5509602B0BB59366E53CED6CC9B10A1F8A8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_GetAwaiter_m7727657658441E9D4CE9D3F8B532F9D65CB9CE1F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1DD31C26CFD4B130914980F87D5B06DBB4837277);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* V_1 = NULL;
+	String_t* V_2 = NULL;
+	RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24* V_3 = NULL;
+	RequestArguments_1_t397A5667DB6EABF6D7B3A01B5CC8FE6EF00FF2E6* V_4 = NULL;
+	TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	Exception_t* V_6 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_1 = __this->___U3CU3E4__this_4;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_009d_1;
+			}
+		}
+		{
+			ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668* L_3 = __this->___relay_2;
+			String_t* L_4 = L_3->___Protocol_0;
+			il2cpp_codegen_runtime_class_init_inline(RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24_il2cpp_TypeInfo_var);
+			RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24* L_5;
+			L_5 = RelayProtocols_GetRelayProtocol_m932AB40AD3F85DC40A2E67E75E0ABB46BACA0652(L_4, NULL);
+			V_3 = L_5;
+			RequestArguments_1_t397A5667DB6EABF6D7B3A01B5CC8FE6EF00FF2E6* L_6 = (RequestArguments_1_t397A5667DB6EABF6D7B3A01B5CC8FE6EF00FF2E6*)il2cpp_codegen_object_new(RequestArguments_1_t397A5667DB6EABF6D7B3A01B5CC8FE6EF00FF2E6_il2cpp_TypeInfo_var);
+			RequestArguments_1__ctor_mB5834F104FF8470AA265DD6B51B69D3E591C0AB7(L_6, RequestArguments_1__ctor_mB5834F104FF8470AA265DD6B51B69D3E591C0AB7_RuntimeMethod_var);
+			RequestArguments_1_t397A5667DB6EABF6D7B3A01B5CC8FE6EF00FF2E6* L_7 = L_6;
+			RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24* L_8 = V_3;
+			String_t* L_9;
+			L_9 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String WalletConnectSharp.Common.Model.Relay.RelayProtocols::get_Subscribe() */, L_8);
+			RequestArguments_1_set_Method_m2FDE55C0EF5140D0AD16F7913B688CA96CEA33F5_inline(L_7, L_9, RequestArguments_1_set_Method_m2FDE55C0EF5140D0AD16F7913B688CA96CEA33F5_RuntimeMethod_var);
+			RequestArguments_1_t397A5667DB6EABF6D7B3A01B5CC8FE6EF00FF2E6* L_10 = L_7;
+			JsonRpcSubscriberParams_t64388A511D8028184019E94496334AB2C06D9403* L_11 = (JsonRpcSubscriberParams_t64388A511D8028184019E94496334AB2C06D9403*)il2cpp_codegen_object_new(JsonRpcSubscriberParams_t64388A511D8028184019E94496334AB2C06D9403_il2cpp_TypeInfo_var);
+			JsonRpcSubscriberParams__ctor_m12015BD20583A93FFB9AE0FAC9571141E404AAE3(L_11, NULL);
+			JsonRpcSubscriberParams_t64388A511D8028184019E94496334AB2C06D9403* L_12 = L_11;
+			String_t* L_13 = __this->___topic_3;
+			L_12->___Topic_0 = L_13;
+			Il2CppCodeGenWriteBarrier((void**)(&L_12->___Topic_0), (void*)L_13);
+			RequestArguments_1_set_Params_mD424F8D9069356B22C85121645301C1517366B00_inline(L_10, L_12, RequestArguments_1_set_Params_mD424F8D9069356B22C85121645301C1517366B00_RuntimeMethod_var);
+			V_4 = L_10;
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_14 = V_1;
+			RuntimeObject* L_15 = L_14->____relayer_9;
+			RequestArguments_1_t397A5667DB6EABF6D7B3A01B5CC8FE6EF00FF2E6* L_16 = V_4;
+			Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_17;
+			L_17 = GenericInterfaceFuncInvoker2< Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0*, RuntimeObject*, RuntimeObject* >::Invoke(IRelayer_Request_TisJsonRpcSubscriberParams_t64388A511D8028184019E94496334AB2C06D9403_TisString_t_mF007D924F4FB10862AD894D84D6294B9A1B7D7C0_RuntimeMethod_var, L_15, L_16, NULL);
+			Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_18;
+			L_18 = Extensions_WithTimeout_TisString_t_mB8F8ECFE5C6D120C887E21EB1FD337E73DBE63E0(L_17, ((int32_t)20000), _stringLiteral1DD31C26CFD4B130914980F87D5B06DBB4837277, Extensions_WithTimeout_TisString_t_mB8F8ECFE5C6D120C887E21EB1FD337E73DBE63E0_RuntimeMethod_var);
+			TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 L_19;
+			L_19 = Task_1_GetAwaiter_m7727657658441E9D4CE9D3F8B532F9D65CB9CE1F(L_18, Task_1_GetAwaiter_m7727657658441E9D4CE9D3F8B532F9D65CB9CE1F_RuntimeMethod_var);
+			V_5 = L_19;
+			bool L_20;
+			L_20 = TaskAwaiter_1_get_IsCompleted_mE207C5509602B0BB59366E53CED6CC9B10A1F8A8((&V_5), TaskAwaiter_1_get_IsCompleted_mE207C5509602B0BB59366E53CED6CC9B10A1F8A8_RuntimeMethod_var);
+			if (L_20)
+			{
+				goto IL_00ba_1;
+			}
+		}
+		{
+			int32_t L_21 = 0;
+			V_0 = L_21;
+			__this->___U3CU3E1__state_0 = L_21;
+			TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 L_22 = V_5;
+			__this->___U3CU3Eu__1_5 = L_22;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_5))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E* L_23 = (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E*)(&__this->___U3CU3Et__builder_1);
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6_TisU3CRpcSubscribeU3Ed__58_t98DBE2C469BDCBF2CC3AAD8D7CBEBD1E7120AD28_mD426AEF551E9628ADBDFB4AD086EB521B67D0AAC(L_23, (&V_5), __this, AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6_TisU3CRpcSubscribeU3Ed__58_t98DBE2C469BDCBF2CC3AAD8D7CBEBD1E7120AD28_mD426AEF551E9628ADBDFB4AD086EB521B67D0AAC_RuntimeMethod_var);
+			goto IL_0108;
+		}
+
+IL_009d_1:
+		{
+			TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 L_24 = __this->___U3CU3Eu__1_5;
+			V_5 = L_24;
+			TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6* L_25 = (TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6*)(&__this->___U3CU3Eu__1_5);
+			il2cpp_codegen_initobj(L_25, sizeof(TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6));
+			int32_t L_26 = (-1);
+			V_0 = L_26;
+			__this->___U3CU3E1__state_0 = L_26;
+		}
+
+IL_00ba_1:
+		{
+			String_t* L_27;
+			L_27 = TaskAwaiter_1_GetResult_m82A392802A854576DC9525B87B0053B56201ABB9((&V_5), TaskAwaiter_1_GetResult_m82A392802A854576DC9525B87B0053B56201ABB9_RuntimeMethod_var);
+			String_t* L_28 = __this->___topic_3;
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_29 = V_1;
+			String_t* L_30 = L_29->____clientId_11;
+			String_t* L_31;
+			L_31 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_28, L_30, NULL);
+			String_t* L_32;
+			L_32 = HashUtils_HashMessage_mF7C262884B1A059C52B252238CE9925FDE00A552(L_31, NULL);
+			V_2 = L_32;
+			goto IL_00f4;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_00db;
+		}
+		throw e;
+	}
+
+CATCH_00db:
+	{// begin catch(System.Exception)
+		Exception_t* L_33 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_6 = L_33;
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E* L_34 = (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E*)(&__this->___U3CU3Et__builder_1);
+		Exception_t* L_35 = V_6;
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E_il2cpp_TypeInfo_var)));
+		AsyncTaskMethodBuilder_1_SetException_m897218C2DB8D7BA446EB263573085805B8F0638C(L_34, L_35, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_1_SetException_m897218C2DB8D7BA446EB263573085805B8F0638C_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0108;
+	}// end catch (depth: 1)
+
+IL_00f4:
+	{
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E* L_36 = (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E*)(&__this->___U3CU3Et__builder_1);
+		String_t* L_37 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_1_SetResult_mB79121C0ACAC704500FAA7350ED0FE6604DDA05E(L_36, L_37, AsyncTaskMethodBuilder_1_SetResult_mB79121C0ACAC704500FAA7350ED0FE6604DDA05E_RuntimeMethod_var);
+	}
+
+IL_0108:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CRpcSubscribeU3Ed__58_MoveNext_m64735AA7AFDFA34124C1B39724067E274FA675DE_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CRpcSubscribeU3Ed__58_t98DBE2C469BDCBF2CC3AAD8D7CBEBD1E7120AD28* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CRpcSubscribeU3Ed__58_t98DBE2C469BDCBF2CC3AAD8D7CBEBD1E7120AD28*>(__this + _offset);
+	U3CRpcSubscribeU3Ed__58_MoveNext_m64735AA7AFDFA34124C1B39724067E274FA675DE(_thisAdjusted, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<RpcSubscribe>d__58::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRpcSubscribeU3Ed__58_SetStateMachine_m27FA6B248310235C85F8AC2BCD871FC60D11A278 (U3CRpcSubscribeU3Ed__58_t98DBE2C469BDCBF2CC3AAD8D7CBEBD1E7120AD28* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_SetStateMachine_mE4D48B78E50CA2A3650A856ACF86A3CFBA249C30_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E* L_0 = (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E*)(&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___0_stateMachine;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_1_SetStateMachine_mE4D48B78E50CA2A3650A856ACF86A3CFBA249C30(L_0, L_1, AsyncTaskMethodBuilder_1_SetStateMachine_mE4D48B78E50CA2A3650A856ACF86A3CFBA249C30_RuntimeMethod_var);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CRpcSubscribeU3Ed__58_SetStateMachine_m27FA6B248310235C85F8AC2BCD871FC60D11A278_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	U3CRpcSubscribeU3Ed__58_t98DBE2C469BDCBF2CC3AAD8D7CBEBD1E7120AD28* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CRpcSubscribeU3Ed__58_t98DBE2C469BDCBF2CC3AAD8D7CBEBD1E7120AD28*>(__this + _offset);
+	U3CRpcSubscribeU3Ed__58_SetStateMachine_m27FA6B248310235C85F8AC2BCD871FC60D11A278(_thisAdjusted, ___0_stateMachine, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<SetRelayerSubscriptions>d__53::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetRelayerSubscriptionsU3Ed__53_MoveNext_m48AFAB7C3A2DE90F3CB0A0D7649E79C5B66267C6 (U3CSetRelayerSubscriptionsU3Ed__53_t6943AC2A2BA44A2156E5785B6938560F01C41935* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CSetRelayerSubscriptionsU3Ed__53_t6943AC2A2BA44A2156E5785B6938560F01C41935_m0EC523945C2912CC4A90E08EFA41640E861329CD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ICore_t486AB9797C8EA37B31C47E5ACD8D2A65C63C3BDF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IKeyValueStorage_SetItem_TisActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2_mA119821FB30F1475B7261900D84C6F02DB76CF00_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IRelayer_tE54D756EB9603AF398D155653194DCAF6BD6FA24_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* V_1 = NULL;
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Exception_t* V_3 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_0061_1;
+			}
+		}
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_3 = V_1;
+			RuntimeObject* L_4 = L_3->____relayer_9;
+			RuntimeObject* L_5;
+			L_5 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(6 /* WalletConnectSharp.Core.Interfaces.ICore WalletConnectSharp.Core.Interfaces.IRelayer::get_Core() */, IRelayer_tE54D756EB9603AF398D155653194DCAF6BD6FA24_il2cpp_TypeInfo_var, L_4);
+			RuntimeObject* L_6;
+			L_6 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(4 /* WalletConnectSharp.Storage.Interfaces.IKeyValueStorage WalletConnectSharp.Core.Interfaces.ICore::get_Storage() */, ICore_t486AB9797C8EA37B31C47E5ACD8D2A65C63C3BDF_il2cpp_TypeInfo_var, L_5);
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_7 = V_1;
+			String_t* L_8;
+			L_8 = Subscriber_get_StorageKey_mD206B80C7204927066E3A97DB0CA3412E0D45324(L_7, NULL);
+			ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* L_9 = __this->___subscriptions_3;
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_10;
+			L_10 = GenericInterfaceFuncInvoker2< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, String_t*, ActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2* >::Invoke(IKeyValueStorage_SetItem_TisActiveSubscriptionU5BU5D_t83BD58FE998F0A323E8CD1D27A5A7D45CECD53C2_mA119821FB30F1475B7261900D84C6F02DB76CF00_RuntimeMethod_var, L_6, L_8, L_9);
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_11;
+			L_11 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_10, NULL);
+			V_2 = L_11;
+			bool L_12;
+			L_12 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_2), NULL);
+			if (L_12)
+			{
+				goto IL_007d_1;
+			}
+		}
+		{
+			int32_t L_13 = 0;
+			V_0 = L_13;
+			__this->___U3CU3E1__state_0 = L_13;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_14 = V_2;
+			__this->___U3CU3Eu__1_4 = L_14;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_4))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_15 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CSetRelayerSubscriptionsU3Ed__53_t6943AC2A2BA44A2156E5785B6938560F01C41935_m0EC523945C2912CC4A90E08EFA41640E861329CD(L_15, (&V_2), __this, AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CSetRelayerSubscriptionsU3Ed__53_t6943AC2A2BA44A2156E5785B6938560F01C41935_m0EC523945C2912CC4A90E08EFA41640E861329CD_RuntimeMethod_var);
+			goto IL_00b0;
+		}
+
+IL_0061_1:
+		{
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_16 = __this->___U3CU3Eu__1_4;
+			V_2 = L_16;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_17 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*)(&__this->___U3CU3Eu__1_4);
+			il2cpp_codegen_initobj(L_17, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_18 = (-1);
+			V_0 = L_18;
+			__this->___U3CU3E1__state_0 = L_18;
+		}
+
+IL_007d_1:
+		{
+			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
+			goto IL_009d;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0086;
+		}
+		throw e;
+	}
+
+CATCH_0086:
+	{// begin catch(System.Exception)
+		Exception_t* L_19 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_3 = L_19;
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_20 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		Exception_t* L_21 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var)));
+		AsyncTaskMethodBuilder_SetException_mBE41863F0571E0177A15731294087DE45E1FC10B(L_20, L_21, NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00b0;
+	}// end catch (depth: 1)
+
+IL_009d:
+	{
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_22 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetResult_m76D8B84F0068257C1823B1200B00E58E0C8DDDDE(L_22, NULL);
+	}
+
+IL_00b0:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CSetRelayerSubscriptionsU3Ed__53_MoveNext_m48AFAB7C3A2DE90F3CB0A0D7649E79C5B66267C6_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CSetRelayerSubscriptionsU3Ed__53_t6943AC2A2BA44A2156E5785B6938560F01C41935* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CSetRelayerSubscriptionsU3Ed__53_t6943AC2A2BA44A2156E5785B6938560F01C41935*>(__this + _offset);
+	U3CSetRelayerSubscriptionsU3Ed__53_MoveNext_m48AFAB7C3A2DE90F3CB0A0D7649E79C5B66267C6(_thisAdjusted, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<SetRelayerSubscriptions>d__53::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetRelayerSubscriptionsU3Ed__53_SetStateMachine_m794DDDBD4B7A1BAD4D2FD72A3996EF2A765FF3A3 (U3CSetRelayerSubscriptionsU3Ed__53_t6943AC2A2BA44A2156E5785B6938560F01C41935* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_0 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___0_stateMachine;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetStateMachine_mE52B5B6B076025592A7AB462E3D26FA434AEB795(L_0, L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CSetRelayerSubscriptionsU3Ed__53_SetStateMachine_m794DDDBD4B7A1BAD4D2FD72A3996EF2A765FF3A3_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	U3CSetRelayerSubscriptionsU3Ed__53_t6943AC2A2BA44A2156E5785B6938560F01C41935* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CSetRelayerSubscriptionsU3Ed__53_t6943AC2A2BA44A2156E5785B6938560F01C41935*>(__this + _offset);
+	U3CSetRelayerSubscriptionsU3Ed__53_SetStateMachine_m794DDDBD4B7A1BAD4D2FD72A3996EF2A765FF3A3(_thisAdjusted, ___0_stateMachine, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Subscribe>d__76::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSubscribeU3Ed__76_MoveNext_m4CAECA69982268C6986D40B67D18E99593DBDBA7 (U3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6_TisU3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035_mA0BDD722D0E80D70BEDC53A91B5D5B82C2B24448_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035_m69CA64FB8E48223FEADF7782B0C0FF66CCF83AC3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_SetResult_mB79121C0ACAC704500FAA7350ED0FE6604DDA05E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_mB4F7FEA177DCF67A5320F3660AF32CBB33F3BA8F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SubscribeOptions_t783BBD8CC69D46DFC75E8A16A60CD077ADE0ED78_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_1_GetResult_m82A392802A854576DC9525B87B0053B56201ABB9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_1_get_IsCompleted_mE207C5509602B0BB59366E53CED6CC9B10A1F8A8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_GetAwaiter_m7727657658441E9D4CE9D3F8B532F9D65CB9CE1F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* V_1 = NULL;
+	String_t* V_2 = NULL;
+	String_t* V_3 = NULL;
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	Exception_t* V_6 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_0052_1;
+			}
+		}
+		{
+			int32_t L_3 = V_0;
+			if ((((int32_t)L_3) == ((int32_t)1)))
+			{
+				goto IL_012c_1;
+			}
+		}
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_4 = V_1;
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_5;
+			L_5 = Subscriber_RestartToComplete_mD01963B842EADC56FA516240A88EE61EDFD714E6(L_4, NULL);
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_6;
+			L_6 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_5, NULL);
+			V_4 = L_6;
+			bool L_7;
+			L_7 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_4), NULL);
+			if (L_7)
+			{
+				goto IL_006f_1;
+			}
+		}
+		{
+			int32_t L_8 = 0;
+			V_0 = L_8;
+			__this->___U3CU3E1__state_0 = L_8;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_9 = V_4;
+			__this->___U3CU3Eu__1_6 = L_9;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_6))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E* L_10 = (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E*)(&__this->___U3CU3Et__builder_1);
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035_m69CA64FB8E48223FEADF7782B0C0FF66CCF83AC3(L_10, (&V_4), __this, AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035_m69CA64FB8E48223FEADF7782B0C0FF66CCF83AC3_RuntimeMethod_var);
+			goto IL_019d;
+		}
+
+IL_0052_1:
+		{
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_11 = __this->___U3CU3Eu__1_6;
+			V_4 = L_11;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_12 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*)(&__this->___U3CU3Eu__1_6);
+			il2cpp_codegen_initobj(L_12, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_13 = (-1);
+			V_0 = L_13;
+			__this->___U3CU3E1__state_0 = L_13;
+		}
+
+IL_006f_1:
+		{
+			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_4), NULL);
+			SubscribeOptions_t783BBD8CC69D46DFC75E8A16A60CD077ADE0ED78* L_14 = __this->___opts_3;
+			if (L_14)
+			{
+				goto IL_009f_1;
+			}
+		}
+		{
+			SubscribeOptions_t783BBD8CC69D46DFC75E8A16A60CD077ADE0ED78* L_15 = (SubscribeOptions_t783BBD8CC69D46DFC75E8A16A60CD077ADE0ED78*)il2cpp_codegen_object_new(SubscribeOptions_t783BBD8CC69D46DFC75E8A16A60CD077ADE0ED78_il2cpp_TypeInfo_var);
+			SubscribeOptions__ctor_m6BDB932EBA0319D55D73E4DE5A09D0B2EE05A1CA(L_15, NULL);
+			SubscribeOptions_t783BBD8CC69D46DFC75E8A16A60CD077ADE0ED78* L_16 = L_15;
+			ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668* L_17 = (ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668*)il2cpp_codegen_object_new(ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668_il2cpp_TypeInfo_var);
+			ProtocolOptions__ctor_m14973E5DF147DC08F55B43BCAD7D2B2F0E2F8839(L_17, NULL);
+			ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668* L_18 = L_17;
+			il2cpp_codegen_runtime_class_init_inline(RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24_il2cpp_TypeInfo_var);
+			String_t* L_19 = ((RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24_StaticFields*)il2cpp_codegen_static_fields_for(RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24_il2cpp_TypeInfo_var))->___Default_0;
+			L_18->___Protocol_0 = L_19;
+			Il2CppCodeGenWriteBarrier((void**)(&L_18->___Protocol_0), (void*)L_19);
+			((ProtocolOptionHolder_tCBB3405C491C58313845C00EB83F311E0038E657*)L_16)->___Relay_0 = L_18;
+			Il2CppCodeGenWriteBarrier((void**)(&((ProtocolOptionHolder_tCBB3405C491C58313845C00EB83F311E0038E657*)L_16)->___Relay_0), (void*)L_18);
+			__this->___opts_3 = L_16;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___opts_3), (void*)L_16);
+		}
+
+IL_009f_1:
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_20 = V_1;
+			VirtualActionInvoker0::Invoke(44 /* System.Void WalletConnectSharp.Core.Controllers.Subscriber::IsInitialized() */, L_20);
+			PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE* L_21 = (PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE*)il2cpp_codegen_object_new(PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE_il2cpp_TypeInfo_var);
+			PendingSubscription__ctor_mB4EFE3F49A73E95DEDEEC1E85FDD36055FBEDDF9(L_21, NULL);
+			PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE* L_22 = L_21;
+			SubscribeOptions_t783BBD8CC69D46DFC75E8A16A60CD077ADE0ED78* L_23 = __this->___opts_3;
+			ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668* L_24 = ((ProtocolOptionHolder_tCBB3405C491C58313845C00EB83F311E0038E657*)L_23)->___Relay_0;
+			((ProtocolOptionHolder_tCBB3405C491C58313845C00EB83F311E0038E657*)L_22)->___Relay_0 = L_24;
+			Il2CppCodeGenWriteBarrier((void**)(&((ProtocolOptionHolder_tCBB3405C491C58313845C00EB83F311E0038E657*)L_22)->___Relay_0), (void*)L_24);
+			PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE* L_25 = L_22;
+			String_t* L_26 = __this->___topic_4;
+			L_25->___Topic_1 = L_26;
+			Il2CppCodeGenWriteBarrier((void**)(&L_25->___Topic_1), (void*)L_26);
+			__this->___U3CparamsU3E5__2_5 = L_25;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CparamsU3E5__2_5), (void*)L_25);
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_27 = V_1;
+			Dictionary_2_tE6A6CE64E2358C03896D2342C78C7944D99FD5C5* L_28 = L_27->___pending_5;
+			String_t* L_29 = __this->___topic_4;
+			PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE* L_30 = __this->___U3CparamsU3E5__2_5;
+			Dictionary_2_Add_mB4F7FEA177DCF67A5320F3660AF32CBB33F3BA8F(L_28, L_29, L_30, Dictionary_2_Add_mB4F7FEA177DCF67A5320F3660AF32CBB33F3BA8F_RuntimeMethod_var);
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_31 = V_1;
+			String_t* L_32 = __this->___topic_4;
+			PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE* L_33 = __this->___U3CparamsU3E5__2_5;
+			ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668* L_34 = ((ProtocolOptionHolder_tCBB3405C491C58313845C00EB83F311E0038E657*)L_33)->___Relay_0;
+			Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_35;
+			L_35 = VirtualFuncInvoker2< Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0*, String_t*, ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668* >::Invoke(29 /* System.Threading.Tasks.Task`1<System.String> WalletConnectSharp.Core.Controllers.Subscriber::RpcSubscribe(System.String,WalletConnectSharp.Core.Models.Relay.ProtocolOptions) */, L_31, L_32, L_34);
+			TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 L_36;
+			L_36 = Task_1_GetAwaiter_m7727657658441E9D4CE9D3F8B532F9D65CB9CE1F(L_35, Task_1_GetAwaiter_m7727657658441E9D4CE9D3F8B532F9D65CB9CE1F_RuntimeMethod_var);
+			V_5 = L_36;
+			bool L_37;
+			L_37 = TaskAwaiter_1_get_IsCompleted_mE207C5509602B0BB59366E53CED6CC9B10A1F8A8((&V_5), TaskAwaiter_1_get_IsCompleted_mE207C5509602B0BB59366E53CED6CC9B10A1F8A8_RuntimeMethod_var);
+			if (L_37)
+			{
+				goto IL_0149_1;
+			}
+		}
+		{
+			int32_t L_38 = 1;
+			V_0 = L_38;
+			__this->___U3CU3E1__state_0 = L_38;
+			TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 L_39 = V_5;
+			__this->___U3CU3Eu__2_7 = L_39;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__2_7))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E* L_40 = (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E*)(&__this->___U3CU3Et__builder_1);
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6_TisU3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035_mA0BDD722D0E80D70BEDC53A91B5D5B82C2B24448(L_40, (&V_5), __this, AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6_TisU3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035_mA0BDD722D0E80D70BEDC53A91B5D5B82C2B24448_RuntimeMethod_var);
+			goto IL_019d;
+		}
+
+IL_012c_1:
+		{
+			TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 L_41 = __this->___U3CU3Eu__2_7;
+			V_5 = L_41;
+			TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6* L_42 = (TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6*)(&__this->___U3CU3Eu__2_7);
+			il2cpp_codegen_initobj(L_42, sizeof(TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6));
+			int32_t L_43 = (-1);
+			V_0 = L_43;
+			__this->___U3CU3E1__state_0 = L_43;
+		}
+
+IL_0149_1:
+		{
+			String_t* L_44;
+			L_44 = TaskAwaiter_1_GetResult_m82A392802A854576DC9525B87B0053B56201ABB9((&V_5), TaskAwaiter_1_GetResult_m82A392802A854576DC9525B87B0053B56201ABB9_RuntimeMethod_var);
+			V_3 = L_44;
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_45 = V_1;
+			String_t* L_46 = V_3;
+			PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE* L_47 = __this->___U3CparamsU3E5__2_5;
+			VirtualActionInvoker2< String_t*, PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE* >::Invoke(35 /* System.Void WalletConnectSharp.Core.Controllers.Subscriber::OnSubscribe(System.String,WalletConnectSharp.Core.Models.Subscriber.PendingSubscription) */, L_45, L_46, L_47);
+			String_t* L_48 = V_3;
+			V_2 = L_48;
+			goto IL_0182;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0162;
+		}
+		throw e;
+	}
+
+CATCH_0162:
+	{// begin catch(System.Exception)
+		Exception_t* L_49 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_6 = L_49;
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		__this->___U3CparamsU3E5__2_5 = (PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CparamsU3E5__2_5), (void*)(PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE*)NULL);
+		AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E* L_50 = (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E*)(&__this->___U3CU3Et__builder_1);
+		Exception_t* L_51 = V_6;
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E_il2cpp_TypeInfo_var)));
+		AsyncTaskMethodBuilder_1_SetException_m897218C2DB8D7BA446EB263573085805B8F0638C(L_50, L_51, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_1_SetException_m897218C2DB8D7BA446EB263573085805B8F0638C_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_019d;
+	}// end catch (depth: 1)
+
+IL_0182:
+	{
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		__this->___U3CparamsU3E5__2_5 = (PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CparamsU3E5__2_5), (void*)(PendingSubscription_tD196966DC4078CB7909526918D19453E8A1ECDBE*)NULL);
+		AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E* L_52 = (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E*)(&__this->___U3CU3Et__builder_1);
+		String_t* L_53 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_1_SetResult_mB79121C0ACAC704500FAA7350ED0FE6604DDA05E(L_52, L_53, AsyncTaskMethodBuilder_1_SetResult_mB79121C0ACAC704500FAA7350ED0FE6604DDA05E_RuntimeMethod_var);
+	}
+
+IL_019d:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CSubscribeU3Ed__76_MoveNext_m4CAECA69982268C6986D40B67D18E99593DBDBA7_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035*>(__this + _offset);
+	U3CSubscribeU3Ed__76_MoveNext_m4CAECA69982268C6986D40B67D18E99593DBDBA7(_thisAdjusted, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Subscribe>d__76::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSubscribeU3Ed__76_SetStateMachine_m41E3ACF535024CC1999D2F4918792FF2A15FCB29 (U3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_SetStateMachine_mE4D48B78E50CA2A3650A856ACF86A3CFBA249C30_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E* L_0 = (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E*)(&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___0_stateMachine;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_1_SetStateMachine_mE4D48B78E50CA2A3650A856ACF86A3CFBA249C30(L_0, L_1, AsyncTaskMethodBuilder_1_SetStateMachine_mE4D48B78E50CA2A3650A856ACF86A3CFBA249C30_RuntimeMethod_var);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CSubscribeU3Ed__76_SetStateMachine_m41E3ACF535024CC1999D2F4918792FF2A15FCB29_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	U3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CSubscribeU3Ed__76_tA02BA7A5DD046998805551E12713E8B2C59E1035*>(__this + _offset);
+	U3CSubscribeU3Ed__76_SetStateMachine_m41E3ACF535024CC1999D2F4918792FF2A15FCB29(_thisAdjusted, ___0_stateMachine, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Unsubscribe>d__77::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUnsubscribeU3Ed__77_MoveNext_m2646C199DBA60BF7CE4448B2F8F408A91F2C3254 (U3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7_m66B034EFB53F921574C6B15BE6FC48211B557B9D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* V_1 = NULL;
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Exception_t* V_3 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			switch (L_2)
+			{
+				case 0:
+				{
+					goto IL_0058_1;
+				}
+				case 1:
+				{
+					goto IL_00ed_1;
+				}
+				case 2:
+				{
+					goto IL_0153_1;
+				}
+			}
+		}
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_3 = V_1;
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_4;
+			L_4 = Subscriber_RestartToComplete_mD01963B842EADC56FA516240A88EE61EDFD714E6(L_3, NULL);
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_5;
+			L_5 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_4, NULL);
+			V_2 = L_5;
+			bool L_6;
+			L_6 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_2), NULL);
+			if (L_6)
+			{
+				goto IL_0074_1;
+			}
+		}
+		{
+			int32_t L_7 = 0;
+			V_0 = L_7;
+			__this->___U3CU3E1__state_0 = L_7;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_8 = V_2;
+			__this->___U3CU3Eu__1_5 = L_8;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_5))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_9 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7_m66B034EFB53F921574C6B15BE6FC48211B557B9D(L_9, (&V_2), __this, AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7_m66B034EFB53F921574C6B15BE6FC48211B557B9D_RuntimeMethod_var);
+			goto IL_01a2;
+		}
+
+IL_0058_1:
+		{
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_10 = __this->___U3CU3Eu__1_5;
+			V_2 = L_10;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_11 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*)(&__this->___U3CU3Eu__1_5);
+			il2cpp_codegen_initobj(L_11, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_12 = (-1);
+			V_0 = L_12;
+			__this->___U3CU3E1__state_0 = L_12;
+		}
+
+IL_0074_1:
+		{
+			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_13 = V_1;
+			VirtualActionInvoker0::Invoke(44 /* System.Void WalletConnectSharp.Core.Controllers.Subscriber::IsInitialized() */, L_13);
+			UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C* L_14 = __this->___opts_3;
+			if (!L_14)
+			{
+				goto IL_0112_1;
+			}
+		}
+		{
+			UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C* L_15 = __this->___opts_3;
+			String_t* L_16 = L_15->___Id_1;
+			bool L_17;
+			L_17 = String_IsNullOrWhiteSpace_m42E1F3B2C358068D645E46F01CF1834DC77A5A10(L_16, NULL);
+			if (L_17)
+			{
+				goto IL_0112_1;
+			}
+		}
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_18 = V_1;
+			String_t* L_19 = __this->___topic_4;
+			UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C* L_20 = __this->___opts_3;
+			String_t* L_21 = L_20->___Id_1;
+			UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C* L_22 = __this->___opts_3;
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_23;
+			L_23 = VirtualFuncInvoker3< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, String_t*, String_t*, UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C* >::Invoke(41 /* System.Threading.Tasks.Task WalletConnectSharp.Core.Controllers.Subscriber::UnsubscribeById(System.String,System.String,WalletConnectSharp.Core.Models.Relay.UnsubscribeOptions) */, L_18, L_19, L_21, L_22);
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_24;
+			L_24 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_23, NULL);
+			V_2 = L_24;
+			bool L_25;
+			L_25 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_2), NULL);
+			if (L_25)
+			{
+				goto IL_0109_1;
+			}
+		}
+		{
+			int32_t L_26 = 1;
+			V_0 = L_26;
+			__this->___U3CU3E1__state_0 = L_26;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_27 = V_2;
+			__this->___U3CU3Eu__1_5 = L_27;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_5))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_28 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7_m66B034EFB53F921574C6B15BE6FC48211B557B9D(L_28, (&V_2), __this, AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7_m66B034EFB53F921574C6B15BE6FC48211B557B9D_RuntimeMethod_var);
+			goto IL_01a2;
+		}
+
+IL_00ed_1:
+		{
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_29 = __this->___U3CU3Eu__1_5;
+			V_2 = L_29;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_30 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*)(&__this->___U3CU3Eu__1_5);
+			il2cpp_codegen_initobj(L_30, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_31 = (-1);
+			V_0 = L_31;
+			__this->___U3CU3E1__state_0 = L_31;
+		}
+
+IL_0109_1:
+		{
+			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
+			goto IL_0176_1;
+		}
+
+IL_0112_1:
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_32 = V_1;
+			String_t* L_33 = __this->___topic_4;
+			UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C* L_34 = __this->___opts_3;
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_35;
+			L_35 = VirtualFuncInvoker2< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, String_t*, UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C* >::Invoke(39 /* System.Threading.Tasks.Task WalletConnectSharp.Core.Controllers.Subscriber::UnsubscribeByTopic(System.String,WalletConnectSharp.Core.Models.Relay.UnsubscribeOptions) */, L_32, L_33, L_34);
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_36;
+			L_36 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_35, NULL);
+			V_2 = L_36;
+			bool L_37;
+			L_37 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_2), NULL);
+			if (L_37)
+			{
+				goto IL_016f_1;
+			}
+		}
+		{
+			int32_t L_38 = 2;
+			V_0 = L_38;
+			__this->___U3CU3E1__state_0 = L_38;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_39 = V_2;
+			__this->___U3CU3Eu__1_5 = L_39;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_5))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_40 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7_m66B034EFB53F921574C6B15BE6FC48211B557B9D(L_40, (&V_2), __this, AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7_m66B034EFB53F921574C6B15BE6FC48211B557B9D_RuntimeMethod_var);
+			goto IL_01a2;
+		}
+
+IL_0153_1:
+		{
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_41 = __this->___U3CU3Eu__1_5;
+			V_2 = L_41;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_42 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*)(&__this->___U3CU3Eu__1_5);
+			il2cpp_codegen_initobj(L_42, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_43 = (-1);
+			V_0 = L_43;
+			__this->___U3CU3E1__state_0 = L_43;
+		}
+
+IL_016f_1:
+		{
+			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
+		}
+
+IL_0176_1:
+		{
+			goto IL_018f;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0178;
+		}
+		throw e;
+	}
+
+CATCH_0178:
+	{// begin catch(System.Exception)
+		Exception_t* L_44 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_3 = L_44;
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_45 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		Exception_t* L_46 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var)));
+		AsyncTaskMethodBuilder_SetException_mBE41863F0571E0177A15731294087DE45E1FC10B(L_45, L_46, NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_01a2;
+	}// end catch (depth: 1)
+
+IL_018f:
+	{
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_47 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetResult_m76D8B84F0068257C1823B1200B00E58E0C8DDDDE(L_47, NULL);
+	}
+
+IL_01a2:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CUnsubscribeU3Ed__77_MoveNext_m2646C199DBA60BF7CE4448B2F8F408A91F2C3254_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7*>(__this + _offset);
+	U3CUnsubscribeU3Ed__77_MoveNext_m2646C199DBA60BF7CE4448B2F8F408A91F2C3254(_thisAdjusted, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<Unsubscribe>d__77::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUnsubscribeU3Ed__77_SetStateMachine_mB40656213F09D45E77468E44581AE4CFFE9F2BA8 (U3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_0 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___0_stateMachine;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetStateMachine_mE52B5B6B076025592A7AB462E3D26FA434AEB795(L_0, L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CUnsubscribeU3Ed__77_SetStateMachine_mB40656213F09D45E77468E44581AE4CFFE9F2BA8_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	U3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7*>(__this + _offset);
+	U3CUnsubscribeU3Ed__77_SetStateMachine_mB40656213F09D45E77468E44581AE4CFFE9F2BA8(_thisAdjusted, ___0_stateMachine, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<UnsubscribeById>d__72::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUnsubscribeByIdU3Ed__72_MoveNext_mDE992CC9FDDF9ADB0D57AAE073616DC06187159A (U3CUnsubscribeByIdU3Ed__72_t6DFD5C04F5AAB943E42BD66AD756EAC998AD84A5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CUnsubscribeByIdU3Ed__72_t6DFD5C04F5AAB943E42BD66AD756EAC998AD84A5_mE927ECAD275D1642D6AD59F9EEA2A5D175C987F0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* V_1 = NULL;
+	Error_tAFB4B4DDC563B97EAA142E1D487E3ED7ACAD6CB2* V_2 = NULL;
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Exception_t* V_4 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_1 = __this->___U3CU3E4__this_4;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_009f_1;
+			}
+		}
+		{
+			int32_t L_3 = V_0;
+			if ((((int32_t)L_3) == ((int32_t)1)))
+			{
+				goto IL_0106_1;
+			}
+		}
+		{
+			UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C* L_4 = __this->___opts_2;
+			if (L_4)
+			{
+				goto IL_0050_1;
+			}
+		}
+		{
+			UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C* L_5 = (UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C*)il2cpp_codegen_object_new(UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C_il2cpp_TypeInfo_var);
+			UnsubscribeOptions__ctor_m1F0CF8D22F48929D9490F386D3D2698B9A200AC6(L_5, NULL);
+			UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C* L_6 = L_5;
+			String_t* L_7 = __this->___id_3;
+			L_6->___Id_1 = L_7;
+			Il2CppCodeGenWriteBarrier((void**)(&L_6->___Id_1), (void*)L_7);
+			UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C* L_8 = L_6;
+			ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668* L_9 = (ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668*)il2cpp_codegen_object_new(ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668_il2cpp_TypeInfo_var);
+			ProtocolOptions__ctor_m14973E5DF147DC08F55B43BCAD7D2B2F0E2F8839(L_9, NULL);
+			ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668* L_10 = L_9;
+			il2cpp_codegen_runtime_class_init_inline(RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24_il2cpp_TypeInfo_var);
+			String_t* L_11 = ((RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24_StaticFields*)il2cpp_codegen_static_fields_for(RelayProtocols_tA4984F5AECFAAEA17E53B27EB2D0C15A6D362F24_il2cpp_TypeInfo_var))->___Default_0;
+			L_10->___Protocol_0 = L_11;
+			Il2CppCodeGenWriteBarrier((void**)(&L_10->___Protocol_0), (void*)L_11);
+			((ProtocolOptionHolder_tCBB3405C491C58313845C00EB83F311E0038E657*)L_8)->___Relay_0 = L_10;
+			Il2CppCodeGenWriteBarrier((void**)(&((ProtocolOptionHolder_tCBB3405C491C58313845C00EB83F311E0038E657*)L_8)->___Relay_0), (void*)L_10);
+			__this->___opts_2 = L_8;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___opts_2), (void*)L_8);
+		}
+
+IL_0050_1:
+		{
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_12 = V_1;
+			String_t* L_13 = __this->___topic_5;
+			String_t* L_14 = __this->___id_3;
+			UnsubscribeOptions_t8C5D2E1A2E306916183EB827A3A36585F21E7B2C* L_15 = __this->___opts_2;
+			ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668* L_16 = ((ProtocolOptionHolder_tCBB3405C491C58313845C00EB83F311E0038E657*)L_15)->___Relay_0;
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_17;
+			L_17 = VirtualFuncInvoker3< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, String_t*, String_t*, ProtocolOptions_t87E54661957741DB313DB6887FC624D67FC2B668* >::Invoke(30 /* System.Threading.Tasks.Task WalletConnectSharp.Core.Controllers.Subscriber::RpcUnsubscribe(System.String,System.String,WalletConnectSharp.Core.Models.Relay.ProtocolOptions) */, L_12, L_13, L_14, L_16);
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_18;
+			L_18 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_17, NULL);
+			V_3 = L_18;
+			bool L_19;
+			L_19 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_3), NULL);
+			if (L_19)
+			{
+				goto IL_00bb_1;
+			}
+		}
+		{
+			int32_t L_20 = 0;
+			V_0 = L_20;
+			__this->___U3CU3E1__state_0 = L_20;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_21 = V_3;
+			__this->___U3CU3Eu__1_6 = L_21;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_6))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_22 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CUnsubscribeByIdU3Ed__72_t6DFD5C04F5AAB943E42BD66AD756EAC998AD84A5_mE927ECAD275D1642D6AD59F9EEA2A5D175C987F0(L_22, (&V_3), __this, AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CUnsubscribeByIdU3Ed__72_t6DFD5C04F5AAB943E42BD66AD756EAC998AD84A5_mE927ECAD275D1642D6AD59F9EEA2A5D175C987F0_RuntimeMethod_var);
+			goto IL_0157;
+		}
+
+IL_009f_1:
+		{
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_23 = __this->___U3CU3Eu__1_6;
+			V_3 = L_23;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_24 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*)(&__this->___U3CU3Eu__1_6);
+			il2cpp_codegen_initobj(L_24, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_25 = (-1);
+			V_0 = L_25;
+			__this->___U3CU3E1__state_0 = L_25;
+		}
+
+IL_00bb_1:
+		{
+			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_3), NULL);
+			V_2 = (Error_tAFB4B4DDC563B97EAA142E1D487E3ED7ACAD6CB2*)NULL;
+			Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* L_26 = V_1;
+			String_t* L_27 = __this->___topic_5;
+			String_t* L_28 = __this->___id_3;
+			Error_tAFB4B4DDC563B97EAA142E1D487E3ED7ACAD6CB2* L_29 = V_2;
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_30;
+			L_30 = VirtualFuncInvoker3< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, String_t*, String_t*, Error_tAFB4B4DDC563B97EAA142E1D487E3ED7ACAD6CB2* >::Invoke(36 /* System.Threading.Tasks.Task WalletConnectSharp.Core.Controllers.Subscriber::OnUnsubscribe(System.String,System.String,WalletConnectSharp.Network.Models.Error) */, L_26, L_27, L_28, L_29);
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_31;
+			L_31 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_30, NULL);
+			V_3 = L_31;
+			bool L_32;
+			L_32 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_3), NULL);
+			if (L_32)
+			{
+				goto IL_0122_1;
+			}
+		}
+		{
+			int32_t L_33 = 1;
+			V_0 = L_33;
+			__this->___U3CU3E1__state_0 = L_33;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_34 = V_3;
+			__this->___U3CU3Eu__1_6 = L_34;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_6))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_35 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CUnsubscribeByIdU3Ed__72_t6DFD5C04F5AAB943E42BD66AD756EAC998AD84A5_mE927ECAD275D1642D6AD59F9EEA2A5D175C987F0(L_35, (&V_3), __this, AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CUnsubscribeByIdU3Ed__72_t6DFD5C04F5AAB943E42BD66AD756EAC998AD84A5_mE927ECAD275D1642D6AD59F9EEA2A5D175C987F0_RuntimeMethod_var);
+			goto IL_0157;
+		}
+
+IL_0106_1:
+		{
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_36 = __this->___U3CU3Eu__1_6;
+			V_3 = L_36;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_37 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*)(&__this->___U3CU3Eu__1_6);
+			il2cpp_codegen_initobj(L_37, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_38 = (-1);
+			V_0 = L_38;
+			__this->___U3CU3E1__state_0 = L_38;
+		}
+
+IL_0122_1:
+		{
+			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_3), NULL);
+			goto IL_0144;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_012b;
+		}
+		throw e;
+	}
+
+CATCH_012b:
+	{// begin catch(System.Exception)
+		Exception_t* L_39 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_4 = L_39;
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_40 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		Exception_t* L_41 = V_4;
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var)));
+		AsyncTaskMethodBuilder_SetException_mBE41863F0571E0177A15731294087DE45E1FC10B(L_40, L_41, NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0157;
+	}// end catch (depth: 1)
+
+IL_0144:
+	{
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_42 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetResult_m76D8B84F0068257C1823B1200B00E58E0C8DDDDE(L_42, NULL);
+	}
+
+IL_0157:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CUnsubscribeByIdU3Ed__72_MoveNext_mDE992CC9FDDF9ADB0D57AAE073616DC06187159A_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CUnsubscribeByIdU3Ed__72_t6DFD5C04F5AAB943E42BD66AD756EAC998AD84A5* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CUnsubscribeByIdU3Ed__72_t6DFD5C04F5AAB943E42BD66AD756EAC998AD84A5*>(__this + _offset);
+	U3CUnsubscribeByIdU3Ed__72_MoveNext_mDE992CC9FDDF9ADB0D57AAE073616DC06187159A(_thisAdjusted, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.Subscriber/<UnsubscribeById>d__72::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUnsubscribeByIdU3Ed__72_SetStateMachine_mD893684771A8CC639BD3170956AC97BC4CA8BD20 (U3CUnsubscribeByIdU3Ed__72_t6DFD5C04F5AAB943E42BD66AD756EAC998AD84A5* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_0 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___0_stateMachine;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetStateMachine_mE52B5B6B076025592A7AB462E3D26FA434AEB795(L_0, L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CUnsubscribeByIdU3Ed__72_SetStateMachine_mD893684771A8CC639BD3170956AC97BC4CA8BD20_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	U3CUnsubscribeByIdU3Ed__72_t6DFD5C04F5AAB943E42BD66AD756EAC998AD84A5* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CUnsubscribeByIdU3Ed__72_t6DFD5C04F5AAB943E42BD66AD756EAC998AD84A5*>(__this + _offset);
+	U3CUnsubscribeByIdU3Ed__72_SetStateMachine_mD893684771A8CC639BD3170956AC97BC4CA8BD20(_thisAdjusted, ___0_stateMachine, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.String[] WalletConnectSharp.Core.Controllers.TopicMap::get_Topics()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* TopicMap_get_Topics_m7A3EF6C29ED791157892463EE3AF1D8B9739D32A (TopicMap_t13940483C78913935B097CDAE306826382656B0A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Keys_m59A69924F2540E4A7563685D8825BAAC1BE4A487_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_ToArray_TisString_t_m3B23EE2DD15B2996E7D2ECA6E74696DA892AA194_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* L_0 = __this->___topicMap_0;
+		KeyCollection_tAF09DE3ACAF1ABD7544A92CFC2787E520703246E* L_1;
+		L_1 = Dictionary_2_get_Keys_m59A69924F2540E4A7563685D8825BAAC1BE4A487(L_0, Dictionary_2_get_Keys_m59A69924F2540E4A7563685D8825BAAC1BE4A487_RuntimeMethod_var);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2;
+		L_2 = Enumerable_ToArray_TisString_t_m3B23EE2DD15B2996E7D2ECA6E74696DA892AA194(L_1, Enumerable_ToArray_TisString_t_m3B23EE2DD15B2996E7D2ECA6E74696DA892AA194_RuntimeMethod_var);
+		return L_2;
+	}
+}
+// System.Void WalletConnectSharp.Core.Controllers.TopicMap::Set(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TopicMap_Set_m7418DC5102B62FC7C1BEB82894B06131E76A878D (TopicMap_t13940483C78913935B097CDAE306826382656B0A* __this, String_t* ___0_topic, String_t* ___1_id, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_mFC882976F9C1D377FB9B96AC561BF0301DCC75F5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m994A6496B0ED7177E6D4535A398A7EFFF9684FE8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m8B64E2395E0FED66B5313607CFF79A5C8A46358A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___0_topic;
+		String_t* L_1 = ___1_id;
+		bool L_2;
+		L_2 = TopicMap_Exists_m5211A4E3F9D15DBA1F3470958767B9574FDFF3BF(__this, L_0, L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000b:
+	{
+		Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* L_3 = __this->___topicMap_0;
+		String_t* L_4 = ___0_topic;
+		bool L_5;
+		L_5 = Dictionary_2_ContainsKey_m994A6496B0ED7177E6D4535A398A7EFFF9684FE8(L_3, L_4, Dictionary_2_ContainsKey_m994A6496B0ED7177E6D4535A398A7EFFF9684FE8_RuntimeMethod_var);
+		if (L_5)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* L_6 = __this->___topicMap_0;
+		String_t* L_7 = ___0_topic;
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_8 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
+		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_8, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
+		Dictionary_2_Add_mFC882976F9C1D377FB9B96AC561BF0301DCC75F5(L_6, L_7, L_8, Dictionary_2_Add_mFC882976F9C1D377FB9B96AC561BF0301DCC75F5_RuntimeMethod_var);
+	}
+
+IL_002a:
+	{
+		Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* L_9 = __this->___topicMap_0;
+		String_t* L_10 = ___0_topic;
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_11;
+		L_11 = Dictionary_2_get_Item_m8B64E2395E0FED66B5313607CFF79A5C8A46358A(L_9, L_10, Dictionary_2_get_Item_m8B64E2395E0FED66B5313607CFF79A5C8A46358A_RuntimeMethod_var);
+		String_t* L_12 = ___1_id;
+		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_11, L_12, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
+		return;
+	}
+}
+// System.String[] WalletConnectSharp.Core.Controllers.TopicMap::Get(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* TopicMap_Get_mC5F03878D703ADBC8C59BD3CDC24BBC06D5B5C3C (TopicMap_t13940483C78913935B097CDAE306826382656B0A* __this, String_t* ___0_topic, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisString_t_m9832B70DF2B936246FE60F75D3D12CB946C39D16_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m994A6496B0ED7177E6D4535A398A7EFFF9684FE8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m8B64E2395E0FED66B5313607CFF79A5C8A46358A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_ToArray_m2C402D882AA60FC1D5C7C09A129BE7779F833B4A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* L_0 = __this->___topicMap_0;
+		String_t* L_1 = ___0_topic;
+		bool L_2;
+		L_2 = Dictionary_2_ContainsKey_m994A6496B0ED7177E6D4535A398A7EFFF9684FE8(L_0, L_1, Dictionary_2_ContainsKey_m994A6496B0ED7177E6D4535A398A7EFFF9684FE8_RuntimeMethod_var);
+		if (L_2)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3;
+		L_3 = Array_Empty_TisString_t_m9832B70DF2B936246FE60F75D3D12CB946C39D16_inline(Array_Empty_TisString_t_m9832B70DF2B936246FE60F75D3D12CB946C39D16_RuntimeMethod_var);
+		return L_3;
+	}
+
+IL_0014:
+	{
+		Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* L_4 = __this->___topicMap_0;
+		String_t* L_5 = ___0_topic;
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_6;
+		L_6 = Dictionary_2_get_Item_m8B64E2395E0FED66B5313607CFF79A5C8A46358A(L_4, L_5, Dictionary_2_get_Item_m8B64E2395E0FED66B5313607CFF79A5C8A46358A_RuntimeMethod_var);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7;
+		L_7 = List_1_ToArray_m2C402D882AA60FC1D5C7C09A129BE7779F833B4A(L_6, List_1_ToArray_m2C402D882AA60FC1D5C7C09A129BE7779F833B4A_RuntimeMethod_var);
+		return L_7;
+	}
+}
+// System.Boolean WalletConnectSharp.Core.Controllers.TopicMap::Exists(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TopicMap_Exists_m5211A4E3F9D15DBA1F3470958767B9574FDFF3BF (TopicMap_t13940483C78913935B097CDAE306826382656B0A* __this, String_t* ___0_topic, String_t* ___1_id, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Contains_TisString_t_m903B1A64070B00925A8E4E7979330AA7D7B0FB33_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___0_topic;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1;
+		L_1 = TopicMap_Get_mC5F03878D703ADBC8C59BD3CDC24BBC06D5B5C3C(__this, L_0, NULL);
+		String_t* L_2 = ___1_id;
+		bool L_3;
+		L_3 = Enumerable_Contains_TisString_t_m903B1A64070B00925A8E4E7979330AA7D7B0FB33((RuntimeObject*)L_1, L_2, Enumerable_Contains_TisString_t_m903B1A64070B00925A8E4E7979330AA7D7B0FB33_RuntimeMethod_var);
+		return L_3;
+	}
+}
+// System.Void WalletConnectSharp.Core.Controllers.TopicMap::Delete(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TopicMap_Delete_mA01EA27F632C31C2169E7E3BDCE6C78C5055CCDF (TopicMap_t13940483C78913935B097CDAE306826382656B0A* __this, String_t* ___0_topic, String_t* ___1_id, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m994A6496B0ED7177E6D4535A398A7EFFF9684FE8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_mDB00D5452D57246DFF62C0399CDF9CE27C9CDFB8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m8B64E2395E0FED66B5313607CFF79A5C8A46358A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Remove_mD9E8CFB6777A99046B3C0195F7343FE771A2E99D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* L_0 = __this->___topicMap_0;
+		String_t* L_1 = ___0_topic;
+		bool L_2;
+		L_2 = Dictionary_2_ContainsKey_m994A6496B0ED7177E6D4535A398A7EFFF9684FE8(L_0, L_1, Dictionary_2_ContainsKey_m994A6496B0ED7177E6D4535A398A7EFFF9684FE8_RuntimeMethod_var);
+		if (L_2)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000f:
+	{
+		String_t* L_3 = ___1_id;
+		if (L_3)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* L_4 = __this->___topicMap_0;
+		String_t* L_5 = ___0_topic;
+		bool L_6;
+		L_6 = Dictionary_2_Remove_mDB00D5452D57246DFF62C0399CDF9CE27C9CDFB8(L_4, L_5, Dictionary_2_Remove_mDB00D5452D57246DFF62C0399CDF9CE27C9CDFB8_RuntimeMethod_var);
+		return;
+	}
+
+IL_0020:
+	{
+		String_t* L_7 = ___0_topic;
+		String_t* L_8 = ___1_id;
+		bool L_9;
+		L_9 = TopicMap_Exists_m5211A4E3F9D15DBA1F3470958767B9574FDFF3BF(__this, L_7, L_8, NULL);
+		if (L_9)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_002b:
+	{
+		Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* L_10 = __this->___topicMap_0;
+		String_t* L_11 = ___0_topic;
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_12;
+		L_12 = Dictionary_2_get_Item_m8B64E2395E0FED66B5313607CFF79A5C8A46358A(L_10, L_11, Dictionary_2_get_Item_m8B64E2395E0FED66B5313607CFF79A5C8A46358A_RuntimeMethod_var);
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_13 = L_12;
+		String_t* L_14 = ___1_id;
+		bool L_15;
+		L_15 = List_1_Remove_mD9E8CFB6777A99046B3C0195F7343FE771A2E99D(L_13, L_14, List_1_Remove_mD9E8CFB6777A99046B3C0195F7343FE771A2E99D_RuntimeMethod_var);
+		int32_t L_16;
+		L_16 = List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_inline(L_13, List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var);
+		if (L_16)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* L_17 = __this->___topicMap_0;
+		String_t* L_18 = ___0_topic;
+		bool L_19;
+		L_19 = Dictionary_2_Remove_mDB00D5452D57246DFF62C0399CDF9CE27C9CDFB8(L_17, L_18, Dictionary_2_Remove_mDB00D5452D57246DFF62C0399CDF9CE27C9CDFB8_RuntimeMethod_var);
+	}
+
+IL_0053:
+	{
+		return;
+	}
+}
+// System.Void WalletConnectSharp.Core.Controllers.TopicMap::Clear()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TopicMap_Clear_mD146CCD9B11D9085C7BF682BCCC6868714FDD20F (TopicMap_t13940483C78913935B097CDAE306826382656B0A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Clear_m579F96CEA464EF87F663F52EE0DC85BD20CD0D13_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* L_0 = __this->___topicMap_0;
+		Dictionary_2_Clear_m579F96CEA464EF87F663F52EE0DC85BD20CD0D13(L_0, Dictionary_2_Clear_m579F96CEA464EF87F663F52EE0DC85BD20CD0D13_RuntimeMethod_var);
+		return;
+	}
+}
+// System.Void WalletConnectSharp.Core.Controllers.TopicMap::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TopicMap__ctor_mDD8A1882D70524618D04E4E4F96820331531262E (TopicMap_t13940483C78913935B097CDAE306826382656B0A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m79EA54A4C736FED8607D6E97BD54974D340AEA82_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* L_0 = (Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638*)il2cpp_codegen_object_new(Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m79EA54A4C736FED8607D6E97BD54974D340AEA82(L_0, Dictionary_2__ctor_m79EA54A4C736FED8607D6E97BD54974D340AEA82_RuntimeMethod_var);
+		__this->___topicMap_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___topicMap_0), (void*)L_0);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.TypedMessageHandler::add_RawMessage(System.EventHandler`1<WalletConnectSharp.Core.Models.Relay.DecodedMessageEvent>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypedMessageHandler_add_RawMessage_m160C5500804A01E19E15220FBD8D28794BBA2BD1 (TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* __this, EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* V_0 = NULL;
+	EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* V_1 = NULL;
+	EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* V_2 = NULL;
+	{
+		EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* L_0 = __this->___RawMessage_3;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* L_1 = V_0;
+		V_1 = L_1;
+		EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* L_2 = V_1;
+		EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12*)Castclass((RuntimeObject*)L_4, EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12_il2cpp_TypeInfo_var));
+		EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12** L_5 = (EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12**)(&__this->___RawMessage_3);
+		EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* L_6 = V_2;
+		EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* L_7 = V_1;
+		EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* L_8;
+		L_8 = InterlockedCompareExchangeImpl<EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* L_9 = V_0;
+		EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* L_10 = V_1;
+		if ((!(((RuntimeObject*)(EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12*)L_9) == ((RuntimeObject*)(EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void WalletConnectSharp.Core.Controllers.TypedMessageHandler::remove_RawMessage(System.EventHandler`1<WalletConnectSharp.Core.Models.Relay.DecodedMessageEvent>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypedMessageHandler_remove_RawMessage_mC89CB850ABECB441EF6E42578809E8E3C55FC578 (TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* __this, EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* V_0 = NULL;
+	EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* V_1 = NULL;
+	EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* V_2 = NULL;
+	{
+		EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* L_0 = __this->___RawMessage_3;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* L_1 = V_0;
+		V_1 = L_1;
+		EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* L_2 = V_1;
+		EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12*)Castclass((RuntimeObject*)L_4, EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12_il2cpp_TypeInfo_var));
+		EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12** L_5 = (EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12**)(&__this->___RawMessage_3);
+		EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* L_6 = V_2;
+		EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* L_7 = V_1;
+		EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* L_8;
+		L_8 = InterlockedCompareExchangeImpl<EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* L_9 = V_0;
+		EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* L_10 = V_1;
+		if ((!(((RuntimeObject*)(EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12*)L_9) == ((RuntimeObject*)(EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// WalletConnectSharp.Core.Interfaces.ICore WalletConnectSharp.Core.Controllers.TypedMessageHandler::get_Core()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TypedMessageHandler_get_Core_m837D940C01119B47F71386EC4F84456131F17744 (TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CCoreU3Ek__BackingField_6;
+		return L_0;
+	}
+}
+// System.String WalletConnectSharp.Core.Controllers.TypedMessageHandler::get_Name()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TypedMessageHandler_get_Name_mE0A0C7BA0F4911563C9FC5201FE1BBAB7BE90EAA (TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IModule_t5E13B7170A3930FB4B604A03CA174BC171B7172A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9571A624B77569B29B4DE43F2B448631ABC4BFEC);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0;
+		L_0 = TypedMessageHandler_get_Core_m837D940C01119B47F71386EC4F84456131F17744_inline(__this, NULL);
+		String_t* L_1;
+		L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String WalletConnectSharp.Common.IModule::get_Name() */, IModule_t5E13B7170A3930FB4B604A03CA174BC171B7172A_il2cpp_TypeInfo_var, L_0);
+		String_t* L_2;
+		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_1, _stringLiteral9571A624B77569B29B4DE43F2B448631ABC4BFEC, NULL);
+		return L_2;
+	}
+}
+// System.String WalletConnectSharp.Core.Controllers.TypedMessageHandler::get_Context()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TypedMessageHandler_get_Context_mA74FCFC20B0251AB4C198A1351D051C360E7682F (TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0;
+		L_0 = TypedMessageHandler_get_Name_mE0A0C7BA0F4911563C9FC5201FE1BBAB7BE90EAA(__this, NULL);
+		return L_0;
+	}
+}
+// System.Void WalletConnectSharp.Core.Controllers.TypedMessageHandler::.ctor(WalletConnectSharp.Core.Interfaces.ICore)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypedMessageHandler__ctor_m24A7F5C287EAF3B9C174525B9D8CA369C044500C (TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* __this, RuntimeObject* ___0_core, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m68DF910EEB75B030809A7CFCDFD7C23F46D33B74_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t255F5E1A0A9A9D2C31BBC3916442756F4C338515_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandlerMap_1__ctor_m3F785B7C2B92A4DE08AB905DEB5B6BFA22FE018E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandlerMap_1_tA990682DC4CF746FCA3E3E7E056BA863084CC4EA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t255F5E1A0A9A9D2C31BBC3916442756F4C338515* L_0 = (Dictionary_2_t255F5E1A0A9A9D2C31BBC3916442756F4C338515*)il2cpp_codegen_object_new(Dictionary_2_t255F5E1A0A9A9D2C31BBC3916442756F4C338515_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m68DF910EEB75B030809A7CFCDFD7C23F46D33B74(L_0, Dictionary_2__ctor_m68DF910EEB75B030809A7CFCDFD7C23F46D33B74_RuntimeMethod_var);
+		__this->____decodeOptionsMap_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____decodeOptionsMap_1), (void*)L_0);
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_1 = (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*)il2cpp_codegen_object_new(HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var);
+		HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03(L_1, HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var);
+		__this->____typeSafeCache_2 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____typeSafeCache_2), (void*)L_1);
+		EventHandlerMap_1_tA990682DC4CF746FCA3E3E7E056BA863084CC4EA* L_2 = (EventHandlerMap_1_tA990682DC4CF746FCA3E3E7E056BA863084CC4EA*)il2cpp_codegen_object_new(EventHandlerMap_1_tA990682DC4CF746FCA3E3E7E056BA863084CC4EA_il2cpp_TypeInfo_var);
+		EventHandlerMap_1__ctor_m3F785B7C2B92A4DE08AB905DEB5B6BFA22FE018E(L_2, (EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032*)NULL, EventHandlerMap_1__ctor_m3F785B7C2B92A4DE08AB905DEB5B6BFA22FE018E_RuntimeMethod_var);
+		__this->___messageEventHandlerMap_4 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___messageEventHandlerMap_4), (void*)L_2);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		RuntimeObject* L_3 = ___0_core;
+		__this->___U3CCoreU3Ek__BackingField_6 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCoreU3Ek__BackingField_6), (void*)L_3);
+		return;
+	}
+}
+// System.Threading.Tasks.Task WalletConnectSharp.Core.Controllers.TypedMessageHandler::Init()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* TypedMessageHandler_Init_m125C78F6A8479F8364B18E766A5657A56DCFBDE7 (TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ICore_t486AB9797C8EA37B31C47E5ACD8D2A65C63C3BDF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IRelayer_tE54D756EB9603AF398D155653194DCAF6BD6FA24_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TypedMessageHandler_RelayerMessageCallback_mCC32DCAAD2A9AACE986CF354DF47CCD8EDBF9317_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->____initialized_0;
+		if (L_0)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		RuntimeObject* L_1;
+		L_1 = TypedMessageHandler_get_Core_m837D940C01119B47F71386EC4F84456131F17744_inline(__this, NULL);
+		RuntimeObject* L_2;
+		L_2 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(3 /* WalletConnectSharp.Core.Interfaces.IRelayer WalletConnectSharp.Core.Interfaces.ICore::get_Relayer() */, ICore_t486AB9797C8EA37B31C47E5ACD8D2A65C63C3BDF_il2cpp_TypeInfo_var, L_1);
+		EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032* L_3 = (EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032*)il2cpp_codegen_object_new(EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032_il2cpp_TypeInfo_var);
+		EventHandler_1__ctor_m4CFC52D2031F8B685073E23A20707BC228661E37(L_3, __this, (intptr_t)((void*)TypedMessageHandler_RelayerMessageCallback_mCC32DCAAD2A9AACE986CF354DF47CCD8EDBF9317_RuntimeMethod_var), NULL);
+		InterfaceActionInvoker1< EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032* >::Invoke(4 /* System.Void WalletConnectSharp.Core.Interfaces.IRelayer::add_OnMessageReceived(System.EventHandler`1<WalletConnectSharp.Core.Models.Relay.MessageEvent>) */, IRelayer_tE54D756EB9603AF398D155653194DCAF6BD6FA24_il2cpp_TypeInfo_var, L_2, L_3);
+	}
+
+IL_0024:
+	{
+		__this->____initialized_0 = (bool)1;
+		il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_4;
+		L_4 = Task_get_CompletedTask_m1567097D0142D009DC8F9B70DA2C55DA651D55E9_inline(NULL);
+		return L_4;
+	}
+}
+// System.Void WalletConnectSharp.Core.Controllers.TypedMessageHandler::RelayerMessageCallback(System.Object,WalletConnectSharp.Core.Models.Relay.MessageEvent)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypedMessageHandler_RelayerMessageCallback_mCC32DCAAD2A9AACE986CF354DF47CCD8EDBF9317 (TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* __this, RuntimeObject* ___0_sender, MessageEvent_t66B44AC2D6F52E6FC5B18010F929A908223903DE* ___1_e, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_Start_TisU3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A_mB9A3BED84E31448BE67962CA66B0A439E73A6815_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D L_0;
+		L_0 = AsyncVoidMethodBuilder_Create_m13D0B23DD350C14035918384E10AF641E6B9EE67(NULL);
+		(&V_0)->___U3CU3Et__builder_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)&(((&(&V_0)->___U3CU3Et__builder_1))->___m_synchronizationContext_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&(&V_0)->___U3CU3Et__builder_1))->___m_coreState_1))->___m_stateMachine_0), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&(&V_0)->___U3CU3Et__builder_1))->___m_coreState_1))->___m_defaultContextAction_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&(&V_0)->___U3CU3Et__builder_1))->___m_task_2), (void*)NULL);
+		#endif
+		(&V_0)->___U3CU3E4__this_3 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___U3CU3E4__this_3), (void*)__this);
+		MessageEvent_t66B44AC2D6F52E6FC5B18010F929A908223903DE* L_1 = ___1_e;
+		(&V_0)->___e_2 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___e_2), (void*)L_1);
+		(&V_0)->___U3CU3E1__state_0 = (-1);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_2 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&(&V_0)->___U3CU3Et__builder_1);
+		AsyncVoidMethodBuilder_Start_TisU3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A_mB9A3BED84E31448BE67962CA66B0A439E73A6815(L_2, (&V_0), AsyncVoidMethodBuilder_Start_TisU3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A_mB9A3BED84E31448BE67962CA66B0A439E73A6815_RuntimeMethod_var);
+		return;
+	}
+}
+// WalletConnectSharp.Crypto.Models.DecodeOptions WalletConnectSharp.Core.Controllers.TypedMessageHandler::DecodeOptionForTopic(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DecodeOptions_t00A5DC7FFE24EF00D03BBB102B7B0802EA13B902* TypedMessageHandler_DecodeOptionForTopic_m5844AE577A95147CEABB1A47FF750132B42077D1 (TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* __this, String_t* ___0_topic, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_mCCF4A2DE44ED163296FCEF3801FF2ED43E20AF5A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DecodeOptions_t00A5DC7FFE24EF00D03BBB102B7B0802EA13B902* V_0 = NULL;
+	{
+		Dictionary_2_t255F5E1A0A9A9D2C31BBC3916442756F4C338515* L_0 = __this->____decodeOptionsMap_1;
+		String_t* L_1 = ___0_topic;
+		bool L_2;
+		L_2 = Dictionary_2_TryGetValue_mCCF4A2DE44ED163296FCEF3801FF2ED43E20AF5A(L_0, L_1, (&V_0), Dictionary_2_TryGetValue_mCCF4A2DE44ED163296FCEF3801FF2ED43E20AF5A_RuntimeMethod_var);
+		if (L_2)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return (DecodeOptions_t00A5DC7FFE24EF00D03BBB102B7B0802EA13B902*)NULL;
+	}
+
+IL_0012:
+	{
+		DecodeOptions_t00A5DC7FFE24EF00D03BBB102B7B0802EA13B902* L_3 = V_0;
+		return L_3;
+	}
+}
+// System.Void WalletConnectSharp.Core.Controllers.TypedMessageHandler::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypedMessageHandler_Dispose_mD219AA0FD0DF78AA34BED3729652AD4223E3D0E9 (TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		VirtualActionInvoker1< bool >::Invoke(20 /* System.Void WalletConnectSharp.Core.Controllers.TypedMessageHandler::Dispose(System.Boolean) */, __this, (bool)1);
+		il2cpp_codegen_runtime_class_init_inline(GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
+		GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65(__this, NULL);
+		return;
+	}
+}
+// System.Void WalletConnectSharp.Core.Controllers.TypedMessageHandler::Dispose(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypedMessageHandler_Dispose_m3EEDBBC00594F5D35B0854DB62F49B9B00103CB2 (TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* __this, bool ___0_disposing, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ICore_t486AB9797C8EA37B31C47E5ACD8D2A65C63C3BDF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IRelayer_tE54D756EB9603AF398D155653194DCAF6BD6FA24_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TypedMessageHandler_RelayerMessageCallback_mCC32DCAAD2A9AACE986CF354DF47CCD8EDBF9317_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->___Disposed_5;
+		if (!L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0009:
+	{
+		bool L_1 = ___0_disposing;
+		if (!L_1)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		RuntimeObject* L_2;
+		L_2 = TypedMessageHandler_get_Core_m837D940C01119B47F71386EC4F84456131F17744_inline(__this, NULL);
+		RuntimeObject* L_3;
+		L_3 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(3 /* WalletConnectSharp.Core.Interfaces.IRelayer WalletConnectSharp.Core.Interfaces.ICore::get_Relayer() */, ICore_t486AB9797C8EA37B31C47E5ACD8D2A65C63C3BDF_il2cpp_TypeInfo_var, L_2);
+		EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032* L_4 = (EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032*)il2cpp_codegen_object_new(EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032_il2cpp_TypeInfo_var);
+		EventHandler_1__ctor_m4CFC52D2031F8B685073E23A20707BC228661E37(L_4, __this, (intptr_t)((void*)TypedMessageHandler_RelayerMessageCallback_mCC32DCAAD2A9AACE986CF354DF47CCD8EDBF9317_RuntimeMethod_var), NULL);
+		InterfaceActionInvoker1< EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032* >::Invoke(5 /* System.Void WalletConnectSharp.Core.Interfaces.IRelayer::remove_OnMessageReceived(System.EventHandler`1<WalletConnectSharp.Core.Models.Relay.MessageEvent>) */, IRelayer_tE54D756EB9603AF398D155653194DCAF6BD6FA24_il2cpp_TypeInfo_var, L_3, L_4);
+	}
+
+IL_0028:
+	{
+		__this->___Disposed_5 = (bool)1;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WalletConnectSharp.Core.Controllers.TypedMessageHandler/<RelayerMessageCallback>d__17::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRelayerMessageCallbackU3Ed__17_MoveNext_mE0EC2931CCF92D96A3774F6432BA78BE147CD49D (U3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t865781AF9434B0AA55F8D08AA4415F9239CB879D_TisU3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A_m0A4DC75A264D020C9DDD7A245C7406D229DE77A7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DecodedMessageEvent_t79A6F8CFF17A53CF1D858358FB210080BCFAE126_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandlerMap_1_get_Item_m57EF3026D7DEE0EFA8B3543F9C17D95E529AC3E0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ICore_t486AB9797C8EA37B31C47E5ACD8D2A65C63C3BDF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ICrypto_Decode_TisJsonRpcPayload_t1D60CBA3C374F07770CA2AEBECB5FED2A5AC854F_m3B61DBF587BC57B06E6918512CC18690418FABF6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_1_GetResult_mAAD79AECD9D476B67AAF8E6B7A53049D1E99976C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_1_get_IsCompleted_m3BFBBCF37953C0648B43E39D7814B76FC781A1F5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_GetAwaiter_m5D50FB4B03308E3648A62D29A21089415DA95108_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1009859F19F804BCBD1D907976AB51871E6CA84F);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* V_1 = NULL;
+	DecodeOptions_t00A5DC7FFE24EF00D03BBB102B7B0802EA13B902* V_2 = NULL;
+	JsonRpcPayload_t1D60CBA3C374F07770CA2AEBECB5FED2A5AC854F* V_3 = NULL;
+	TaskAwaiter_1_t865781AF9434B0AA55F8D08AA4415F9239CB879D V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* G_B10_0 = NULL;
+	EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* G_B9_0 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* L_1 = __this->___U3CU3E4__this_3;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_0094_1;
+			}
+		}
+		{
+			MessageEvent_t66B44AC2D6F52E6FC5B18010F929A908223903DE* L_3 = __this->___e_2;
+			String_t* L_4 = L_3->___Topic_0;
+			__this->___U3CtopicU3E5__2_4 = L_4;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtopicU3E5__2_4), (void*)L_4);
+			MessageEvent_t66B44AC2D6F52E6FC5B18010F929A908223903DE* L_5 = __this->___e_2;
+			String_t* L_6 = L_5->___Message_1;
+			__this->___U3CmessageU3E5__3_5 = L_6;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CmessageU3E5__3_5), (void*)L_6);
+			TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* L_7 = V_1;
+			String_t* L_8 = __this->___U3CtopicU3E5__2_4;
+			DecodeOptions_t00A5DC7FFE24EF00D03BBB102B7B0802EA13B902* L_9;
+			L_9 = TypedMessageHandler_DecodeOptionForTopic_m5844AE577A95147CEABB1A47FF750132B42077D1(L_7, L_8, NULL);
+			V_2 = L_9;
+			TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* L_10 = V_1;
+			RuntimeObject* L_11;
+			L_11 = TypedMessageHandler_get_Core_m837D940C01119B47F71386EC4F84456131F17744_inline(L_10, NULL);
+			RuntimeObject* L_12;
+			L_12 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(2 /* WalletConnectSharp.Crypto.Interfaces.ICrypto WalletConnectSharp.Core.Interfaces.ICore::get_Crypto() */, ICore_t486AB9797C8EA37B31C47E5ACD8D2A65C63C3BDF_il2cpp_TypeInfo_var, L_11);
+			String_t* L_13 = __this->___U3CtopicU3E5__2_4;
+			String_t* L_14 = __this->___U3CmessageU3E5__3_5;
+			DecodeOptions_t00A5DC7FFE24EF00D03BBB102B7B0802EA13B902* L_15 = V_2;
+			Task_1_t8AC29B790ADB6B71C3DE75E2B85471397F7DDCA5* L_16;
+			L_16 = GenericInterfaceFuncInvoker3< Task_1_t8AC29B790ADB6B71C3DE75E2B85471397F7DDCA5*, String_t*, String_t*, DecodeOptions_t00A5DC7FFE24EF00D03BBB102B7B0802EA13B902* >::Invoke(ICrypto_Decode_TisJsonRpcPayload_t1D60CBA3C374F07770CA2AEBECB5FED2A5AC854F_m3B61DBF587BC57B06E6918512CC18690418FABF6_RuntimeMethod_var, L_12, L_13, L_14, L_15);
+			TaskAwaiter_1_t865781AF9434B0AA55F8D08AA4415F9239CB879D L_17;
+			L_17 = Task_1_GetAwaiter_m5D50FB4B03308E3648A62D29A21089415DA95108(L_16, Task_1_GetAwaiter_m5D50FB4B03308E3648A62D29A21089415DA95108_RuntimeMethod_var);
+			V_4 = L_17;
+			bool L_18;
+			L_18 = TaskAwaiter_1_get_IsCompleted_m3BFBBCF37953C0648B43E39D7814B76FC781A1F5((&V_4), TaskAwaiter_1_get_IsCompleted_m3BFBBCF37953C0648B43E39D7814B76FC781A1F5_RuntimeMethod_var);
+			if (L_18)
+			{
+				goto IL_00b1_1;
+			}
+		}
+		{
+			int32_t L_19 = 0;
+			V_0 = L_19;
+			__this->___U3CU3E1__state_0 = L_19;
+			TaskAwaiter_1_t865781AF9434B0AA55F8D08AA4415F9239CB879D L_20 = V_4;
+			__this->___U3CU3Eu__1_6 = L_20;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_6))->___m_task_0), (void*)NULL);
+			AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_21 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder_1);
+			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t865781AF9434B0AA55F8D08AA4415F9239CB879D_TisU3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A_m0A4DC75A264D020C9DDD7A245C7406D229DE77A7(L_21, (&V_4), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t865781AF9434B0AA55F8D08AA4415F9239CB879D_TisU3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A_m0A4DC75A264D020C9DDD7A245C7406D229DE77A7_RuntimeMethod_var);
+			goto IL_0172;
+		}
+
+IL_0094_1:
+		{
+			TaskAwaiter_1_t865781AF9434B0AA55F8D08AA4415F9239CB879D L_22 = __this->___U3CU3Eu__1_6;
+			V_4 = L_22;
+			TaskAwaiter_1_t865781AF9434B0AA55F8D08AA4415F9239CB879D* L_23 = (TaskAwaiter_1_t865781AF9434B0AA55F8D08AA4415F9239CB879D*)(&__this->___U3CU3Eu__1_6);
+			il2cpp_codegen_initobj(L_23, sizeof(TaskAwaiter_1_t865781AF9434B0AA55F8D08AA4415F9239CB879D));
+			int32_t L_24 = (-1);
+			V_0 = L_24;
+			__this->___U3CU3E1__state_0 = L_24;
+		}
+
+IL_00b1_1:
+		{
+			JsonRpcPayload_t1D60CBA3C374F07770CA2AEBECB5FED2A5AC854F* L_25;
+			L_25 = TaskAwaiter_1_GetResult_mAAD79AECD9D476B67AAF8E6B7A53049D1E99976C((&V_4), TaskAwaiter_1_GetResult_mAAD79AECD9D476B67AAF8E6B7A53049D1E99976C_RuntimeMethod_var);
+			V_3 = L_25;
+			JsonRpcPayload_t1D60CBA3C374F07770CA2AEBECB5FED2A5AC854F* L_26 = V_3;
+			bool L_27;
+			L_27 = JsonRpcPayload_get_IsRequest_m71EFBADA83DAF685C2D750CB7EAD02AAC3FE2601(L_26, NULL);
+			if (!L_27)
+			{
+				goto IL_00ea_1;
+			}
+		}
+		{
+			TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* L_28 = V_1;
+			EventHandlerMap_1_tA990682DC4CF746FCA3E3E7E056BA863084CC4EA* L_29 = L_28->___messageEventHandlerMap_4;
+			JsonRpcPayload_t1D60CBA3C374F07770CA2AEBECB5FED2A5AC854F* L_30 = V_3;
+			String_t* L_31;
+			L_31 = JsonRpcPayload_get_Method_m4BC5E6037F2B64FADEC302C2B2A69AE918C9216B(L_30, NULL);
+			String_t* L_32;
+			L_32 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral1009859F19F804BCBD1D907976AB51871E6CA84F, L_31, NULL);
+			EventHandler_1_tD355E9D13F4128509A1BEF16747D76B31523D032* L_33;
+			L_33 = EventHandlerMap_1_get_Item_m57EF3026D7DEE0EFA8B3543F9C17D95E529AC3E0(L_29, L_32, EventHandlerMap_1_get_Item_m57EF3026D7DEE0EFA8B3543F9C17D95E529AC3E0_RuntimeMethod_var);
+			TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* L_34 = V_1;
+			MessageEvent_t66B44AC2D6F52E6FC5B18010F929A908223903DE* L_35 = __this->___e_2;
+			EventHandler_1_Invoke_mF938B1023BFE6F1C86C60E5FBFC1457423447DD0_inline(L_33, L_34, L_35, NULL);
+			goto IL_0128_1;
+		}
+
+IL_00ea_1:
+		{
+			JsonRpcPayload_t1D60CBA3C374F07770CA2AEBECB5FED2A5AC854F* L_36 = V_3;
+			bool L_37;
+			L_37 = JsonRpcPayload_get_IsResponse_m32D9D1D9458C517F47F9590663912D6B26BB76A6(L_36, NULL);
+			if (!L_37)
+			{
+				goto IL_0128_1;
+			}
+		}
+		{
+			TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* L_38 = V_1;
+			EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* L_39 = L_38->___RawMessage_3;
+			EventHandler_1_t5B8A48657166E8D47F843B6132D324F49F25CE12* L_40 = L_39;
+			G_B9_0 = L_40;
+			if (L_40)
+			{
+				G_B10_0 = L_40;
+				goto IL_00fe_1;
+			}
+		}
+		{
+			goto IL_0128_1;
+		}
+
+IL_00fe_1:
+		{
+			TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* L_41 = V_1;
+			DecodedMessageEvent_t79A6F8CFF17A53CF1D858358FB210080BCFAE126* L_42 = (DecodedMessageEvent_t79A6F8CFF17A53CF1D858358FB210080BCFAE126*)il2cpp_codegen_object_new(DecodedMessageEvent_t79A6F8CFF17A53CF1D858358FB210080BCFAE126_il2cpp_TypeInfo_var);
+			DecodedMessageEvent__ctor_m7F8662C737AC20DAE248C61F29F296C9EEC677E5(L_42, NULL);
+			DecodedMessageEvent_t79A6F8CFF17A53CF1D858358FB210080BCFAE126* L_43 = L_42;
+			String_t* L_44 = __this->___U3CtopicU3E5__2_4;
+			((MessageEvent_t66B44AC2D6F52E6FC5B18010F929A908223903DE*)L_43)->___Topic_0 = L_44;
+			Il2CppCodeGenWriteBarrier((void**)(&((MessageEvent_t66B44AC2D6F52E6FC5B18010F929A908223903DE*)L_43)->___Topic_0), (void*)L_44);
+			DecodedMessageEvent_t79A6F8CFF17A53CF1D858358FB210080BCFAE126* L_45 = L_43;
+			String_t* L_46 = __this->___U3CmessageU3E5__3_5;
+			((MessageEvent_t66B44AC2D6F52E6FC5B18010F929A908223903DE*)L_45)->___Message_1 = L_46;
+			Il2CppCodeGenWriteBarrier((void**)(&((MessageEvent_t66B44AC2D6F52E6FC5B18010F929A908223903DE*)L_45)->___Message_1), (void*)L_46);
+			DecodedMessageEvent_t79A6F8CFF17A53CF1D858358FB210080BCFAE126* L_47 = L_45;
+			JsonRpcPayload_t1D60CBA3C374F07770CA2AEBECB5FED2A5AC854F* L_48 = V_3;
+			L_47->___Payload_2 = L_48;
+			Il2CppCodeGenWriteBarrier((void**)(&L_47->___Payload_2), (void*)L_48);
+			EventHandler_1_Invoke_m3696BDCFD03D5183CC78C3810287C7AFBEFAF02E_inline(G_B10_0, L_41, L_47, NULL);
+		}
+
+IL_0128_1:
+		{
+			goto IL_0151;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_012a;
+		}
+		throw e;
+	}
+
+CATCH_012a:
+	{// begin catch(System.Exception)
+		Exception_t* L_49 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_5 = L_49;
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		__this->___U3CtopicU3E5__2_4 = (String_t*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtopicU3E5__2_4), (void*)(String_t*)NULL);
+		__this->___U3CmessageU3E5__3_5 = (String_t*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CmessageU3E5__3_5), (void*)(String_t*)NULL);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_50 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder_1);
+		Exception_t* L_51 = V_5;
+		AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B(L_50, L_51, NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0172;
+	}// end catch (depth: 1)
+
+IL_0151:
+	{
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		__this->___U3CtopicU3E5__2_4 = (String_t*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtopicU3E5__2_4), (void*)(String_t*)NULL);
+		__this->___U3CmessageU3E5__3_5 = (String_t*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CmessageU3E5__3_5), (void*)(String_t*)NULL);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_52 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder_1);
+		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_52, NULL);
+	}
+
+IL_0172:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CRelayerMessageCallbackU3Ed__17_MoveNext_mE0EC2931CCF92D96A3774F6432BA78BE147CD49D_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A*>(__this + _offset);
+	U3CRelayerMessageCallbackU3Ed__17_MoveNext_mE0EC2931CCF92D96A3774F6432BA78BE147CD49D(_thisAdjusted, method);
+}
+// System.Void WalletConnectSharp.Core.Controllers.TypedMessageHandler/<RelayerMessageCallback>d__17::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRelayerMessageCallbackU3Ed__17_SetStateMachine_m2D4767EB6130CB84C522BB3454F2140E78AEBB79 (U3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	{
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_0 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___0_stateMachine;
+		AsyncVoidMethodBuilder_SetStateMachine_m48640FB81C34D4C2B5A5BBA7F5AE17DC50BF1A25(L_0, L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CRelayerMessageCallbackU3Ed__17_SetStateMachine_m2D4767EB6130CB84C522BB3454F2140E78AEBB79_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method)
+{
+	U3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CRelayerMessageCallbackU3Ed__17_t1932F50083DE48EF77122FBB105000280465E11A*>(__this + _offset);
+	U3CRelayerMessageCallbackU3Ed__17_SetStateMachine_m2D4767EB6130CB84C522BB3454F2140E78AEBB79(_thisAdjusted, ___0_stateMachine, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EventHandler_Invoke_m9D3126CBE291A3E7E7C304094E1DA846832F9B96_inline (EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* __this, RuntimeObject* ___0_sender, EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___1_e, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_sender, ___1_e, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Subscriber_get_Subscriptions_m3241940CCD54EA273900D496D9377C48AFF87628_inline (Subscriber_tFF7D3EF5627A289A9FABD48E69CC0678CB89F58C* __this, const RuntimeMethod* method) 
+{
+	{
+		Dictionary_2_tFB5D659C596777D2FD69A11A203A5AC1A7E3AF13* L_0 = __this->____subscriptions_4;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* TypedMessageHandler_get_Core_m837D940C01119B47F71386EC4F84456131F17744_inline (TypedMessageHandler_tD23DD361719FE007E85367FB73D0B4B4B1C2582D* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CCoreU3Ek__BackingField_6;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Task_get_CompletedTask_m1567097D0142D009DC8F9B70DA2C55DA651D55E9_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_0 = ((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields*)il2cpp_codegen_static_fields_for(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var))->___U3CCompletedTaskU3Ek__BackingField_32;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) 
+{
+	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 0));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = ((EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 0)))->___Value_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* TaskCompletionSource_1_get_Task_m068E06095F165AE266E15C328CBDA1543429EC66_gshared_inline (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* __this, const RuntimeMethod* method) 
+{
+	{
+		Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_0 = __this->____task_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestArguments_1_set_Method_mD11FC060C93D24BF498EF7780EE5DFB799B5A09D_gshared_inline (RequestArguments_1_tB7BA13BD181AD5AD363660713ABF89F709B27F5E* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___0_value;
+		__this->____method_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____method_0), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestArguments_1_set_Params_m0AFA17F6E511A56FD33BF37C079FAD08B9097508_gshared_inline (RequestArguments_1_tB7BA13BD181AD5AD363660713ABF89F709B27F5E* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = ___0_value;
+		__this->____params_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____params_1), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version_3;
+		__this->____version_3 = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = __this->____items_1;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size_2;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size_2 = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
+		int32_t L_7 = V_1;
+		RuntimeObject* L_8 = ___0_item;
+		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		RuntimeObject* L_9 = ___0_item;
+		((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____size_2;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EventHandler_1_Invoke_mBD72C04FF5A08A2EA93DFD21037CD1C27A48D07A_gshared_inline (EventHandler_1_tD8C4A5BE1F7C91B1A7E99AE87AFD2F5432C38746* __this, RuntimeObject* ___0_sender, RuntimeObject* ___1_e, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_sender, ___1_e, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
