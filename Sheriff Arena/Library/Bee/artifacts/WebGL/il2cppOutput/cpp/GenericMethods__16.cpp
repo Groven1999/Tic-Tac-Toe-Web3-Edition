@@ -796,9 +796,9 @@ IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CU3CStart
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CUnmarshallAsyncU3Ed__5_t764733386815D0708403352807C9BE229FA6F8B7_m339291172F7BC8FB3C221EF3E70A9C7F3EC5D4EC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CUnsubscribeByIdU3Ed__72_t6DFD5C04F5AAB943E42BD66AD756EAC998AD84A5_mCDAC3AF6719624289E26E83656E91638D312B048_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CUnsubscribeU3Ed__77_t3FD3CE8FF2788048F370E4CE6E5B612A60E394F7_mB5618FD7C4EFCF2C1B67336487EBF07EC0D206D6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CUpdateCurrentPlayerU3Ed__23_tEFD75803622D3D0D94FD4C5BAD67EDC9BC984C74_m0981246955A284B5EFB71D0DB6C30E117735D58A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CUpdateCurrentPlayerU3Ed__25_t1C0819BA61F6D8E83643B7FB530350977F291209_mFCA9DF01AEF9554704DD90E40A7F35F493C6D57B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CUpdateDeploymentStatusU3Ed__28_tB65D50C98C1818EEA95ADD334DD72B0754D5B3A2_mAC6AA8F547096A13F9B2058495916B5F5AFFE04F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CUpdatePlayerAddressesU3Ed__22_t6122F45D0706696FB8D18F347ADAAC898F365EE8_m490AA93B31B0EE4578BEEDF435CCC6640948A177_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CUpdatePlayerAddressesU3Ed__24_t2A6B1B41688B82D5410194B03F079B7A8D7CFA28_m5C519FFB42856738B6C59D140339DFA830A463C8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CValidateProviderConnectionU3Ed__125_t4DF0214F297C20080F32022DC241C569099AD12E_m4134804DF497212F0D634394C42689747E76A91E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CVerifyThirdwebClientIdAsyncU3Ed__22_tD24A9AB2D9C33C6EF454C0911B30807C887D65FE_m882DF04F045D9A0E282BCF485E54D74E74474AAB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CWaitForServerToCloseConnectionAsyncU3Ed__63_tBA6912877A22BE5765FFB227556489AC1F417BE0_m2A8C87BF80FB135BBE7024C7691CF936AB3EDB88_RuntimeMethod_var;
@@ -2832,18 +2832,18 @@ struct U3COnSubmitRecoveryOauthU3Ed__25_t090B3FF318953F4D97160FCCF0058F637CBD348
 	TaskAwaiter_1_t171CD0ECD067D3DB222F0A30B868283046676A4D ___U3CU3Eu__1_5;
 };
 
-// GameStateController/<InitializeSDKAndContract>d__21
-struct U3CInitializeSDKAndContractU3Ed__21_t07A4DDDC8C986F7E971EAA7ED612826FC2CDD93C 
+// GameStateController/<InitializeSDKAndContract>d__23
+struct U3CInitializeSDKAndContractU3Ed__23_t94B8CCFF97BD5A64C5FB9B7A12329FFB08882C38 
 {
-	// System.Int32 GameStateController/<InitializeSDKAndContract>d__21::<>1__state
+	// System.Int32 GameStateController/<InitializeSDKAndContract>d__23::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder GameStateController/<InitializeSDKAndContract>d__21::<>t__builder
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder GameStateController/<InitializeSDKAndContract>d__23::<>t__builder
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
-	// GameStateController GameStateController/<InitializeSDKAndContract>d__21::<>4__this
+	// GameStateController GameStateController/<InitializeSDKAndContract>d__23::<>4__this
 	GameStateController_t8E042110D2241B04A6DE2447B14E77AEA04F64A5* ___U3CU3E4__this_2;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<System.String> GameStateController/<InitializeSDKAndContract>d__21::<>u__1
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.String> GameStateController/<InitializeSDKAndContract>d__23::<>u__1
 	TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 ___U3CU3Eu__1_3;
-	// System.Runtime.CompilerServices.TaskAwaiter GameStateController/<InitializeSDKAndContract>d__21::<>u__2
+	// System.Runtime.CompilerServices.TaskAwaiter GameStateController/<InitializeSDKAndContract>d__23::<>u__2
 	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__2_4;
 };
 
@@ -2886,31 +2886,31 @@ struct U3COnConnectedU3Ed__13_tA584ED46CCD53B4D22B07C0E9991B7E3D80E7F45
 	TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 ___U3CU3Eu__1_3;
 };
 
-// MainMenuScript/<GetTokenBalance>d__8
-struct U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49 
+// MainMenuScript/<GetTokenBalance>d__11
+struct U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D 
 {
-	// System.Int32 MainMenuScript/<GetTokenBalance>d__8::<>1__state
+	// System.Int32 MainMenuScript/<GetTokenBalance>d__11::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder MainMenuScript/<GetTokenBalance>d__8::<>t__builder
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder MainMenuScript/<GetTokenBalance>d__11::<>t__builder
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
-	// MainMenuScript MainMenuScript/<GetTokenBalance>d__8::<>4__this
+	// MainMenuScript MainMenuScript/<GetTokenBalance>d__11::<>4__this
 	MainMenuScript_tE48C74D2C0B2E001BA00CACB8CF59B50BA024B4C* ___U3CU3E4__this_2;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<System.String> MainMenuScript/<GetTokenBalance>d__8::<>u__1
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.String> MainMenuScript/<GetTokenBalance>d__11::<>u__1
 	TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 ___U3CU3Eu__1_3;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<Thirdweb.CurrencyValue> MainMenuScript/<GetTokenBalance>d__8::<>u__2
+	// System.Runtime.CompilerServices.TaskAwaiter`1<Thirdweb.CurrencyValue> MainMenuScript/<GetTokenBalance>d__11::<>u__2
 	TaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790 ___U3CU3Eu__2_4;
 };
 
-// MainMenuScript/<GetWalletAddress>d__9
-struct U3CGetWalletAddressU3Ed__9_t736A547ECFEA1C2A91AB73D61DBD347083519D81 
+// MainMenuScript/<GetWalletAddress>d__12
+struct U3CGetWalletAddressU3Ed__12_t462D1CB94D4E347396FF180B397D7E6DA634D007 
 {
-	// System.Int32 MainMenuScript/<GetWalletAddress>d__9::<>1__state
+	// System.Int32 MainMenuScript/<GetWalletAddress>d__12::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder MainMenuScript/<GetWalletAddress>d__9::<>t__builder
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder MainMenuScript/<GetWalletAddress>d__12::<>t__builder
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
-	// MainMenuScript MainMenuScript/<GetWalletAddress>d__9::<>4__this
+	// MainMenuScript MainMenuScript/<GetWalletAddress>d__12::<>4__this
 	MainMenuScript_tE48C74D2C0B2E001BA00CACB8CF59B50BA024B4C* ___U3CU3E4__this_2;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<System.String> MainMenuScript/<GetWalletAddress>d__9::<>u__1
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.String> MainMenuScript/<GetWalletAddress>d__12::<>u__1
 	TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 ___U3CU3Eu__1_3;
 };
 
@@ -3433,50 +3433,50 @@ struct U3CUpdateTokenBalanceTextU3Ed__4_t9E799C0BF0CA1D972B940035C51006DD63F1803
 	TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 ___U3CU3Eu__1_3;
 };
 
-// ShopScript/<BuyBackgroundNFT>d__13
-struct U3CBuyBackgroundNFTU3Ed__13_t512A9E263B29B7720F3C79D8E397A1C19318AB4C 
+// ShopScript/<BuyBackgroundNFT>d__14
+struct U3CBuyBackgroundNFTU3Ed__14_t66F67A6E28B1FE3C2BA9FFEC758F7C8CA444D669 
 {
-	// System.Int32 ShopScript/<BuyBackgroundNFT>d__13::<>1__state
+	// System.Int32 ShopScript/<BuyBackgroundNFT>d__14::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder ShopScript/<BuyBackgroundNFT>d__13::<>t__builder
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder ShopScript/<BuyBackgroundNFT>d__14::<>t__builder
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
-	// ShopScript ShopScript/<BuyBackgroundNFT>d__13::<>4__this
+	// ShopScript ShopScript/<BuyBackgroundNFT>d__14::<>4__this
 	ShopScript_t59FE1ED27A5C2EACF04ECFDC3F755017DDF0F8C1* ___U3CU3E4__this_2;
-	// System.String ShopScript/<BuyBackgroundNFT>d__13::background_ID
+	// System.String ShopScript/<BuyBackgroundNFT>d__14::background_ID
 	String_t* ___background_ID_3;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> ShopScript/<BuyBackgroundNFT>d__13::<>u__1
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> ShopScript/<BuyBackgroundNFT>d__14::<>u__1
 	TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35 ___U3CU3Eu__1_4;
-	// System.Runtime.CompilerServices.TaskAwaiter ShopScript/<BuyBackgroundNFT>d__13::<>u__2
+	// System.Runtime.CompilerServices.TaskAwaiter ShopScript/<BuyBackgroundNFT>d__14::<>u__2
 	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__2_5;
 };
 
-// ShopScript/<CheckIfOwnsAnyNFT>d__15
-struct U3CCheckIfOwnsAnyNFTU3Ed__15_tD29D8205C8E796544B7577CF61B2B3F2DBC98557 
+// ShopScript/<CheckIfOwnsAnyNFT>d__16
+struct U3CCheckIfOwnsAnyNFTU3Ed__16_tF9A5FA0B1DD7A4D129A522C96C29D8D3DED28057 
 {
-	// System.Int32 ShopScript/<CheckIfOwnsAnyNFT>d__15::<>1__state
+	// System.Int32 ShopScript/<CheckIfOwnsAnyNFT>d__16::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder ShopScript/<CheckIfOwnsAnyNFT>d__15::<>t__builder
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder ShopScript/<CheckIfOwnsAnyNFT>d__16::<>t__builder
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
-	// ShopScript ShopScript/<CheckIfOwnsAnyNFT>d__15::<>4__this
+	// ShopScript ShopScript/<CheckIfOwnsAnyNFT>d__16::<>4__this
 	ShopScript_t59FE1ED27A5C2EACF04ECFDC3F755017DDF0F8C1* ___U3CU3E4__this_2;
-	// System.Boolean ShopScript/<CheckIfOwnsAnyNFT>d__15::<ownsMidnightNFT>5__2
+	// System.Boolean ShopScript/<CheckIfOwnsAnyNFT>d__16::<ownsMidnightNFT>5__2
 	bool ___U3CownsMidnightNFTU3E5__2_3;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> ShopScript/<CheckIfOwnsAnyNFT>d__15::<>u__1
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> ShopScript/<CheckIfOwnsAnyNFT>d__16::<>u__1
 	TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35 ___U3CU3Eu__1_4;
 };
 
-// ShopScript/<HandlePurchaseComplete>d__14
-struct U3CHandlePurchaseCompleteU3Ed__14_tDA3C57D417E5CB1BF92CBE0C15C9CA93C7B8DB94 
+// ShopScript/<HandlePurchaseComplete>d__15
+struct U3CHandlePurchaseCompleteU3Ed__15_t126A12A486BB1E7CBCBE5CDD1480F9ACA81536D6 
 {
-	// System.Int32 ShopScript/<HandlePurchaseComplete>d__14::<>1__state
+	// System.Int32 ShopScript/<HandlePurchaseComplete>d__15::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder ShopScript/<HandlePurchaseComplete>d__14::<>t__builder
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder ShopScript/<HandlePurchaseComplete>d__15::<>t__builder
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
-	// System.String ShopScript/<HandlePurchaseComplete>d__14::background_ID
+	// System.String ShopScript/<HandlePurchaseComplete>d__15::background_ID
 	String_t* ___background_ID_2;
-	// ShopScript ShopScript/<HandlePurchaseComplete>d__14::<>4__this
+	// ShopScript ShopScript/<HandlePurchaseComplete>d__15::<>4__this
 	ShopScript_t59FE1ED27A5C2EACF04ECFDC3F755017DDF0F8C1* ___U3CU3E4__this_3;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> ShopScript/<HandlePurchaseComplete>d__14::<>u__1
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> ShopScript/<HandlePurchaseComplete>d__15::<>u__1
 	TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35 ___U3CU3Eu__1_4;
 };
 
@@ -4545,31 +4545,31 @@ struct U3CJoinGameAsyncU3Ed__5_t77CA8B00914E0365D8C76787636BEC3C2136EA53
 	TaskAwaiter_1_t6EED7D7186DEBA943B4CC6AD9D36468E1043B6FD ___U3CU3Eu__1_3;
 };
 
-// GameStateController/<UpdateCurrentPlayer>d__23
-struct U3CUpdateCurrentPlayerU3Ed__23_tEFD75803622D3D0D94FD4C5BAD67EDC9BC984C74 
+// GameStateController/<UpdateCurrentPlayer>d__25
+struct U3CUpdateCurrentPlayerU3Ed__25_t1C0819BA61F6D8E83643B7FB530350977F291209 
 {
-	// System.Int32 GameStateController/<UpdateCurrentPlayer>d__23::<>1__state
+	// System.Int32 GameStateController/<UpdateCurrentPlayer>d__25::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder GameStateController/<UpdateCurrentPlayer>d__23::<>t__builder
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder GameStateController/<UpdateCurrentPlayer>d__25::<>t__builder
 	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder_1;
-	// GameStateController GameStateController/<UpdateCurrentPlayer>d__23::<>4__this
+	// GameStateController GameStateController/<UpdateCurrentPlayer>d__25::<>4__this
 	GameStateController_t8E042110D2241B04A6DE2447B14E77AEA04F64A5* ___U3CU3E4__this_2;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<System.String> GameStateController/<UpdateCurrentPlayer>d__23::<>u__1
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.String> GameStateController/<UpdateCurrentPlayer>d__25::<>u__1
 	TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 ___U3CU3Eu__1_3;
 };
 
-// GameStateController/<UpdatePlayerAddresses>d__22
-struct U3CUpdatePlayerAddressesU3Ed__22_t6122F45D0706696FB8D18F347ADAAC898F365EE8 
+// GameStateController/<UpdatePlayerAddresses>d__24
+struct U3CUpdatePlayerAddressesU3Ed__24_t2A6B1B41688B82D5410194B03F079B7A8D7CFA28 
 {
-	// System.Int32 GameStateController/<UpdatePlayerAddresses>d__22::<>1__state
+	// System.Int32 GameStateController/<UpdatePlayerAddresses>d__24::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder GameStateController/<UpdatePlayerAddresses>d__22::<>t__builder
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder GameStateController/<UpdatePlayerAddresses>d__24::<>t__builder
 	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder_1;
-	// GameStateController GameStateController/<UpdatePlayerAddresses>d__22::<>4__this
+	// GameStateController GameStateController/<UpdatePlayerAddresses>d__24::<>4__this
 	GameStateController_t8E042110D2241B04A6DE2447B14E77AEA04F64A5* ___U3CU3E4__this_2;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<System.String> GameStateController/<UpdatePlayerAddresses>d__22::<>u__1
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.String> GameStateController/<UpdatePlayerAddresses>d__24::<>u__1
 	TaskAwaiter_1_t254638BB1FAD695D9A9542E098A189D438A000F6 ___U3CU3Eu__1_3;
-	// System.Runtime.CompilerServices.TaskAwaiter GameStateController/<UpdatePlayerAddresses>d__22::<>u__2
+	// System.Runtime.CompilerServices.TaskAwaiter GameStateController/<UpdatePlayerAddresses>d__24::<>u__2
 	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__2_4;
 };
 
@@ -7594,9 +7594,9 @@ struct Type_t_StaticFields
 
 // Thirdweb.Wallets.EmbeddedWalletUI/<OnSubmitRecoveryOauth>d__25
 
-// GameStateController/<InitializeSDKAndContract>d__21
+// GameStateController/<InitializeSDKAndContract>d__23
 
-// GameStateController/<InitializeSDKAndContract>d__21
+// GameStateController/<InitializeSDKAndContract>d__23
 
 // LoginScript/<CheckIfUserHasAccessKey>d__15
 
@@ -7610,13 +7610,13 @@ struct Type_t_StaticFields
 
 // LoginScript/<OnConnected>d__13
 
-// MainMenuScript/<GetTokenBalance>d__8
+// MainMenuScript/<GetTokenBalance>d__11
 
-// MainMenuScript/<GetTokenBalance>d__8
+// MainMenuScript/<GetTokenBalance>d__11
 
-// MainMenuScript/<GetWalletAddress>d__9
+// MainMenuScript/<GetWalletAddress>d__12
 
-// MainMenuScript/<GetWalletAddress>d__9
+// MainMenuScript/<GetWalletAddress>d__12
 
 // MetaMask.MetaMaskWallet/<ConnectAndSignFallback>d__122
 
@@ -7778,17 +7778,17 @@ struct Type_t_StaticFields
 
 // ProfileInfoScript/<UpdateTokenBalanceText>d__4
 
-// ShopScript/<BuyBackgroundNFT>d__13
+// ShopScript/<BuyBackgroundNFT>d__14
 
-// ShopScript/<BuyBackgroundNFT>d__13
+// ShopScript/<BuyBackgroundNFT>d__14
 
-// ShopScript/<CheckIfOwnsAnyNFT>d__15
+// ShopScript/<CheckIfOwnsAnyNFT>d__16
 
-// ShopScript/<CheckIfOwnsAnyNFT>d__15
+// ShopScript/<CheckIfOwnsAnyNFT>d__16
 
-// ShopScript/<HandlePurchaseComplete>d__14
+// ShopScript/<HandlePurchaseComplete>d__15
 
-// ShopScript/<HandlePurchaseComplete>d__14
+// ShopScript/<HandlePurchaseComplete>d__15
 
 // TokenDisplay/<DisplayBalance>d__4
 
@@ -8018,13 +8018,13 @@ struct Type_t_StaticFields
 
 // GameContractInteraction/<JoinGameAsync>d__5
 
-// GameStateController/<UpdateCurrentPlayer>d__23
+// GameStateController/<UpdateCurrentPlayer>d__25
 
-// GameStateController/<UpdateCurrentPlayer>d__23
+// GameStateController/<UpdateCurrentPlayer>d__25
 
-// GameStateController/<UpdatePlayerAddresses>d__22
+// GameStateController/<UpdatePlayerAddresses>d__24
 
-// GameStateController/<UpdatePlayerAddresses>d__22
+// GameStateController/<UpdatePlayerAddresses>d__24
 
 // WalletConnectSharp.Core.Controllers.HeartBeat/<<InitAsync>b__17_0>d
 
@@ -8768,10 +8768,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CRemov
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CSaveU3Ed__10_t21B60768B17833E550AF5A1225A586D1CEB3E38B_m26880ABC67CC4BC6E5B683BD3757526604BBDD7B_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, U3CSaveU3Ed__10_t21B60768B17833E550AF5A1225A586D1CEB3E38B* ___0_stateMachine, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<GameContractInteraction/<JoinGameAsync>d__5>(TStateMachine&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CJoinGameAsyncU3Ed__5_t77CA8B00914E0365D8C76787636BEC3C2136EA53_mE5A7C9C3C663D1A185DCBA9FEA6088900E12E14C_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, U3CJoinGameAsyncU3Ed__5_t77CA8B00914E0365D8C76787636BEC3C2136EA53* ___0_stateMachine, const RuntimeMethod* method) ;
-// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<GameStateController/<UpdateCurrentPlayer>d__23>(TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CUpdateCurrentPlayerU3Ed__23_tEFD75803622D3D0D94FD4C5BAD67EDC9BC984C74_m0981246955A284B5EFB71D0DB6C30E117735D58A_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, U3CUpdateCurrentPlayerU3Ed__23_tEFD75803622D3D0D94FD4C5BAD67EDC9BC984C74* ___0_stateMachine, const RuntimeMethod* method) ;
-// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<GameStateController/<UpdatePlayerAddresses>d__22>(TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CUpdatePlayerAddressesU3Ed__22_t6122F45D0706696FB8D18F347ADAAC898F365EE8_m490AA93B31B0EE4578BEEDF435CCC6640948A177_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, U3CUpdatePlayerAddressesU3Ed__22_t6122F45D0706696FB8D18F347ADAAC898F365EE8* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<GameStateController/<UpdateCurrentPlayer>d__25>(TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CUpdateCurrentPlayerU3Ed__25_t1C0819BA61F6D8E83643B7FB530350977F291209_mFCA9DF01AEF9554704DD90E40A7F35F493C6D57B_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, U3CUpdateCurrentPlayerU3Ed__25_t1C0819BA61F6D8E83643B7FB530350977F291209* ___0_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<GameStateController/<UpdatePlayerAddresses>d__24>(TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CUpdatePlayerAddressesU3Ed__24_t2A6B1B41688B82D5410194B03F079B7A8D7CFA28_m5C519FFB42856738B6C59D140339DFA830A463C8_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, U3CUpdatePlayerAddressesU3Ed__24_t2A6B1B41688B82D5410194B03F079B7A8D7CFA28* ___0_stateMachine, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<WalletConnectSharp.Core.Controllers.HeartBeat/<<InitAsync>b__17_0>d>(TStateMachine&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CU3CInitAsyncU3Eb__17_0U3Ed_tFD7943FC6FDF78509B4A821E8BEBBD9E356DF826_mB7A186AF6B1C1132591DA9E0B273A452103E07E8_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, U3CU3CInitAsyncU3Eb__17_0U3Ed_tFD7943FC6FDF78509B4A821E8BEBBD9E356DF826* ___0_stateMachine, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<System.Net.Http.HttpContent/<LoadIntoBufferAsync>d__17>(TStateMachine&)
@@ -9124,12 +9124,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnComp
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CU3CHandleMessageTypeU3Eg__ResponseCallbackU7C1U3Ed_t63AADC908FAA778FCB0414162F9F08D340F5E555_mFFA47DEB80250FB6DAFE50076C16DBC72696DE38_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CU3CHandleMessageTypeU3Eg__ResponseCallbackU7C1U3Ed_t63AADC908FAA778FCB0414162F9F08D340F5E555* ___1_stateMachine, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,BackgroundHandlerScript/<UpdateBackgroundImage>d__5>(TAwaiter&,TStateMachine&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CUpdateBackgroundImageU3Ed__5_t503ED1A6D1A6D76D511CF94BE65879431603C718_m2A8B4E0649857850DC283DEB7338F264B9A775BD_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CUpdateBackgroundImageU3Ed__5_t503ED1A6D1A6D76D511CF94BE65879431603C718* ___1_stateMachine, const RuntimeMethod* method) ;
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,ShopScript/<BuyBackgroundNFT>d__13>(TAwaiter&,TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CBuyBackgroundNFTU3Ed__13_t512A9E263B29B7720F3C79D8E397A1C19318AB4C_m31106F3A7CACCB5EAC6BD04207C7CA6D2A74F94C_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CBuyBackgroundNFTU3Ed__13_t512A9E263B29B7720F3C79D8E397A1C19318AB4C* ___1_stateMachine, const RuntimeMethod* method) ;
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,ShopScript/<CheckIfOwnsAnyNFT>d__15>(TAwaiter&,TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CCheckIfOwnsAnyNFTU3Ed__15_tD29D8205C8E796544B7577CF61B2B3F2DBC98557_mAD37BFF0B3FB441388D37EFC206B935B878AABE7_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CCheckIfOwnsAnyNFTU3Ed__15_tD29D8205C8E796544B7577CF61B2B3F2DBC98557* ___1_stateMachine, const RuntimeMethod* method) ;
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,ShopScript/<HandlePurchaseComplete>d__14>(TAwaiter&,TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CHandlePurchaseCompleteU3Ed__14_tDA3C57D417E5CB1BF92CBE0C15C9CA93C7B8DB94_m62D2F89B12C2960F2F4E82F6C5FB179655596FC9_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CHandlePurchaseCompleteU3Ed__14_tDA3C57D417E5CB1BF92CBE0C15C9CA93C7B8DB94* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,ShopScript/<BuyBackgroundNFT>d__14>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CBuyBackgroundNFTU3Ed__14_t66F67A6E28B1FE3C2BA9FFEC758F7C8CA444D669_m495BEEA286F67E2EB7BA702E15D073A1B53239D7_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CBuyBackgroundNFTU3Ed__14_t66F67A6E28B1FE3C2BA9FFEC758F7C8CA444D669* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,ShopScript/<CheckIfOwnsAnyNFT>d__16>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CCheckIfOwnsAnyNFTU3Ed__16_tF9A5FA0B1DD7A4D129A522C96C29D8D3DED28057_m6C917B46242BF5123F426DAAF1CA000AFE9FF958_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CCheckIfOwnsAnyNFTU3Ed__16_tF9A5FA0B1DD7A4D129A522C96C29D8D3DED28057* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,ShopScript/<HandlePurchaseComplete>d__15>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CHandlePurchaseCompleteU3Ed__15_t126A12A486BB1E7CBCBE5CDD1480F9ACA81536D6_m49209E526D2C52250787D8BA9849BA58E87A6BDA_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CHandlePurchaseCompleteU3Ed__15_t126A12A486BB1E7CBCBE5CDD1480F9ACA81536D6* ___1_stateMachine, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.TaskAwaiter`1<Thirdweb.Currency>::UnsafeOnCompleted(System.Action)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskAwaiter_1_UnsafeOnCompleted_mC12AAE25F3D7B40393CF3B3FDDD4939300C4DC70_gshared (TaskAwaiter_1_tFC468A81911D791D1968C8D8ACAF48CEA8E6A1F5* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_continuation, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Thirdweb.Currency>,Thirdweb.Examples.Prefab_Reading/<FetchERC20>d__8>(TAwaiter&,TStateMachine&)
@@ -9138,8 +9138,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnComp
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskAwaiter_1_UnsafeOnCompleted_m700F13E86F63A8C18B45876E63246B92E7538209_gshared (TaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_continuation, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Thirdweb.CurrencyValue>,BlockchainManagerScript/<GetTokenBalance>d__11>(TAwaiter&,TStateMachine&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790_TisU3CGetTokenBalanceU3Ed__11_t5D611E8547C6C6D62AC37F3EF79E696873E01BB7_m239F8DA74B52D17BE8DB4F4D705600D46ED03DE7_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790* ___0_awaiter, U3CGetTokenBalanceU3Ed__11_t5D611E8547C6C6D62AC37F3EF79E696873E01BB7* ___1_stateMachine, const RuntimeMethod* method) ;
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Thirdweb.CurrencyValue>,MainMenuScript/<GetTokenBalance>d__8>(TAwaiter&,TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790_TisU3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49_m4A41D1C377D74F04B8F2928089A4570BA623AA8D_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790* ___0_awaiter, U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Thirdweb.CurrencyValue>,MainMenuScript/<GetTokenBalance>d__11>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790_TisU3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D_m4F57ED465C774167E72C029681388B3D9341EEA8_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790* ___0_awaiter, U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D* ___1_stateMachine, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Thirdweb.CurrencyValue>,Thirdweb.Examples.Prefab_ConnectWallet/<PostConnect>d__34>(TAwaiter&,TStateMachine&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790_TisU3CPostConnectU3Ed__34_tC099FC5098871D65F708E520CD9478741F1D91AA_m9E7D3C1D757934F29760FADFD69792DB2E39F235_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790* ___0_awaiter, U3CPostConnectU3Ed__34_tC099FC5098871D65F708E520CD9478741F1D91AA* ___1_stateMachine, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Thirdweb.CurrencyValue>,Thirdweb.Examples.Prefab_Miscellaneous/<GetBalance>d__0>(TAwaiter&,TStateMachine&)
@@ -9192,16 +9192,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnComp
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3COnSubmitOTPU3Ed__23_tDFDDC084593F76EF923C2AC465D1792EC6883500_mEFA4FDF8E81FA1EEFA9A459DC734A07595501EDE_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3COnSubmitOTPU3Ed__23_tDFDDC084593F76EF923C2AC465D1792EC6883500* ___1_stateMachine, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,Thirdweb.Wallets.EmbeddedWalletUI/<OnSubmitRecoveryOauth>d__25>(TAwaiter&,TStateMachine&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3COnSubmitRecoveryOauthU3Ed__25_t090B3FF318953F4D97160FCCF0058F637CBD3485_m4290095A01CA1566208BC84FED78FB6C290BAB22_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3COnSubmitRecoveryOauthU3Ed__25_t090B3FF318953F4D97160FCCF0058F637CBD3485* ___1_stateMachine, const RuntimeMethod* method) ;
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,GameStateController/<InitializeSDKAndContract>d__21>(TAwaiter&,TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CInitializeSDKAndContractU3Ed__21_t07A4DDDC8C986F7E971EAA7ED612826FC2CDD93C_m4D262CDAC2CC1DA383A9F0B59441D61CD3B04027_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CInitializeSDKAndContractU3Ed__21_t07A4DDDC8C986F7E971EAA7ED612826FC2CDD93C* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,GameStateController/<InitializeSDKAndContract>d__23>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CInitializeSDKAndContractU3Ed__23_t94B8CCFF97BD5A64C5FB9B7A12329FFB08882C38_m5BFAC54210E8F357F86439957CDA347EA1B212AA_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CInitializeSDKAndContractU3Ed__23_t94B8CCFF97BD5A64C5FB9B7A12329FFB08882C38* ___1_stateMachine, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,LoginScript/<ClaimAccessKey>d__14>(TAwaiter&,TStateMachine&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CClaimAccessKeyU3Ed__14_t11455C877B13B3755ADB55644E0768FD91DC227D_mA88B72DBE536B07A56795805CC5CA05265064EBE_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CClaimAccessKeyU3Ed__14_t11455C877B13B3755ADB55644E0768FD91DC227D* ___1_stateMachine, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,LoginScript/<OnConnected>d__13>(TAwaiter&,TStateMachine&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3COnConnectedU3Ed__13_tA584ED46CCD53B4D22B07C0E9991B7E3D80E7F45_m6997E0A28285CE9D2A9D98703BF6496F4FF72BB8_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3COnConnectedU3Ed__13_tA584ED46CCD53B4D22B07C0E9991B7E3D80E7F45* ___1_stateMachine, const RuntimeMethod* method) ;
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,MainMenuScript/<GetTokenBalance>d__8>(TAwaiter&,TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49_m157CFE9C5B7AC513710642196227B97E790E35F9_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49* ___1_stateMachine, const RuntimeMethod* method) ;
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,MainMenuScript/<GetWalletAddress>d__9>(TAwaiter&,TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetWalletAddressU3Ed__9_t736A547ECFEA1C2A91AB73D61DBD347083519D81_m2CD9FABF46D121A4E4B98E67027AAB891B0B042D_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CGetWalletAddressU3Ed__9_t736A547ECFEA1C2A91AB73D61DBD347083519D81* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,MainMenuScript/<GetTokenBalance>d__11>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D_mB8E00F67E3F89D8060C27C2DA171366A2478ED0D_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D* ___1_stateMachine, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,MainMenuScript/<GetWalletAddress>d__12>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetWalletAddressU3Ed__12_t462D1CB94D4E347396FF180B397D7E6DA634D007_m83AA0F617F168DEE45D5CE9AEA84E52FD90D0E78_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CGetWalletAddressU3Ed__12_t462D1CB94D4E347396FF180B397D7E6DA634D007* ___1_stateMachine, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,MetaMask.MetaMaskWallet/<ConnectAndSignFallback>d__122>(TAwaiter&,TStateMachine&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CConnectAndSignFallbackU3Ed__122_t20B623071ED07F7883F46177DDE5AB9ED169047A_m56318F14EAB44128115E1575FC2544B3E71C5AAE_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CConnectAndSignFallbackU3Ed__122_t20B623071ED07F7883F46177DDE5AB9ED169047A* ___1_stateMachine, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,Prefab_BuyWithCrypto/<Buy>d__3>(TAwaiter&,TStateMachine&)
@@ -9650,19 +9650,19 @@ inline void AsyncTaskMethodBuilder_Start_TisU3CJoinGameAsyncU3Ed__5_t77CA8B00914
 {
 	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, U3CJoinGameAsyncU3Ed__5_t77CA8B00914E0365D8C76787636BEC3C2136EA53*, const RuntimeMethod*))AsyncTaskMethodBuilder_Start_TisU3CJoinGameAsyncU3Ed__5_t77CA8B00914E0365D8C76787636BEC3C2136EA53_mE5A7C9C3C663D1A185DCBA9FEA6088900E12E14C_gshared)(__this, ___0_stateMachine, method);
 }
-// System.Void GameStateController/<UpdateCurrentPlayer>d__23::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateCurrentPlayerU3Ed__23_MoveNext_m8DC5D2C39A534093996D5B3997E90F71485952FC (U3CUpdateCurrentPlayerU3Ed__23_tEFD75803622D3D0D94FD4C5BAD67EDC9BC984C74* __this, const RuntimeMethod* method) ;
-// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<GameStateController/<UpdateCurrentPlayer>d__23>(TStateMachine&)
-inline void AsyncTaskMethodBuilder_Start_TisU3CUpdateCurrentPlayerU3Ed__23_tEFD75803622D3D0D94FD4C5BAD67EDC9BC984C74_m0981246955A284B5EFB71D0DB6C30E117735D58A (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, U3CUpdateCurrentPlayerU3Ed__23_tEFD75803622D3D0D94FD4C5BAD67EDC9BC984C74* ___0_stateMachine, const RuntimeMethod* method)
+// System.Void GameStateController/<UpdateCurrentPlayer>d__25::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateCurrentPlayerU3Ed__25_MoveNext_mFD8D6320FD29B4A45A818330351035921FD830AC (U3CUpdateCurrentPlayerU3Ed__25_t1C0819BA61F6D8E83643B7FB530350977F291209* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<GameStateController/<UpdateCurrentPlayer>d__25>(TStateMachine&)
+inline void AsyncTaskMethodBuilder_Start_TisU3CUpdateCurrentPlayerU3Ed__25_t1C0819BA61F6D8E83643B7FB530350977F291209_mFCA9DF01AEF9554704DD90E40A7F35F493C6D57B (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, U3CUpdateCurrentPlayerU3Ed__25_t1C0819BA61F6D8E83643B7FB530350977F291209* ___0_stateMachine, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, U3CUpdateCurrentPlayerU3Ed__23_tEFD75803622D3D0D94FD4C5BAD67EDC9BC984C74*, const RuntimeMethod*))AsyncTaskMethodBuilder_Start_TisU3CUpdateCurrentPlayerU3Ed__23_tEFD75803622D3D0D94FD4C5BAD67EDC9BC984C74_m0981246955A284B5EFB71D0DB6C30E117735D58A_gshared)(__this, ___0_stateMachine, method);
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, U3CUpdateCurrentPlayerU3Ed__25_t1C0819BA61F6D8E83643B7FB530350977F291209*, const RuntimeMethod*))AsyncTaskMethodBuilder_Start_TisU3CUpdateCurrentPlayerU3Ed__25_t1C0819BA61F6D8E83643B7FB530350977F291209_mFCA9DF01AEF9554704DD90E40A7F35F493C6D57B_gshared)(__this, ___0_stateMachine, method);
 }
-// System.Void GameStateController/<UpdatePlayerAddresses>d__22::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdatePlayerAddressesU3Ed__22_MoveNext_m002784CEFBFE329A70355DEF7E5A26E6C664E066 (U3CUpdatePlayerAddressesU3Ed__22_t6122F45D0706696FB8D18F347ADAAC898F365EE8* __this, const RuntimeMethod* method) ;
-// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<GameStateController/<UpdatePlayerAddresses>d__22>(TStateMachine&)
-inline void AsyncTaskMethodBuilder_Start_TisU3CUpdatePlayerAddressesU3Ed__22_t6122F45D0706696FB8D18F347ADAAC898F365EE8_m490AA93B31B0EE4578BEEDF435CCC6640948A177 (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, U3CUpdatePlayerAddressesU3Ed__22_t6122F45D0706696FB8D18F347ADAAC898F365EE8* ___0_stateMachine, const RuntimeMethod* method)
+// System.Void GameStateController/<UpdatePlayerAddresses>d__24::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdatePlayerAddressesU3Ed__24_MoveNext_m6A8B44A63AC2C81AD0EC9CEBCFE42B2CAA97E52A (U3CUpdatePlayerAddressesU3Ed__24_t2A6B1B41688B82D5410194B03F079B7A8D7CFA28* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<GameStateController/<UpdatePlayerAddresses>d__24>(TStateMachine&)
+inline void AsyncTaskMethodBuilder_Start_TisU3CUpdatePlayerAddressesU3Ed__24_t2A6B1B41688B82D5410194B03F079B7A8D7CFA28_m5C519FFB42856738B6C59D140339DFA830A463C8 (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, U3CUpdatePlayerAddressesU3Ed__24_t2A6B1B41688B82D5410194B03F079B7A8D7CFA28* ___0_stateMachine, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, U3CUpdatePlayerAddressesU3Ed__22_t6122F45D0706696FB8D18F347ADAAC898F365EE8*, const RuntimeMethod*))AsyncTaskMethodBuilder_Start_TisU3CUpdatePlayerAddressesU3Ed__22_t6122F45D0706696FB8D18F347ADAAC898F365EE8_m490AA93B31B0EE4578BEEDF435CCC6640948A177_gshared)(__this, ___0_stateMachine, method);
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, U3CUpdatePlayerAddressesU3Ed__24_t2A6B1B41688B82D5410194B03F079B7A8D7CFA28*, const RuntimeMethod*))AsyncTaskMethodBuilder_Start_TisU3CUpdatePlayerAddressesU3Ed__24_t2A6B1B41688B82D5410194B03F079B7A8D7CFA28_m5C519FFB42856738B6C59D140339DFA830A463C8_gshared)(__this, ___0_stateMachine, method);
 }
 // System.Void WalletConnectSharp.Core.Controllers.HeartBeat/<<InitAsync>b__17_0>d::MoveNext()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3CInitAsyncU3Eb__17_0U3Ed_MoveNext_mC27D0FCEE465AB8FBB4F34906CBA08C8D8381AC6 (U3CU3CInitAsyncU3Eb__17_0U3Ed_tFD7943FC6FDF78509B4A821E8BEBBD9E356DF826* __this, const RuntimeMethod* method) ;
@@ -10872,20 +10872,20 @@ inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F
 {
 	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35*, U3CUpdateBackgroundImageU3Ed__5_t503ED1A6D1A6D76D511CF94BE65879431603C718*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CUpdateBackgroundImageU3Ed__5_t503ED1A6D1A6D76D511CF94BE65879431603C718_m2A8B4E0649857850DC283DEB7338F264B9A775BD_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,ShopScript/<BuyBackgroundNFT>d__13>(TAwaiter&,TStateMachine&)
-inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CBuyBackgroundNFTU3Ed__13_t512A9E263B29B7720F3C79D8E397A1C19318AB4C_m31106F3A7CACCB5EAC6BD04207C7CA6D2A74F94C (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CBuyBackgroundNFTU3Ed__13_t512A9E263B29B7720F3C79D8E397A1C19318AB4C* ___1_stateMachine, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,ShopScript/<BuyBackgroundNFT>d__14>(TAwaiter&,TStateMachine&)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CBuyBackgroundNFTU3Ed__14_t66F67A6E28B1FE3C2BA9FFEC758F7C8CA444D669_m495BEEA286F67E2EB7BA702E15D073A1B53239D7 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CBuyBackgroundNFTU3Ed__14_t66F67A6E28B1FE3C2BA9FFEC758F7C8CA444D669* ___1_stateMachine, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35*, U3CBuyBackgroundNFTU3Ed__13_t512A9E263B29B7720F3C79D8E397A1C19318AB4C*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CBuyBackgroundNFTU3Ed__13_t512A9E263B29B7720F3C79D8E397A1C19318AB4C_m31106F3A7CACCB5EAC6BD04207C7CA6D2A74F94C_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35*, U3CBuyBackgroundNFTU3Ed__14_t66F67A6E28B1FE3C2BA9FFEC758F7C8CA444D669*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CBuyBackgroundNFTU3Ed__14_t66F67A6E28B1FE3C2BA9FFEC758F7C8CA444D669_m495BEEA286F67E2EB7BA702E15D073A1B53239D7_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,ShopScript/<CheckIfOwnsAnyNFT>d__15>(TAwaiter&,TStateMachine&)
-inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CCheckIfOwnsAnyNFTU3Ed__15_tD29D8205C8E796544B7577CF61B2B3F2DBC98557_mAD37BFF0B3FB441388D37EFC206B935B878AABE7 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CCheckIfOwnsAnyNFTU3Ed__15_tD29D8205C8E796544B7577CF61B2B3F2DBC98557* ___1_stateMachine, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,ShopScript/<CheckIfOwnsAnyNFT>d__16>(TAwaiter&,TStateMachine&)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CCheckIfOwnsAnyNFTU3Ed__16_tF9A5FA0B1DD7A4D129A522C96C29D8D3DED28057_m6C917B46242BF5123F426DAAF1CA000AFE9FF958 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CCheckIfOwnsAnyNFTU3Ed__16_tF9A5FA0B1DD7A4D129A522C96C29D8D3DED28057* ___1_stateMachine, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35*, U3CCheckIfOwnsAnyNFTU3Ed__15_tD29D8205C8E796544B7577CF61B2B3F2DBC98557*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CCheckIfOwnsAnyNFTU3Ed__15_tD29D8205C8E796544B7577CF61B2B3F2DBC98557_mAD37BFF0B3FB441388D37EFC206B935B878AABE7_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35*, U3CCheckIfOwnsAnyNFTU3Ed__16_tF9A5FA0B1DD7A4D129A522C96C29D8D3DED28057*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CCheckIfOwnsAnyNFTU3Ed__16_tF9A5FA0B1DD7A4D129A522C96C29D8D3DED28057_m6C917B46242BF5123F426DAAF1CA000AFE9FF958_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,ShopScript/<HandlePurchaseComplete>d__14>(TAwaiter&,TStateMachine&)
-inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CHandlePurchaseCompleteU3Ed__14_tDA3C57D417E5CB1BF92CBE0C15C9CA93C7B8DB94_m62D2F89B12C2960F2F4E82F6C5FB179655596FC9 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CHandlePurchaseCompleteU3Ed__14_tDA3C57D417E5CB1BF92CBE0C15C9CA93C7B8DB94* ___1_stateMachine, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,ShopScript/<HandlePurchaseComplete>d__15>(TAwaiter&,TStateMachine&)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CHandlePurchaseCompleteU3Ed__15_t126A12A486BB1E7CBCBE5CDD1480F9ACA81536D6_m49209E526D2C52250787D8BA9849BA58E87A6BDA (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CHandlePurchaseCompleteU3Ed__15_t126A12A486BB1E7CBCBE5CDD1480F9ACA81536D6* ___1_stateMachine, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35*, U3CHandlePurchaseCompleteU3Ed__14_tDA3C57D417E5CB1BF92CBE0C15C9CA93C7B8DB94*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CHandlePurchaseCompleteU3Ed__14_tDA3C57D417E5CB1BF92CBE0C15C9CA93C7B8DB94_m62D2F89B12C2960F2F4E82F6C5FB179655596FC9_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35*, U3CHandlePurchaseCompleteU3Ed__15_t126A12A486BB1E7CBCBE5CDD1480F9ACA81536D6*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CHandlePurchaseCompleteU3Ed__15_t126A12A486BB1E7CBCBE5CDD1480F9ACA81536D6_m49209E526D2C52250787D8BA9849BA58E87A6BDA_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
 }
 // System.Void System.Runtime.CompilerServices.TaskAwaiter`1<Thirdweb.Currency>::UnsafeOnCompleted(System.Action)
 inline void TaskAwaiter_1_UnsafeOnCompleted_mC12AAE25F3D7B40393CF3B3FDDD4939300C4DC70 (TaskAwaiter_1_tFC468A81911D791D1968C8D8ACAF48CEA8E6A1F5* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_continuation, const RuntimeMethod* method)
@@ -10907,10 +10907,10 @@ inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF8CA
 {
 	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790*, U3CGetTokenBalanceU3Ed__11_t5D611E8547C6C6D62AC37F3EF79E696873E01BB7*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790_TisU3CGetTokenBalanceU3Ed__11_t5D611E8547C6C6D62AC37F3EF79E696873E01BB7_m239F8DA74B52D17BE8DB4F4D705600D46ED03DE7_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Thirdweb.CurrencyValue>,MainMenuScript/<GetTokenBalance>d__8>(TAwaiter&,TStateMachine&)
-inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790_TisU3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49_m4A41D1C377D74F04B8F2928089A4570BA623AA8D (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790* ___0_awaiter, U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49* ___1_stateMachine, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Thirdweb.CurrencyValue>,MainMenuScript/<GetTokenBalance>d__11>(TAwaiter&,TStateMachine&)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790_TisU3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D_m4F57ED465C774167E72C029681388B3D9341EEA8 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790* ___0_awaiter, U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D* ___1_stateMachine, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790*, U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790_TisU3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49_m4A41D1C377D74F04B8F2928089A4570BA623AA8D_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790*, U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790_TisU3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D_m4F57ED465C774167E72C029681388B3D9341EEA8_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
 }
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Thirdweb.CurrencyValue>,Thirdweb.Examples.Prefab_ConnectWallet/<PostConnect>d__34>(TAwaiter&,TStateMachine&)
 inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790_TisU3CPostConnectU3Ed__34_tC099FC5098871D65F708E520CD9478741F1D91AA_m9E7D3C1D757934F29760FADFD69792DB2E39F235 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790* ___0_awaiter, U3CPostConnectU3Ed__34_tC099FC5098871D65F708E520CD9478741F1D91AA* ___1_stateMachine, const RuntimeMethod* method)
@@ -11042,10 +11042,10 @@ inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B80
 {
 	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA*, U3COnSubmitRecoveryOauthU3Ed__25_t090B3FF318953F4D97160FCCF0058F637CBD3485*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3COnSubmitRecoveryOauthU3Ed__25_t090B3FF318953F4D97160FCCF0058F637CBD3485_m4290095A01CA1566208BC84FED78FB6C290BAB22_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,GameStateController/<InitializeSDKAndContract>d__21>(TAwaiter&,TStateMachine&)
-inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CInitializeSDKAndContractU3Ed__21_t07A4DDDC8C986F7E971EAA7ED612826FC2CDD93C_m4D262CDAC2CC1DA383A9F0B59441D61CD3B04027 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CInitializeSDKAndContractU3Ed__21_t07A4DDDC8C986F7E971EAA7ED612826FC2CDD93C* ___1_stateMachine, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,GameStateController/<InitializeSDKAndContract>d__23>(TAwaiter&,TStateMachine&)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CInitializeSDKAndContractU3Ed__23_t94B8CCFF97BD5A64C5FB9B7A12329FFB08882C38_m5BFAC54210E8F357F86439957CDA347EA1B212AA (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CInitializeSDKAndContractU3Ed__23_t94B8CCFF97BD5A64C5FB9B7A12329FFB08882C38* ___1_stateMachine, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA*, U3CInitializeSDKAndContractU3Ed__21_t07A4DDDC8C986F7E971EAA7ED612826FC2CDD93C*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CInitializeSDKAndContractU3Ed__21_t07A4DDDC8C986F7E971EAA7ED612826FC2CDD93C_m4D262CDAC2CC1DA383A9F0B59441D61CD3B04027_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA*, U3CInitializeSDKAndContractU3Ed__23_t94B8CCFF97BD5A64C5FB9B7A12329FFB08882C38*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CInitializeSDKAndContractU3Ed__23_t94B8CCFF97BD5A64C5FB9B7A12329FFB08882C38_m5BFAC54210E8F357F86439957CDA347EA1B212AA_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
 }
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,LoginScript/<ClaimAccessKey>d__14>(TAwaiter&,TStateMachine&)
 inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CClaimAccessKeyU3Ed__14_t11455C877B13B3755ADB55644E0768FD91DC227D_mA88B72DBE536B07A56795805CC5CA05265064EBE (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CClaimAccessKeyU3Ed__14_t11455C877B13B3755ADB55644E0768FD91DC227D* ___1_stateMachine, const RuntimeMethod* method)
@@ -11057,15 +11057,15 @@ inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B80
 {
 	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA*, U3COnConnectedU3Ed__13_tA584ED46CCD53B4D22B07C0E9991B7E3D80E7F45*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3COnConnectedU3Ed__13_tA584ED46CCD53B4D22B07C0E9991B7E3D80E7F45_m6997E0A28285CE9D2A9D98703BF6496F4FF72BB8_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,MainMenuScript/<GetTokenBalance>d__8>(TAwaiter&,TStateMachine&)
-inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49_m157CFE9C5B7AC513710642196227B97E790E35F9 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49* ___1_stateMachine, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,MainMenuScript/<GetTokenBalance>d__11>(TAwaiter&,TStateMachine&)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D_mB8E00F67E3F89D8060C27C2DA171366A2478ED0D (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D* ___1_stateMachine, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA*, U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49_m157CFE9C5B7AC513710642196227B97E790E35F9_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA*, U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D_mB8E00F67E3F89D8060C27C2DA171366A2478ED0D_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,MainMenuScript/<GetWalletAddress>d__9>(TAwaiter&,TStateMachine&)
-inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetWalletAddressU3Ed__9_t736A547ECFEA1C2A91AB73D61DBD347083519D81_m2CD9FABF46D121A4E4B98E67027AAB891B0B042D (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CGetWalletAddressU3Ed__9_t736A547ECFEA1C2A91AB73D61DBD347083519D81* ___1_stateMachine, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,MainMenuScript/<GetWalletAddress>d__12>(TAwaiter&,TStateMachine&)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetWalletAddressU3Ed__12_t462D1CB94D4E347396FF180B397D7E6DA634D007_m83AA0F617F168DEE45D5CE9AEA84E52FD90D0E78 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CGetWalletAddressU3Ed__12_t462D1CB94D4E347396FF180B397D7E6DA634D007* ___1_stateMachine, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA*, U3CGetWalletAddressU3Ed__9_t736A547ECFEA1C2A91AB73D61DBD347083519D81*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetWalletAddressU3Ed__9_t736A547ECFEA1C2A91AB73D61DBD347083519D81_m2CD9FABF46D121A4E4B98E67027AAB891B0B042D_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA*, U3CGetWalletAddressU3Ed__12_t462D1CB94D4E347396FF180B397D7E6DA634D007*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetWalletAddressU3Ed__12_t462D1CB94D4E347396FF180B397D7E6DA634D007_m83AA0F617F168DEE45D5CE9AEA84E52FD90D0E78_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
 }
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,MetaMask.MetaMaskWallet/<ConnectAndSignFallback>d__122>(TAwaiter&,TStateMachine&)
 inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CConnectAndSignFallbackU3Ed__122_t20B623071ED07F7883F46177DDE5AB9ED169047A_m56318F14EAB44128115E1575FC2544B3E71C5AAE (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CConnectAndSignFallbackU3Ed__122_t20B623071ED07F7883F46177DDE5AB9ED169047A* ___1_stateMachine, const RuntimeMethod* method)
@@ -14470,8 +14470,8 @@ IL2CPP_EXTERN_C  void AsyncTaskMethodBuilder_Start_TisU3CJoinGameAsyncU3Ed__5_t7
 	_thisAdjusted = reinterpret_cast<AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*>(__this + _offset);
 	AsyncTaskMethodBuilder_Start_TisU3CJoinGameAsyncU3Ed__5_t77CA8B00914E0365D8C76787636BEC3C2136EA53_mE5A7C9C3C663D1A185DCBA9FEA6088900E12E14C(_thisAdjusted, ___0_stateMachine, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<GameStateController/<UpdateCurrentPlayer>d__23>(TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CUpdateCurrentPlayerU3Ed__23_tEFD75803622D3D0D94FD4C5BAD67EDC9BC984C74_m0981246955A284B5EFB71D0DB6C30E117735D58A_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, U3CUpdateCurrentPlayerU3Ed__23_tEFD75803622D3D0D94FD4C5BAD67EDC9BC984C74* ___0_stateMachine, const RuntimeMethod* method) 
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<GameStateController/<UpdateCurrentPlayer>d__25>(TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CUpdateCurrentPlayerU3Ed__25_t1C0819BA61F6D8E83643B7FB530350977F291209_mFCA9DF01AEF9554704DD90E40A7F35F493C6D57B_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, U3CUpdateCurrentPlayerU3Ed__25_t1C0819BA61F6D8E83643B7FB530350977F291209* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14487,7 +14487,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CUpdat
 	{
 		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_1 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
 		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC70965A7D491520CA8D04D4EA01613EFED3309E0)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_Start_TisU3CUpdateCurrentPlayerU3Ed__23_tEFD75803622D3D0D94FD4C5BAD67EDC9BC984C74_m0981246955A284B5EFB71D0DB6C30E117735D58A_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_Start_TisU3CUpdateCurrentPlayerU3Ed__25_t1C0819BA61F6D8E83643B7FB530350977F291209_mFCA9DF01AEF9554704DD90E40A7F35F493C6D57B_RuntimeMethod_var)));
 	}
 
 IL_0018:
@@ -14509,8 +14509,8 @@ FINALLY_003a:
 		{// begin try (depth: 1)
 			il2cpp_codegen_runtime_class_init_inline(ExecutionContext_t9D6EDFD92F0B2D391751963E2D77A8B03CB81710_il2cpp_TypeInfo_var);
 			ExecutionContext_EstablishCopyOnWriteScope_mE8BF2610B2AD4835A14D4FF78E16B8E132C4E759((&V_0), NULL);
-			U3CUpdateCurrentPlayerU3Ed__23_tEFD75803622D3D0D94FD4C5BAD67EDC9BC984C74* L_2 = ___0_stateMachine;
-			U3CUpdateCurrentPlayerU3Ed__23_MoveNext_m8DC5D2C39A534093996D5B3997E90F71485952FC(L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
+			U3CUpdateCurrentPlayerU3Ed__25_t1C0819BA61F6D8E83643B7FB530350977F291209* L_2 = ___0_stateMachine;
+			U3CUpdateCurrentPlayerU3Ed__25_MoveNext_mFD8D6320FD29B4A45A818330351035921FD830AC(L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
 			goto IL_0042;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
@@ -14524,15 +14524,15 @@ IL_0042:
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void AsyncTaskMethodBuilder_Start_TisU3CUpdateCurrentPlayerU3Ed__23_tEFD75803622D3D0D94FD4C5BAD67EDC9BC984C74_m0981246955A284B5EFB71D0DB6C30E117735D58A_AdjustorThunk (RuntimeObject* __this, U3CUpdateCurrentPlayerU3Ed__23_tEFD75803622D3D0D94FD4C5BAD67EDC9BC984C74* ___0_stateMachine, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void AsyncTaskMethodBuilder_Start_TisU3CUpdateCurrentPlayerU3Ed__25_t1C0819BA61F6D8E83643B7FB530350977F291209_mFCA9DF01AEF9554704DD90E40A7F35F493C6D57B_AdjustorThunk (RuntimeObject* __this, U3CUpdateCurrentPlayerU3Ed__25_t1C0819BA61F6D8E83643B7FB530350977F291209* ___0_stateMachine, const RuntimeMethod* method)
 {
 	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* _thisAdjusted;
 	int32_t _offset = 1;
 	_thisAdjusted = reinterpret_cast<AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*>(__this + _offset);
-	AsyncTaskMethodBuilder_Start_TisU3CUpdateCurrentPlayerU3Ed__23_tEFD75803622D3D0D94FD4C5BAD67EDC9BC984C74_m0981246955A284B5EFB71D0DB6C30E117735D58A(_thisAdjusted, ___0_stateMachine, method);
+	AsyncTaskMethodBuilder_Start_TisU3CUpdateCurrentPlayerU3Ed__25_t1C0819BA61F6D8E83643B7FB530350977F291209_mFCA9DF01AEF9554704DD90E40A7F35F493C6D57B(_thisAdjusted, ___0_stateMachine, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<GameStateController/<UpdatePlayerAddresses>d__22>(TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CUpdatePlayerAddressesU3Ed__22_t6122F45D0706696FB8D18F347ADAAC898F365EE8_m490AA93B31B0EE4578BEEDF435CCC6640948A177_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, U3CUpdatePlayerAddressesU3Ed__22_t6122F45D0706696FB8D18F347ADAAC898F365EE8* ___0_stateMachine, const RuntimeMethod* method) 
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<GameStateController/<UpdatePlayerAddresses>d__24>(TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CUpdatePlayerAddressesU3Ed__24_t2A6B1B41688B82D5410194B03F079B7A8D7CFA28_m5C519FFB42856738B6C59D140339DFA830A463C8_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, U3CUpdatePlayerAddressesU3Ed__24_t2A6B1B41688B82D5410194B03F079B7A8D7CFA28* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14548,7 +14548,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CUpdat
 	{
 		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_1 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
 		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC70965A7D491520CA8D04D4EA01613EFED3309E0)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_Start_TisU3CUpdatePlayerAddressesU3Ed__22_t6122F45D0706696FB8D18F347ADAAC898F365EE8_m490AA93B31B0EE4578BEEDF435CCC6640948A177_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_Start_TisU3CUpdatePlayerAddressesU3Ed__24_t2A6B1B41688B82D5410194B03F079B7A8D7CFA28_m5C519FFB42856738B6C59D140339DFA830A463C8_RuntimeMethod_var)));
 	}
 
 IL_0018:
@@ -14570,8 +14570,8 @@ FINALLY_003a:
 		{// begin try (depth: 1)
 			il2cpp_codegen_runtime_class_init_inline(ExecutionContext_t9D6EDFD92F0B2D391751963E2D77A8B03CB81710_il2cpp_TypeInfo_var);
 			ExecutionContext_EstablishCopyOnWriteScope_mE8BF2610B2AD4835A14D4FF78E16B8E132C4E759((&V_0), NULL);
-			U3CUpdatePlayerAddressesU3Ed__22_t6122F45D0706696FB8D18F347ADAAC898F365EE8* L_2 = ___0_stateMachine;
-			U3CUpdatePlayerAddressesU3Ed__22_MoveNext_m002784CEFBFE329A70355DEF7E5A26E6C664E066(L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
+			U3CUpdatePlayerAddressesU3Ed__24_t2A6B1B41688B82D5410194B03F079B7A8D7CFA28* L_2 = ___0_stateMachine;
+			U3CUpdatePlayerAddressesU3Ed__24_MoveNext_m6A8B44A63AC2C81AD0EC9CEBCFE42B2CAA97E52A(L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
 			goto IL_0042;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
@@ -14585,12 +14585,12 @@ IL_0042:
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void AsyncTaskMethodBuilder_Start_TisU3CUpdatePlayerAddressesU3Ed__22_t6122F45D0706696FB8D18F347ADAAC898F365EE8_m490AA93B31B0EE4578BEEDF435CCC6640948A177_AdjustorThunk (RuntimeObject* __this, U3CUpdatePlayerAddressesU3Ed__22_t6122F45D0706696FB8D18F347ADAAC898F365EE8* ___0_stateMachine, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void AsyncTaskMethodBuilder_Start_TisU3CUpdatePlayerAddressesU3Ed__24_t2A6B1B41688B82D5410194B03F079B7A8D7CFA28_m5C519FFB42856738B6C59D140339DFA830A463C8_AdjustorThunk (RuntimeObject* __this, U3CUpdatePlayerAddressesU3Ed__24_t2A6B1B41688B82D5410194B03F079B7A8D7CFA28* ___0_stateMachine, const RuntimeMethod* method)
 {
 	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* _thisAdjusted;
 	int32_t _offset = 1;
 	_thisAdjusted = reinterpret_cast<AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*>(__this + _offset);
-	AsyncTaskMethodBuilder_Start_TisU3CUpdatePlayerAddressesU3Ed__22_t6122F45D0706696FB8D18F347ADAAC898F365EE8_m490AA93B31B0EE4578BEEDF435CCC6640948A177(_thisAdjusted, ___0_stateMachine, method);
+	AsyncTaskMethodBuilder_Start_TisU3CUpdatePlayerAddressesU3Ed__24_t2A6B1B41688B82D5410194B03F079B7A8D7CFA28_m5C519FFB42856738B6C59D140339DFA830A463C8(_thisAdjusted, ___0_stateMachine, method);
 }
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<WalletConnectSharp.Core.Controllers.HeartBeat/<<InitAsync>b__17_0>d>(TStateMachine&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CU3CInitAsyncU3Eb__17_0U3Ed_tFD7943FC6FDF78509B4A821E8BEBBD9E356DF826_mB7A186AF6B1C1132591DA9E0B273A452103E07E8_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, U3CU3CInitAsyncU3Eb__17_0U3Ed_tFD7943FC6FDF78509B4A821E8BEBBD9E356DF826* ___0_stateMachine, const RuntimeMethod* method) 
@@ -26111,8 +26111,8 @@ IL2CPP_EXTERN_C  void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwait
 	_thisAdjusted = reinterpret_cast<AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*>(__this + _offset);
 	AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CUpdateBackgroundImageU3Ed__5_t503ED1A6D1A6D76D511CF94BE65879431603C718_m2A8B4E0649857850DC283DEB7338F264B9A775BD(_thisAdjusted, ___0_awaiter, ___1_stateMachine, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,ShopScript/<BuyBackgroundNFT>d__13>(TAwaiter&,TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CBuyBackgroundNFTU3Ed__13_t512A9E263B29B7720F3C79D8E397A1C19318AB4C_m31106F3A7CACCB5EAC6BD04207C7CA6D2A74F94C_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CBuyBackgroundNFTU3Ed__13_t512A9E263B29B7720F3C79D8E397A1C19318AB4C* ___1_stateMachine, const RuntimeMethod* method) 
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,ShopScript/<BuyBackgroundNFT>d__14>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CBuyBackgroundNFTU3Ed__14_t66F67A6E28B1FE3C2BA9FFEC758F7C8CA444D669_m495BEEA286F67E2EB7BA702E15D073A1B53239D7_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CBuyBackgroundNFTU3Ed__14_t66F67A6E28B1FE3C2BA9FFEC758F7C8CA444D669* ___1_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -26180,8 +26180,8 @@ IL_0018_1:
 			L_7 = AsyncVoidMethodBuilder_get_Task_m229538FE6AE7089FA46E87C5720256A0CC727B8F(__this, NULL);
 			int32_t L_8;
 			L_8 = Task_get_Id_mE529E167E64F60B3B79B540D4DFA6254B94F47AA(L_7, NULL);
-			U3CBuyBackgroundNFTU3Ed__13_t512A9E263B29B7720F3C79D8E397A1C19318AB4C* L_9 = ___1_stateMachine;
-			Il2CppFakeBox<U3CBuyBackgroundNFTU3Ed__13_t512A9E263B29B7720F3C79D8E397A1C19318AB4C> L_10(il2cpp_rgctx_data(method->rgctx_data, 0), L_9);
+			U3CBuyBackgroundNFTU3Ed__14_t66F67A6E28B1FE3C2BA9FFEC758F7C8CA444D669* L_9 = ___1_stateMachine;
+			Il2CppFakeBox<U3CBuyBackgroundNFTU3Ed__14_t66F67A6E28B1FE3C2BA9FFEC758F7C8CA444D669> L_10(il2cpp_rgctx_data(method->rgctx_data, 0), L_9);
 			Type_t* L_11;
 			L_11 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((&L_10), NULL);
 			String_t* L_12;
@@ -26194,9 +26194,9 @@ IL_0018_1:
 IL_0062_1:
 		{
 			AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF* L_14 = (AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF*)(&__this->___m_coreState_1);
-			U3CBuyBackgroundNFTU3Ed__13_t512A9E263B29B7720F3C79D8E397A1C19318AB4C* L_15 = ___1_stateMachine;
-			U3CBuyBackgroundNFTU3Ed__13_t512A9E263B29B7720F3C79D8E397A1C19318AB4C L_16 = (*(U3CBuyBackgroundNFTU3Ed__13_t512A9E263B29B7720F3C79D8E397A1C19318AB4C*)L_15);
-			U3CBuyBackgroundNFTU3Ed__13_t512A9E263B29B7720F3C79D8E397A1C19318AB4C L_17 = L_16;
+			U3CBuyBackgroundNFTU3Ed__14_t66F67A6E28B1FE3C2BA9FFEC758F7C8CA444D669* L_15 = ___1_stateMachine;
+			U3CBuyBackgroundNFTU3Ed__14_t66F67A6E28B1FE3C2BA9FFEC758F7C8CA444D669 L_16 = (*(U3CBuyBackgroundNFTU3Ed__14_t66F67A6E28B1FE3C2BA9FFEC758F7C8CA444D669*)L_15);
+			U3CBuyBackgroundNFTU3Ed__14_t66F67A6E28B1FE3C2BA9FFEC758F7C8CA444D669 L_17 = L_16;
 			RuntimeObject* L_18 = Box(il2cpp_rgctx_data(method->rgctx_data, 0), &L_17);
 			MoveNextRunner_t57DA5A6E2423AE86889DAA6D20097BBE3C75101E* L_19 = V_0;
 			AsyncMethodBuilderCore_PostBoxInitialization_mB531930E3F2FE5A9D31E4233429FAD0AFA6E8E9A(L_14, (RuntimeObject*)L_18, L_19, (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)NULL, NULL);
@@ -26233,15 +26233,15 @@ IL_0091:
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CBuyBackgroundNFTU3Ed__13_t512A9E263B29B7720F3C79D8E397A1C19318AB4C_m31106F3A7CACCB5EAC6BD04207C7CA6D2A74F94C_AdjustorThunk (RuntimeObject* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CBuyBackgroundNFTU3Ed__13_t512A9E263B29B7720F3C79D8E397A1C19318AB4C* ___1_stateMachine, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CBuyBackgroundNFTU3Ed__14_t66F67A6E28B1FE3C2BA9FFEC758F7C8CA444D669_m495BEEA286F67E2EB7BA702E15D073A1B53239D7_AdjustorThunk (RuntimeObject* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CBuyBackgroundNFTU3Ed__14_t66F67A6E28B1FE3C2BA9FFEC758F7C8CA444D669* ___1_stateMachine, const RuntimeMethod* method)
 {
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* _thisAdjusted;
 	int32_t _offset = 1;
 	_thisAdjusted = reinterpret_cast<AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*>(__this + _offset);
-	AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CBuyBackgroundNFTU3Ed__13_t512A9E263B29B7720F3C79D8E397A1C19318AB4C_m31106F3A7CACCB5EAC6BD04207C7CA6D2A74F94C(_thisAdjusted, ___0_awaiter, ___1_stateMachine, method);
+	AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CBuyBackgroundNFTU3Ed__14_t66F67A6E28B1FE3C2BA9FFEC758F7C8CA444D669_m495BEEA286F67E2EB7BA702E15D073A1B53239D7(_thisAdjusted, ___0_awaiter, ___1_stateMachine, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,ShopScript/<CheckIfOwnsAnyNFT>d__15>(TAwaiter&,TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CCheckIfOwnsAnyNFTU3Ed__15_tD29D8205C8E796544B7577CF61B2B3F2DBC98557_mAD37BFF0B3FB441388D37EFC206B935B878AABE7_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CCheckIfOwnsAnyNFTU3Ed__15_tD29D8205C8E796544B7577CF61B2B3F2DBC98557* ___1_stateMachine, const RuntimeMethod* method) 
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,ShopScript/<CheckIfOwnsAnyNFT>d__16>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CCheckIfOwnsAnyNFTU3Ed__16_tF9A5FA0B1DD7A4D129A522C96C29D8D3DED28057_m6C917B46242BF5123F426DAAF1CA000AFE9FF958_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CCheckIfOwnsAnyNFTU3Ed__16_tF9A5FA0B1DD7A4D129A522C96C29D8D3DED28057* ___1_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -26309,8 +26309,8 @@ IL_0018_1:
 			L_7 = AsyncVoidMethodBuilder_get_Task_m229538FE6AE7089FA46E87C5720256A0CC727B8F(__this, NULL);
 			int32_t L_8;
 			L_8 = Task_get_Id_mE529E167E64F60B3B79B540D4DFA6254B94F47AA(L_7, NULL);
-			U3CCheckIfOwnsAnyNFTU3Ed__15_tD29D8205C8E796544B7577CF61B2B3F2DBC98557* L_9 = ___1_stateMachine;
-			Il2CppFakeBox<U3CCheckIfOwnsAnyNFTU3Ed__15_tD29D8205C8E796544B7577CF61B2B3F2DBC98557> L_10(il2cpp_rgctx_data(method->rgctx_data, 0), L_9);
+			U3CCheckIfOwnsAnyNFTU3Ed__16_tF9A5FA0B1DD7A4D129A522C96C29D8D3DED28057* L_9 = ___1_stateMachine;
+			Il2CppFakeBox<U3CCheckIfOwnsAnyNFTU3Ed__16_tF9A5FA0B1DD7A4D129A522C96C29D8D3DED28057> L_10(il2cpp_rgctx_data(method->rgctx_data, 0), L_9);
 			Type_t* L_11;
 			L_11 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((&L_10), NULL);
 			String_t* L_12;
@@ -26323,9 +26323,9 @@ IL_0018_1:
 IL_0062_1:
 		{
 			AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF* L_14 = (AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF*)(&__this->___m_coreState_1);
-			U3CCheckIfOwnsAnyNFTU3Ed__15_tD29D8205C8E796544B7577CF61B2B3F2DBC98557* L_15 = ___1_stateMachine;
-			U3CCheckIfOwnsAnyNFTU3Ed__15_tD29D8205C8E796544B7577CF61B2B3F2DBC98557 L_16 = (*(U3CCheckIfOwnsAnyNFTU3Ed__15_tD29D8205C8E796544B7577CF61B2B3F2DBC98557*)L_15);
-			U3CCheckIfOwnsAnyNFTU3Ed__15_tD29D8205C8E796544B7577CF61B2B3F2DBC98557 L_17 = L_16;
+			U3CCheckIfOwnsAnyNFTU3Ed__16_tF9A5FA0B1DD7A4D129A522C96C29D8D3DED28057* L_15 = ___1_stateMachine;
+			U3CCheckIfOwnsAnyNFTU3Ed__16_tF9A5FA0B1DD7A4D129A522C96C29D8D3DED28057 L_16 = (*(U3CCheckIfOwnsAnyNFTU3Ed__16_tF9A5FA0B1DD7A4D129A522C96C29D8D3DED28057*)L_15);
+			U3CCheckIfOwnsAnyNFTU3Ed__16_tF9A5FA0B1DD7A4D129A522C96C29D8D3DED28057 L_17 = L_16;
 			RuntimeObject* L_18 = Box(il2cpp_rgctx_data(method->rgctx_data, 0), &L_17);
 			MoveNextRunner_t57DA5A6E2423AE86889DAA6D20097BBE3C75101E* L_19 = V_0;
 			AsyncMethodBuilderCore_PostBoxInitialization_mB531930E3F2FE5A9D31E4233429FAD0AFA6E8E9A(L_14, (RuntimeObject*)L_18, L_19, (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)NULL, NULL);
@@ -26362,15 +26362,15 @@ IL_0091:
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CCheckIfOwnsAnyNFTU3Ed__15_tD29D8205C8E796544B7577CF61B2B3F2DBC98557_mAD37BFF0B3FB441388D37EFC206B935B878AABE7_AdjustorThunk (RuntimeObject* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CCheckIfOwnsAnyNFTU3Ed__15_tD29D8205C8E796544B7577CF61B2B3F2DBC98557* ___1_stateMachine, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CCheckIfOwnsAnyNFTU3Ed__16_tF9A5FA0B1DD7A4D129A522C96C29D8D3DED28057_m6C917B46242BF5123F426DAAF1CA000AFE9FF958_AdjustorThunk (RuntimeObject* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CCheckIfOwnsAnyNFTU3Ed__16_tF9A5FA0B1DD7A4D129A522C96C29D8D3DED28057* ___1_stateMachine, const RuntimeMethod* method)
 {
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* _thisAdjusted;
 	int32_t _offset = 1;
 	_thisAdjusted = reinterpret_cast<AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*>(__this + _offset);
-	AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CCheckIfOwnsAnyNFTU3Ed__15_tD29D8205C8E796544B7577CF61B2B3F2DBC98557_mAD37BFF0B3FB441388D37EFC206B935B878AABE7(_thisAdjusted, ___0_awaiter, ___1_stateMachine, method);
+	AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CCheckIfOwnsAnyNFTU3Ed__16_tF9A5FA0B1DD7A4D129A522C96C29D8D3DED28057_m6C917B46242BF5123F426DAAF1CA000AFE9FF958(_thisAdjusted, ___0_awaiter, ___1_stateMachine, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,ShopScript/<HandlePurchaseComplete>d__14>(TAwaiter&,TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CHandlePurchaseCompleteU3Ed__14_tDA3C57D417E5CB1BF92CBE0C15C9CA93C7B8DB94_m62D2F89B12C2960F2F4E82F6C5FB179655596FC9_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CHandlePurchaseCompleteU3Ed__14_tDA3C57D417E5CB1BF92CBE0C15C9CA93C7B8DB94* ___1_stateMachine, const RuntimeMethod* method) 
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,ShopScript/<HandlePurchaseComplete>d__15>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CHandlePurchaseCompleteU3Ed__15_t126A12A486BB1E7CBCBE5CDD1480F9ACA81536D6_m49209E526D2C52250787D8BA9849BA58E87A6BDA_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CHandlePurchaseCompleteU3Ed__15_t126A12A486BB1E7CBCBE5CDD1480F9ACA81536D6* ___1_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -26438,8 +26438,8 @@ IL_0018_1:
 			L_7 = AsyncVoidMethodBuilder_get_Task_m229538FE6AE7089FA46E87C5720256A0CC727B8F(__this, NULL);
 			int32_t L_8;
 			L_8 = Task_get_Id_mE529E167E64F60B3B79B540D4DFA6254B94F47AA(L_7, NULL);
-			U3CHandlePurchaseCompleteU3Ed__14_tDA3C57D417E5CB1BF92CBE0C15C9CA93C7B8DB94* L_9 = ___1_stateMachine;
-			Il2CppFakeBox<U3CHandlePurchaseCompleteU3Ed__14_tDA3C57D417E5CB1BF92CBE0C15C9CA93C7B8DB94> L_10(il2cpp_rgctx_data(method->rgctx_data, 0), L_9);
+			U3CHandlePurchaseCompleteU3Ed__15_t126A12A486BB1E7CBCBE5CDD1480F9ACA81536D6* L_9 = ___1_stateMachine;
+			Il2CppFakeBox<U3CHandlePurchaseCompleteU3Ed__15_t126A12A486BB1E7CBCBE5CDD1480F9ACA81536D6> L_10(il2cpp_rgctx_data(method->rgctx_data, 0), L_9);
 			Type_t* L_11;
 			L_11 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((&L_10), NULL);
 			String_t* L_12;
@@ -26452,9 +26452,9 @@ IL_0018_1:
 IL_0062_1:
 		{
 			AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF* L_14 = (AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF*)(&__this->___m_coreState_1);
-			U3CHandlePurchaseCompleteU3Ed__14_tDA3C57D417E5CB1BF92CBE0C15C9CA93C7B8DB94* L_15 = ___1_stateMachine;
-			U3CHandlePurchaseCompleteU3Ed__14_tDA3C57D417E5CB1BF92CBE0C15C9CA93C7B8DB94 L_16 = (*(U3CHandlePurchaseCompleteU3Ed__14_tDA3C57D417E5CB1BF92CBE0C15C9CA93C7B8DB94*)L_15);
-			U3CHandlePurchaseCompleteU3Ed__14_tDA3C57D417E5CB1BF92CBE0C15C9CA93C7B8DB94 L_17 = L_16;
+			U3CHandlePurchaseCompleteU3Ed__15_t126A12A486BB1E7CBCBE5CDD1480F9ACA81536D6* L_15 = ___1_stateMachine;
+			U3CHandlePurchaseCompleteU3Ed__15_t126A12A486BB1E7CBCBE5CDD1480F9ACA81536D6 L_16 = (*(U3CHandlePurchaseCompleteU3Ed__15_t126A12A486BB1E7CBCBE5CDD1480F9ACA81536D6*)L_15);
+			U3CHandlePurchaseCompleteU3Ed__15_t126A12A486BB1E7CBCBE5CDD1480F9ACA81536D6 L_17 = L_16;
 			RuntimeObject* L_18 = Box(il2cpp_rgctx_data(method->rgctx_data, 0), &L_17);
 			MoveNextRunner_t57DA5A6E2423AE86889DAA6D20097BBE3C75101E* L_19 = V_0;
 			AsyncMethodBuilderCore_PostBoxInitialization_mB531930E3F2FE5A9D31E4233429FAD0AFA6E8E9A(L_14, (RuntimeObject*)L_18, L_19, (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)NULL, NULL);
@@ -26491,12 +26491,12 @@ IL_0091:
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CHandlePurchaseCompleteU3Ed__14_tDA3C57D417E5CB1BF92CBE0C15C9CA93C7B8DB94_m62D2F89B12C2960F2F4E82F6C5FB179655596FC9_AdjustorThunk (RuntimeObject* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CHandlePurchaseCompleteU3Ed__14_tDA3C57D417E5CB1BF92CBE0C15C9CA93C7B8DB94* ___1_stateMachine, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CHandlePurchaseCompleteU3Ed__15_t126A12A486BB1E7CBCBE5CDD1480F9ACA81536D6_m49209E526D2C52250787D8BA9849BA58E87A6BDA_AdjustorThunk (RuntimeObject* __this, TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35* ___0_awaiter, U3CHandlePurchaseCompleteU3Ed__15_t126A12A486BB1E7CBCBE5CDD1480F9ACA81536D6* ___1_stateMachine, const RuntimeMethod* method)
 {
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* _thisAdjusted;
 	int32_t _offset = 1;
 	_thisAdjusted = reinterpret_cast<AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*>(__this + _offset);
-	AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CHandlePurchaseCompleteU3Ed__14_tDA3C57D417E5CB1BF92CBE0C15C9CA93C7B8DB94_m62D2F89B12C2960F2F4E82F6C5FB179655596FC9(_thisAdjusted, ___0_awaiter, ___1_stateMachine, method);
+	AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35_TisU3CHandlePurchaseCompleteU3Ed__15_t126A12A486BB1E7CBCBE5CDD1480F9ACA81536D6_m49209E526D2C52250787D8BA9849BA58E87A6BDA(_thisAdjusted, ___0_awaiter, ___1_stateMachine, method);
 }
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Thirdweb.Currency>,Thirdweb.Examples.Prefab_Reading/<FetchERC20>d__8>(TAwaiter&,TStateMachine&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tFC468A81911D791D1968C8D8ACAF48CEA8E6A1F5_TisU3CFetchERC20U3Ed__8_tAA6C097C9F57CEBFF1E6A6C2A5209E2FBFD640A8_mE49C6CBDDB1320851B5E6527DE53976204BE0954_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_tFC468A81911D791D1968C8D8ACAF48CEA8E6A1F5* ___0_awaiter, U3CFetchERC20U3Ed__8_tAA6C097C9F57CEBFF1E6A6C2A5209E2FBFD640A8* ___1_stateMachine, const RuntimeMethod* method) 
@@ -26756,8 +26756,8 @@ IL2CPP_EXTERN_C  void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwait
 	_thisAdjusted = reinterpret_cast<AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*>(__this + _offset);
 	AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790_TisU3CGetTokenBalanceU3Ed__11_t5D611E8547C6C6D62AC37F3EF79E696873E01BB7_m239F8DA74B52D17BE8DB4F4D705600D46ED03DE7(_thisAdjusted, ___0_awaiter, ___1_stateMachine, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Thirdweb.CurrencyValue>,MainMenuScript/<GetTokenBalance>d__8>(TAwaiter&,TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790_TisU3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49_m4A41D1C377D74F04B8F2928089A4570BA623AA8D_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790* ___0_awaiter, U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49* ___1_stateMachine, const RuntimeMethod* method) 
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Thirdweb.CurrencyValue>,MainMenuScript/<GetTokenBalance>d__11>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790_TisU3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D_m4F57ED465C774167E72C029681388B3D9341EEA8_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790* ___0_awaiter, U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D* ___1_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -26825,8 +26825,8 @@ IL_0018_1:
 			L_7 = AsyncVoidMethodBuilder_get_Task_m229538FE6AE7089FA46E87C5720256A0CC727B8F(__this, NULL);
 			int32_t L_8;
 			L_8 = Task_get_Id_mE529E167E64F60B3B79B540D4DFA6254B94F47AA(L_7, NULL);
-			U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49* L_9 = ___1_stateMachine;
-			Il2CppFakeBox<U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49> L_10(il2cpp_rgctx_data(method->rgctx_data, 0), L_9);
+			U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D* L_9 = ___1_stateMachine;
+			Il2CppFakeBox<U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D> L_10(il2cpp_rgctx_data(method->rgctx_data, 0), L_9);
 			Type_t* L_11;
 			L_11 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((&L_10), NULL);
 			String_t* L_12;
@@ -26839,9 +26839,9 @@ IL_0018_1:
 IL_0062_1:
 		{
 			AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF* L_14 = (AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF*)(&__this->___m_coreState_1);
-			U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49* L_15 = ___1_stateMachine;
-			U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49 L_16 = (*(U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49*)L_15);
-			U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49 L_17 = L_16;
+			U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D* L_15 = ___1_stateMachine;
+			U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D L_16 = (*(U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D*)L_15);
+			U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D L_17 = L_16;
 			RuntimeObject* L_18 = Box(il2cpp_rgctx_data(method->rgctx_data, 0), &L_17);
 			MoveNextRunner_t57DA5A6E2423AE86889DAA6D20097BBE3C75101E* L_19 = V_0;
 			AsyncMethodBuilderCore_PostBoxInitialization_mB531930E3F2FE5A9D31E4233429FAD0AFA6E8E9A(L_14, (RuntimeObject*)L_18, L_19, (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)NULL, NULL);
@@ -26878,12 +26878,12 @@ IL_0091:
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790_TisU3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49_m4A41D1C377D74F04B8F2928089A4570BA623AA8D_AdjustorThunk (RuntimeObject* __this, TaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790* ___0_awaiter, U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49* ___1_stateMachine, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790_TisU3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D_m4F57ED465C774167E72C029681388B3D9341EEA8_AdjustorThunk (RuntimeObject* __this, TaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790* ___0_awaiter, U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D* ___1_stateMachine, const RuntimeMethod* method)
 {
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* _thisAdjusted;
 	int32_t _offset = 1;
 	_thisAdjusted = reinterpret_cast<AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*>(__this + _offset);
-	AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790_TisU3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49_m4A41D1C377D74F04B8F2928089A4570BA623AA8D(_thisAdjusted, ___0_awaiter, ___1_stateMachine, method);
+	AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790_TisU3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D_m4F57ED465C774167E72C029681388B3D9341EEA8(_thisAdjusted, ___0_awaiter, ___1_stateMachine, method);
 }
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Thirdweb.CurrencyValue>,Thirdweb.Examples.Prefab_ConnectWallet/<PostConnect>d__34>(TAwaiter&,TStateMachine&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790_TisU3CPostConnectU3Ed__34_tC099FC5098871D65F708E520CD9478741F1D91AA_m9E7D3C1D757934F29760FADFD69792DB2E39F235_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_tF8CACE6DB24C51FA814120975563352A54486790* ___0_awaiter, U3CPostConnectU3Ed__34_tC099FC5098871D65F708E520CD9478741F1D91AA* ___1_stateMachine, const RuntimeMethod* method) 
@@ -29594,8 +29594,8 @@ IL2CPP_EXTERN_C  void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwait
 	_thisAdjusted = reinterpret_cast<AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*>(__this + _offset);
 	AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3COnSubmitRecoveryOauthU3Ed__25_t090B3FF318953F4D97160FCCF0058F637CBD3485_m4290095A01CA1566208BC84FED78FB6C290BAB22(_thisAdjusted, ___0_awaiter, ___1_stateMachine, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,GameStateController/<InitializeSDKAndContract>d__21>(TAwaiter&,TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CInitializeSDKAndContractU3Ed__21_t07A4DDDC8C986F7E971EAA7ED612826FC2CDD93C_m4D262CDAC2CC1DA383A9F0B59441D61CD3B04027_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CInitializeSDKAndContractU3Ed__21_t07A4DDDC8C986F7E971EAA7ED612826FC2CDD93C* ___1_stateMachine, const RuntimeMethod* method) 
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,GameStateController/<InitializeSDKAndContract>d__23>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CInitializeSDKAndContractU3Ed__23_t94B8CCFF97BD5A64C5FB9B7A12329FFB08882C38_m5BFAC54210E8F357F86439957CDA347EA1B212AA_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CInitializeSDKAndContractU3Ed__23_t94B8CCFF97BD5A64C5FB9B7A12329FFB08882C38* ___1_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -29663,8 +29663,8 @@ IL_0018_1:
 			L_7 = AsyncVoidMethodBuilder_get_Task_m229538FE6AE7089FA46E87C5720256A0CC727B8F(__this, NULL);
 			int32_t L_8;
 			L_8 = Task_get_Id_mE529E167E64F60B3B79B540D4DFA6254B94F47AA(L_7, NULL);
-			U3CInitializeSDKAndContractU3Ed__21_t07A4DDDC8C986F7E971EAA7ED612826FC2CDD93C* L_9 = ___1_stateMachine;
-			Il2CppFakeBox<U3CInitializeSDKAndContractU3Ed__21_t07A4DDDC8C986F7E971EAA7ED612826FC2CDD93C> L_10(il2cpp_rgctx_data(method->rgctx_data, 0), L_9);
+			U3CInitializeSDKAndContractU3Ed__23_t94B8CCFF97BD5A64C5FB9B7A12329FFB08882C38* L_9 = ___1_stateMachine;
+			Il2CppFakeBox<U3CInitializeSDKAndContractU3Ed__23_t94B8CCFF97BD5A64C5FB9B7A12329FFB08882C38> L_10(il2cpp_rgctx_data(method->rgctx_data, 0), L_9);
 			Type_t* L_11;
 			L_11 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((&L_10), NULL);
 			String_t* L_12;
@@ -29677,9 +29677,9 @@ IL_0018_1:
 IL_0062_1:
 		{
 			AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF* L_14 = (AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF*)(&__this->___m_coreState_1);
-			U3CInitializeSDKAndContractU3Ed__21_t07A4DDDC8C986F7E971EAA7ED612826FC2CDD93C* L_15 = ___1_stateMachine;
-			U3CInitializeSDKAndContractU3Ed__21_t07A4DDDC8C986F7E971EAA7ED612826FC2CDD93C L_16 = (*(U3CInitializeSDKAndContractU3Ed__21_t07A4DDDC8C986F7E971EAA7ED612826FC2CDD93C*)L_15);
-			U3CInitializeSDKAndContractU3Ed__21_t07A4DDDC8C986F7E971EAA7ED612826FC2CDD93C L_17 = L_16;
+			U3CInitializeSDKAndContractU3Ed__23_t94B8CCFF97BD5A64C5FB9B7A12329FFB08882C38* L_15 = ___1_stateMachine;
+			U3CInitializeSDKAndContractU3Ed__23_t94B8CCFF97BD5A64C5FB9B7A12329FFB08882C38 L_16 = (*(U3CInitializeSDKAndContractU3Ed__23_t94B8CCFF97BD5A64C5FB9B7A12329FFB08882C38*)L_15);
+			U3CInitializeSDKAndContractU3Ed__23_t94B8CCFF97BD5A64C5FB9B7A12329FFB08882C38 L_17 = L_16;
 			RuntimeObject* L_18 = Box(il2cpp_rgctx_data(method->rgctx_data, 0), &L_17);
 			MoveNextRunner_t57DA5A6E2423AE86889DAA6D20097BBE3C75101E* L_19 = V_0;
 			AsyncMethodBuilderCore_PostBoxInitialization_mB531930E3F2FE5A9D31E4233429FAD0AFA6E8E9A(L_14, (RuntimeObject*)L_18, L_19, (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)NULL, NULL);
@@ -29716,12 +29716,12 @@ IL_0091:
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CInitializeSDKAndContractU3Ed__21_t07A4DDDC8C986F7E971EAA7ED612826FC2CDD93C_m4D262CDAC2CC1DA383A9F0B59441D61CD3B04027_AdjustorThunk (RuntimeObject* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CInitializeSDKAndContractU3Ed__21_t07A4DDDC8C986F7E971EAA7ED612826FC2CDD93C* ___1_stateMachine, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CInitializeSDKAndContractU3Ed__23_t94B8CCFF97BD5A64C5FB9B7A12329FFB08882C38_m5BFAC54210E8F357F86439957CDA347EA1B212AA_AdjustorThunk (RuntimeObject* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CInitializeSDKAndContractU3Ed__23_t94B8CCFF97BD5A64C5FB9B7A12329FFB08882C38* ___1_stateMachine, const RuntimeMethod* method)
 {
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* _thisAdjusted;
 	int32_t _offset = 1;
 	_thisAdjusted = reinterpret_cast<AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*>(__this + _offset);
-	AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CInitializeSDKAndContractU3Ed__21_t07A4DDDC8C986F7E971EAA7ED612826FC2CDD93C_m4D262CDAC2CC1DA383A9F0B59441D61CD3B04027(_thisAdjusted, ___0_awaiter, ___1_stateMachine, method);
+	AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CInitializeSDKAndContractU3Ed__23_t94B8CCFF97BD5A64C5FB9B7A12329FFB08882C38_m5BFAC54210E8F357F86439957CDA347EA1B212AA(_thisAdjusted, ___0_awaiter, ___1_stateMachine, method);
 }
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,LoginScript/<ClaimAccessKey>d__14>(TAwaiter&,TStateMachine&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CClaimAccessKeyU3Ed__14_t11455C877B13B3755ADB55644E0768FD91DC227D_mA88B72DBE536B07A56795805CC5CA05265064EBE_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CClaimAccessKeyU3Ed__14_t11455C877B13B3755ADB55644E0768FD91DC227D* ___1_stateMachine, const RuntimeMethod* method) 
@@ -29981,8 +29981,8 @@ IL2CPP_EXTERN_C  void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwait
 	_thisAdjusted = reinterpret_cast<AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*>(__this + _offset);
 	AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3COnConnectedU3Ed__13_tA584ED46CCD53B4D22B07C0E9991B7E3D80E7F45_m6997E0A28285CE9D2A9D98703BF6496F4FF72BB8(_thisAdjusted, ___0_awaiter, ___1_stateMachine, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,MainMenuScript/<GetTokenBalance>d__8>(TAwaiter&,TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49_m157CFE9C5B7AC513710642196227B97E790E35F9_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49* ___1_stateMachine, const RuntimeMethod* method) 
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,MainMenuScript/<GetTokenBalance>d__11>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D_mB8E00F67E3F89D8060C27C2DA171366A2478ED0D_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D* ___1_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -30050,8 +30050,8 @@ IL_0018_1:
 			L_7 = AsyncVoidMethodBuilder_get_Task_m229538FE6AE7089FA46E87C5720256A0CC727B8F(__this, NULL);
 			int32_t L_8;
 			L_8 = Task_get_Id_mE529E167E64F60B3B79B540D4DFA6254B94F47AA(L_7, NULL);
-			U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49* L_9 = ___1_stateMachine;
-			Il2CppFakeBox<U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49> L_10(il2cpp_rgctx_data(method->rgctx_data, 0), L_9);
+			U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D* L_9 = ___1_stateMachine;
+			Il2CppFakeBox<U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D> L_10(il2cpp_rgctx_data(method->rgctx_data, 0), L_9);
 			Type_t* L_11;
 			L_11 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((&L_10), NULL);
 			String_t* L_12;
@@ -30064,9 +30064,9 @@ IL_0018_1:
 IL_0062_1:
 		{
 			AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF* L_14 = (AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF*)(&__this->___m_coreState_1);
-			U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49* L_15 = ___1_stateMachine;
-			U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49 L_16 = (*(U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49*)L_15);
-			U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49 L_17 = L_16;
+			U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D* L_15 = ___1_stateMachine;
+			U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D L_16 = (*(U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D*)L_15);
+			U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D L_17 = L_16;
 			RuntimeObject* L_18 = Box(il2cpp_rgctx_data(method->rgctx_data, 0), &L_17);
 			MoveNextRunner_t57DA5A6E2423AE86889DAA6D20097BBE3C75101E* L_19 = V_0;
 			AsyncMethodBuilderCore_PostBoxInitialization_mB531930E3F2FE5A9D31E4233429FAD0AFA6E8E9A(L_14, (RuntimeObject*)L_18, L_19, (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)NULL, NULL);
@@ -30103,15 +30103,15 @@ IL_0091:
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49_m157CFE9C5B7AC513710642196227B97E790E35F9_AdjustorThunk (RuntimeObject* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49* ___1_stateMachine, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D_mB8E00F67E3F89D8060C27C2DA171366A2478ED0D_AdjustorThunk (RuntimeObject* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D* ___1_stateMachine, const RuntimeMethod* method)
 {
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* _thisAdjusted;
 	int32_t _offset = 1;
 	_thisAdjusted = reinterpret_cast<AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*>(__this + _offset);
-	AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetTokenBalanceU3Ed__8_t12676A981FF71569C3A394EAD1CF27861BA68C49_m157CFE9C5B7AC513710642196227B97E790E35F9(_thisAdjusted, ___0_awaiter, ___1_stateMachine, method);
+	AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetTokenBalanceU3Ed__11_t554F5FE0B108352EE7EE10C9D12A8CB75496F33D_mB8E00F67E3F89D8060C27C2DA171366A2478ED0D(_thisAdjusted, ___0_awaiter, ___1_stateMachine, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,MainMenuScript/<GetWalletAddress>d__9>(TAwaiter&,TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetWalletAddressU3Ed__9_t736A547ECFEA1C2A91AB73D61DBD347083519D81_m2CD9FABF46D121A4E4B98E67027AAB891B0B042D_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CGetWalletAddressU3Ed__9_t736A547ECFEA1C2A91AB73D61DBD347083519D81* ___1_stateMachine, const RuntimeMethod* method) 
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,MainMenuScript/<GetWalletAddress>d__12>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetWalletAddressU3Ed__12_t462D1CB94D4E347396FF180B397D7E6DA634D007_m83AA0F617F168DEE45D5CE9AEA84E52FD90D0E78_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CGetWalletAddressU3Ed__12_t462D1CB94D4E347396FF180B397D7E6DA634D007* ___1_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -30179,8 +30179,8 @@ IL_0018_1:
 			L_7 = AsyncVoidMethodBuilder_get_Task_m229538FE6AE7089FA46E87C5720256A0CC727B8F(__this, NULL);
 			int32_t L_8;
 			L_8 = Task_get_Id_mE529E167E64F60B3B79B540D4DFA6254B94F47AA(L_7, NULL);
-			U3CGetWalletAddressU3Ed__9_t736A547ECFEA1C2A91AB73D61DBD347083519D81* L_9 = ___1_stateMachine;
-			Il2CppFakeBox<U3CGetWalletAddressU3Ed__9_t736A547ECFEA1C2A91AB73D61DBD347083519D81> L_10(il2cpp_rgctx_data(method->rgctx_data, 0), L_9);
+			U3CGetWalletAddressU3Ed__12_t462D1CB94D4E347396FF180B397D7E6DA634D007* L_9 = ___1_stateMachine;
+			Il2CppFakeBox<U3CGetWalletAddressU3Ed__12_t462D1CB94D4E347396FF180B397D7E6DA634D007> L_10(il2cpp_rgctx_data(method->rgctx_data, 0), L_9);
 			Type_t* L_11;
 			L_11 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((&L_10), NULL);
 			String_t* L_12;
@@ -30193,9 +30193,9 @@ IL_0018_1:
 IL_0062_1:
 		{
 			AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF* L_14 = (AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF*)(&__this->___m_coreState_1);
-			U3CGetWalletAddressU3Ed__9_t736A547ECFEA1C2A91AB73D61DBD347083519D81* L_15 = ___1_stateMachine;
-			U3CGetWalletAddressU3Ed__9_t736A547ECFEA1C2A91AB73D61DBD347083519D81 L_16 = (*(U3CGetWalletAddressU3Ed__9_t736A547ECFEA1C2A91AB73D61DBD347083519D81*)L_15);
-			U3CGetWalletAddressU3Ed__9_t736A547ECFEA1C2A91AB73D61DBD347083519D81 L_17 = L_16;
+			U3CGetWalletAddressU3Ed__12_t462D1CB94D4E347396FF180B397D7E6DA634D007* L_15 = ___1_stateMachine;
+			U3CGetWalletAddressU3Ed__12_t462D1CB94D4E347396FF180B397D7E6DA634D007 L_16 = (*(U3CGetWalletAddressU3Ed__12_t462D1CB94D4E347396FF180B397D7E6DA634D007*)L_15);
+			U3CGetWalletAddressU3Ed__12_t462D1CB94D4E347396FF180B397D7E6DA634D007 L_17 = L_16;
 			RuntimeObject* L_18 = Box(il2cpp_rgctx_data(method->rgctx_data, 0), &L_17);
 			MoveNextRunner_t57DA5A6E2423AE86889DAA6D20097BBE3C75101E* L_19 = V_0;
 			AsyncMethodBuilderCore_PostBoxInitialization_mB531930E3F2FE5A9D31E4233429FAD0AFA6E8E9A(L_14, (RuntimeObject*)L_18, L_19, (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)NULL, NULL);
@@ -30232,12 +30232,12 @@ IL_0091:
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetWalletAddressU3Ed__9_t736A547ECFEA1C2A91AB73D61DBD347083519D81_m2CD9FABF46D121A4E4B98E67027AAB891B0B042D_AdjustorThunk (RuntimeObject* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CGetWalletAddressU3Ed__9_t736A547ECFEA1C2A91AB73D61DBD347083519D81* ___1_stateMachine, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetWalletAddressU3Ed__12_t462D1CB94D4E347396FF180B397D7E6DA634D007_m83AA0F617F168DEE45D5CE9AEA84E52FD90D0E78_AdjustorThunk (RuntimeObject* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CGetWalletAddressU3Ed__12_t462D1CB94D4E347396FF180B397D7E6DA634D007* ___1_stateMachine, const RuntimeMethod* method)
 {
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* _thisAdjusted;
 	int32_t _offset = 1;
 	_thisAdjusted = reinterpret_cast<AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*>(__this + _offset);
-	AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetWalletAddressU3Ed__9_t736A547ECFEA1C2A91AB73D61DBD347083519D81_m2CD9FABF46D121A4E4B98E67027AAB891B0B042D(_thisAdjusted, ___0_awaiter, ___1_stateMachine, method);
+	AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CGetWalletAddressU3Ed__12_t462D1CB94D4E347396FF180B397D7E6DA634D007_m83AA0F617F168DEE45D5CE9AEA84E52FD90D0E78(_thisAdjusted, ___0_awaiter, ___1_stateMachine, method);
 }
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,MetaMask.MetaMaskWallet/<ConnectAndSignFallback>d__122>(TAwaiter&,TStateMachine&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CConnectAndSignFallbackU3Ed__122_t20B623071ED07F7883F46177DDE5AB9ED169047A_m56318F14EAB44128115E1575FC2544B3E71C5AAE_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, U3CConnectAndSignFallbackU3Ed__122_t20B623071ED07F7883F46177DDE5AB9ED169047A* ___1_stateMachine, const RuntimeMethod* method) 

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Thirdweb;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -30,9 +31,12 @@ public class ShopScript : MonoBehaviour
     // Western NFT | ID: 2 | Default
     public GameObject redForest_NFT_container_owned;
 
+    // UI
+    public TextMeshProUGUI errorAlertMessage;
 
     void Start() {
         InitializeSDKAndContract();
+        errorAlertMessage.text = "";
     }
 
     public async void InitializeSDKAndContract() {
@@ -52,13 +56,16 @@ public class ShopScript : MonoBehaviour
         if (await CheckIfUserHasEnoughFundsToBuyBackground(background_ID)) {
             try {
                 Debug.Log($"Attempting to buy background NFT with ID {background_ID}");
+                errorAlertMessage.text = "Trying to purchase background, please wait..";
                 //var result = await backgroundsSmartContract.ERC1155.Claim(background_ID, 1);
                 await ERC1155ContractInteractionScript.BuyBackgroundNFT(background_ID);
 
                 HandlePurchaseComplete(background_ID);
                 Debug.Log($"Successfully bought background NFT with ID {background_ID}");
+                
             }
             catch (Exception e) {
+                errorAlertMessage.text = "Could not buy background!";
                 Debug.Log($"Failed to buy background NFT with ID {background_ID}. Error: {e.Message}");
             }
         }
@@ -69,10 +76,12 @@ public class ShopScript : MonoBehaviour
         switch (background_ID) {
             case "0":
                 Debug.Log("Purchase complete for Background: Midnight");
+                errorAlertMessage.text = "Midnight background successfully purchased!";
                 if (await CheckIfUserOwnsNFT(background_ID)) { MidnightNFTOwned(); }
                 break;
             case "1":
                 Debug.Log("Purchase complete for Background: Green Forest");
+                errorAlertMessage.text = "Green Forest background successfully purchased!";
                 if (await CheckIfUserOwnsNFT(background_ID)) { GreenForestNFTOwned(); }
                 break;
             default:
@@ -105,10 +114,6 @@ public class ShopScript : MonoBehaviour
             Debug.Log("Wallet address: " + connectedWalletAddress);
 
             return await ERC1155ContractInteractionScript.CheckIfUserOwnsNFT(NFT_ID);
-
-            //var nft_balance = await backgroundsSmartContract.ERC1155.BalanceOf(connectedWalletAddress, NFT_ID);
-            //Debug.Log(nft_balance);
-            //return nft_balance >= 1;
         }
         catch (Exception e) {
             Debug.LogError("Could not check if user owns this NFT. Error:" + e.Message);
@@ -131,6 +136,7 @@ public class ShopScript : MonoBehaviour
             Debug.Log("Token Balance: " + tokenBalance);
             Debug.Log("Coins Required: " + coinsRequired);
             if (tokenBalance < coinsRequired) {
+                errorAlertMessage.text = "You do not have enough gold coins to buy this background!";
                 Debug.Log("You do not have enough coins to buy this background!");
                 return false;
             }

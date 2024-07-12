@@ -142,22 +142,22 @@ extern void GameStateController_HandlePlayerLeft_m6359DDE6C18355EB66CAFFF8F4E7AC
 extern void GameStateController_BackToMenu_mF8C9CAF5D4B5CF3FD43849175490C4DA3DECB8E5 (void);
 // 0x00000041 System.Void GameStateController::.ctor()
 extern void GameStateController__ctor_m31EB272531625F3334844A6A0213D29ABE98DA18 (void);
-// 0x00000042 System.Void GameStateController/<InitializeSDKAndContract>d__21::MoveNext()
-extern void U3CInitializeSDKAndContractU3Ed__21_MoveNext_m4DCDC62B690F282FED51A5EA672F1C2BCFD7397A (void);
-// 0x00000043 System.Void GameStateController/<InitializeSDKAndContract>d__21::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CInitializeSDKAndContractU3Ed__21_SetStateMachine_m27D1AC4580C62BC07259DCAE1E8940A409A25A1F (void);
-// 0x00000044 System.Void GameStateController/<UpdatePlayerAddresses>d__22::MoveNext()
-extern void U3CUpdatePlayerAddressesU3Ed__22_MoveNext_m002784CEFBFE329A70355DEF7E5A26E6C664E066 (void);
-// 0x00000045 System.Void GameStateController/<UpdatePlayerAddresses>d__22::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CUpdatePlayerAddressesU3Ed__22_SetStateMachine_mF7CE2CF116F5E370C32C65544C5DDB658CD92882 (void);
-// 0x00000046 System.Void GameStateController/<UpdateCurrentPlayer>d__23::MoveNext()
-extern void U3CUpdateCurrentPlayerU3Ed__23_MoveNext_m8DC5D2C39A534093996D5B3997E90F71485952FC (void);
-// 0x00000047 System.Void GameStateController/<UpdateCurrentPlayer>d__23::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CUpdateCurrentPlayerU3Ed__23_SetStateMachine_m8D1A8D1A4828C3200780BA53CF2DB8C1E18FBE8C (void);
-// 0x00000048 System.Void GameStateController/<ClaimReward>d__27::MoveNext()
-extern void U3CClaimRewardU3Ed__27_MoveNext_m073EEAE41A084633B7AF8E7520D423C88206CAB7 (void);
-// 0x00000049 System.Void GameStateController/<ClaimReward>d__27::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CClaimRewardU3Ed__27_SetStateMachine_m4C47EDBEE4D54C18AB827C5392B9DA1C64C74E37 (void);
+// 0x00000042 System.Void GameStateController/<InitializeSDKAndContract>d__23::MoveNext()
+extern void U3CInitializeSDKAndContractU3Ed__23_MoveNext_mFA59623DE6C9C50194BEC4866B817C3664D1F0F6 (void);
+// 0x00000043 System.Void GameStateController/<InitializeSDKAndContract>d__23::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CInitializeSDKAndContractU3Ed__23_SetStateMachine_m7A4A2E96D37619BD4D043A9C97F0B075A98DAEA7 (void);
+// 0x00000044 System.Void GameStateController/<UpdatePlayerAddresses>d__24::MoveNext()
+extern void U3CUpdatePlayerAddressesU3Ed__24_MoveNext_m6A8B44A63AC2C81AD0EC9CEBCFE42B2CAA97E52A (void);
+// 0x00000045 System.Void GameStateController/<UpdatePlayerAddresses>d__24::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CUpdatePlayerAddressesU3Ed__24_SetStateMachine_mF5B5A1189524E7D21E6053EBFE1C62D69259B694 (void);
+// 0x00000046 System.Void GameStateController/<UpdateCurrentPlayer>d__25::MoveNext()
+extern void U3CUpdateCurrentPlayerU3Ed__25_MoveNext_mFD8D6320FD29B4A45A818330351035921FD830AC (void);
+// 0x00000047 System.Void GameStateController/<UpdateCurrentPlayer>d__25::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CUpdateCurrentPlayerU3Ed__25_SetStateMachine_m5594707E4C4BBBA0D486D62C12B3DE9660EAAABD (void);
+// 0x00000048 System.Void GameStateController/<ClaimReward>d__29::MoveNext()
+extern void U3CClaimRewardU3Ed__29_MoveNext_m4821CE4AD8BA71DD9E3A7FD67827FA5B6075724B (void);
+// 0x00000049 System.Void GameStateController/<ClaimReward>d__29::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CClaimRewardU3Ed__29_SetStateMachine_m1293EA2E579F7FCD54573DD48D0766110FB0E44E (void);
 // 0x0000004A System.Void LoginScript::Start()
 extern void LoginScript_Start_m0C3E4E3171CF5EFD14C73EA726AEFCE725AE81F6 (void);
 // 0x0000004B System.Void LoginScript::InitializeSDKAndContract()
@@ -196,205 +196,213 @@ extern void MainMenuScript_GetWalletAddress_m4E3576FF2E2853D986061389BF1863C1BC8
 extern void MainMenuScript_JoinGame_m7507C87468EAEB86C9FAD3D47A5543F6653C9D80 (void);
 // 0x0000005C System.Void MainMenuScript::EnterShop()
 extern void MainMenuScript_EnterShop_m87EBB69C72F38C9102C84FF4A2F842B4E1F32FB9 (void);
-// 0x0000005D System.Void MainMenuScript::.ctor()
+// 0x0000005D System.Void MainMenuScript::AdminFunction_Claim20GoldCoins()
+extern void MainMenuScript_AdminFunction_Claim20GoldCoins_m2C593A898DCADA6FC3D445712F2F43737BFAF4DA (void);
+// 0x0000005E System.Void MainMenuScript::AdminFunction_ResetGame()
+extern void MainMenuScript_AdminFunction_ResetGame_m0669AB126214868D30D549CCE7BC79A4F2CEDE14 (void);
+// 0x0000005F System.Void MainMenuScript::.ctor()
 extern void MainMenuScript__ctor_m3C51F6D5E8055AD49954985F1F0D54DDB8A2FEBB (void);
-// 0x0000005E System.Void MainMenuScript/<GetTokenBalance>d__8::MoveNext()
-extern void U3CGetTokenBalanceU3Ed__8_MoveNext_m4DDD74BB3F08AAE3B09FFB83DE63B0B080927817 (void);
-// 0x0000005F System.Void MainMenuScript/<GetTokenBalance>d__8::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CGetTokenBalanceU3Ed__8_SetStateMachine_mCD6E408142C08B5F6F653C68CD93C53AE1EC6557 (void);
-// 0x00000060 System.Void MainMenuScript/<GetWalletAddress>d__9::MoveNext()
-extern void U3CGetWalletAddressU3Ed__9_MoveNext_m287C9E062D4998DA4E98FB82503A8952AAFDABC4 (void);
-// 0x00000061 System.Void MainMenuScript/<GetWalletAddress>d__9::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CGetWalletAddressU3Ed__9_SetStateMachine_mEA4DB5F10B1AEB9F055A45E6EEDDE962513A3C29 (void);
-// 0x00000062 System.Void ProfileInfoScript::Start()
+// 0x00000060 System.Void MainMenuScript/<GetTokenBalance>d__11::MoveNext()
+extern void U3CGetTokenBalanceU3Ed__11_MoveNext_mA200392FD6596B54680A5D3F46B3256DC178BEF8 (void);
+// 0x00000061 System.Void MainMenuScript/<GetTokenBalance>d__11::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CGetTokenBalanceU3Ed__11_SetStateMachine_m361F988F882B09C5F34C955E41F3C3E95DC37EEA (void);
+// 0x00000062 System.Void MainMenuScript/<GetWalletAddress>d__12::MoveNext()
+extern void U3CGetWalletAddressU3Ed__12_MoveNext_mE8B441CFB875E0B28AB1C4ACC081022C19C81545 (void);
+// 0x00000063 System.Void MainMenuScript/<GetWalletAddress>d__12::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CGetWalletAddressU3Ed__12_SetStateMachine_mBBAEF58E4F48FFAB243C2104F5038BC7ED11953D (void);
+// 0x00000064 System.Void MainMenuScript/<AdminFunction_Claim20GoldCoins>d__15::MoveNext()
+extern void U3CAdminFunction_Claim20GoldCoinsU3Ed__15_MoveNext_mCFA7893DC7B0A9D0298FEC94B26A38E705BED894 (void);
+// 0x00000065 System.Void MainMenuScript/<AdminFunction_Claim20GoldCoins>d__15::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CAdminFunction_Claim20GoldCoinsU3Ed__15_SetStateMachine_mAB806AE7E093CAE80FF216CC065326C4DCAE1937 (void);
+// 0x00000066 System.Void ProfileInfoScript::Start()
 extern void ProfileInfoScript_Start_m4B171AB55E225696AA3EE463CE37C41C5B22175C (void);
-// 0x00000063 System.Void ProfileInfoScript::UpdateTokenBalanceText()
+// 0x00000067 System.Void ProfileInfoScript::UpdateTokenBalanceText()
 extern void ProfileInfoScript_UpdateTokenBalanceText_mE75BC70F5B8EAD70F354C1C9EBF3D8A4D8BA8FBB (void);
-// 0x00000064 System.Void ProfileInfoScript::UpdateWalletAddressText()
+// 0x00000068 System.Void ProfileInfoScript::UpdateWalletAddressText()
 extern void ProfileInfoScript_UpdateWalletAddressText_mD62FCE2E74B8BC3F24B0CE43232D22AD9D85320B (void);
-// 0x00000065 System.Void ProfileInfoScript::.ctor()
+// 0x00000069 System.Void ProfileInfoScript::.ctor()
 extern void ProfileInfoScript__ctor_mBD599274BC0E9683F7CD17E4C6776B61FE4BBF02 (void);
-// 0x00000066 System.Void ProfileInfoScript/<UpdateTokenBalanceText>d__4::MoveNext()
+// 0x0000006A System.Void ProfileInfoScript/<UpdateTokenBalanceText>d__4::MoveNext()
 extern void U3CUpdateTokenBalanceTextU3Ed__4_MoveNext_m7E2BC5B36C48A2EBBA241D602E3C46E73A05DD16 (void);
-// 0x00000067 System.Void ProfileInfoScript/<UpdateTokenBalanceText>d__4::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000006B System.Void ProfileInfoScript/<UpdateTokenBalanceText>d__4::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CUpdateTokenBalanceTextU3Ed__4_SetStateMachine_mA9BC69FDBD1AF2CEAC570009EE599FF9CBC41396 (void);
-// 0x00000068 System.Void ProfileInfoScript/<UpdateWalletAddressText>d__5::MoveNext()
+// 0x0000006C System.Void ProfileInfoScript/<UpdateWalletAddressText>d__5::MoveNext()
 extern void U3CUpdateWalletAddressTextU3Ed__5_MoveNext_mF60C32EA9F338AD8D39A8BE7597F9B9B4AD35A67 (void);
-// 0x00000069 System.Void ProfileInfoScript/<UpdateWalletAddressText>d__5::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000006D System.Void ProfileInfoScript/<UpdateWalletAddressText>d__5::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CUpdateWalletAddressTextU3Ed__5_SetStateMachine_m7172FF85D9969B5AB6686E8E05B89A51A78F5395 (void);
-// 0x0000006A System.Void BackgroundHandlerScript::Awake()
+// 0x0000006E System.Void BackgroundHandlerScript::Awake()
 extern void BackgroundHandlerScript_Awake_m92B8AA9601A7CD3CFEEBBB31B257F935E57A2D22 (void);
-// 0x0000006B System.Void BackgroundHandlerScript::UpdateBackgroundImage(System.String)
+// 0x0000006F System.Void BackgroundHandlerScript::UpdateBackgroundImage(System.String)
 extern void BackgroundHandlerScript_UpdateBackgroundImage_mEF9DC4C5AFD4CB141E36C13E4B046C55784D9EC1 (void);
-// 0x0000006C System.Threading.Tasks.Task`1<System.Boolean> BackgroundHandlerScript::CheckIfUserOwnsSpecificBackground(System.String)
+// 0x00000070 System.Threading.Tasks.Task`1<System.Boolean> BackgroundHandlerScript::CheckIfUserOwnsSpecificBackground(System.String)
 extern void BackgroundHandlerScript_CheckIfUserOwnsSpecificBackground_m5F8FDA13FF57FF15717ECB4410037F60CA42539E (void);
-// 0x0000006D System.Void BackgroundHandlerScript::ResetBackground()
+// 0x00000071 System.Void BackgroundHandlerScript::ResetBackground()
 extern void BackgroundHandlerScript_ResetBackground_m5A087057CE09B9AD88E1BCF50F9B2006AC9F18A3 (void);
-// 0x0000006E System.Void BackgroundHandlerScript::RefreshBackground()
+// 0x00000072 System.Void BackgroundHandlerScript::RefreshBackground()
 extern void BackgroundHandlerScript_RefreshBackground_mDAFEB99C84BFEC36139303CEBF35A924761CFB9D (void);
-// 0x0000006F System.Void BackgroundHandlerScript::.ctor()
+// 0x00000073 System.Void BackgroundHandlerScript::.ctor()
 extern void BackgroundHandlerScript__ctor_m5CE68CC916A628FE3F18DC2AF6EEB0CEF0FAC82C (void);
-// 0x00000070 System.Void BackgroundHandlerScript/<UpdateBackgroundImage>d__5::MoveNext()
+// 0x00000074 System.Void BackgroundHandlerScript/<UpdateBackgroundImage>d__5::MoveNext()
 extern void U3CUpdateBackgroundImageU3Ed__5_MoveNext_mD6FA38FC427EFABE4F6E53E7217732DC507D8E24 (void);
-// 0x00000071 System.Void BackgroundHandlerScript/<UpdateBackgroundImage>d__5::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000075 System.Void BackgroundHandlerScript/<UpdateBackgroundImage>d__5::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CUpdateBackgroundImageU3Ed__5_SetStateMachine_m1AF84C327E31A436C6F7649D9D5B96DB367C8250 (void);
-// 0x00000072 System.Void BackgroundHandlerScript/<CheckIfUserOwnsSpecificBackground>d__6::MoveNext()
+// 0x00000076 System.Void BackgroundHandlerScript/<CheckIfUserOwnsSpecificBackground>d__6::MoveNext()
 extern void U3CCheckIfUserOwnsSpecificBackgroundU3Ed__6_MoveNext_mCEAE76465EF7BBB3A96F525E0C0EF784B5A427D2 (void);
-// 0x00000073 System.Void BackgroundHandlerScript/<CheckIfUserOwnsSpecificBackground>d__6::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000077 System.Void BackgroundHandlerScript/<CheckIfUserOwnsSpecificBackground>d__6::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CCheckIfUserOwnsSpecificBackgroundU3Ed__6_SetStateMachine_m5603DE569AB1FD68B55E2AB84017D399B46746E2 (void);
-// 0x00000074 System.Void BackgroundStateScript::SetBackground(UnityEngine.Sprite)
+// 0x00000078 System.Void BackgroundStateScript::SetBackground(UnityEngine.Sprite)
 extern void BackgroundStateScript_SetBackground_mF72AD6844780248050547AFEC901C7CEDF8FB829 (void);
-// 0x00000075 UnityEngine.Sprite BackgroundStateScript::GetBackground()
+// 0x00000079 UnityEngine.Sprite BackgroundStateScript::GetBackground()
 extern void BackgroundStateScript_GetBackground_m3115D722DB7E1FE73CE3965FC48EEAF44A3CDC12 (void);
-// 0x00000076 System.Void ShopScript::Start()
+// 0x0000007A System.Void ShopScript::Start()
 extern void ShopScript_Start_mE8691978C967AC58A5A84A9A5C94D840C16A4E2B (void);
-// 0x00000077 System.Void ShopScript::InitializeSDKAndContract()
+// 0x0000007B System.Void ShopScript::InitializeSDKAndContract()
 extern void ShopScript_InitializeSDKAndContract_m9CA320713D676A44AE30EC94FB90248909143C4D (void);
-// 0x00000078 System.Void ShopScript::BuyBackgroundNFT(System.String)
+// 0x0000007C System.Void ShopScript::BuyBackgroundNFT(System.String)
 extern void ShopScript_BuyBackgroundNFT_m99B07EFF59A7DCF4CCA85DEDEAD9024A01C5F02A (void);
-// 0x00000079 System.Void ShopScript::HandlePurchaseComplete(System.String)
+// 0x0000007D System.Void ShopScript::HandlePurchaseComplete(System.String)
 extern void ShopScript_HandlePurchaseComplete_m397FA8C0E44307D453FC6B8B5B037AB298F0F21C (void);
-// 0x0000007A System.Void ShopScript::CheckIfOwnsAnyNFT()
+// 0x0000007E System.Void ShopScript::CheckIfOwnsAnyNFT()
 extern void ShopScript_CheckIfOwnsAnyNFT_m361F87F1161DA789D2BC7543BF215AD72A6C0AB8 (void);
-// 0x0000007B System.Threading.Tasks.Task`1<System.Boolean> ShopScript::CheckIfUserOwnsNFT(System.String)
+// 0x0000007F System.Threading.Tasks.Task`1<System.Boolean> ShopScript::CheckIfUserOwnsNFT(System.String)
 extern void ShopScript_CheckIfUserOwnsNFT_mD5BECD6635FD31922EFD996CC1D17F6C6CBF6CED (void);
-// 0x0000007C System.Threading.Tasks.Task`1<System.Boolean> ShopScript::CheckIfUserHasEnoughFundsToBuyBackground(System.String)
+// 0x00000080 System.Threading.Tasks.Task`1<System.Boolean> ShopScript::CheckIfUserHasEnoughFundsToBuyBackground(System.String)
 extern void ShopScript_CheckIfUserHasEnoughFundsToBuyBackground_mFD5636CE6799E0BC6ECF5DB4BCAABF753E4FD2E2 (void);
-// 0x0000007D System.Void ShopScript::MidnightNFTOwned()
+// 0x00000081 System.Void ShopScript::MidnightNFTOwned()
 extern void ShopScript_MidnightNFTOwned_m23D0CE9F6BC7793915E74CB8C85F7ACE04F61B11 (void);
-// 0x0000007E System.Void ShopScript::GreenForestNFTOwned()
+// 0x00000082 System.Void ShopScript::GreenForestNFTOwned()
 extern void ShopScript_GreenForestNFTOwned_m21F631CA9524315D4739D7D23A839ECD58466D14 (void);
-// 0x0000007F System.Int32 ShopScript::ParseStringToInt(System.String)
+// 0x00000083 System.Int32 ShopScript::ParseStringToInt(System.String)
 extern void ShopScript_ParseStringToInt_m4493B95ACD49AD3A0AE083E89DBD8DA69E4D894B (void);
-// 0x00000080 System.Void ShopScript::BackToMenu()
+// 0x00000084 System.Void ShopScript::BackToMenu()
 extern void ShopScript_BackToMenu_m1E5930573614574559216C792FD8CEC25D050ED3 (void);
-// 0x00000081 System.Void ShopScript::.ctor()
+// 0x00000085 System.Void ShopScript::.ctor()
 extern void ShopScript__ctor_m480A3F3C6BDD487ABE6D63050E4305DE60FF0AFC (void);
-// 0x00000082 System.Void ShopScript/<InitializeSDKAndContract>d__12::MoveNext()
-extern void U3CInitializeSDKAndContractU3Ed__12_MoveNext_m4D75A4576B03631ECC621D8D11C092C1DF01EECE (void);
-// 0x00000083 System.Void ShopScript/<InitializeSDKAndContract>d__12::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CInitializeSDKAndContractU3Ed__12_SetStateMachine_m2DD6A9C303778D669AE7E694A1002E617ADBB84B (void);
-// 0x00000084 System.Void ShopScript/<BuyBackgroundNFT>d__13::MoveNext()
-extern void U3CBuyBackgroundNFTU3Ed__13_MoveNext_m020833E601A1561E81BDCE396A84CC6A7544322B (void);
-// 0x00000085 System.Void ShopScript/<BuyBackgroundNFT>d__13::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CBuyBackgroundNFTU3Ed__13_SetStateMachine_m5A5A7C205AC8F751F4835A2C490CAF84A0E1083D (void);
-// 0x00000086 System.Void ShopScript/<HandlePurchaseComplete>d__14::MoveNext()
-extern void U3CHandlePurchaseCompleteU3Ed__14_MoveNext_mA1159A22C9E0DBC1D1FDA0112EBAF37D5146DE3C (void);
-// 0x00000087 System.Void ShopScript/<HandlePurchaseComplete>d__14::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CHandlePurchaseCompleteU3Ed__14_SetStateMachine_m51E133823615C85805BBD33101DBB21E6FC428EB (void);
-// 0x00000088 System.Void ShopScript/<CheckIfOwnsAnyNFT>d__15::MoveNext()
-extern void U3CCheckIfOwnsAnyNFTU3Ed__15_MoveNext_m399AD7550865C09A66A42388C56B33BA6B11D5B1 (void);
-// 0x00000089 System.Void ShopScript/<CheckIfOwnsAnyNFT>d__15::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CCheckIfOwnsAnyNFTU3Ed__15_SetStateMachine_m2CFC5C4F3068A3011907F643080FF90D8EBCFB47 (void);
-// 0x0000008A System.Void ShopScript/<CheckIfUserOwnsNFT>d__16::MoveNext()
-extern void U3CCheckIfUserOwnsNFTU3Ed__16_MoveNext_mB9223DF66F248E85A4A2EA5A496E5F659BB19885 (void);
-// 0x0000008B System.Void ShopScript/<CheckIfUserOwnsNFT>d__16::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CCheckIfUserOwnsNFTU3Ed__16_SetStateMachine_m1009A03B6D7B67FDAEFC751BED76693F0DB8B251 (void);
-// 0x0000008C System.Void ShopScript/<CheckIfUserHasEnoughFundsToBuyBackground>d__17::MoveNext()
-extern void U3CCheckIfUserHasEnoughFundsToBuyBackgroundU3Ed__17_MoveNext_m61B42C9DF1F5A62E3D63CB7663481772A8D4C343 (void);
-// 0x0000008D System.Void ShopScript/<CheckIfUserHasEnoughFundsToBuyBackground>d__17::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CCheckIfUserHasEnoughFundsToBuyBackgroundU3Ed__17_SetStateMachine_m079EEF3F8CEA7E3F71A9D3F89380F63A1B0AFA7D (void);
-// 0x0000008E System.Void SmartContractAddresses::.cctor()
+// 0x00000086 System.Void ShopScript/<InitializeSDKAndContract>d__13::MoveNext()
+extern void U3CInitializeSDKAndContractU3Ed__13_MoveNext_mFCD93C4C828FAA40BE15118D3B04968A1CF88239 (void);
+// 0x00000087 System.Void ShopScript/<InitializeSDKAndContract>d__13::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CInitializeSDKAndContractU3Ed__13_SetStateMachine_m4E8B55FCEDFC88C918DAF73D341A5F6E740F0687 (void);
+// 0x00000088 System.Void ShopScript/<BuyBackgroundNFT>d__14::MoveNext()
+extern void U3CBuyBackgroundNFTU3Ed__14_MoveNext_mFDB79010B53E26A60B4C9C61EA7A5DA16FB80B64 (void);
+// 0x00000089 System.Void ShopScript/<BuyBackgroundNFT>d__14::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CBuyBackgroundNFTU3Ed__14_SetStateMachine_mB4A5B3FDDB45FC90625C377947DADDCA4C576414 (void);
+// 0x0000008A System.Void ShopScript/<HandlePurchaseComplete>d__15::MoveNext()
+extern void U3CHandlePurchaseCompleteU3Ed__15_MoveNext_m7BA8FCE6095D00785DF8D7AC3D8B422F02CA4629 (void);
+// 0x0000008B System.Void ShopScript/<HandlePurchaseComplete>d__15::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CHandlePurchaseCompleteU3Ed__15_SetStateMachine_m234EDB9D6FD78EA161AC87C1079605005654C31A (void);
+// 0x0000008C System.Void ShopScript/<CheckIfOwnsAnyNFT>d__16::MoveNext()
+extern void U3CCheckIfOwnsAnyNFTU3Ed__16_MoveNext_m58A9FC7CDD8173FE02502360C5E4ACA87CF9B33D (void);
+// 0x0000008D System.Void ShopScript/<CheckIfOwnsAnyNFT>d__16::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CCheckIfOwnsAnyNFTU3Ed__16_SetStateMachine_m041516140EF822B6D3C82EAF0D11FF0ECEB1E8A4 (void);
+// 0x0000008E System.Void ShopScript/<CheckIfUserOwnsNFT>d__17::MoveNext()
+extern void U3CCheckIfUserOwnsNFTU3Ed__17_MoveNext_mD2EE127F1D0738BC72FCD5A369DF381CC96EB6C1 (void);
+// 0x0000008F System.Void ShopScript/<CheckIfUserOwnsNFT>d__17::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CCheckIfUserOwnsNFTU3Ed__17_SetStateMachine_m000DDC3ED38E0CDDA8E6D4D2233DFF340F27E856 (void);
+// 0x00000090 System.Void ShopScript/<CheckIfUserHasEnoughFundsToBuyBackground>d__18::MoveNext()
+extern void U3CCheckIfUserHasEnoughFundsToBuyBackgroundU3Ed__18_MoveNext_m917104F002912D8DBD5775DFF8D2FE7DF938E2E6 (void);
+// 0x00000091 System.Void ShopScript/<CheckIfUserHasEnoughFundsToBuyBackground>d__18::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CCheckIfUserHasEnoughFundsToBuyBackgroundU3Ed__18_SetStateMachine_mEBA311B3807D8FB5A9BC3421E5D1613319248CF4 (void);
+// 0x00000092 System.Void SmartContractAddresses::.cctor()
 extern void SmartContractAddresses__cctor_m84DB81BB6303A6F6647E31B210D29C92E68114C1 (void);
-// 0x0000008F System.Void TicTacToeContractInteraction::Start()
+// 0x00000093 System.Void TicTacToeContractInteraction::Start()
 extern void TicTacToeContractInteraction_Start_m81EDD7A1F782734175FCE98981A03D5114322567 (void);
-// 0x00000090 System.Void TicTacToeContractInteraction::InitializeSDKAndContract()
+// 0x00000094 System.Void TicTacToeContractInteraction::InitializeSDKAndContract()
 extern void TicTacToeContractInteraction_InitializeSDKAndContract_m5B01829AAC9A02047A0BE58ADC3A61CD286AE42D (void);
-// 0x00000091 System.Void TicTacToeContractInteraction::JoinGame()
+// 0x00000095 System.Void TicTacToeContractInteraction::JoinGame()
 extern void TicTacToeContractInteraction_JoinGame_m989450668BF06BD7A8FF13BC4838537312CA9319 (void);
-// 0x00000092 System.Void TicTacToeContractInteraction::LeaveGame()
+// 0x00000096 System.Void TicTacToeContractInteraction::LeaveGame()
 extern void TicTacToeContractInteraction_LeaveGame_m5CC404D651D1EFEA913D80D7EE44D88B3D93F253 (void);
-// 0x00000093 System.Void TicTacToeContractInteraction::ResetGame()
+// 0x00000097 System.Void TicTacToeContractInteraction::ResetGame()
 extern void TicTacToeContractInteraction_ResetGame_m14FFA3EF669F080CC34314C525B6BD19C2B328C6 (void);
-// 0x00000094 System.Void TicTacToeContractInteraction::MakeMove(System.Int32,System.Int32)
+// 0x00000098 System.Void TicTacToeContractInteraction::MakeMove(System.Int32,System.Int32)
 extern void TicTacToeContractInteraction_MakeMove_m6169B7B13A52AC8B8AEE4421356597459D1D5F54 (void);
-// 0x00000095 System.Collections.IEnumerator TicTacToeContractInteraction::ContractOperationCoroutine(System.String,System.Object[])
+// 0x00000099 System.Collections.IEnumerator TicTacToeContractInteraction::ContractOperationCoroutine(System.String,System.Object[])
 extern void TicTacToeContractInteraction_ContractOperationCoroutine_m8A9E17BD1D9D56343863D8FA43248A28CE5B0406 (void);
-// 0x00000096 System.Void TicTacToeContractInteraction::AsyncContractOperation(System.String,System.Object[],System.Action,System.Action`1<System.Exception>)
+// 0x0000009A System.Void TicTacToeContractInteraction::AsyncContractOperation(System.String,System.Object[],System.Action,System.Action`1<System.Exception>)
 extern void TicTacToeContractInteraction_AsyncContractOperation_m2D41D2FFC7F7F8845AD4EC99F93E8E02BC00F7BD (void);
-// 0x00000097 System.Threading.Tasks.Task`1<System.UInt64> TicTacToeContractInteraction::GetReward(System.String)
+// 0x0000009B System.Threading.Tasks.Task`1<System.UInt64> TicTacToeContractInteraction::GetReward(System.String)
 extern void TicTacToeContractInteraction_GetReward_m95F297EE5E71D3269122966F721D28E131CF7002 (void);
-// 0x00000098 System.Threading.Tasks.Task TicTacToeContractInteraction::SetupEventListeners()
+// 0x0000009C System.Threading.Tasks.Task TicTacToeContractInteraction::SetupEventListeners()
 extern void TicTacToeContractInteraction_SetupEventListeners_mF111124901FF11FAA96C34D454975A5A62D65D6B (void);
-// 0x00000099 System.Void TicTacToeContractInteraction::ListenToEvents()
+// 0x0000009D System.Void TicTacToeContractInteraction::ListenToEvents()
 extern void TicTacToeContractInteraction_ListenToEvents_m4C8D4EDDD3F43F79175908E14C83D3D20409F553 (void);
-// 0x0000009A System.Void TicTacToeContractInteraction::HandleMoveMadeEvent(TicTacToeContractInteraction/MoveMadeEventData)
+// 0x0000009E System.Void TicTacToeContractInteraction::HandleMoveMadeEvent(TicTacToeContractInteraction/MoveMadeEventData)
 extern void TicTacToeContractInteraction_HandleMoveMadeEvent_m808F027FDE3C866F02D616AFFA9420A06E30A0E8 (void);
-// 0x0000009B System.Void TicTacToeContractInteraction::HandleGameJoinedEvent(TicTacToeContractInteraction/GameJoinedEventData)
+// 0x0000009F System.Void TicTacToeContractInteraction::HandleGameJoinedEvent(TicTacToeContractInteraction/GameJoinedEventData)
 extern void TicTacToeContractInteraction_HandleGameJoinedEvent_mCF24BD9468B536000A850D970EC112CE130C9CBF (void);
-// 0x0000009C System.Void TicTacToeContractInteraction::HandleGameLeftEvent(TicTacToeContractInteraction/GameLeftEventData)
+// 0x000000A0 System.Void TicTacToeContractInteraction::HandleGameLeftEvent(TicTacToeContractInteraction/GameLeftEventData)
 extern void TicTacToeContractInteraction_HandleGameLeftEvent_m02407B0C1429368CDE6A5AD5AA0CEA25FC512AC0 (void);
-// 0x0000009D System.Void TicTacToeContractInteraction::HandleGameWon(TicTacToeContractInteraction/GameWonData)
+// 0x000000A1 System.Void TicTacToeContractInteraction::HandleGameWon(TicTacToeContractInteraction/GameWonData)
 extern void TicTacToeContractInteraction_HandleGameWon_mA385CBD27036B225BEFFCE7290CC17FA24013606 (void);
-// 0x0000009E System.Threading.Tasks.Task`1<System.String> TicTacToeContractInteraction::FetchPlayerAddress(System.String)
+// 0x000000A2 System.Threading.Tasks.Task`1<System.String> TicTacToeContractInteraction::FetchPlayerAddress(System.String)
 extern void TicTacToeContractInteraction_FetchPlayerAddress_mABEDD5FBF7213F2B418E903BCBEF2C3B99F8BBCE (void);
-// 0x0000009F System.Threading.Tasks.Task`1<System.String> TicTacToeContractInteraction::FetchCurrentPlayerToMove()
+// 0x000000A3 System.Threading.Tasks.Task`1<System.String> TicTacToeContractInteraction::FetchCurrentPlayerToMove()
 extern void TicTacToeContractInteraction_FetchCurrentPlayerToMove_m8DA4AB86BE821809CEBF70AEE410B9F952FF6B63 (void);
-// 0x000000A0 System.Void TicTacToeContractInteraction::.ctor()
+// 0x000000A4 System.Void TicTacToeContractInteraction::.ctor()
 extern void TicTacToeContractInteraction__ctor_mDDB5A8740ED21FD6C2AD4BB6EFB3175D4D317F95 (void);
-// 0x000000A1 System.Void TicTacToeContractInteraction::<ListenToEvents>b__22_0(Thirdweb.ContractEvent`1<System.Object>)
+// 0x000000A5 System.Void TicTacToeContractInteraction::<ListenToEvents>b__22_0(Thirdweb.ContractEvent`1<System.Object>)
 extern void TicTacToeContractInteraction_U3CListenToEventsU3Eb__22_0_m0DD74610378D0AB3AB43C7167305E64799AD1024 (void);
-// 0x000000A2 System.Void TicTacToeContractInteraction/MoveMadeEventData::.ctor()
+// 0x000000A6 System.Void TicTacToeContractInteraction/MoveMadeEventData::.ctor()
 extern void MoveMadeEventData__ctor_m2F3360B3372653E30C2331F8ADD05F69E6753F5E (void);
-// 0x000000A3 System.Void TicTacToeContractInteraction/GameJoinedEventData::.ctor()
+// 0x000000A7 System.Void TicTacToeContractInteraction/GameJoinedEventData::.ctor()
 extern void GameJoinedEventData__ctor_mD110D36B0636D34B67AF0EF8D42FDE3074C7D13C (void);
-// 0x000000A4 System.Void TicTacToeContractInteraction/GameLeftEventData::.ctor()
+// 0x000000A8 System.Void TicTacToeContractInteraction/GameLeftEventData::.ctor()
 extern void GameLeftEventData__ctor_m22041CF4D33D020052085D21BA0CC6D03DFF227E (void);
-// 0x000000A5 System.Void TicTacToeContractInteraction/GameWonData::.ctor()
+// 0x000000A9 System.Void TicTacToeContractInteraction/GameWonData::.ctor()
 extern void GameWonData__ctor_m4134A0D5C334CC271646E5AF17FD0663102CA0E2 (void);
-// 0x000000A6 System.Void TicTacToeContractInteraction/<InitializeSDKAndContract>d__9::MoveNext()
+// 0x000000AA System.Void TicTacToeContractInteraction/<InitializeSDKAndContract>d__9::MoveNext()
 extern void U3CInitializeSDKAndContractU3Ed__9_MoveNext_m5FBCB47483EAD792F525A15411D933448D25E293 (void);
-// 0x000000A7 System.Void TicTacToeContractInteraction/<InitializeSDKAndContract>d__9::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000AB System.Void TicTacToeContractInteraction/<InitializeSDKAndContract>d__9::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CInitializeSDKAndContractU3Ed__9_SetStateMachine_m24C5A11F98EDF478C3D3A60DF2F36DF01720EA9B (void);
-// 0x000000A8 System.Void TicTacToeContractInteraction/<>c__DisplayClass14_0::.ctor()
+// 0x000000AC System.Void TicTacToeContractInteraction/<>c__DisplayClass14_0::.ctor()
 extern void U3CU3Ec__DisplayClass14_0__ctor_m3795346DC66BCB180C2093324B8471FB0A029097 (void);
-// 0x000000A9 System.Void TicTacToeContractInteraction/<>c__DisplayClass14_0::<ContractOperationCoroutine>b__0()
+// 0x000000AD System.Void TicTacToeContractInteraction/<>c__DisplayClass14_0::<ContractOperationCoroutine>b__0()
 extern void U3CU3Ec__DisplayClass14_0_U3CContractOperationCoroutineU3Eb__0_m4A5EFD6BEEB070D532E362B2A1A9D9A58A58DE8D (void);
-// 0x000000AA System.Void TicTacToeContractInteraction/<>c__DisplayClass14_0::<ContractOperationCoroutine>b__1(System.Exception)
+// 0x000000AE System.Void TicTacToeContractInteraction/<>c__DisplayClass14_0::<ContractOperationCoroutine>b__1(System.Exception)
 extern void U3CU3Ec__DisplayClass14_0_U3CContractOperationCoroutineU3Eb__1_mC912E576BCD4C6C220E5CF86D76FAE16C6A403A1 (void);
-// 0x000000AB System.Boolean TicTacToeContractInteraction/<>c__DisplayClass14_0::<ContractOperationCoroutine>b__2()
+// 0x000000AF System.Boolean TicTacToeContractInteraction/<>c__DisplayClass14_0::<ContractOperationCoroutine>b__2()
 extern void U3CU3Ec__DisplayClass14_0_U3CContractOperationCoroutineU3Eb__2_m162AF222C70A3C39D185BBB83F5DB6A1442AE57E (void);
-// 0x000000AC System.Void TicTacToeContractInteraction/<ContractOperationCoroutine>d__14::.ctor(System.Int32)
+// 0x000000B0 System.Void TicTacToeContractInteraction/<ContractOperationCoroutine>d__14::.ctor(System.Int32)
 extern void U3CContractOperationCoroutineU3Ed__14__ctor_m0055259F62C38C9A2676BE830E303A59721B525F (void);
-// 0x000000AD System.Void TicTacToeContractInteraction/<ContractOperationCoroutine>d__14::System.IDisposable.Dispose()
+// 0x000000B1 System.Void TicTacToeContractInteraction/<ContractOperationCoroutine>d__14::System.IDisposable.Dispose()
 extern void U3CContractOperationCoroutineU3Ed__14_System_IDisposable_Dispose_m18A54935AA86E820CEEF35B441DC1F04EEBD3388 (void);
-// 0x000000AE System.Boolean TicTacToeContractInteraction/<ContractOperationCoroutine>d__14::MoveNext()
+// 0x000000B2 System.Boolean TicTacToeContractInteraction/<ContractOperationCoroutine>d__14::MoveNext()
 extern void U3CContractOperationCoroutineU3Ed__14_MoveNext_m4D2B618A62C1BE38653A3D42B68DF36D07B7698C (void);
-// 0x000000AF System.Object TicTacToeContractInteraction/<ContractOperationCoroutine>d__14::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000000B3 System.Object TicTacToeContractInteraction/<ContractOperationCoroutine>d__14::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CContractOperationCoroutineU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m520DF4050AAE2C2EB77A0A676F565B0E003522EA (void);
-// 0x000000B0 System.Void TicTacToeContractInteraction/<ContractOperationCoroutine>d__14::System.Collections.IEnumerator.Reset()
+// 0x000000B4 System.Void TicTacToeContractInteraction/<ContractOperationCoroutine>d__14::System.Collections.IEnumerator.Reset()
 extern void U3CContractOperationCoroutineU3Ed__14_System_Collections_IEnumerator_Reset_m39A397516E2BD7D3705EBBFAC8EC13B8D1415B4E (void);
-// 0x000000B1 System.Object TicTacToeContractInteraction/<ContractOperationCoroutine>d__14::System.Collections.IEnumerator.get_Current()
+// 0x000000B5 System.Object TicTacToeContractInteraction/<ContractOperationCoroutine>d__14::System.Collections.IEnumerator.get_Current()
 extern void U3CContractOperationCoroutineU3Ed__14_System_Collections_IEnumerator_get_Current_m3E609620E41214EA1B8D41F16AB4F9BEC0250325 (void);
-// 0x000000B2 System.Void TicTacToeContractInteraction/<AsyncContractOperation>d__15::MoveNext()
+// 0x000000B6 System.Void TicTacToeContractInteraction/<AsyncContractOperation>d__15::MoveNext()
 extern void U3CAsyncContractOperationU3Ed__15_MoveNext_mF3023C5BE2A5769B9837DA308E2DD7479CD13CC1 (void);
-// 0x000000B3 System.Void TicTacToeContractInteraction/<AsyncContractOperation>d__15::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000B7 System.Void TicTacToeContractInteraction/<AsyncContractOperation>d__15::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CAsyncContractOperationU3Ed__15_SetStateMachine_mF99920A3D77DDFBC418845DA0F4B06FAB4B84526 (void);
-// 0x000000B4 System.Void TicTacToeContractInteraction/<GetReward>d__16::MoveNext()
+// 0x000000B8 System.Void TicTacToeContractInteraction/<GetReward>d__16::MoveNext()
 extern void U3CGetRewardU3Ed__16_MoveNext_m21BB7363347227459F5D08A3CF6CEF7AA264EA7A (void);
-// 0x000000B5 System.Void TicTacToeContractInteraction/<GetReward>d__16::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000B9 System.Void TicTacToeContractInteraction/<GetReward>d__16::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CGetRewardU3Ed__16_SetStateMachine_m382F11F849DFC104B4A9CED0DEACE846DA6BE513 (void);
-// 0x000000B6 System.Void TicTacToeContractInteraction/<SetupEventListeners>d__21::MoveNext()
+// 0x000000BA System.Void TicTacToeContractInteraction/<SetupEventListeners>d__21::MoveNext()
 extern void U3CSetupEventListenersU3Ed__21_MoveNext_m9B6C98DF8A1FFA5CF71897293D2949C0A3611156 (void);
-// 0x000000B7 System.Void TicTacToeContractInteraction/<SetupEventListeners>d__21::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000BB System.Void TicTacToeContractInteraction/<SetupEventListeners>d__21::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CSetupEventListenersU3Ed__21_SetStateMachine_m419166DCBE280327D0E6AA17946B862EE4C699CE (void);
-// 0x000000B8 System.Void TicTacToeContractInteraction/<HandleMoveMadeEvent>d__23::MoveNext()
+// 0x000000BC System.Void TicTacToeContractInteraction/<HandleMoveMadeEvent>d__23::MoveNext()
 extern void U3CHandleMoveMadeEventU3Ed__23_MoveNext_m3E15F5E83D729D2A53ADC5C33E06E338029CFC7C (void);
-// 0x000000B9 System.Void TicTacToeContractInteraction/<HandleMoveMadeEvent>d__23::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000BD System.Void TicTacToeContractInteraction/<HandleMoveMadeEvent>d__23::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CHandleMoveMadeEventU3Ed__23_SetStateMachine_mF7F3524D2E2EEC0A9B60E1F6C8D3A6B7F1F8EA75 (void);
-// 0x000000BA System.Void TicTacToeContractInteraction/<HandleGameJoinedEvent>d__24::MoveNext()
+// 0x000000BE System.Void TicTacToeContractInteraction/<HandleGameJoinedEvent>d__24::MoveNext()
 extern void U3CHandleGameJoinedEventU3Ed__24_MoveNext_m36DE872D4C15EBEA0EA64E917FDF21618BEA91D7 (void);
-// 0x000000BB System.Void TicTacToeContractInteraction/<HandleGameJoinedEvent>d__24::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000BF System.Void TicTacToeContractInteraction/<HandleGameJoinedEvent>d__24::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CHandleGameJoinedEventU3Ed__24_SetStateMachine_m6661EE2C51A2FD1F2F11DCA925D2AC882A020FD2 (void);
-// 0x000000BC System.Void TicTacToeContractInteraction/<FetchPlayerAddress>d__27::MoveNext()
+// 0x000000C0 System.Void TicTacToeContractInteraction/<FetchPlayerAddress>d__27::MoveNext()
 extern void U3CFetchPlayerAddressU3Ed__27_MoveNext_m3563C4ECF4F3907F641BE749BAA8A60AA59C069F (void);
-// 0x000000BD System.Void TicTacToeContractInteraction/<FetchPlayerAddress>d__27::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000C1 System.Void TicTacToeContractInteraction/<FetchPlayerAddress>d__27::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CFetchPlayerAddressU3Ed__27_SetStateMachine_m1B2A29631147E359B6221E1298134C4E0E2C5CC4 (void);
-// 0x000000BE System.Void TicTacToeContractInteraction/<FetchCurrentPlayerToMove>d__28::MoveNext()
+// 0x000000C2 System.Void TicTacToeContractInteraction/<FetchCurrentPlayerToMove>d__28::MoveNext()
 extern void U3CFetchCurrentPlayerToMoveU3Ed__28_MoveNext_m7CD991B272A15DD122B4FAD4E0A3741D8E58619A (void);
-// 0x000000BF System.Void TicTacToeContractInteraction/<FetchCurrentPlayerToMove>d__28::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000C3 System.Void TicTacToeContractInteraction/<FetchCurrentPlayerToMove>d__28::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CFetchCurrentPlayerToMoveU3Ed__28_SetStateMachine_m51F53A091382B473E558C2A2BB317D3175798F59 (void);
-static Il2CppMethodPointer s_methodPointers[191] = 
+static Il2CppMethodPointer s_methodPointers[195] = 
 {
 	BlockchainManagerScript_Start_m1BA1AE66C55203995E1355A06C7F3291008FB600,
 	BlockchainManagerScript_Update_mAC9EC0762EADBC268BD0BFACFE3874DE8260FD97,
@@ -461,14 +469,14 @@ static Il2CppMethodPointer s_methodPointers[191] =
 	GameStateController_HandlePlayerLeft_m6359DDE6C18355EB66CAFFF8F4E7ACC4035F6FD5,
 	GameStateController_BackToMenu_mF8C9CAF5D4B5CF3FD43849175490C4DA3DECB8E5,
 	GameStateController__ctor_m31EB272531625F3334844A6A0213D29ABE98DA18,
-	U3CInitializeSDKAndContractU3Ed__21_MoveNext_m4DCDC62B690F282FED51A5EA672F1C2BCFD7397A,
-	U3CInitializeSDKAndContractU3Ed__21_SetStateMachine_m27D1AC4580C62BC07259DCAE1E8940A409A25A1F,
-	U3CUpdatePlayerAddressesU3Ed__22_MoveNext_m002784CEFBFE329A70355DEF7E5A26E6C664E066,
-	U3CUpdatePlayerAddressesU3Ed__22_SetStateMachine_mF7CE2CF116F5E370C32C65544C5DDB658CD92882,
-	U3CUpdateCurrentPlayerU3Ed__23_MoveNext_m8DC5D2C39A534093996D5B3997E90F71485952FC,
-	U3CUpdateCurrentPlayerU3Ed__23_SetStateMachine_m8D1A8D1A4828C3200780BA53CF2DB8C1E18FBE8C,
-	U3CClaimRewardU3Ed__27_MoveNext_m073EEAE41A084633B7AF8E7520D423C88206CAB7,
-	U3CClaimRewardU3Ed__27_SetStateMachine_m4C47EDBEE4D54C18AB827C5392B9DA1C64C74E37,
+	U3CInitializeSDKAndContractU3Ed__23_MoveNext_mFA59623DE6C9C50194BEC4866B817C3664D1F0F6,
+	U3CInitializeSDKAndContractU3Ed__23_SetStateMachine_m7A4A2E96D37619BD4D043A9C97F0B075A98DAEA7,
+	U3CUpdatePlayerAddressesU3Ed__24_MoveNext_m6A8B44A63AC2C81AD0EC9CEBCFE42B2CAA97E52A,
+	U3CUpdatePlayerAddressesU3Ed__24_SetStateMachine_mF5B5A1189524E7D21E6053EBFE1C62D69259B694,
+	U3CUpdateCurrentPlayerU3Ed__25_MoveNext_mFD8D6320FD29B4A45A818330351035921FD830AC,
+	U3CUpdateCurrentPlayerU3Ed__25_SetStateMachine_m5594707E4C4BBBA0D486D62C12B3DE9660EAAABD,
+	U3CClaimRewardU3Ed__29_MoveNext_m4821CE4AD8BA71DD9E3A7FD67827FA5B6075724B,
+	U3CClaimRewardU3Ed__29_SetStateMachine_m1293EA2E579F7FCD54573DD48D0766110FB0E44E,
 	LoginScript_Start_m0C3E4E3171CF5EFD14C73EA726AEFCE725AE81F6,
 	LoginScript_InitializeSDKAndContract_m6AC1D5E51310906E090E8DC48D9FD5F82B4E8785,
 	LoginScript_OnConnected_mC452773BE7BCFAFFB7F30684855D42BA79DE7052,
@@ -488,11 +496,15 @@ static Il2CppMethodPointer s_methodPointers[191] =
 	MainMenuScript_GetWalletAddress_m4E3576FF2E2853D986061389BF1863C1BC87669D,
 	MainMenuScript_JoinGame_m7507C87468EAEB86C9FAD3D47A5543F6653C9D80,
 	MainMenuScript_EnterShop_m87EBB69C72F38C9102C84FF4A2F842B4E1F32FB9,
+	MainMenuScript_AdminFunction_Claim20GoldCoins_m2C593A898DCADA6FC3D445712F2F43737BFAF4DA,
+	MainMenuScript_AdminFunction_ResetGame_m0669AB126214868D30D549CCE7BC79A4F2CEDE14,
 	MainMenuScript__ctor_m3C51F6D5E8055AD49954985F1F0D54DDB8A2FEBB,
-	U3CGetTokenBalanceU3Ed__8_MoveNext_m4DDD74BB3F08AAE3B09FFB83DE63B0B080927817,
-	U3CGetTokenBalanceU3Ed__8_SetStateMachine_mCD6E408142C08B5F6F653C68CD93C53AE1EC6557,
-	U3CGetWalletAddressU3Ed__9_MoveNext_m287C9E062D4998DA4E98FB82503A8952AAFDABC4,
-	U3CGetWalletAddressU3Ed__9_SetStateMachine_mEA4DB5F10B1AEB9F055A45E6EEDDE962513A3C29,
+	U3CGetTokenBalanceU3Ed__11_MoveNext_mA200392FD6596B54680A5D3F46B3256DC178BEF8,
+	U3CGetTokenBalanceU3Ed__11_SetStateMachine_m361F988F882B09C5F34C955E41F3C3E95DC37EEA,
+	U3CGetWalletAddressU3Ed__12_MoveNext_mE8B441CFB875E0B28AB1C4ACC081022C19C81545,
+	U3CGetWalletAddressU3Ed__12_SetStateMachine_mBBAEF58E4F48FFAB243C2104F5038BC7ED11953D,
+	U3CAdminFunction_Claim20GoldCoinsU3Ed__15_MoveNext_mCFA7893DC7B0A9D0298FEC94B26A38E705BED894,
+	U3CAdminFunction_Claim20GoldCoinsU3Ed__15_SetStateMachine_mAB806AE7E093CAE80FF216CC065326C4DCAE1937,
 	ProfileInfoScript_Start_m4B171AB55E225696AA3EE463CE37C41C5B22175C,
 	ProfileInfoScript_UpdateTokenBalanceText_mE75BC70F5B8EAD70F354C1C9EBF3D8A4D8BA8FBB,
 	ProfileInfoScript_UpdateWalletAddressText_mD62FCE2E74B8BC3F24B0CE43232D22AD9D85320B,
@@ -525,18 +537,18 @@ static Il2CppMethodPointer s_methodPointers[191] =
 	ShopScript_ParseStringToInt_m4493B95ACD49AD3A0AE083E89DBD8DA69E4D894B,
 	ShopScript_BackToMenu_m1E5930573614574559216C792FD8CEC25D050ED3,
 	ShopScript__ctor_m480A3F3C6BDD487ABE6D63050E4305DE60FF0AFC,
-	U3CInitializeSDKAndContractU3Ed__12_MoveNext_m4D75A4576B03631ECC621D8D11C092C1DF01EECE,
-	U3CInitializeSDKAndContractU3Ed__12_SetStateMachine_m2DD6A9C303778D669AE7E694A1002E617ADBB84B,
-	U3CBuyBackgroundNFTU3Ed__13_MoveNext_m020833E601A1561E81BDCE396A84CC6A7544322B,
-	U3CBuyBackgroundNFTU3Ed__13_SetStateMachine_m5A5A7C205AC8F751F4835A2C490CAF84A0E1083D,
-	U3CHandlePurchaseCompleteU3Ed__14_MoveNext_mA1159A22C9E0DBC1D1FDA0112EBAF37D5146DE3C,
-	U3CHandlePurchaseCompleteU3Ed__14_SetStateMachine_m51E133823615C85805BBD33101DBB21E6FC428EB,
-	U3CCheckIfOwnsAnyNFTU3Ed__15_MoveNext_m399AD7550865C09A66A42388C56B33BA6B11D5B1,
-	U3CCheckIfOwnsAnyNFTU3Ed__15_SetStateMachine_m2CFC5C4F3068A3011907F643080FF90D8EBCFB47,
-	U3CCheckIfUserOwnsNFTU3Ed__16_MoveNext_mB9223DF66F248E85A4A2EA5A496E5F659BB19885,
-	U3CCheckIfUserOwnsNFTU3Ed__16_SetStateMachine_m1009A03B6D7B67FDAEFC751BED76693F0DB8B251,
-	U3CCheckIfUserHasEnoughFundsToBuyBackgroundU3Ed__17_MoveNext_m61B42C9DF1F5A62E3D63CB7663481772A8D4C343,
-	U3CCheckIfUserHasEnoughFundsToBuyBackgroundU3Ed__17_SetStateMachine_m079EEF3F8CEA7E3F71A9D3F89380F63A1B0AFA7D,
+	U3CInitializeSDKAndContractU3Ed__13_MoveNext_mFCD93C4C828FAA40BE15118D3B04968A1CF88239,
+	U3CInitializeSDKAndContractU3Ed__13_SetStateMachine_m4E8B55FCEDFC88C918DAF73D341A5F6E740F0687,
+	U3CBuyBackgroundNFTU3Ed__14_MoveNext_mFDB79010B53E26A60B4C9C61EA7A5DA16FB80B64,
+	U3CBuyBackgroundNFTU3Ed__14_SetStateMachine_mB4A5B3FDDB45FC90625C377947DADDCA4C576414,
+	U3CHandlePurchaseCompleteU3Ed__15_MoveNext_m7BA8FCE6095D00785DF8D7AC3D8B422F02CA4629,
+	U3CHandlePurchaseCompleteU3Ed__15_SetStateMachine_m234EDB9D6FD78EA161AC87C1079605005654C31A,
+	U3CCheckIfOwnsAnyNFTU3Ed__16_MoveNext_m58A9FC7CDD8173FE02502360C5E4ACA87CF9B33D,
+	U3CCheckIfOwnsAnyNFTU3Ed__16_SetStateMachine_m041516140EF822B6D3C82EAF0D11FF0ECEB1E8A4,
+	U3CCheckIfUserOwnsNFTU3Ed__17_MoveNext_mD2EE127F1D0738BC72FCD5A369DF381CC96EB6C1,
+	U3CCheckIfUserOwnsNFTU3Ed__17_SetStateMachine_m000DDC3ED38E0CDDA8E6D4D2233DFF340F27E856,
+	U3CCheckIfUserHasEnoughFundsToBuyBackgroundU3Ed__18_MoveNext_m917104F002912D8DBD5775DFF8D2FE7DF938E2E6,
+	U3CCheckIfUserHasEnoughFundsToBuyBackgroundU3Ed__18_SetStateMachine_mEBA311B3807D8FB5A9BC3421E5D1613319248CF4,
 	SmartContractAddresses__cctor_m84DB81BB6303A6F6647E31B210D29C92E68114C1,
 	TicTacToeContractInteraction_Start_m81EDD7A1F782734175FCE98981A03D5114322567,
 	TicTacToeContractInteraction_InitializeSDKAndContract_m5B01829AAC9A02047A0BE58ADC3A61CD286AE42D,
@@ -606,24 +618,26 @@ extern void U3CGetTokenBalanceU3Ed__3_MoveNext_m96EE60E37B9A81A9A0306382D1D78B26
 extern void U3CGetTokenBalanceU3Ed__3_SetStateMachine_m84A7B9174F20CE5125A39C45F11AF2B1506E609E_AdjustorThunk (void);
 extern void U3CJoinGameAsyncU3Ed__5_MoveNext_mE7CDBDCB7CE30C3934CE0FE934C5F159DAD379B1_AdjustorThunk (void);
 extern void U3CJoinGameAsyncU3Ed__5_SetStateMachine_m81B9A3FD576C4F458805B02FC70B7539861B50DA_AdjustorThunk (void);
-extern void U3CInitializeSDKAndContractU3Ed__21_MoveNext_m4DCDC62B690F282FED51A5EA672F1C2BCFD7397A_AdjustorThunk (void);
-extern void U3CInitializeSDKAndContractU3Ed__21_SetStateMachine_m27D1AC4580C62BC07259DCAE1E8940A409A25A1F_AdjustorThunk (void);
-extern void U3CUpdatePlayerAddressesU3Ed__22_MoveNext_m002784CEFBFE329A70355DEF7E5A26E6C664E066_AdjustorThunk (void);
-extern void U3CUpdatePlayerAddressesU3Ed__22_SetStateMachine_mF7CE2CF116F5E370C32C65544C5DDB658CD92882_AdjustorThunk (void);
-extern void U3CUpdateCurrentPlayerU3Ed__23_MoveNext_m8DC5D2C39A534093996D5B3997E90F71485952FC_AdjustorThunk (void);
-extern void U3CUpdateCurrentPlayerU3Ed__23_SetStateMachine_m8D1A8D1A4828C3200780BA53CF2DB8C1E18FBE8C_AdjustorThunk (void);
-extern void U3CClaimRewardU3Ed__27_MoveNext_m073EEAE41A084633B7AF8E7520D423C88206CAB7_AdjustorThunk (void);
-extern void U3CClaimRewardU3Ed__27_SetStateMachine_m4C47EDBEE4D54C18AB827C5392B9DA1C64C74E37_AdjustorThunk (void);
+extern void U3CInitializeSDKAndContractU3Ed__23_MoveNext_mFA59623DE6C9C50194BEC4866B817C3664D1F0F6_AdjustorThunk (void);
+extern void U3CInitializeSDKAndContractU3Ed__23_SetStateMachine_m7A4A2E96D37619BD4D043A9C97F0B075A98DAEA7_AdjustorThunk (void);
+extern void U3CUpdatePlayerAddressesU3Ed__24_MoveNext_m6A8B44A63AC2C81AD0EC9CEBCFE42B2CAA97E52A_AdjustorThunk (void);
+extern void U3CUpdatePlayerAddressesU3Ed__24_SetStateMachine_mF5B5A1189524E7D21E6053EBFE1C62D69259B694_AdjustorThunk (void);
+extern void U3CUpdateCurrentPlayerU3Ed__25_MoveNext_mFD8D6320FD29B4A45A818330351035921FD830AC_AdjustorThunk (void);
+extern void U3CUpdateCurrentPlayerU3Ed__25_SetStateMachine_m5594707E4C4BBBA0D486D62C12B3DE9660EAAABD_AdjustorThunk (void);
+extern void U3CClaimRewardU3Ed__29_MoveNext_m4821CE4AD8BA71DD9E3A7FD67827FA5B6075724B_AdjustorThunk (void);
+extern void U3CClaimRewardU3Ed__29_SetStateMachine_m1293EA2E579F7FCD54573DD48D0766110FB0E44E_AdjustorThunk (void);
 extern void U3COnConnectedU3Ed__13_MoveNext_m31E1B28E7D9CC1E48F80B20E2CD7C6553793F288_AdjustorThunk (void);
 extern void U3COnConnectedU3Ed__13_SetStateMachine_mFF30B49D3269E9527727DFD9FFA0F8A29FBD5425_AdjustorThunk (void);
 extern void U3CClaimAccessKeyU3Ed__14_MoveNext_mC47E19BEF090BC4B2B5BC19CAE2C78875ACFB820_AdjustorThunk (void);
 extern void U3CClaimAccessKeyU3Ed__14_SetStateMachine_mA51C2D65D74B290B4447374A1B737F3F04C13E7F_AdjustorThunk (void);
 extern void U3CCheckIfUserHasAccessKeyU3Ed__15_MoveNext_m3C5E71E0DC2444518664FE37C5DC90D0BBCBDDD0_AdjustorThunk (void);
 extern void U3CCheckIfUserHasAccessKeyU3Ed__15_SetStateMachine_m6465CF9541058E3D895B3C0961CB503C14F0074B_AdjustorThunk (void);
-extern void U3CGetTokenBalanceU3Ed__8_MoveNext_m4DDD74BB3F08AAE3B09FFB83DE63B0B080927817_AdjustorThunk (void);
-extern void U3CGetTokenBalanceU3Ed__8_SetStateMachine_mCD6E408142C08B5F6F653C68CD93C53AE1EC6557_AdjustorThunk (void);
-extern void U3CGetWalletAddressU3Ed__9_MoveNext_m287C9E062D4998DA4E98FB82503A8952AAFDABC4_AdjustorThunk (void);
-extern void U3CGetWalletAddressU3Ed__9_SetStateMachine_mEA4DB5F10B1AEB9F055A45E6EEDDE962513A3C29_AdjustorThunk (void);
+extern void U3CGetTokenBalanceU3Ed__11_MoveNext_mA200392FD6596B54680A5D3F46B3256DC178BEF8_AdjustorThunk (void);
+extern void U3CGetTokenBalanceU3Ed__11_SetStateMachine_m361F988F882B09C5F34C955E41F3C3E95DC37EEA_AdjustorThunk (void);
+extern void U3CGetWalletAddressU3Ed__12_MoveNext_mE8B441CFB875E0B28AB1C4ACC081022C19C81545_AdjustorThunk (void);
+extern void U3CGetWalletAddressU3Ed__12_SetStateMachine_mBBAEF58E4F48FFAB243C2104F5038BC7ED11953D_AdjustorThunk (void);
+extern void U3CAdminFunction_Claim20GoldCoinsU3Ed__15_MoveNext_mCFA7893DC7B0A9D0298FEC94B26A38E705BED894_AdjustorThunk (void);
+extern void U3CAdminFunction_Claim20GoldCoinsU3Ed__15_SetStateMachine_mAB806AE7E093CAE80FF216CC065326C4DCAE1937_AdjustorThunk (void);
 extern void U3CUpdateTokenBalanceTextU3Ed__4_MoveNext_m7E2BC5B36C48A2EBBA241D602E3C46E73A05DD16_AdjustorThunk (void);
 extern void U3CUpdateTokenBalanceTextU3Ed__4_SetStateMachine_mA9BC69FDBD1AF2CEAC570009EE599FF9CBC41396_AdjustorThunk (void);
 extern void U3CUpdateWalletAddressTextU3Ed__5_MoveNext_mF60C32EA9F338AD8D39A8BE7597F9B9B4AD35A67_AdjustorThunk (void);
@@ -632,18 +646,18 @@ extern void U3CUpdateBackgroundImageU3Ed__5_MoveNext_mD6FA38FC427EFABE4F6E53E721
 extern void U3CUpdateBackgroundImageU3Ed__5_SetStateMachine_m1AF84C327E31A436C6F7649D9D5B96DB367C8250_AdjustorThunk (void);
 extern void U3CCheckIfUserOwnsSpecificBackgroundU3Ed__6_MoveNext_mCEAE76465EF7BBB3A96F525E0C0EF784B5A427D2_AdjustorThunk (void);
 extern void U3CCheckIfUserOwnsSpecificBackgroundU3Ed__6_SetStateMachine_m5603DE569AB1FD68B55E2AB84017D399B46746E2_AdjustorThunk (void);
-extern void U3CInitializeSDKAndContractU3Ed__12_MoveNext_m4D75A4576B03631ECC621D8D11C092C1DF01EECE_AdjustorThunk (void);
-extern void U3CInitializeSDKAndContractU3Ed__12_SetStateMachine_m2DD6A9C303778D669AE7E694A1002E617ADBB84B_AdjustorThunk (void);
-extern void U3CBuyBackgroundNFTU3Ed__13_MoveNext_m020833E601A1561E81BDCE396A84CC6A7544322B_AdjustorThunk (void);
-extern void U3CBuyBackgroundNFTU3Ed__13_SetStateMachine_m5A5A7C205AC8F751F4835A2C490CAF84A0E1083D_AdjustorThunk (void);
-extern void U3CHandlePurchaseCompleteU3Ed__14_MoveNext_mA1159A22C9E0DBC1D1FDA0112EBAF37D5146DE3C_AdjustorThunk (void);
-extern void U3CHandlePurchaseCompleteU3Ed__14_SetStateMachine_m51E133823615C85805BBD33101DBB21E6FC428EB_AdjustorThunk (void);
-extern void U3CCheckIfOwnsAnyNFTU3Ed__15_MoveNext_m399AD7550865C09A66A42388C56B33BA6B11D5B1_AdjustorThunk (void);
-extern void U3CCheckIfOwnsAnyNFTU3Ed__15_SetStateMachine_m2CFC5C4F3068A3011907F643080FF90D8EBCFB47_AdjustorThunk (void);
-extern void U3CCheckIfUserOwnsNFTU3Ed__16_MoveNext_mB9223DF66F248E85A4A2EA5A496E5F659BB19885_AdjustorThunk (void);
-extern void U3CCheckIfUserOwnsNFTU3Ed__16_SetStateMachine_m1009A03B6D7B67FDAEFC751BED76693F0DB8B251_AdjustorThunk (void);
-extern void U3CCheckIfUserHasEnoughFundsToBuyBackgroundU3Ed__17_MoveNext_m61B42C9DF1F5A62E3D63CB7663481772A8D4C343_AdjustorThunk (void);
-extern void U3CCheckIfUserHasEnoughFundsToBuyBackgroundU3Ed__17_SetStateMachine_m079EEF3F8CEA7E3F71A9D3F89380F63A1B0AFA7D_AdjustorThunk (void);
+extern void U3CInitializeSDKAndContractU3Ed__13_MoveNext_mFCD93C4C828FAA40BE15118D3B04968A1CF88239_AdjustorThunk (void);
+extern void U3CInitializeSDKAndContractU3Ed__13_SetStateMachine_m4E8B55FCEDFC88C918DAF73D341A5F6E740F0687_AdjustorThunk (void);
+extern void U3CBuyBackgroundNFTU3Ed__14_MoveNext_mFDB79010B53E26A60B4C9C61EA7A5DA16FB80B64_AdjustorThunk (void);
+extern void U3CBuyBackgroundNFTU3Ed__14_SetStateMachine_mB4A5B3FDDB45FC90625C377947DADDCA4C576414_AdjustorThunk (void);
+extern void U3CHandlePurchaseCompleteU3Ed__15_MoveNext_m7BA8FCE6095D00785DF8D7AC3D8B422F02CA4629_AdjustorThunk (void);
+extern void U3CHandlePurchaseCompleteU3Ed__15_SetStateMachine_m234EDB9D6FD78EA161AC87C1079605005654C31A_AdjustorThunk (void);
+extern void U3CCheckIfOwnsAnyNFTU3Ed__16_MoveNext_m58A9FC7CDD8173FE02502360C5E4ACA87CF9B33D_AdjustorThunk (void);
+extern void U3CCheckIfOwnsAnyNFTU3Ed__16_SetStateMachine_m041516140EF822B6D3C82EAF0D11FF0ECEB1E8A4_AdjustorThunk (void);
+extern void U3CCheckIfUserOwnsNFTU3Ed__17_MoveNext_mD2EE127F1D0738BC72FCD5A369DF381CC96EB6C1_AdjustorThunk (void);
+extern void U3CCheckIfUserOwnsNFTU3Ed__17_SetStateMachine_m000DDC3ED38E0CDDA8E6D4D2233DFF340F27E856_AdjustorThunk (void);
+extern void U3CCheckIfUserHasEnoughFundsToBuyBackgroundU3Ed__18_MoveNext_m917104F002912D8DBD5775DFF8D2FE7DF938E2E6_AdjustorThunk (void);
+extern void U3CCheckIfUserHasEnoughFundsToBuyBackgroundU3Ed__18_SetStateMachine_mEBA311B3807D8FB5A9BC3421E5D1613319248CF4_AdjustorThunk (void);
 extern void U3CInitializeSDKAndContractU3Ed__9_MoveNext_m5FBCB47483EAD792F525A15411D933448D25E293_AdjustorThunk (void);
 extern void U3CInitializeSDKAndContractU3Ed__9_SetStateMachine_m24C5A11F98EDF478C3D3A60DF2F36DF01720EA9B_AdjustorThunk (void);
 extern void U3CAsyncContractOperationU3Ed__15_MoveNext_mF3023C5BE2A5769B9837DA308E2DD7479CD13CC1_AdjustorThunk (void);
@@ -660,7 +674,7 @@ extern void U3CFetchPlayerAddressU3Ed__27_MoveNext_m3563C4ECF4F3907F641BE749BAA8
 extern void U3CFetchPlayerAddressU3Ed__27_SetStateMachine_m1B2A29631147E359B6221E1298134C4E0E2C5CC4_AdjustorThunk (void);
 extern void U3CFetchCurrentPlayerToMoveU3Ed__28_MoveNext_m7CD991B272A15DD122B4FAD4E0A3741D8E58619A_AdjustorThunk (void);
 extern void U3CFetchCurrentPlayerToMoveU3Ed__28_SetStateMachine_m51F53A091382B473E558C2A2BB317D3175798F59_AdjustorThunk (void);
-static Il2CppTokenAdjustorThunkPair s_adjustorThunks[72] = 
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[74] = 
 {
 	{ 0x0600000A, U3CGetTokenBalanceU3Ed__11_MoveNext_m4FA47F9E856149938542EB273AB889C203A79031_AdjustorThunk },
 	{ 0x0600000B, U3CGetTokenBalanceU3Ed__11_SetStateMachine_m2907D20E4B93741241A030635EFFE6B2FA551289_AdjustorThunk },
@@ -680,62 +694,64 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[72] =
 	{ 0x06000023, U3CGetTokenBalanceU3Ed__3_SetStateMachine_m84A7B9174F20CE5125A39C45F11AF2B1506E609E_AdjustorThunk },
 	{ 0x0600002E, U3CJoinGameAsyncU3Ed__5_MoveNext_mE7CDBDCB7CE30C3934CE0FE934C5F159DAD379B1_AdjustorThunk },
 	{ 0x0600002F, U3CJoinGameAsyncU3Ed__5_SetStateMachine_m81B9A3FD576C4F458805B02FC70B7539861B50DA_AdjustorThunk },
-	{ 0x06000042, U3CInitializeSDKAndContractU3Ed__21_MoveNext_m4DCDC62B690F282FED51A5EA672F1C2BCFD7397A_AdjustorThunk },
-	{ 0x06000043, U3CInitializeSDKAndContractU3Ed__21_SetStateMachine_m27D1AC4580C62BC07259DCAE1E8940A409A25A1F_AdjustorThunk },
-	{ 0x06000044, U3CUpdatePlayerAddressesU3Ed__22_MoveNext_m002784CEFBFE329A70355DEF7E5A26E6C664E066_AdjustorThunk },
-	{ 0x06000045, U3CUpdatePlayerAddressesU3Ed__22_SetStateMachine_mF7CE2CF116F5E370C32C65544C5DDB658CD92882_AdjustorThunk },
-	{ 0x06000046, U3CUpdateCurrentPlayerU3Ed__23_MoveNext_m8DC5D2C39A534093996D5B3997E90F71485952FC_AdjustorThunk },
-	{ 0x06000047, U3CUpdateCurrentPlayerU3Ed__23_SetStateMachine_m8D1A8D1A4828C3200780BA53CF2DB8C1E18FBE8C_AdjustorThunk },
-	{ 0x06000048, U3CClaimRewardU3Ed__27_MoveNext_m073EEAE41A084633B7AF8E7520D423C88206CAB7_AdjustorThunk },
-	{ 0x06000049, U3CClaimRewardU3Ed__27_SetStateMachine_m4C47EDBEE4D54C18AB827C5392B9DA1C64C74E37_AdjustorThunk },
+	{ 0x06000042, U3CInitializeSDKAndContractU3Ed__23_MoveNext_mFA59623DE6C9C50194BEC4866B817C3664D1F0F6_AdjustorThunk },
+	{ 0x06000043, U3CInitializeSDKAndContractU3Ed__23_SetStateMachine_m7A4A2E96D37619BD4D043A9C97F0B075A98DAEA7_AdjustorThunk },
+	{ 0x06000044, U3CUpdatePlayerAddressesU3Ed__24_MoveNext_m6A8B44A63AC2C81AD0EC9CEBCFE42B2CAA97E52A_AdjustorThunk },
+	{ 0x06000045, U3CUpdatePlayerAddressesU3Ed__24_SetStateMachine_mF5B5A1189524E7D21E6053EBFE1C62D69259B694_AdjustorThunk },
+	{ 0x06000046, U3CUpdateCurrentPlayerU3Ed__25_MoveNext_mFD8D6320FD29B4A45A818330351035921FD830AC_AdjustorThunk },
+	{ 0x06000047, U3CUpdateCurrentPlayerU3Ed__25_SetStateMachine_m5594707E4C4BBBA0D486D62C12B3DE9660EAAABD_AdjustorThunk },
+	{ 0x06000048, U3CClaimRewardU3Ed__29_MoveNext_m4821CE4AD8BA71DD9E3A7FD67827FA5B6075724B_AdjustorThunk },
+	{ 0x06000049, U3CClaimRewardU3Ed__29_SetStateMachine_m1293EA2E579F7FCD54573DD48D0766110FB0E44E_AdjustorThunk },
 	{ 0x06000052, U3COnConnectedU3Ed__13_MoveNext_m31E1B28E7D9CC1E48F80B20E2CD7C6553793F288_AdjustorThunk },
 	{ 0x06000053, U3COnConnectedU3Ed__13_SetStateMachine_mFF30B49D3269E9527727DFD9FFA0F8A29FBD5425_AdjustorThunk },
 	{ 0x06000054, U3CClaimAccessKeyU3Ed__14_MoveNext_mC47E19BEF090BC4B2B5BC19CAE2C78875ACFB820_AdjustorThunk },
 	{ 0x06000055, U3CClaimAccessKeyU3Ed__14_SetStateMachine_mA51C2D65D74B290B4447374A1B737F3F04C13E7F_AdjustorThunk },
 	{ 0x06000056, U3CCheckIfUserHasAccessKeyU3Ed__15_MoveNext_m3C5E71E0DC2444518664FE37C5DC90D0BBCBDDD0_AdjustorThunk },
 	{ 0x06000057, U3CCheckIfUserHasAccessKeyU3Ed__15_SetStateMachine_m6465CF9541058E3D895B3C0961CB503C14F0074B_AdjustorThunk },
-	{ 0x0600005E, U3CGetTokenBalanceU3Ed__8_MoveNext_m4DDD74BB3F08AAE3B09FFB83DE63B0B080927817_AdjustorThunk },
-	{ 0x0600005F, U3CGetTokenBalanceU3Ed__8_SetStateMachine_mCD6E408142C08B5F6F653C68CD93C53AE1EC6557_AdjustorThunk },
-	{ 0x06000060, U3CGetWalletAddressU3Ed__9_MoveNext_m287C9E062D4998DA4E98FB82503A8952AAFDABC4_AdjustorThunk },
-	{ 0x06000061, U3CGetWalletAddressU3Ed__9_SetStateMachine_mEA4DB5F10B1AEB9F055A45E6EEDDE962513A3C29_AdjustorThunk },
-	{ 0x06000066, U3CUpdateTokenBalanceTextU3Ed__4_MoveNext_m7E2BC5B36C48A2EBBA241D602E3C46E73A05DD16_AdjustorThunk },
-	{ 0x06000067, U3CUpdateTokenBalanceTextU3Ed__4_SetStateMachine_mA9BC69FDBD1AF2CEAC570009EE599FF9CBC41396_AdjustorThunk },
-	{ 0x06000068, U3CUpdateWalletAddressTextU3Ed__5_MoveNext_mF60C32EA9F338AD8D39A8BE7597F9B9B4AD35A67_AdjustorThunk },
-	{ 0x06000069, U3CUpdateWalletAddressTextU3Ed__5_SetStateMachine_m7172FF85D9969B5AB6686E8E05B89A51A78F5395_AdjustorThunk },
-	{ 0x06000070, U3CUpdateBackgroundImageU3Ed__5_MoveNext_mD6FA38FC427EFABE4F6E53E7217732DC507D8E24_AdjustorThunk },
-	{ 0x06000071, U3CUpdateBackgroundImageU3Ed__5_SetStateMachine_m1AF84C327E31A436C6F7649D9D5B96DB367C8250_AdjustorThunk },
-	{ 0x06000072, U3CCheckIfUserOwnsSpecificBackgroundU3Ed__6_MoveNext_mCEAE76465EF7BBB3A96F525E0C0EF784B5A427D2_AdjustorThunk },
-	{ 0x06000073, U3CCheckIfUserOwnsSpecificBackgroundU3Ed__6_SetStateMachine_m5603DE569AB1FD68B55E2AB84017D399B46746E2_AdjustorThunk },
-	{ 0x06000082, U3CInitializeSDKAndContractU3Ed__12_MoveNext_m4D75A4576B03631ECC621D8D11C092C1DF01EECE_AdjustorThunk },
-	{ 0x06000083, U3CInitializeSDKAndContractU3Ed__12_SetStateMachine_m2DD6A9C303778D669AE7E694A1002E617ADBB84B_AdjustorThunk },
-	{ 0x06000084, U3CBuyBackgroundNFTU3Ed__13_MoveNext_m020833E601A1561E81BDCE396A84CC6A7544322B_AdjustorThunk },
-	{ 0x06000085, U3CBuyBackgroundNFTU3Ed__13_SetStateMachine_m5A5A7C205AC8F751F4835A2C490CAF84A0E1083D_AdjustorThunk },
-	{ 0x06000086, U3CHandlePurchaseCompleteU3Ed__14_MoveNext_mA1159A22C9E0DBC1D1FDA0112EBAF37D5146DE3C_AdjustorThunk },
-	{ 0x06000087, U3CHandlePurchaseCompleteU3Ed__14_SetStateMachine_m51E133823615C85805BBD33101DBB21E6FC428EB_AdjustorThunk },
-	{ 0x06000088, U3CCheckIfOwnsAnyNFTU3Ed__15_MoveNext_m399AD7550865C09A66A42388C56B33BA6B11D5B1_AdjustorThunk },
-	{ 0x06000089, U3CCheckIfOwnsAnyNFTU3Ed__15_SetStateMachine_m2CFC5C4F3068A3011907F643080FF90D8EBCFB47_AdjustorThunk },
-	{ 0x0600008A, U3CCheckIfUserOwnsNFTU3Ed__16_MoveNext_mB9223DF66F248E85A4A2EA5A496E5F659BB19885_AdjustorThunk },
-	{ 0x0600008B, U3CCheckIfUserOwnsNFTU3Ed__16_SetStateMachine_m1009A03B6D7B67FDAEFC751BED76693F0DB8B251_AdjustorThunk },
-	{ 0x0600008C, U3CCheckIfUserHasEnoughFundsToBuyBackgroundU3Ed__17_MoveNext_m61B42C9DF1F5A62E3D63CB7663481772A8D4C343_AdjustorThunk },
-	{ 0x0600008D, U3CCheckIfUserHasEnoughFundsToBuyBackgroundU3Ed__17_SetStateMachine_m079EEF3F8CEA7E3F71A9D3F89380F63A1B0AFA7D_AdjustorThunk },
-	{ 0x060000A6, U3CInitializeSDKAndContractU3Ed__9_MoveNext_m5FBCB47483EAD792F525A15411D933448D25E293_AdjustorThunk },
-	{ 0x060000A7, U3CInitializeSDKAndContractU3Ed__9_SetStateMachine_m24C5A11F98EDF478C3D3A60DF2F36DF01720EA9B_AdjustorThunk },
-	{ 0x060000B2, U3CAsyncContractOperationU3Ed__15_MoveNext_mF3023C5BE2A5769B9837DA308E2DD7479CD13CC1_AdjustorThunk },
-	{ 0x060000B3, U3CAsyncContractOperationU3Ed__15_SetStateMachine_mF99920A3D77DDFBC418845DA0F4B06FAB4B84526_AdjustorThunk },
-	{ 0x060000B4, U3CGetRewardU3Ed__16_MoveNext_m21BB7363347227459F5D08A3CF6CEF7AA264EA7A_AdjustorThunk },
-	{ 0x060000B5, U3CGetRewardU3Ed__16_SetStateMachine_m382F11F849DFC104B4A9CED0DEACE846DA6BE513_AdjustorThunk },
-	{ 0x060000B6, U3CSetupEventListenersU3Ed__21_MoveNext_m9B6C98DF8A1FFA5CF71897293D2949C0A3611156_AdjustorThunk },
-	{ 0x060000B7, U3CSetupEventListenersU3Ed__21_SetStateMachine_m419166DCBE280327D0E6AA17946B862EE4C699CE_AdjustorThunk },
-	{ 0x060000B8, U3CHandleMoveMadeEventU3Ed__23_MoveNext_m3E15F5E83D729D2A53ADC5C33E06E338029CFC7C_AdjustorThunk },
-	{ 0x060000B9, U3CHandleMoveMadeEventU3Ed__23_SetStateMachine_mF7F3524D2E2EEC0A9B60E1F6C8D3A6B7F1F8EA75_AdjustorThunk },
-	{ 0x060000BA, U3CHandleGameJoinedEventU3Ed__24_MoveNext_m36DE872D4C15EBEA0EA64E917FDF21618BEA91D7_AdjustorThunk },
-	{ 0x060000BB, U3CHandleGameJoinedEventU3Ed__24_SetStateMachine_m6661EE2C51A2FD1F2F11DCA925D2AC882A020FD2_AdjustorThunk },
-	{ 0x060000BC, U3CFetchPlayerAddressU3Ed__27_MoveNext_m3563C4ECF4F3907F641BE749BAA8A60AA59C069F_AdjustorThunk },
-	{ 0x060000BD, U3CFetchPlayerAddressU3Ed__27_SetStateMachine_m1B2A29631147E359B6221E1298134C4E0E2C5CC4_AdjustorThunk },
-	{ 0x060000BE, U3CFetchCurrentPlayerToMoveU3Ed__28_MoveNext_m7CD991B272A15DD122B4FAD4E0A3741D8E58619A_AdjustorThunk },
-	{ 0x060000BF, U3CFetchCurrentPlayerToMoveU3Ed__28_SetStateMachine_m51F53A091382B473E558C2A2BB317D3175798F59_AdjustorThunk },
+	{ 0x06000060, U3CGetTokenBalanceU3Ed__11_MoveNext_mA200392FD6596B54680A5D3F46B3256DC178BEF8_AdjustorThunk },
+	{ 0x06000061, U3CGetTokenBalanceU3Ed__11_SetStateMachine_m361F988F882B09C5F34C955E41F3C3E95DC37EEA_AdjustorThunk },
+	{ 0x06000062, U3CGetWalletAddressU3Ed__12_MoveNext_mE8B441CFB875E0B28AB1C4ACC081022C19C81545_AdjustorThunk },
+	{ 0x06000063, U3CGetWalletAddressU3Ed__12_SetStateMachine_mBBAEF58E4F48FFAB243C2104F5038BC7ED11953D_AdjustorThunk },
+	{ 0x06000064, U3CAdminFunction_Claim20GoldCoinsU3Ed__15_MoveNext_mCFA7893DC7B0A9D0298FEC94B26A38E705BED894_AdjustorThunk },
+	{ 0x06000065, U3CAdminFunction_Claim20GoldCoinsU3Ed__15_SetStateMachine_mAB806AE7E093CAE80FF216CC065326C4DCAE1937_AdjustorThunk },
+	{ 0x0600006A, U3CUpdateTokenBalanceTextU3Ed__4_MoveNext_m7E2BC5B36C48A2EBBA241D602E3C46E73A05DD16_AdjustorThunk },
+	{ 0x0600006B, U3CUpdateTokenBalanceTextU3Ed__4_SetStateMachine_mA9BC69FDBD1AF2CEAC570009EE599FF9CBC41396_AdjustorThunk },
+	{ 0x0600006C, U3CUpdateWalletAddressTextU3Ed__5_MoveNext_mF60C32EA9F338AD8D39A8BE7597F9B9B4AD35A67_AdjustorThunk },
+	{ 0x0600006D, U3CUpdateWalletAddressTextU3Ed__5_SetStateMachine_m7172FF85D9969B5AB6686E8E05B89A51A78F5395_AdjustorThunk },
+	{ 0x06000074, U3CUpdateBackgroundImageU3Ed__5_MoveNext_mD6FA38FC427EFABE4F6E53E7217732DC507D8E24_AdjustorThunk },
+	{ 0x06000075, U3CUpdateBackgroundImageU3Ed__5_SetStateMachine_m1AF84C327E31A436C6F7649D9D5B96DB367C8250_AdjustorThunk },
+	{ 0x06000076, U3CCheckIfUserOwnsSpecificBackgroundU3Ed__6_MoveNext_mCEAE76465EF7BBB3A96F525E0C0EF784B5A427D2_AdjustorThunk },
+	{ 0x06000077, U3CCheckIfUserOwnsSpecificBackgroundU3Ed__6_SetStateMachine_m5603DE569AB1FD68B55E2AB84017D399B46746E2_AdjustorThunk },
+	{ 0x06000086, U3CInitializeSDKAndContractU3Ed__13_MoveNext_mFCD93C4C828FAA40BE15118D3B04968A1CF88239_AdjustorThunk },
+	{ 0x06000087, U3CInitializeSDKAndContractU3Ed__13_SetStateMachine_m4E8B55FCEDFC88C918DAF73D341A5F6E740F0687_AdjustorThunk },
+	{ 0x06000088, U3CBuyBackgroundNFTU3Ed__14_MoveNext_mFDB79010B53E26A60B4C9C61EA7A5DA16FB80B64_AdjustorThunk },
+	{ 0x06000089, U3CBuyBackgroundNFTU3Ed__14_SetStateMachine_mB4A5B3FDDB45FC90625C377947DADDCA4C576414_AdjustorThunk },
+	{ 0x0600008A, U3CHandlePurchaseCompleteU3Ed__15_MoveNext_m7BA8FCE6095D00785DF8D7AC3D8B422F02CA4629_AdjustorThunk },
+	{ 0x0600008B, U3CHandlePurchaseCompleteU3Ed__15_SetStateMachine_m234EDB9D6FD78EA161AC87C1079605005654C31A_AdjustorThunk },
+	{ 0x0600008C, U3CCheckIfOwnsAnyNFTU3Ed__16_MoveNext_m58A9FC7CDD8173FE02502360C5E4ACA87CF9B33D_AdjustorThunk },
+	{ 0x0600008D, U3CCheckIfOwnsAnyNFTU3Ed__16_SetStateMachine_m041516140EF822B6D3C82EAF0D11FF0ECEB1E8A4_AdjustorThunk },
+	{ 0x0600008E, U3CCheckIfUserOwnsNFTU3Ed__17_MoveNext_mD2EE127F1D0738BC72FCD5A369DF381CC96EB6C1_AdjustorThunk },
+	{ 0x0600008F, U3CCheckIfUserOwnsNFTU3Ed__17_SetStateMachine_m000DDC3ED38E0CDDA8E6D4D2233DFF340F27E856_AdjustorThunk },
+	{ 0x06000090, U3CCheckIfUserHasEnoughFundsToBuyBackgroundU3Ed__18_MoveNext_m917104F002912D8DBD5775DFF8D2FE7DF938E2E6_AdjustorThunk },
+	{ 0x06000091, U3CCheckIfUserHasEnoughFundsToBuyBackgroundU3Ed__18_SetStateMachine_mEBA311B3807D8FB5A9BC3421E5D1613319248CF4_AdjustorThunk },
+	{ 0x060000AA, U3CInitializeSDKAndContractU3Ed__9_MoveNext_m5FBCB47483EAD792F525A15411D933448D25E293_AdjustorThunk },
+	{ 0x060000AB, U3CInitializeSDKAndContractU3Ed__9_SetStateMachine_m24C5A11F98EDF478C3D3A60DF2F36DF01720EA9B_AdjustorThunk },
+	{ 0x060000B6, U3CAsyncContractOperationU3Ed__15_MoveNext_mF3023C5BE2A5769B9837DA308E2DD7479CD13CC1_AdjustorThunk },
+	{ 0x060000B7, U3CAsyncContractOperationU3Ed__15_SetStateMachine_mF99920A3D77DDFBC418845DA0F4B06FAB4B84526_AdjustorThunk },
+	{ 0x060000B8, U3CGetRewardU3Ed__16_MoveNext_m21BB7363347227459F5D08A3CF6CEF7AA264EA7A_AdjustorThunk },
+	{ 0x060000B9, U3CGetRewardU3Ed__16_SetStateMachine_m382F11F849DFC104B4A9CED0DEACE846DA6BE513_AdjustorThunk },
+	{ 0x060000BA, U3CSetupEventListenersU3Ed__21_MoveNext_m9B6C98DF8A1FFA5CF71897293D2949C0A3611156_AdjustorThunk },
+	{ 0x060000BB, U3CSetupEventListenersU3Ed__21_SetStateMachine_m419166DCBE280327D0E6AA17946B862EE4C699CE_AdjustorThunk },
+	{ 0x060000BC, U3CHandleMoveMadeEventU3Ed__23_MoveNext_m3E15F5E83D729D2A53ADC5C33E06E338029CFC7C_AdjustorThunk },
+	{ 0x060000BD, U3CHandleMoveMadeEventU3Ed__23_SetStateMachine_mF7F3524D2E2EEC0A9B60E1F6C8D3A6B7F1F8EA75_AdjustorThunk },
+	{ 0x060000BE, U3CHandleGameJoinedEventU3Ed__24_MoveNext_m36DE872D4C15EBEA0EA64E917FDF21618BEA91D7_AdjustorThunk },
+	{ 0x060000BF, U3CHandleGameJoinedEventU3Ed__24_SetStateMachine_m6661EE2C51A2FD1F2F11DCA925D2AC882A020FD2_AdjustorThunk },
+	{ 0x060000C0, U3CFetchPlayerAddressU3Ed__27_MoveNext_m3563C4ECF4F3907F641BE749BAA8A60AA59C069F_AdjustorThunk },
+	{ 0x060000C1, U3CFetchPlayerAddressU3Ed__27_SetStateMachine_m1B2A29631147E359B6221E1298134C4E0E2C5CC4_AdjustorThunk },
+	{ 0x060000C2, U3CFetchCurrentPlayerToMoveU3Ed__28_MoveNext_m7CD991B272A15DD122B4FAD4E0A3741D8E58619A_AdjustorThunk },
+	{ 0x060000C3, U3CFetchCurrentPlayerToMoveU3Ed__28_SetStateMachine_m51F53A091382B473E558C2A2BB317D3175798F59_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[191] = 
+static const int32_t s_InvokerIndices[195] = 
 {
 	6734,
 	6734,
@@ -830,6 +846,10 @@ static const int32_t s_InvokerIndices[191] =
 	6734,
 	6734,
 	6734,
+	6734,
+	6734,
+	6734,
+	5495,
 	6734,
 	5495,
 	6734,
@@ -933,9 +953,9 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	191,
+	195,
 	s_methodPointers,
-	72,
+	74,
 	s_adjustorThunks,
 	s_InvokerIndices,
 	0,

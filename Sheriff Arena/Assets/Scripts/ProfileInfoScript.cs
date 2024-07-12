@@ -30,7 +30,7 @@ public class ProfileInfoScript : MonoBehaviour
         ERC20TokenBalanceText.GetComponent<TextMeshProUGUI>().text = "Getting gold balance..";
         string walletAddress = await sdk.Wallet.GetAddress();
         string tokenBalance = await ERC20TokenContractInteractionScript.GetTokenBalance(walletAddress);
-        ERC20TokenBalanceText.GetComponent<TextMeshProUGUI>().text = "Gold balance: " + tokenBalance;
+        ERC20TokenBalanceText.GetComponent<TextMeshProUGUI>().text = "Gold coin balance: " + tokenBalance;
         
         Debug.Log("Successfully got gold balance!");
     }

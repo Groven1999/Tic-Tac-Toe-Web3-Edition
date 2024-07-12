@@ -299,10 +299,10 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: Thirdweb.Core
-    fullTypeName: Thirdweb.Wallets.WalletConnectUI
+    fullTypeName: Thirdweb.Wallets.MetamaskUI
     methodName: Cancel
   - assembly: Thirdweb.Core
-    fullTypeName: Thirdweb.Wallets.MetamaskUI
+    fullTypeName: Thirdweb.Wallets.WalletConnectUI
     methodName: Cancel
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
@@ -330,7 +330,13 @@ ScriptsOnlyBuild:
     methodName: OnDisconnect
   - assembly: Assembly-CSharp
     fullTypeName: MainMenuScript
+    methodName: AdminFunction_Claim20GoldCoins
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenuScript
     methodName: JoinGame
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenuScript
+    methodName: AdminFunction_ResetGame
   - assembly: Assembly-CSharp
     fullTypeName: MainMenuScript
     methodName: EnterShop
@@ -732,7 +738,7 @@ ScriptsOnlyBuild:
     className: Image
   - hash:
       serializedVersion: 2
-      Hash: 3bbbc7a7e82be3afa6982943f3309907
+      Hash: 34e21fa12cb8a91fb0db44e2ccba3cf7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShopScript
@@ -822,7 +828,7 @@ ScriptsOnlyBuild:
     className: UnityOnPointerUpMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 5b43cd38c5fa5326760b649c77838ed5
+      Hash: 27f39bebfbeb0e86c3b501ecbae9754e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameStateController
@@ -1920,7 +1926,7 @@ ScriptsOnlyBuild:
     className: FabrikSolver2D
   - hash:
       serializedVersion: 2
-      Hash: 638c15c5866d5f6da0ba008d8374fded
+      Hash: 6c988505eb6f81ffcf8d314c3f73c46c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MainMenuScript
@@ -1936,4 +1942,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainMenuScene.unity
   - Assets/Scenes/GameScene.unity
   - Assets/Scenes/ShopScene.unity
-  playerPath: D:/Unity/Projects/Sheriff Arena/Sheriff Arena/Builds
+  playerPath: D:/Unity/Projects/Sheriff Arena/Sheriff Arena/Finished Game

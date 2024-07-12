@@ -165,9 +165,8 @@ public class TicTacToeContractInteraction : MonoBehaviour {
 
     private async void HandleMoveMadeEvent(MoveMadeEventData eventData) {
         Debug.Log($"Move made by {eventData.player} at row {eventData.row}, column {eventData.col}");
-        // Update the game state or UI here
 
-        // Find the button that matches the row and col
+        // Find the button that matches the row and col, and update its UI
         ButtonHandler[] buttons = FindObjectsOfType<ButtonHandler>();
         foreach (var button in buttons) {
             if (button.row == eventData.row && button.col == eventData.col) {
@@ -176,7 +175,7 @@ public class TicTacToeContractInteraction : MonoBehaviour {
             }
         }
 
-        // TODO: For å holde oversikt over brette, må vi markere at en rute er tatt. Nå setter vi bare at spiller 2 har hvilken som helst cell. 
+        // LIMITATION: For å holde oversikt over brette, må vi markere at en rute er tatt. Nå setter vi bare at spiller 2 har hvilken som helst cell. 
         // Foreløpig har det ikke noe å si, fordi vi bare sjekker hvilke cells som er opptatt.
         gameStateController.gameBoard.SetTile(((int)eventData.row), ((int)eventData.col), 2);
 

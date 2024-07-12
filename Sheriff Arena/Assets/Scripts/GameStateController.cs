@@ -23,6 +23,8 @@ public class GameStateController : MonoBehaviour
     public TextMeshProUGUI player1AddressUI;
     public TextMeshProUGUI player2AddressUI;
 
+    public TextMeshProUGUI errorAlertMessage; 
+
     // Game ended objects
     public GameObject winLoseText;
     public GameObject claimRewardButton;
@@ -30,6 +32,7 @@ public class GameStateController : MonoBehaviour
     public GameObject gameEndedContainer;
     public GameObject gameActiveContainer;
     public GameObject tokenToBeRewardedText;
+    public GameObject goldCoinImage;
     
 
 
@@ -86,10 +89,12 @@ public class GameStateController : MonoBehaviour
 
         if (!(currentPlayerToMoveAddress == connectedWallet)){
             Debug.Log("Not your move!");
+            errorAlertMessage.text = "It's not your move!";
             return;
         }
 
         if (gameBoard.IsValidMove(row, col)) {
+            errorAlertMessage.text = "";
             currentPlayerToMoveUI.text = "Making move..";
             ticTacToeContractInteraction.MakeMove(row, col);
 
@@ -98,6 +103,7 @@ public class GameStateController : MonoBehaviour
         } 
         
         else {
+            errorAlertMessage.text = "Tile already occupied!";
             Debug.Log("Tile already occupied!");
         }
     }
@@ -121,10 +127,12 @@ public class GameStateController : MonoBehaviour
             winLoseText.GetComponent<TextMeshProUGUI>().text = "You won! Claim your rewards now.";
             tokenToBeRewardedText.SetActive(true);
             claimRewardButton.SetActive(true);
+            goldCoinImage.SetActive(true);
         } else {
             winLoseText.GetComponent<TextMeshProUGUI>().text = "You lost!";
             tokenToBeRewardedText.SetActive(false);
             claimRewardButton.SetActive(false);
+            goldCoinImage.SetActive(false);
         }
 
         Debug.Log("Exiting GameOver function");
