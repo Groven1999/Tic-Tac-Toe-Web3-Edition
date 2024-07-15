@@ -4,7 +4,7 @@ Welcome to a Web3 Edition of the classic Tic Tac Toe game! <br>
 The game was made as a part of my Master Thesis in Informatics, July 2024. <br> <br>
 
 
-**Features in the game:** <br>
+**Game features:** <br>
 
 - Multiplayer battles on **Blockchain**
 - Earn **Gold Coins** by winning battles - the in-game cryptocurrency
