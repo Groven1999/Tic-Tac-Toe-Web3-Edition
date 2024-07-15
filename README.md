@@ -1,21 +1,23 @@
-# Tic Tac Toe - Web3 Edition
-Welcome to a Web3 Edition of the classic Tic Tac Toe game! <br>
+# ⭐ Tic Tac Toe - Web3 Edition ⭐
+Hi, and welcome to my Web3 Edition of the classic Tic Tac Toe game! <br>
 
-The game was made as a part of my Master Thesis in Informatics, July 2024. <br> <br>
+The game was developed as a part of my Master's Thesis in Informatics at the Norwegian University of Science and Technology (NTNU), July 2024. <br> <br>
 
 
 **Game features:** <br>
 
-- Multiplayer battles on **Blockchain**
-- Earn **Gold Coins** by winning battles - the in-game cryptocurrency
-- Purchase **Background NFTs** with the Gold Coins
+ 🎮 Multiplayer battles on **Blockchain**!
+
+👑 Earn **Gold Coins** (the in-game cryptocurrency) by winning battles!
+
+💰 Purchase **Background NFTs** with your hard-earned Gold Coins!
 
 
 
 
 &ensp;
 
-# Play the Game
+# 🎮 Play the Game
 The game can be played on _itch.io_ in most modern browsers. [Play it now!](https://groven99.itch.io/web3-tic-tac-toe).
 
 1. Press **Connect Wallet** and log in with your Web3 wallet, social login or _guest account_
@@ -26,7 +28,7 @@ The game can be played on _itch.io_ in most modern browsers. [Play it now!](http
 &ensp;
 
 
-# Setting up the Project Locally
+# 🔨 Setting up the Project Locally
 
 ## Prerequisites
 Ensure you have the following software installed:
@@ -52,6 +54,6 @@ Several blockchain functionalities are disabled when testing the game within the
 6. Exit the **Player Settings** and press **Build And Run**
 7. Choose your designated folder for the compiled project
 8. When the project is finished building, the game should launch automatically in your default browser
-9. Enjoy!
+9. Enjoy! 😍
 
 
