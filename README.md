@@ -56,4 +56,4 @@ Several blockchain functionalities are disabled when testing the game within the
 8. When the project is finished building, the game should launch automatically in your default browser
 9. Enjoy! 😍
 
-
+PS: Ignore the misleading foldername **Sheriff Arena**, there are no Sherrifs coming to take ya!
